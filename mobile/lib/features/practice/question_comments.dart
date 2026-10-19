@@ -229,7 +229,9 @@ class _QuestionCommentsState extends State<QuestionComments> {
               child:
                   Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
                 UserAvatar(
-                    value: comment['avatar'] as String? ?? '', radius: 18),
+                    value: comment['avatar'] as String? ?? '',
+                    radius: 18,
+                    vip: comment['vipBadge'] == true),
                 const SizedBox(width: 10),
                 Expanded(
                     child: Column(

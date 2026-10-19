@@ -69,7 +69,8 @@ void main() {
     await http.runWithClient(() async {
       final reply =
           await store.chatWithXiaochi(message: '我该怎么复习？', history: history);
-      expect(reply, '先完成今天的复习，再做 5 道新题。');
+      expect(reply.text, '先完成今天的复习，再做 5 道新题。');
+      expect(reply.thinkingSummary, isEmpty);
     },
         () => MockClient((request) async {
               expect(request.url.path, '/v1/assistant/chat');
@@ -80,6 +81,30 @@ void main() {
               expect((payload['history'] as List).length, 6);
               return http.Response(
                   jsonEncode({'reply': '先完成今天的复习，再做 5 道新题。'}), 200,
+                  headers: {'content-type': 'application/json; charset=utf-8'});
+            }));
+  });
+
+  test('深度思考只接收服务端提供的学习摘要', () async {
+    final store = StudyStore();
+    await store.init();
+    store.baseUrl = 'https://xiaochi-test.invalid';
+    store.token = 'xiaochi-test-token';
+    await http.runWithClient(() async {
+      final reply = await store.chatWithXiaochi(
+          message: '牙周炎复习先抓什么？', history: const [], deep: true);
+      expect(reply.text, '先区分菌斑和宿主反应。');
+      expect(reply.thinkingSummary, '定义 → 危险因素 → 两题巩固');
+    },
+        () => MockClient((request) async {
+              final payload = jsonDecode(request.body) as Map<String, dynamic>;
+              expect(payload['deep'], isTrue);
+              return http.Response(
+                  jsonEncode({
+                    'reply': '先区分菌斑和宿主反应。',
+                    'thinkingSummary': '定义 → 危险因素 → 两题巩固'
+                  }),
+                  200,
                   headers: {'content-type': 'application/json; charset=utf-8'});
             }));
   });

@@ -22,6 +22,14 @@ class PreparedQuestionBank {
       {required this.name, required this.content, required this.questions});
 }
 
+/// A privacy-safe 小齿 response. [thinkingSummary] is a short learner-facing
+/// outline generated for the “深度思考” view; it is never a hidden model trace.
+class XiaochiReply {
+  final String text;
+  final String thinkingSummary;
+  const XiaochiReply({required this.text, this.thinkingSummary = ''});
+}
+
 class StudyStore extends ChangeNotifier {
   static const maxQuestionBankBytes = 12 * 1024 * 1024;
   late SharedPreferences prefs;
@@ -142,10 +150,9 @@ class StudyStore extends ChangeNotifier {
     email = prefs.getString('email') ?? '';
     userId = prefs.getString('userId') ?? 'guest';
     token = await secure.read(key: 'token') ?? '';
-    // Membership and in-app purchases have been retired. Remove only their
-    // obsolete local keys; learning records and account data stay untouched.
-    await prefs.remove('vipEntitled');
-    await secure.delete(key: 'vipPurchaseId');
+    // Membership state is server-authoritative.  Do not infer VIP from a
+    // browser flag or a past purchase ID: the profile endpoint reflects only
+    // verified server-side membership records.
     themeColorKey = prefs.getString('themeColorKey') ?? 'teal';
     if (themeColorKey != 'custom' && !themeColors.containsKey(themeColorKey))
       themeColorKey = 'teal';
@@ -970,9 +977,10 @@ class StudyStore extends ChangeNotifier {
 
   /// Sends only the current message and a tiny in-memory conversation window.
   /// Neither the app nor the API saves the transcript as a learning record.
-  Future<String> chatWithXiaochi({
+  Future<XiaochiReply> chatWithXiaochi({
     required String message,
     required List<Map<String, String>> history,
+    bool deep = false,
   }) async {
     if (token.isEmpty) throw Exception('请先登录后再和小齿聊天');
     final text = message.trim();
@@ -990,13 +998,17 @@ class StudyStore extends ChangeNotifier {
                     'content': item['content'] ?? '',
                   })
               .toList(),
+          'deep': deep,
         },
         const Duration(seconds: 45));
     final reply = result['reply'];
     if (reply is! String || reply.trim().isEmpty) {
       throw Exception('小齿没有返回可用回复，请稍后再试');
     }
-    return reply.trim();
+    final summary = result['thinkingSummary'];
+    return XiaochiReply(
+        text: reply.trim(),
+        thinkingSummary: summary is String ? summary.trim() : '');
   }
 
   Future<Map<String, dynamic>> questionBankSubmissions() async {
@@ -1016,6 +1028,11 @@ class StudyStore extends ChangeNotifier {
   Future<Map<String, dynamic>> profile() async {
     if (token.isEmpty) throw Exception('请先登录');
     return request('/v1/profile');
+  }
+
+  Future<Map<String, dynamic>> paymentPreview() async {
+    if (token.isEmpty) throw Exception('请先登录');
+    return request('/v1/admin/payment-preview');
   }
 
   Future<Map<String, dynamic>> updateProfile({

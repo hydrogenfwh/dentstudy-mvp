@@ -17,7 +17,8 @@ enum _AvatarMood { idle, interact, thinking, speaking, thanks }
 class _ChatLine {
   final String role;
   final String text;
-  const _ChatLine(this.role, this.text);
+  final String thinkingSummary;
+  const _ChatLine(this.role, this.text, {this.thinkingSummary = ''});
 }
 
 class _XiaochiAssistantState extends State<XiaochiAssistant>
@@ -31,8 +32,8 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
   final _composer = TextEditingController();
   final _scroll = ScrollController();
   final List<_ChatLine> _lines = [
-    const _ChatLine('assistant',
-        '嗨，我是小齿～除了口腔备考，也可以问我“今日计划怎么开始”“题库怎么按章节练”或“题本在哪里”。')
+    const _ChatLine(
+        'assistant', '嗨，我是小齿～除了口腔备考，也可以问我“今日计划怎么开始”“题库怎么按章节练”或“题本在哪里”。')
   ];
   late final AnimationController _motion;
   Timer? _moodTimer;
@@ -43,6 +44,7 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
   bool _holding = false;
   bool _sending = false;
   bool _showCare = false;
+  bool _deepThinking = false;
   _AvatarMood _mood = _AvatarMood.idle;
 
   bool get _isAuthor => store.email.trim().toLowerCase() == _authorEmail;
@@ -166,10 +168,12 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
           message: text,
           history: history
               .map((line) => {'role': line.role, 'content': line.text})
-              .toList());
+              .toList(),
+          deep: _deepThinking);
       if (!mounted) return;
       setState(() {
-        _lines.add(_ChatLine('assistant', reply));
+        _lines.add(_ChatLine('assistant', reply.text,
+            thinkingSummary: reply.thinkingSummary));
         _mood = _AvatarMood.speaking;
       });
       _moodTimer?.cancel();
@@ -287,6 +291,9 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
               composer: _composer,
               scroll: _scroll,
               lines: _lines,
+              deepThinking: _deepThinking,
+              onDeepThinkingChanged: (value) =>
+                  setState(() => _deepThinking = value),
               onClose: _closeChat,
               onSend: _send)),
       Positioned(
@@ -561,6 +568,8 @@ class _ChatPanel extends StatelessWidget {
   final TextEditingController composer;
   final ScrollController scroll;
   final List<_ChatLine> lines;
+  final bool deepThinking;
+  final ValueChanged<bool> onDeepThinkingChanged;
   final VoidCallback onClose;
   final Future<void> Function() onSend;
   const _ChatPanel({
@@ -570,6 +579,8 @@ class _ChatPanel extends StatelessWidget {
     required this.composer,
     required this.scroll,
     required this.lines,
+    required this.deepThinking,
+    required this.onDeepThinkingChanged,
     required this.onClose,
     required this.onSend,
   });
@@ -588,7 +599,7 @@ class _ChatPanel extends StatelessWidget {
               scale: open ? 1 : .9,
               child: SizedBox(
                   width: width,
-                  height: 420,
+                  height: 444,
                   child: Material(
                       color: Colors.transparent,
                       child: Container(
@@ -638,6 +649,33 @@ class _ChatPanel extends StatelessWidget {
                                       onPressed: onClose,
                                       icon: const Icon(Icons.close_rounded))
                                 ])),
+                            Padding(
+                                padding:
+                                    const EdgeInsets.fromLTRB(15, 0, 12, 7),
+                                child: Align(
+                                    alignment: Alignment.centerLeft,
+                                    child: FilterChip(
+                                        avatar: Icon(
+                                            Icons.psychology_alt_outlined,
+                                            size: 16,
+                                            color: deepThinking
+                                                ? Colors.white
+                                                : teal),
+                                        label: const Text('深度思考',
+                                            style: TextStyle(fontSize: 11.5)),
+                                        selected: deepThinking,
+                                        selectedColor: teal,
+                                        labelStyle: TextStyle(
+                                            color: deepThinking
+                                                ? Colors.white
+                                                : ink),
+                                        side: BorderSide(
+                                            color: teal.withAlpha(50)),
+                                        visualDensity: VisualDensity.compact,
+                                        tooltip: '生成可展开的学习思路摘要，不展示模型内部推理',
+                                        onSelected: sending
+                                            ? null
+                                            : onDeepThinkingChanged))),
                             Divider(height: 1, color: teal.withAlpha(20)),
                             Expanded(
                                 child: ListView.builder(
@@ -719,12 +757,65 @@ class _ChatBubble extends StatelessWidget {
                     topRight: const Radius.circular(15),
                     bottomLeft: Radius.circular(mine ? 15 : 4),
                     bottomRight: Radius.circular(mine ? 4 : 15))),
-            child: Text(line.text,
-                style: TextStyle(
-                    fontSize: 13.5,
-                    height: 1.45,
-                    color: mine ? Colors.white : ink))));
+            child:
+                Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Text(line.text,
+                  style: TextStyle(
+                      fontSize: 13.5,
+                      height: 1.45,
+                      color: mine ? Colors.white : ink)),
+              if (!mine && line.thinkingSummary.isNotEmpty) ...[
+                const SizedBox(height: 7),
+                _ThinkingSummary(text: line.thinkingSummary),
+              ]
+            ])));
   }
+}
+
+/// A compact, user-facing study outline. It deliberately does not expose
+/// provider chain-of-thought or other hidden model reasoning.
+class _ThinkingSummary extends StatefulWidget {
+  final String text;
+  const _ThinkingSummary({required this.text});
+
+  @override
+  State<_ThinkingSummary> createState() => _ThinkingSummaryState();
+}
+
+class _ThinkingSummaryState extends State<_ThinkingSummary> {
+  bool expanded = false;
+
+  @override
+  Widget build(BuildContext context) => InkWell(
+      borderRadius: BorderRadius.circular(9),
+      onTap: () => setState(() => expanded = !expanded),
+      child: Container(
+          width: double.infinity,
+          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 6),
+          decoration: BoxDecoration(
+              color: Colors.blueGrey.withAlpha(10),
+              borderRadius: BorderRadius.circular(9),
+              border: Border.all(color: Colors.blueGrey.withAlpha(24))),
+          child:
+              Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            Row(children: [
+              const Icon(Icons.account_tree_outlined,
+                  size: 13, color: Colors.blueGrey),
+              const SizedBox(width: 4),
+              Text(expanded ? '收起思路摘要' : '展开思路摘要',
+                  style:
+                      const TextStyle(fontSize: 10.5, color: Colors.blueGrey)),
+              const Spacer(),
+              Icon(expanded ? Icons.expand_less : Icons.expand_more,
+                  size: 16, color: Colors.blueGrey)
+            ]),
+            if (expanded) ...[
+              const SizedBox(height: 4),
+              Text(widget.text,
+                  style: const TextStyle(
+                      fontSize: 11.2, height: 1.42, color: Colors.blueGrey)),
+            ]
+          ])));
 }
 
 class _TypingLine extends StatelessWidget {

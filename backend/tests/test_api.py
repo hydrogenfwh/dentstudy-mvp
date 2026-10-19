@@ -274,6 +274,51 @@ class ApiTests(unittest.TestCase):
                          token)[0],
             400)
 
+    def test_xiaochi_deep_summary_is_opt_in_and_not_a_transcript(self):
+        token = self.author()
+        payload = {'message': '种植体周围炎怎么复习？', 'history': [], 'deep': True}
+        with mock.patch.object(server, 'AI_API_KEY', 'test-key'), \
+                mock.patch.object(server, 'call_xiaochi_assistant',
+                                  return_value=('先分清定义和危险因素。',
+                                                '先抓定义 → 对比危险因素 → 用两道题巩固。',
+                                                90, 90)):
+            status, result = self.request('/v1/assistant/chat', payload, token)
+        self.assertEqual(status, 200)
+        self.assertEqual(result['reply'], '先分清定义和危险因素。')
+        self.assertIn('定义', result['thinkingSummary'])
+        with server.connect() as db:
+            columns = {item['name'] for item in db.execute(
+                'PRAGMA table_info(assistant_chat_requests)')}
+        self.assertFalse({'message', 'history', 'reply', 'thinkingSummary'} & columns)
+
+    def test_payment_preview_and_vip_comment_badge_are_server_authoritative(self):
+        learner = self.register('vip-commenter')
+        question_id = server.questions()[-1]['id']
+        self.assertEqual(self.request('/v1/admin/payment-preview', token=learner)[0], 401)
+        author = self.author()
+        status, preview = self.request('/v1/admin/payment-preview', token=author)
+        self.assertEqual(status, 200)
+        self.assertEqual(preview['priceFen'], 2990)
+        self.assertFalse(preview['live'])
+        now = '2026-01-01T00:00:00Z'
+        with server.connect() as db:
+            row = db.execute('SELECT user_id FROM sessions WHERE token=?',
+                             (server.hashlib.sha256(learner.encode()).hexdigest(),)).fetchone()
+            db.execute('''INSERT INTO vip_memberships
+                      (user_id,status,source,started_at,expires_at,updated_at)
+                      VALUES(?,?,?,?,?,?)''',
+                       (row['user_id'], 'active', 'test', now, None, now))
+            db.commit()
+        status, profile = self.request('/v1/profile', token=learner)
+        self.assertEqual(status, 200)
+        self.assertTrue(profile['isVip'])
+        status, result = self.request(
+            f'/v1/questions/{question_id}/comments', {'body': '会员标识测试'}, learner)
+        self.assertEqual(status, 200)
+        self.assertTrue(result['comment']['vipBadge'])
+        public = self.request(f'/v1/questions/{question_id}/comments')[1]
+        self.assertTrue(public['comments'][-1]['vipBadge'])
+
     def test_xiaochi_has_read_only_navigation_guide_without_opening_access(self):
         guide = server.xiaochi_system_instruction()
         self.assertIn('今日、题库、题本、学情、我的', guide)

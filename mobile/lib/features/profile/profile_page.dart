@@ -31,6 +31,7 @@ class _ProfilePageState extends State<ProfilePage> {
   int? submissionCount;
   bool loadingProfile = false;
   Map<String, dynamic> accountProfile = {};
+  Map<String, dynamic> paymentPreview = {};
   int? authorUserCount;
 
   @override
@@ -82,12 +83,18 @@ class _ProfilePageState extends State<ProfilePage> {
   }
 
   Future<void> refreshAccountData() async {
-    await Future.wait([refreshProfile(), refreshSubmissionInbox()]);
+    await refreshProfile();
+    await Future.wait([refreshSubmissionInbox(), refreshPaymentPreview()]);
   }
 
   Future<void> refreshProfile() async {
     if (store.token.isEmpty) {
-      if (mounted) setState(() => accountProfile = {});
+      if (mounted) {
+        setState(() {
+          accountProfile = {};
+          paymentPreview = {};
+        });
+      }
       return;
     }
     if (mounted) setState(() => loadingProfile = true);
@@ -99,6 +106,79 @@ class _ProfilePageState extends State<ProfilePage> {
     } finally {
       if (mounted) setState(() => loadingProfile = false);
     }
+  }
+
+  Future<void> refreshPaymentPreview() async {
+    if (store.token.isEmpty || accountProfile['isAdmin'] != true) {
+      if (mounted) setState(() => paymentPreview = {});
+      return;
+    }
+    try {
+      final result = await store.paymentPreview();
+      if (mounted) setState(() => paymentPreview = result);
+    } catch (_) {
+      // Payment stays hidden from every other account. An older API merely
+      // hides the author preview rather than blocking profile settings.
+    }
+  }
+
+  Future<void> showVipPreview() async {
+    if (accountProfile['isAdmin'] != true) return;
+    if (paymentPreview.isEmpty) await refreshPaymentPreview();
+    if (!mounted) return;
+    final price = paymentPreview['displayPrice'] as String? ?? '29.90';
+    final providers = (paymentPreview['providers'] as List? ?? const [])
+        .whereType<Map>()
+        .map((item) => Map<String, dynamic>.from(item))
+        .toList();
+    await showModalBottomSheet<void>(
+        context: context,
+        showDragHandle: true,
+        builder: (sheetContext) => SafeArea(
+            child: Padding(
+                padding: const EdgeInsets.fromLTRB(24, 0, 24, 28),
+                child: Column(mainAxisSize: MainAxisSize.min, children: [
+                  Text('DentStudy VIP · ¥$price',
+                      style: const TextStyle(
+                          fontSize: 20, fontWeight: FontWeight.w800)),
+                  const SizedBox(height: 12),
+                  const Text('会员内测说明',
+                      style: TextStyle(fontWeight: FontWeight.w700)),
+                  const SizedBox(height: 6),
+                  const Text(
+                      '• 新题上限可设置为不限量\n'
+                      '• 小齿深度思考会员额度不限量（以 AI 服务可用性为准）\n'
+                      '• 头像与题目讨论显示金色小牙会员标识\n'
+                      '• 后续上线的会员专属审核题库将自动解锁\n\n'
+                      '现有公开题库始终可正常学习；小齿仅作学习辅助，不提供诊疗建议。',
+                      style: TextStyle(height: 1.55, color: Colors.blueGrey)),
+                  const SizedBox(height: 12),
+                  const Text('当前为作者内测：商户签约、支付回调验签和退款规则尚未全部完成，因此不会发起扣款或授予会员。',
+                      style: TextStyle(fontSize: 12, color: Colors.blueGrey)),
+                  if (providers.isNotEmpty) ...[
+                    const SizedBox(height: 12),
+                    ...providers.map((provider) => ListTile(
+                        dense: true,
+                        contentPadding: EdgeInsets.zero,
+                        leading: Icon(
+                            provider['id'] == 'alipay'
+                                ? Icons.account_balance_wallet_outlined
+                                : Icons.chat_bubble_outline,
+                            color: teal),
+                        title: Text(provider['name'] as String? ?? '支付渠道'),
+                        trailing: Text(
+                            provider['configured'] == true
+                                ? '已填写商户标识\n待签约验签'
+                                : '待绑定',
+                            textAlign: TextAlign.right,
+                            style: const TextStyle(
+                                fontSize: 11.5, color: Colors.blueGrey))))
+                  ],
+                  const SizedBox(height: 4),
+                  FilledButton(
+                      onPressed: () => Navigator.pop(sheetContext),
+                      child: const Text('我知道了'))
+                ]))));
   }
 
   Future<void> refreshAuthorUserDirectory() async {
@@ -320,7 +400,8 @@ class _ProfilePageState extends State<ProfilePage> {
           Row(children: [
             UserAvatar(
                 value: accountProfile['avatar'] as String? ?? 'book',
-                radius: 34),
+                radius: 34,
+                vip: accountProfile['isVip'] == true),
             const SizedBox(width: 16),
             Expanded(
                 child: Column(
@@ -376,6 +457,12 @@ class _ProfilePageState extends State<ProfilePage> {
                 label: const Text('登录 / 注册'))
           ]
         ])),
+        if (accountProfile['isAdmin'] == true) ...[
+          const SizedBox(height: 16),
+          _AuthorVipCard(
+              price: paymentPreview['displayPrice'] as String? ?? '29.90',
+              onOpen: showVipPreview),
+        ],
         heading('主题与外观'),
         box(const AppearanceSettings()),
         heading('导入题库'),
@@ -561,6 +648,37 @@ class _ProfilePageState extends State<ProfilePage> {
         await reminders.refresh(store);
       });
   }
+}
+
+/// This card is deliberately rendered only after the server has identified
+/// the signed-in author. It is an internal product preview, not a client-side
+/// way to grant or purchase membership.
+class _AuthorVipCard extends StatelessWidget {
+  final String price;
+  final VoidCallback onOpen;
+  const _AuthorVipCard({required this.price, required this.onOpen});
+
+  @override
+  Widget build(BuildContext context) =>
+      box(Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        Row(children: [
+          Icon(Icons.workspace_premium_outlined, color: teal),
+          const SizedBox(width: 9),
+          const Expanded(
+              child: Text('VIP 支付内测',
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.w800))),
+          const Text('仅作者可见',
+              style: TextStyle(fontSize: 11.5, color: Colors.blueGrey))
+        ]),
+        const SizedBox(height: 7),
+        const Text('¥29.90 · 会员权益与支付渠道预览',
+            style: TextStyle(color: Colors.blueGrey)),
+        const SizedBox(height: 12),
+        FilledButton.icon(
+            onPressed: onOpen,
+            icon: const Icon(Icons.payments_outlined),
+            label: Text('开通 VIP · ¥$price'))
+      ]));
 }
 
 Future<void> showAccountDialog(BuildContext context,

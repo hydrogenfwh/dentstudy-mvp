@@ -5,10 +5,43 @@ import '../../app/shared.dart' show teal;
 class UserAvatar extends StatelessWidget {
   final String value;
   final double radius;
-  const UserAvatar({super.key, required this.value, this.radius = 22});
+  final bool vip;
+  const UserAvatar(
+      {super.key, required this.value, this.radius = 22, this.vip = false});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) => SizedBox(
+      width: radius * 2,
+      height: radius * 2,
+      child: Stack(clipBehavior: Clip.none, children: [
+        Positioned.fill(child: _avatar()),
+        if (vip)
+          Positioned(
+              right: -2,
+              bottom: -2,
+              child: Semantics(
+                  label: 'VIP 金牙标识',
+                  child: Container(
+                      width: radius.clamp(15, 23).toDouble(),
+                      height: radius.clamp(15, 23).toDouble(),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: const Color(0xFFFFC94C),
+                          border: Border.all(color: Colors.white, width: 1.5),
+                          boxShadow: const [
+                            BoxShadow(
+                                color: Color(0x667A5813),
+                                blurRadius: 4,
+                                offset: Offset(0, 1))
+                          ]),
+                      child: Text('🦷',
+                          style: TextStyle(
+                              fontSize: radius.clamp(10, 15).toDouble(),
+                              height: 1)))))
+      ]));
+
+  Widget _avatar() {
     if (value.startsWith('data:image/png;base64,')) {
       try {
         final bytes = base64Decode(value.split(',').last);
