@@ -131,54 +131,72 @@ class _ProfilePageState extends State<ProfilePage> {
         .whereType<Map>()
         .map((item) => Map<String, dynamic>.from(item))
         .toList();
-    await showModalBottomSheet<void>(
+    await showDialog<void>(
         context: context,
-        showDragHandle: true,
-        builder: (sheetContext) => SafeArea(
-            child: Padding(
-                padding: const EdgeInsets.fromLTRB(24, 0, 24, 28),
-                child: Column(mainAxisSize: MainAxisSize.min, children: [
-                  Text('DentStudy VIP · ¥$price',
-                      style: const TextStyle(
-                          fontSize: 20, fontWeight: FontWeight.w800)),
-                  const SizedBox(height: 12),
-                  const Text('会员内测说明',
-                      style: TextStyle(fontWeight: FontWeight.w700)),
-                  const SizedBox(height: 6),
-                  const Text(
-                      '• 新题上限可设置为不限量\n'
-                      '• 小齿深度思考会员额度不限量（以 AI 服务可用性为准）\n'
-                      '• 头像与题目讨论显示金色小牙会员标识\n'
-                      '• 后续上线的会员专属审核题库将自动解锁\n\n'
-                      '现有公开题库始终可正常学习；小齿仅作学习辅助，不提供诊疗建议。',
-                      style: TextStyle(height: 1.55, color: Colors.blueGrey)),
-                  const SizedBox(height: 12),
-                  const Text('当前为作者内测：商户签约、支付回调验签和退款规则尚未全部完成，因此不会发起扣款或授予会员。',
-                      style: TextStyle(fontSize: 12, color: Colors.blueGrey)),
-                  if (providers.isNotEmpty) ...[
-                    const SizedBox(height: 12),
-                    ...providers.map((provider) => ListTile(
-                        dense: true,
-                        contentPadding: EdgeInsets.zero,
-                        leading: Icon(
-                            provider['id'] == 'alipay'
-                                ? Icons.account_balance_wallet_outlined
-                                : Icons.chat_bubble_outline,
-                            color: teal),
-                        title: Text(provider['name'] as String? ?? '支付渠道'),
-                        trailing: Text(
-                            provider['configured'] == true
-                                ? '已填写商户标识\n待签约验签'
-                                : '待绑定',
-                            textAlign: TextAlign.right,
-                            style: const TextStyle(
-                                fontSize: 11.5, color: Colors.blueGrey))))
-                  ],
-                  const SizedBox(height: 4),
-                  FilledButton(
-                      onPressed: () => Navigator.pop(sheetContext),
-                      child: const Text('我知道了'))
-                ]))));
+        builder: (dialogContext) => Dialog(
+            insetPadding:
+                const EdgeInsets.symmetric(horizontal: 20, vertical: 32),
+            child: ConstrainedBox(
+                constraints: const BoxConstraints(maxWidth: 560),
+                child: SafeArea(
+                    child: SingleChildScrollView(
+                        padding: const EdgeInsets.fromLTRB(24, 20, 24, 24),
+                        child:
+                            Column(mainAxisSize: MainAxisSize.min, children: [
+                          Row(children: [
+                            Expanded(
+                                child: Text('DentStudy VIP · ¥$price',
+                                    style: const TextStyle(
+                                        fontSize: 22,
+                                        fontWeight: FontWeight.w800))),
+                            IconButton(
+                                tooltip: '关闭',
+                                onPressed: () => Navigator.pop(dialogContext),
+                                icon: const Icon(Icons.close))
+                          ]),
+                          const SizedBox(height: 8),
+                          const Text('会员内测说明',
+                              style: TextStyle(fontWeight: FontWeight.w700)),
+                          const SizedBox(height: 8),
+                          const Text(
+                              '• 新题上限可设置为不限量\n'
+                              '• 小齿深度思考会员额度不限量（以 AI 服务可用性为准）\n'
+                              '• 头像与题目讨论显示金色小牙会员标识\n'
+                              '• 后续上线的会员专属审核题库将自动解锁\n\n'
+                              '现有公开题库始终可正常学习；小齿仅作学习辅助，不提供诊疗建议。',
+                              style: TextStyle(
+                                  height: 1.55, color: Colors.blueGrey)),
+                          const SizedBox(height: 14),
+                          const Text(
+                              '当前为作者内测：商户签约、支付回调验签和退款规则尚未全部完成，因此不会发起扣款或授予会员。',
+                              style: TextStyle(
+                                  fontSize: 12, color: Colors.blueGrey)),
+                          if (providers.isNotEmpty) ...[
+                            const SizedBox(height: 12),
+                            ...providers.map((provider) => ListTile(
+                                dense: true,
+                                contentPadding: EdgeInsets.zero,
+                                leading: Icon(
+                                    provider['id'] == 'alipay'
+                                        ? Icons.account_balance_wallet_outlined
+                                        : Icons.chat_bubble_outline,
+                                    color: teal),
+                                title:
+                                    Text(provider['name'] as String? ?? '支付渠道'),
+                                trailing: Text(
+                                    provider['configured'] == true
+                                        ? '已填写商户标识\n待签约验签'
+                                        : '待绑定',
+                                    textAlign: TextAlign.right,
+                                    style: const TextStyle(
+                                        fontSize: 11.5,
+                                        color: Colors.blueGrey))))
+                          ],
+                          const SizedBox(height: 8),
+                          FilledButton(
+                              onPressed: () => Navigator.pop(dialogContext),
+                              child: const Text('我知道了'))
+                        ]))))));
   }
 
   Future<void> refreshAuthorUserDirectory() async {

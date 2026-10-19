@@ -5,9 +5,9 @@
 实际服务器使用宿主机 Nginx + `dentstudy.service`，不是下面的 Docker 方案。
 正式入口为 `https://dentstudy.uno`，HTTP 自动跳转 HTTPS。`www` DNS 仍暂停。
 
-- 客户端版本：`0.2.51`。内置题库为 4,210 道考研方向题目：口腔颌面外科学 2,110 道（14 章）与口腔修复学 2,100 道（8 章）。其中“总论”显示为“总论（绪论与第一、二、三章）”。资料整理题、模拟练习题与回忆题均待医学审核，不等同于已审核真题库。
+- 客户端版本：`0.2.52`。内置题库为 4,210 道考研方向题目：口腔颌面外科学 2,110 道（14 章）与口腔修复学 2,100 道（8 章）。其中“总论”显示为“总论（绪论与第一、二、三章）”。资料整理题、模拟练习题与回忆题均待医学审核，不等同于已审核真题库。
 - 后端：`/opt/dentstudy-current` 指向当前 0.2.51 发布目录；保留既有事件同步契约与受登录保护的 AI 整理接口。新增空的会员/订单表仅用于未来经支付回调验签后的服务端赋权，不包含任何支付密钥。
-- 前端：`/var/www/dentstudy-current` 指向当前 0.2.51 发布目录；前一版本目录保留，可回退。
+- 前端：`/var/www/dentstudy-current` 指向当前 0.2.52 发布目录；前一版本目录保留，可回退。
 - 数据库：`/var/lib/dentstudy/dentstudy.sqlite3`，更新程序不能替换此文件。
 - 用户投稿：`/var/lib/dentstudy/question-bank-submissions/`，仅服务端进程可读写，不能映射到 Nginx 静态目录；备份时须与 SQLite 一起保留。
 - AI 密钥：`/etc/dentstudy/dentstudy-ai.env`（root-only，绝不提交到 Git）；`20-ai-import.conf` 只声明 `qwen3.7-flash`、服务器侧每日 3 次/账号与每月 ¥20 等值预算保护。模型调用关闭思考模式以减少延迟和 token 消耗；用户原文不写入 SQLite 或应用日志。
@@ -22,9 +22,11 @@
 `deploy/dentstudy-certbot.service` 和 `deploy/dentstudy-certbot.timer`。
 构建 Web 时使用 `--no-web-resources-cdn --dart-define=API_URL=/api`
 及 `--dart-define=QUESTION_BANK_ASSET=assets/all_questions.json`。
-发布时同时传入 `--dart-define=APP_VERSION=0.2.51` 和
+发布时同时传入 `--dart-define=APP_VERSION=0.2.52` 和
 `--dart-define=BUILD_TIME=实际北京时间`，在“我的”显示版本与更新时间。
 当前 GitHub workflow 只做检查，不会自动部署；代码推送后仍需单独构建和上传。
+
+0.2.52 验收：作者账号点击“开通 VIP”后，说明由底部抽屉改为可居中显示、最大宽度 560px 的可滚动对话框；浏览器缩放或小屏时不再被底栏截断，可用右上角关闭或“我知道了”退出。仅调整此内测说明界面，不改变支付、题库、学习记录、同步或会员状态。
 
 0.2.51 验收：仅作者账号的“我的”个人资料卡下出现 VIP 支付内测卡；普通账号及未登录用户既无入口，也被 API 拒绝读取支付状态。弹窗固定价格 ¥29.90，明确说明当前不会发起扣款或授予会员。后端会员状态只能由 `vip_memberships` 服务端记录决定，评论头像右下角据此显示金色 🦷，浏览器不能自行伪造。小齿新增“深度思考”开关，返回的是可折叠、较浅色的学习思路摘要而非内部推理或聊天记录。新增会员表和订单表为空，不改变题库、事件同步、历史作答或现有账号。测试：Flutter 静态检查、56 项客户端测试和 42 项后端测试通过。
 
