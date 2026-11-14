@@ -33,11 +33,21 @@
 
 ![学习搭子选择界面](docs/images/study-companions.png)
 
-以下为在本地使用 LivLiv Player 渲染录制的角色动作预览：Sena 的歪头、Nana 的欢呼和 Usa 的害羞动作。角色与模型由 [LivLiv](https://livliv.ai/) 制作；展示效果为本地预览，不代表所有角色或交互目前均已对外开放。
+以下动图由本地 LivLiv Player 渲染录制，每幅使用 24 帧、约每秒 14 帧，以较小尺寸展示角色动作。它们是本地效果预览，不代表所有角色或交互目前均已对外开放。
 
-| Sena · 歪头 | Nana · 欢呼 | Usa · 害羞 |
+| Kujira | Kujira Q | Pen |
 | :---: | :---: | :---: |
-| ![Sena 歪头动态](docs/images/livliv-k01.gif) | ![Nana 欢呼动态](docs/images/livliv-d03.gif) | ![Usa 害羞动态](docs/images/livliv-v06.gif) |
+| ![Kujira 点头](docs/images/livliv-p01.gif) | ![Kujira Q 害羞](docs/images/livliv-p02.gif) | ![Pen 开心](docs/images/livliv-p03.gif) |
+
+| Kai | Elio | Mochi |
+| :---: | :---: | :---: |
+| ![Kai 点头](docs/images/livliv-v04.gif) | ![Elio 歪头](docs/images/livliv-k02.gif) | ![Mochi 开心](docs/images/livliv-q02.gif) |
+
+| Sena | Nana | Usa |
+| :---: | :---: | :---: |
+| ![Sena 歪头](docs/images/livliv-k01.gif) | ![Nana 欢呼](docs/images/livliv-d03.gif) | ![Usa 害羞](docs/images/livliv-v06.gif) |
+
+角色模型与播放器：[LivLiv](https://livliv.ai/)。Kujira 与 Kujira Q 的原角色溟月由[上善无形](https://www.bilibili.com/opus/1231977657712771073)创作，女仆设计由 [ZipZipPipe](https://www.bilibili.com/video/BV1tE9XBbErS/)创作；模型由 LivLiv 制作，原模型标注为 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)。Pen 源自贱兔死顺盖创作的粉丝角色「咕咕嘎嘎」，模型由 LivLiv 制作；其来源和使用条款与 LivLiv 其他精选角色不同。角色授权和使用范围应以各权利人的许可为准。
 
 > 学习资料与题目可能仍处于整理或审核阶段。题目来源、医学准确性及实际开放功能请以具体题目和网站内的提示为准。
 
