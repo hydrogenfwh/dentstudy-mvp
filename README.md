@@ -4,6 +4,30 @@
 
 当前可运行本地 Flutter Web；本机 Flutter SDK 位于 `tools/flutter`，页面默认预览地址为 `http://127.0.0.1:8080`。Python API 默认在 8787 端口。Web 运行与静态检查不代表 Android/iOS 编译、签名或真机验收完成。阶段验证结果见 `docs/LEARNING_LOOP_VERIFICATION.md`；`docs/VERIFICATION.md` 保留早期历史记录。
 
+## 产品预览
+
+齿间 DentStudy 是面向口腔医学学习的中文学习工具，围绕题库练习、错题整理、复习安排与学习记录组织日常学习。线上入口：[dentstudy.uno](https://dentstudy.uno)。
+
+### 进入齿间
+
+访客可从入口进入学习；登录入口用于已有账号和跨设备同步。下图为线上入口截图（2026 年 11 月）。
+
+![齿间 DentStudy 线上入口](docs/images/dentstudy-entry.png)
+
+### 学习节奏
+
+学习计划与复习入口帮助安排每日学习；打卡日历用于回顾学习记录。下图为 2026 年 10 月的本地功能预览，界面和功能以线上实际版本为准。
+
+<img src="docs/images/study-calendar-preview.png" width="360" alt="学习打卡日历的本地预览">
+
+### 备考搭子
+
+大肥鱼为学习过程提供角色互动。下方动图由本地角色的三张姿态图制作，用于展示角色形象，**不是网站实际运行时动画录屏**；右侧图片为 2026 年 10 月的访客界面本地预览。AI 聊天的开放范围与当前可用性以网站实际提示为准。
+
+<img src="docs/images/dafeiyu-poses.gif" width="250" alt="大肥鱼姿态轮播"><img src="docs/images/companion-preview.png" width="320" alt="大肥鱼互动界面本地预览">
+
+> 学习资料与题目可能仍处于整理或审核阶段。题目来源、医学准确性及实际开放功能请以具体题目和网站内的提示为准。
+
 ## 当前题库与统计口径
 
 - 默认客户端与后端读取 `mobile/assets/all_questions.json`：3650 个唯一题目 ID，包含 3504 道原有资料整理题、130 道 CMB 开放数据练习题、16 道演示题。原有 3520 条记录逐条保留。
