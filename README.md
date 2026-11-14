@@ -26,6 +26,19 @@
 
 <img src="docs/images/dafeiyu-poses.gif" width="250" alt="大肥鱼姿态轮播"><img src="docs/images/companion-preview.png" width="320" alt="大肥鱼互动界面本地预览">
 
+
+### LivLiv 学习搭子预览
+
+下图展示学习搭子选择界面；角色和功能以产品实际开放情况为准。
+
+![学习搭子选择界面](docs/images/study-companions.png)
+
+以下为在本地使用 LivLiv Player 渲染录制的角色动作预览：Sena 的歪头、Nana 的欢呼和 Usa 的害羞动作。角色与模型由 [LivLiv](https://livliv.ai/) 制作；展示效果为本地预览，不代表所有角色或交互目前均已对外开放。
+
+| Sena · 歪头 | Nana · 欢呼 | Usa · 害羞 |
+| :---: | :---: | :---: |
+| ![Sena 歪头动态](docs/images/livliv-k01.gif) | ![Nana 欢呼动态](docs/images/livliv-d03.gif) | ![Usa 害羞动态](docs/images/livliv-v06.gif) |
+
 > 学习资料与题目可能仍处于整理或审核阶段。题目来源、医学准确性及实际开放功能请以具体题目和网站内的提示为准。
 
 ## 当前题库与统计口径
