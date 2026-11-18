@@ -1,0 +1,10 @@
+[Unit]
+Description=Run DentStudy stone leaderboard settlement monthly
+
+[Timer]
+OnCalendar=*-*-01 00:10:00 Asia/Shanghai
+Persistent=true
+RandomizedDelaySec=300
+
+[Install]
+WantedBy=timers.target

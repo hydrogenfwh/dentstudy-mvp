@@ -1,5 +1,10 @@
 import 'dart:async';
+import '../features/social/unread_dot.dart';
+import 'package:flutter/foundation.dart' show kIsWeb;
+import 'package:flutter/cupertino.dart' show CupertinoPageTransitionsBuilder;
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'shared.dart';
 import 'entrance.dart';
 import 'theme_surfaces.dart';
@@ -7,6 +12,7 @@ import 'glass_refraction.dart';
 import 'motion.dart';
 import '../features/practice/mode_picker.dart';
 import '../features/today/today_page.dart';
+import '../features/today/checkin_calendar.dart';
 import '../features/today/today_plan.dart';
 import '../features/library/library_page.dart';
 import '../features/notebooks/notebooks_page.dart';
@@ -14,6 +20,8 @@ import '../features/statistics/statistics_page.dart';
 import '../features/profile/profile_page.dart';
 import '../features/assistant/xiaochi_assistant.dart';
 import '../features/profile/policy_page.dart';
+import '../features/profile/account_deletion_page.dart';
+import '../features/profile/stone_reward_notice.dart';
 import '../features/practice/practice_request.dart';
 import '../features/practice/custom_practice.dart';
 import '../features/practice/session_journal.dart';
@@ -30,90 +38,111 @@ class DentStudy extends StatelessWidget {
       listenable: store,
       builder: (context, _) {
         final hasCustomBackground = store.hasCustomBackground;
-        final transparentChrome = store.glassEnabled || hasCustomBackground;
-        final scheme =
-            ColorScheme.fromSeed(seedColor: teal, surface: Colors.white)
-                .copyWith(primary: teal, onPrimary: Colors.white);
         return MaterialApp(
-            title: '齿间 · 口腔学习',
+            scaffoldMessengerKey: appMessengerKey,
+            title: '齿间Dentstudy',
+            locale: Locale(store.languageCode),
+            supportedLocales: const [Locale('zh'), Locale('en')],
+            localizationsDelegates: GlobalMaterialLocalizations.delegates,
             debugShowCheckedModeBanner: false,
             themeAnimationDuration: const Duration(milliseconds: 250),
-            builder: (context, child) => StudyBackdrop(
-                glass: store.glassEnabled,
-                background: paper,
-                tint: backgroundTint,
-                image: hasCustomBackground
-                    ? MemoryImage(store.customBackgroundImageBytes!)
-                    : null,
-                imageScale: store.customBackgroundScale,
-                imageOpacity: store.customBackgroundOpacity,
-                child: child ?? const SizedBox.shrink()),
-            theme: ThemeData(
-                pageTransitionsTheme: const PageTransitionsTheme(builders: {
-                  TargetPlatform.android: StudyPageTransitions(),
-                  TargetPlatform.macOS: StudyPageTransitions(),
-                  TargetPlatform.windows: StudyPageTransitions(),
-                  TargetPlatform.linux: StudyPageTransitions(),
-                  // Keep one compatible transition implementation across the
-                  // project's supported Flutter 3.35+ range. The previous
-                  // Cupertino builder name is unavailable in 3.35 CI.
-                  TargetPlatform.iOS: StudyPageTransitions(),
-                }),
-                useMaterial3: true,
-                fontFamily: 'DentStudySans',
-                fontFamilyFallback: const [
-                  'DentStudySymbols',
-                  'DentStudyMath',
-                  'PingFang SC',
-                  'Microsoft YaHei',
-                  'sans-serif'
-                ],
-                colorScheme: scheme,
-                scaffoldBackgroundColor:
-                    transparentChrome ? Colors.transparent : paper,
-                appBarTheme: AppBarTheme(
-                    backgroundColor:
-                        transparentChrome ? Colors.transparent : paper,
-                    surfaceTintColor: Colors.transparent,
-                    foregroundColor: ink,
-                    elevation: 0,
-                    scrolledUnderElevation: 0),
-                navigationBarTheme: NavigationBarThemeData(
-                    backgroundColor: transparentChrome
-                        ? Colors.transparent
-                        : Color.lerp(Colors.white, backgroundTint, .07),
-                    surfaceTintColor: Colors.transparent,
-                    elevation: 0,
-                    indicatorColor: teal.withAlpha(30)),
-                cardTheme: CardThemeData(
-                    elevation: 0,
-                    color: store.glassEnabled
-                        ? Colors.white.withAlpha(175)
-                        : Colors.white,
-                    margin: const EdgeInsets.symmetric(vertical: 5),
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(18),
-                        side: store.glassEnabled
-                            ? BorderSide(color: Colors.white.withAlpha(220))
-                            : BorderSide.none)),
-                textTheme: TextTheme(
-                    bodyLarge: TextStyle(fontSize: 16, height: 1.6, color: ink),
-                    bodyMedium:
-                        TextStyle(fontSize: 14, height: 1.5, color: ink)),
-                inputDecorationTheme: InputDecorationTheme(
-                    filled: true,
-                    fillColor: paper,
-                    border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(14),
-                        borderSide: BorderSide.none)),
-                filledButtonTheme: FilledButtonThemeData(
-                    style: FilledButton.styleFrom(
-                        padding: const EdgeInsets.symmetric(
-                            horizontal: 20, vertical: 16),
-                        shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(14))))),
+            builder: (context, child) {
+              final brightness = Theme.of(context).brightness;
+              return StudyBackdrop(
+                  glass: store.glassEnabled,
+                  background: studyBackground(brightness),
+                  tint: backgroundTint,
+                  image: hasCustomBackground
+                      ? MemoryImage(store.customBackgroundImageBytes!)
+                      : null,
+                  imageScale: store.customBackgroundScale,
+                  imageOpacity: store.customBackgroundOpacity,
+                  child: child ?? const SizedBox.shrink());
+            },
+            theme: _theme(Brightness.light),
+            darkTheme: _theme(Brightness.dark),
             home: const Entrance(child: Home()));
       });
+
+  ThemeData _theme(Brightness brightness) {
+    final dark = brightness == Brightness.dark;
+    final transparentChrome = store.glassEnabled || store.hasCustomBackground;
+    final background = studyBackground(brightness);
+    final surface = dark
+        ? Color.lerp(const Color(0xFF1A2022), backgroundTint, .10)!
+        : Colors.white;
+    var scheme = ColorScheme.fromSeed(
+        seedColor: teal, brightness: brightness, surface: surface);
+    if (!dark) {
+      scheme = scheme.copyWith(
+          primary: teal, onPrimary: Colors.white, onSurface: ink);
+    }
+    return ThemeData(
+        pageTransitionsTheme: const PageTransitionsTheme(builders: {
+          TargetPlatform.android: StudyPageTransitions(),
+          TargetPlatform.macOS: StudyPageTransitions(),
+          TargetPlatform.windows: StudyPageTransitions(),
+          TargetPlatform.linux: StudyPageTransitions(),
+          TargetPlatform.iOS: CupertinoPageTransitionsBuilder(),
+        }),
+        useMaterial3: true,
+        fontFamily: 'DentStudySans',
+        fontFamilyFallback: const [
+          'DentStudySymbols',
+          'DentStudyMath',
+          'PingFang SC',
+          'Microsoft YaHei',
+          'sans-serif'
+        ],
+        colorScheme: scheme,
+        scaffoldBackgroundColor:
+            transparentChrome ? Colors.transparent : background,
+        appBarTheme: AppBarTheme(
+            backgroundColor:
+                transparentChrome ? Colors.transparent : background,
+            surfaceTintColor: Colors.transparent,
+            foregroundColor: scheme.onSurface,
+            systemOverlayStyle:
+                dark ? SystemUiOverlayStyle.light : SystemUiOverlayStyle.dark,
+            elevation: 0,
+            scrolledUnderElevation: 0),
+        navigationBarTheme: NavigationBarThemeData(
+            backgroundColor: transparentChrome
+                ? Colors.transparent
+                : dark
+                    ? surface
+                    : Color.lerp(Colors.white, backgroundTint, .07),
+            surfaceTintColor: Colors.transparent,
+            elevation: 0,
+            indicatorColor:
+                dark ? scheme.primaryContainer : scheme.primary.withAlpha(30)),
+        cardTheme: CardThemeData(
+            elevation: 0,
+            color: store.glassEnabled ? surface.withAlpha(175) : surface,
+            margin: const EdgeInsets.symmetric(vertical: 5),
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(18),
+                side: store.glassEnabled
+                    ? BorderSide(color: Colors.white.withAlpha(dark ? 52 : 220))
+                    : BorderSide.none)),
+        textTheme: TextTheme(
+            bodyLarge:
+                TextStyle(fontSize: 16, height: 1.6, color: scheme.onSurface),
+            bodyMedium:
+                TextStyle(fontSize: 14, height: 1.5, color: scheme.onSurface)),
+        inputDecorationTheme: InputDecorationTheme(
+            filled: true,
+            fillColor: dark ? scheme.surfaceContainerHighest : background,
+            border: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(14),
+                borderSide: BorderSide.none)),
+        filledButtonTheme: FilledButtonThemeData(
+            style: FilledButton.styleFrom(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(14)))));
+  }
 }
 
 class Home extends StatefulWidget {
@@ -125,45 +154,113 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> with WidgetsBindingObserver {
   late int tab;
+  late final PageController _tabController;
+  final _libraryKey = GlobalKey<LibraryPageState>();
+  bool _librarySubpage = false;
+  bool _libraryEdgeDrag = false;
+  double _libraryDragDistance = 0;
+
+  void _selectTab(int value) {
+    if (tab == 1 && value != 1 && _librarySubpage) {
+      _libraryKey.currentState?.returnToTracks();
+    }
+    if (_tabController.hasClients) {
+      _tabController.animateToPage(value,
+          duration: const Duration(milliseconds: 280),
+          curve: Curves.easeOutCubic);
+    } else {
+      setState(() => tab = value);
+    }
+  }
+
   bool opening = false, preparing = false, choosingMode = false;
   late final TodayPlan plan = TodayPlan(store);
   Timer? dayTimer;
+  Timer? socialTimer;
+  bool socialPollingPaused = false;
+  String socialPollingAccount = '';
   void _storeChanged() {
     if (mounted) setState(() {});
+    final account = '${store.userId}:${store.token}';
+    if (socialPollingAccount != account) {
+      socialPollingAccount = account;
+      unawaited(store.refreshSocialUnread());
+      unawaited(store.refreshCompanionAccess());
+    }
+    if (store.stoneNotices.isNotEmpty) {
+      final notices = [...store.stoneNotices];
+      store.stoneNotices.clear();
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (!mounted || store.token.isEmpty) return;
+        final amount = notices
+            .where((notice) => notice['userId'] == store.userId)
+            .fold<int>(0, (sum, notice) => sum + (notice['amount'] as int));
+        if (amount < 1) return;
+        appMessengerKey.currentState?.showSnackBar(SnackBar(
+            duration: const Duration(seconds: 3),
+            behavior: SnackBarBehavior.floating,
+            elevation: 0,
+            backgroundColor: Colors.transparent,
+            padding: EdgeInsets.zero,
+            content: StoneRewardNotice(
+                amount: amount, praise: randomStonePraise(), floating: true)));
+      });
+    }
   }
 
   @override
   void initState() {
     super.initState();
     tab = widget.initialTab;
+    final openDeletion =
+        kIsWeb && Uri.base.queryParameters['account'] == 'delete';
+    if (openDeletion) tab = 4;
+    _tabController = PageController(initialPage: tab);
     store.addListener(_storeChanged);
     WidgetsBinding.instance.addObserver(this);
     WidgetsBinding.instance.addPostFrameCallback((_) async {
+      if (mounted) unawaited(store.refreshSocialUnread());
+      if (mounted) unawaited(store.refreshCompanionAccess());
+      if (openDeletion && mounted) {
+        await Navigator.of(context).push(MaterialPageRoute(
+            builder: (_) => AccountDeletionPage(
+                onLogin: (context) => showAccountDialog(context))));
+        return;
+      }
       await _ensurePlan();
       if (store.token.isNotEmpty && mounted) await safely(context, store.sync);
       await _ensurePlan();
     });
     dayTimer = Timer.periodic(const Duration(minutes: 1), (_) => _ensurePlan());
+    socialPollingAccount = '${store.userId}:${store.token}';
+    socialTimer = Timer.periodic(const Duration(seconds: 10), (_) {
+      if (!socialPollingPaused) unawaited(store.refreshSocialUnread());
+    });
   }
 
   @override
   void dispose() {
+    _tabController.dispose();
     store.removeListener(_storeChanged);
     dayTimer?.cancel();
+    socialTimer?.cancel();
     WidgetsBinding.instance.removeObserver(this);
     super.dispose();
   }
 
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
+    socialPollingPaused = state != AppLifecycleState.resumed;
     if (state == AppLifecycleState.resumed) {
+      unawaited(store.refreshSocialUnread());
+      unawaited(store.refreshCompanionAccess());
       _ensurePlan();
       if (store.token.isNotEmpty) safely(context, store.sync);
     }
   }
 
   Future<void> _ensurePlan({bool next = false}) async {
-    if (preparing) return;
+    if (preparing || store.deletingAccount) return;
     preparing = true;
     try {
       await plan.ensure(next: next);
@@ -171,6 +268,14 @@ class _HomeState extends State<Home> with WidgetsBindingObserver {
       preparing = false;
       if (mounted) setState(() {});
     }
+  }
+
+  Future<void> _openCheckinCalendar() async {
+    if (store.token.isEmpty) {
+      await showAccountDialog(context);
+      if (store.token.isEmpty || !mounted) return;
+    }
+    if (mounted) await showCheckinCalendar(context);
   }
 
   Future<void> _today() async {
@@ -236,6 +341,9 @@ class _HomeState extends State<Home> with WidgetsBindingObserver {
             .toList(),
         'answers': retainedMap('answers'),
         'grades': retainedMap('grades'),
+        if (oldIndex >= originalIds.length ||
+            !available.contains(originalIds[oldIndex]))
+          'revealed': false,
         'index': originalIds
             .take(oldIndex)
             .where(available.contains)
@@ -309,7 +417,7 @@ class _HomeState extends State<Home> with WidgetsBindingObserver {
                   ListTile(
                       leading: const Icon(Icons.history_edu_outlined),
                       title: Text('昨日全部题目 · ${all.length} 题'),
-                      subtitle: const Text('重新巩固昨天完成的题目'),
+                      subtitle: Text('重新巩固昨天完成的题目'),
                       onTap: () => Navigator.pop(sheetContext, 'all')),
                   ListTile(
                       enabled: wrong.isNotEmpty,
@@ -347,16 +455,16 @@ class _HomeState extends State<Home> with WidgetsBindingObserver {
       final choice = await showDialog<bool>(
           context: context,
           builder: (c) => AlertDialog(
-                  title: const Text('是否继续上次刷题？'),
+                  title: Text('是否继续上次刷题？'),
                   content:
                       Text(randomDrafts.first['label'] as String? ?? '随机练习'),
                   actions: [
                     TextButton(
                         onPressed: () => Navigator.pop(c, false),
-                        child: const Text('新建练习')),
+                        child: Text('新建练习')),
                     FilledButton(
                         onPressed: () => Navigator.pop(c, true),
-                        child: const Text('继续上次'))
+                        child: Text('继续上次'))
                   ]));
       if (choice == null) return;
       if (choice) {
@@ -376,7 +484,11 @@ class _HomeState extends State<Home> with WidgetsBindingObserver {
     PracticeAction? action;
     try {
       final saved = Set<String>.from(request.draft?['saved'] ?? []);
-      var qs = [...request.questions];
+      final seen = <String>{};
+      var qs = request.questions
+          .where((q) =>
+              (request.mode != 'speed' || q.answer != null) && seen.add(q.id))
+          .toList();
       final state = store.learning;
       if (request.draft == null) {
         final allowed = {
@@ -416,8 +528,6 @@ class _HomeState extends State<Home> with WidgetsBindingObserver {
             .take(remaining)
             .toList();
       }
-      if (request.mode == 'speed')
-        qs = qs.where((q) => q.answer != null).toList();
       if (qs.isEmpty) {
         message(context, '当前没有可练题目，请检查题库范围和今日学习目标。');
         return;
@@ -464,13 +574,10 @@ class _HomeState extends State<Home> with WidgetsBindingObserver {
       }
     }
     if (!mounted) return;
-    if (store.token.isNotEmpty) await safely(context, store.sync);
-    if (store.prefs.getBool('reminders') ?? false)
-      await safely(context, () => reminders.refresh(store));
-    if (!mounted) return;
-    if (action == PracticeAction.home) setState(() => tab = 0);
+    if (store.token.isNotEmpty) unawaited(safely(context, store.sync));
+    if (action == PracticeAction.home) _selectTab(0);
     if (action == PracticeAction.next) {
-      setState(() => tab = 0);
+      _selectTab(0);
       await _today();
     }
     if (action == PracticeAction.mistakes && journal != null) {
@@ -490,7 +597,14 @@ class _HomeState extends State<Home> with WidgetsBindingObserver {
   }
 
   @override
-  Widget build(BuildContext context) => Stack(fit: StackFit.expand, children: [
+  Widget build(BuildContext context) => PopScope(
+      canPop: tab != 1 || !_librarySubpage,
+      onPopInvokedWithResult: (didPop, _) {
+        if (!didPop && tab == 1 && _librarySubpage) {
+          _libraryKey.currentState?.back();
+        }
+      },
+      child: Stack(fit: StackFit.expand, children: [
         Scaffold(
           extendBody: store.glassEnabled,
           extendBodyBehindAppBar: store.glassEnabled,
@@ -499,9 +613,12 @@ class _HomeState extends State<Home> with WidgetsBindingObserver {
                   ? const FrostedChrome(enabled: true, child: SizedBox.expand())
                   : null,
               title: Row(children: [
-                Icon(Icons.auto_stories_rounded, color: teal),
+                ClipRRect(
+                    borderRadius: BorderRadius.circular(7),
+                    child: Image.asset('assets/brand-logo.png',
+                        width: 28, height: 28, fit: BoxFit.cover)),
                 const SizedBox(width: 9),
-                const Text('齿间', style: TextStyle(fontWeight: FontWeight.w800)),
+                Text('齿间', style: TextStyle(fontWeight: FontWeight.w800)),
                 const SizedBox(width: 9),
                 const Flexible(
                     child: Text('DENTSTUDY',
@@ -511,53 +628,98 @@ class _HomeState extends State<Home> with WidgetsBindingObserver {
                 TextButton.icon(
                     onPressed: () => _showContactAuthor(context),
                     icon: const Icon(Icons.mail_outline, size: 19),
-                    label: const Text('联系作者')),
+                    label: Text(tr('联系作者'))),
                 const SizedBox(width: 8)
               ]),
           body: GlassContentViewport(
               enabled: store.glassEnabled,
-              child: ListenableBuilder(
-                  listenable: store,
-                  builder: (c, _) => switch (tab) {
-                        0 => TodayPage(
-                            plan: plan,
-                            onPlan: _today,
-                            onReviewYesterday: _reviewYesterday,
-                            onCustom: _custom,
-                            onResume: _resume,
-                            onModeChanged: (mode) async {
-                              await store.setMode(mode);
-                              await _ensurePlan();
-                            },
-                            onStart: _start),
-                        1 => LibraryPage(onStart: _start),
-                        2 => NotebooksPage(onStart: _start),
-                        3 => StatisticsPage(onStart: _start),
-                        _ => ProfilePage(onStart: _start),
-                      })),
-          bottomNavigationBar: _navigation(),
+              child: PageView(
+                controller: _tabController,
+                physics: tab == 1 && _librarySubpage
+                    ? const NeverScrollableScrollPhysics()
+                    : const PageScrollPhysics(),
+                onPageChanged: (value) {
+                  setState(() => tab = value);
+                  if (value == 0) unawaited(_ensurePlan());
+                },
+                children: [
+                  TodayPage(
+                      plan: plan,
+                      onPlan: _today,
+                      onReviewYesterday: _reviewYesterday,
+                      onCustom: _custom,
+                      onResume: _resume,
+                      onModeChanged: (mode) async {
+                        await store.setMode(mode);
+                        await _ensurePlan();
+                      },
+                      onCheckin: _openCheckinCalendar,
+                      onStart: _start),
+                  GestureDetector(
+                    behavior: HitTestBehavior.translucent,
+                    onHorizontalDragStart: _librarySubpage
+                        ? (d) {
+                            _libraryEdgeDrag = d.globalPosition.dx < 45;
+                            _libraryDragDistance = 0;
+                          }
+                        : null,
+                    onHorizontalDragUpdate: _librarySubpage
+                        ? (d) => _libraryDragDistance += d.primaryDelta ?? 0
+                        : null,
+                    onHorizontalDragEnd: _librarySubpage
+                        ? (d) {
+                            if (_libraryEdgeDrag &&
+                                (_libraryDragDistance > 60 ||
+                                    (d.primaryVelocity ?? 0) > 200)) {
+                              _libraryKey.currentState?.back();
+                            }
+                          }
+                        : null,
+                    child: LibraryPage(
+                      key: _libraryKey,
+                      onStart: _start,
+                      onSubpageChanged: (value) =>
+                          setState(() => _librarySubpage = value),
+                    ),
+                  ),
+                  NotebooksPage(onStart: _start),
+                  StatisticsPage(onStart: _start),
+                  ProfilePage(onStart: _start),
+                ],
+              )),
+          bottomNavigationBar: AnimatedSize(
+            duration: const Duration(milliseconds: 220),
+            curve: Curves.easeInOut,
+            child: tab == 1 && _librarySubpage
+                ? const SizedBox(width: double.infinity)
+                : _navigation(),
+          ),
         ),
         const XiaochiAssistant(),
-      ]);
+      ]));
 
   Widget _navigation() {
     final navigation = NavigationBar(
         height: store.glassEnabled ? 72 : null,
         selectedIndex: tab,
         onDestinationSelected: (i) async {
-          setState(() => tab = i);
-          if (i == 0) await _ensurePlan();
+          _selectTab(i);
         },
-        destinations: const [
+        destinations: [
           NavigationDestination(
-              icon: Icon(Icons.wb_sunny_outlined), label: '今日'),
+              icon: Icon(Icons.wb_sunny_outlined), label: tr('今日')),
           NavigationDestination(
-              icon: Icon(Icons.grid_view_outlined), label: '题库'),
+              icon: Icon(Icons.grid_view_outlined), label: tr('题库')),
           NavigationDestination(
-              icon: Icon(Icons.bookmarks_outlined), label: '题本'),
+              icon: Icon(Icons.bookmarks_outlined), label: tr('题本')),
           NavigationDestination(
-              icon: Icon(Icons.bar_chart_outlined), label: '学情'),
-          NavigationDestination(icon: Icon(Icons.person_outline), label: '我的')
+              icon: Icon(Icons.bar_chart_outlined), label: tr('学情')),
+          NavigationDestination(
+              icon: UnreadDot(
+                  visible: store.socialUnreadCount > 0,
+                  dotKey: const ValueKey('profile-tab-unread-dot'),
+                  child: const Icon(Icons.person_outline)),
+              label: tr('我的'))
         ]);
     if (!store.glassEnabled) return navigation;
     return SafeArea(
@@ -576,46 +738,52 @@ void _showContactAuthor(BuildContext context) => showModalBottomSheet<void>(
     context: context,
     showDragHandle: true,
     isScrollControlled: true,
-    builder: (sheetContext) => SafeArea(
-        child: ConstrainedBox(
-            constraints: BoxConstraints(
-                maxHeight: MediaQuery.sizeOf(sheetContext).height * .88),
-            child: ListView(
-                padding: const EdgeInsets.fromLTRB(24, 0, 24, 28),
-                children: [
-                  const Text('联系作者',
-                      style:
-                          TextStyle(fontSize: 22, fontWeight: FontWeight.w800)),
-                  const SizedBox(height: 8),
-                  const Text('有问题、建议或合作想法都可以联系我；一般会在 24 小时内回复。',
-                      style: TextStyle(color: Colors.blueGrey)),
-                  const SizedBox(height: 18),
-                  const ListTile(
-                      contentPadding: EdgeInsets.zero,
-                      leading: Icon(Icons.email_outlined),
-                      title: Text('邮箱'),
-                      subtitle: SelectableText('dentstudy1126@aka.yeah.net')),
-                  const SizedBox(height: 4),
-                  OutlinedButton.icon(
-                      onPressed: () {
-                        Navigator.of(sheetContext).pop();
-                        Navigator.of(context).push(MaterialPageRoute(
-                            builder: (_) => const PolicyPage()));
-                      },
-                      icon: const Icon(Icons.copyright_outlined),
-                      label: const Text('版权投诉与数据删除')),
-                  const SizedBox(height: 10),
-                  const Text('微信',
-                      style: TextStyle(fontWeight: FontWeight.bold)),
-                  const SizedBox(height: 6),
-                  const Text('扫描二维码添加好友；请在好友申请中注明来意，例如“DentStudy 用户反馈”。',
-                      style: TextStyle(fontSize: 13, color: Colors.blueGrey)),
-                  const SizedBox(height: 14),
-                  Center(
-                      child: ClipRRect(
-                          borderRadius: BorderRadius.circular(16),
-                          child: Image.asset('assets/contact_wechat.jpg',
-                              width: 280,
-                              fit: BoxFit.contain,
-                              semanticLabel: '作者微信二维码')))
-                ]))));
+    builder: (sheetContext) => GestureDetector(
+        onHorizontalDragEnd: (details) {
+          if ((details.primaryVelocity ?? 0) > 200)
+            Navigator.of(sheetContext).pop();
+        },
+        child: SafeArea(
+            child: ConstrainedBox(
+                constraints: BoxConstraints(
+                    maxHeight: MediaQuery.sizeOf(sheetContext).height * .68),
+                child: ListView(
+                    padding: const EdgeInsets.fromLTRB(24, 0, 24, 28),
+                    children: [
+                      Text('联系作者',
+                          style: TextStyle(
+                              fontSize: 22, fontWeight: FontWeight.w800)),
+                      const SizedBox(height: 8),
+                      Text('有问题、建议或合作想法都可以联系我；一般会在 24 小时内回复。',
+                          style: TextStyle(color: Colors.blueGrey)),
+                      const SizedBox(height: 18),
+                      const ListTile(
+                          contentPadding: EdgeInsets.zero,
+                          leading: Icon(Icons.email_outlined),
+                          title: Text('邮箱'),
+                          subtitle:
+                              SelectableText('dentstudy1126@aka.yeah.net')),
+                      const SizedBox(height: 4),
+                      OutlinedButton.icon(
+                          onPressed: () {
+                            Navigator.of(sheetContext).pop();
+                            Navigator.of(context).push(MaterialPageRoute(
+                                builder: (_) => const PolicyPage()));
+                          },
+                          icon: const Icon(Icons.copyright_outlined),
+                          label: Text('版权投诉与数据删除')),
+                      const SizedBox(height: 10),
+                      Text('微信', style: TextStyle(fontWeight: FontWeight.bold)),
+                      const SizedBox(height: 6),
+                      Text('扫描二维码添加好友；请在好友申请中注明来意，例如“DentStudy 用户反馈”。',
+                          style:
+                              TextStyle(fontSize: 13, color: Colors.blueGrey)),
+                      const SizedBox(height: 14),
+                      Center(
+                          child: ClipRRect(
+                              borderRadius: BorderRadius.circular(16),
+                              child: Image.asset('assets/contact_wechat.jpg',
+                                  width: 280,
+                                  fit: BoxFit.contain,
+                                  semanticLabel: '作者微信二维码')))
+                    ])))));

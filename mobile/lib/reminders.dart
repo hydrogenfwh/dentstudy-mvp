@@ -35,6 +35,15 @@ class Reminders {
     return android ?? ios ?? false;
   }
 
+  /// The daily review reminder has been retired.  Clear any notifications
+  /// scheduled by an older build so removing its setting does not leave a
+  /// two-week tail of local alerts on a learner's device.
+  Future<void> disable() async {
+    if (kIsWeb) return;
+    if (!ready) await init();
+    await plugin.cancelAll();
+  }
+
   Future<void> refresh(StudyStore store) async {
     if (kIsWeb) return;
     if (!ready) await init();

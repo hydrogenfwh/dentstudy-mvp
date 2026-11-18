@@ -1,0 +1,4 @@
+大肥鱼互动语音来源：尹紫鹭幻想社，Da Fei Yu (Self-Tuned Girl Voice) Chinese Speech Dataset。
+数据集：https://www.modelscope.cn/datasets/YinZilu/da-fei-yu-girl-voice-zh
+公开许可：https://creativecommons.org/licenses/by-nc/4.0/
+使用说明：使用参考音频本地合成新的互动台词，部分语句分段拼接、音量缩放、转码为 AAC。用户已告知作者同意用于 Dentstudy 网站。

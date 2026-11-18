@@ -4,17 +4,23 @@ import 'package:flutter/services.dart';
 import 'package:file_picker/file_picker.dart';
 import '../../app/shared.dart';
 import '../../app/build_info.dart';
+import '../../app/language_selector.dart';
 import 'user_avatar.dart';
 import 'profile_editor.dart';
 import 'author_comments_page.dart';
 import 'author_records_page.dart';
-import 'appearance_settings.dart';
-import 'policy_page.dart';
+import 'settings_page.dart';
 import 'question_bank_import_help.dart';
 import 'imported_bank_practice.dart';
 import 'question_bank_import_progress.dart';
 import 'text_bank_converter.dart';
+import 'alipay_checkout.dart';
+import 'vip_emblem.dart';
+import 'stone_wallet_page.dart';
+import 'stone_reward_notice.dart';
 import '../practice/practice_request.dart';
+import '../social/social_inbox_page.dart';
+import '../social/unread_dot.dart';
 
 class ProfilePage extends StatefulWidget {
   final StartPractice onStart;
@@ -24,6 +30,7 @@ class ProfilePage extends StatefulWidget {
 }
 
 class _ProfilePageState extends State<ProfilePage> {
+  late String observedAccountId;
   bool importingBank = false;
   QuestionBankImportStage importStage = QuestionBankImportStage.idle;
   String importProgressDetail = '';
@@ -31,13 +38,46 @@ class _ProfilePageState extends State<ProfilePage> {
   int? submissionCount;
   bool loadingProfile = false;
   Map<String, dynamic> accountProfile = {};
-  Map<String, dynamic> paymentPreview = {};
+  Map<String, dynamic> paymentOffer = {};
+  int? stoneBalance;
+  int? dailyUploadRewardCount;
+  bool openingAlipay = false;
   int? authorUserCount;
+  // Keep the exact offset while this State survives a glass-style rebuild.
+  // PageStorage is intentionally disabled: an ancestor PageStorage bucket is
+  // also used by expandable profile tools and would otherwise restore the
+  // ListView's numeric offset as their boolean expanded state.
+  final ScrollController _scrollController =
+      ScrollController(keepScrollOffset: false);
 
+  bool get isPaymentAuthor => accountProfile['isPaymentAuthor'] == true;
   @override
   void initState() {
     super.initState();
+    observedAccountId = store.userId;
+    store.addListener(accountChanged);
     WidgetsBinding.instance.addPostFrameCallback((_) => refreshAccountData());
+  }
+
+  @override
+  void dispose() {
+    store.removeListener(accountChanged);
+    _scrollController.dispose();
+    super.dispose();
+  }
+
+  void accountChanged() {
+    if (!mounted || observedAccountId == store.userId) return;
+    observedAccountId = store.userId;
+    setState(() {
+      accountProfile = {};
+      paymentOffer = {};
+      stoneBalance = null;
+      dailyUploadRewardCount = null;
+      isSubmissionAdmin = false;
+      submissionCount = null;
+      authorUserCount = null;
+    });
   }
 
   void changed() {
@@ -84,7 +124,82 @@ class _ProfilePageState extends State<ProfilePage> {
 
   Future<void> refreshAccountData() async {
     await refreshProfile();
-    await Future.wait([refreshSubmissionInbox(), refreshPaymentPreview()]);
+    await Future.wait([
+      refreshSubmissionInbox(),
+      refreshPaymentOffer(),
+      refreshSocialBadge(),
+      refreshStoneBalance(),
+    ]);
+  }
+
+  /// The account card is the quick way back to the stone wallet.  Fetch the
+  /// current balance independently of the profile so a rolling server update
+  /// cannot make an otherwise usable profile disappear.
+  Future<void> refreshStoneBalance() async {
+    if (store.token.isEmpty) {
+      if (mounted) {
+        setState(() {
+          stoneBalance = null;
+          dailyUploadRewardCount = null;
+        });
+      }
+      return;
+    }
+    final accountId = store.userId;
+    try {
+      final wallet = await store.stoneWallet();
+      if (mounted && store.userId == accountId) {
+        setState(() {
+          stoneBalance = (wallet['balance'] as num?)?.toInt();
+          dailyUploadRewardCount = _uploadRewardCount(wallet);
+        });
+      }
+    } catch (_) {
+      // Stone rewards are an optional enhancement to the profile. Keep the
+      // entry useful even if an old server has not exposed the wallet yet.
+      if (mounted && store.userId == accountId) {
+        setState(() {
+          stoneBalance = null;
+          dailyUploadRewardCount = null;
+        });
+      }
+    }
+  }
+
+  /// New servers supply an authoritative total that is independent of wallet
+  /// pagination.  Keep the ledger calculation only for an older server during
+  /// a rolling release, so the import affordance remains useful either way.
+  int _uploadRewardCount(Map<String, dynamic> wallet) {
+    final reported = wallet['uploadRewardCountToday'];
+    if (reported is num) {
+      final count = reported.toInt();
+      return count < 0 ? 0 : (count > 3 ? 3 : count);
+    }
+    return _uploadsRewardedToday(wallet);
+  }
+
+  /// A backward-compatible fallback for servers that predate
+  /// ``uploadRewardCountToday``. A temporarily unavailable wallet deliberately
+  /// renders an ellipsis rather than claiming a made-up "0/3".
+  int _uploadsRewardedToday(Map<String, dynamic> wallet) {
+    final now = DateTime.now().toUtc().add(const Duration(hours: 8));
+    final entries = wallet['items'];
+    if (entries is! List) return 0;
+    var count = 0;
+    for (final raw in entries.whereType<Map>()) {
+      final entry = Map<String, dynamic>.from(raw);
+      if (entry['reason'] != '上传题库') continue;
+      final createdAt = DateTime.tryParse(entry['createdAt'] as String? ?? '')
+          ?.toUtc()
+          .add(const Duration(hours: 8));
+      if (createdAt != null &&
+          createdAt.year == now.year &&
+          createdAt.month == now.month &&
+          createdAt.day == now.day) {
+        count++;
+      }
+    }
+    return count > 3 ? 3 : count;
   }
 
   Future<void> refreshProfile() async {
@@ -92,7 +207,7 @@ class _ProfilePageState extends State<ProfilePage> {
       if (mounted) {
         setState(() {
           accountProfile = {};
-          paymentPreview = {};
+          paymentOffer = {};
         });
       }
       return;
@@ -108,95 +223,97 @@ class _ProfilePageState extends State<ProfilePage> {
     }
   }
 
-  Future<void> refreshPaymentPreview() async {
-    if (store.token.isEmpty || accountProfile['isAdmin'] != true) {
-      if (mounted) setState(() => paymentPreview = {});
+  Future<void> refreshPaymentOffer() async {
+    if (store.token.isEmpty || !isPaymentAuthor) {
+      if (mounted) setState(() => paymentOffer = {});
       return;
     }
     try {
-      final result = await store.paymentPreview();
-      if (mounted) setState(() => paymentPreview = result);
+      final result = await store.alipayOffer();
+      if (mounted) setState(() => paymentOffer = result);
     } catch (_) {
-      // Payment stays hidden from every other account. An older API merely
-      // hides the author preview rather than blocking profile settings.
+      // A rolling deployment or incomplete merchant configuration must not
+      // expose a payable control. The server is authoritative here.
+      if (mounted) setState(() => paymentOffer = {});
     }
   }
 
-  Future<void> showVipPreview() async {
-    if (accountProfile['isAdmin'] != true) return;
-    if (paymentPreview.isEmpty) await refreshPaymentPreview();
-    if (!mounted) return;
-    final price = paymentPreview['displayPrice'] as String? ?? '29.90';
-    final providers = (paymentPreview['providers'] as List? ?? const [])
-        .whereType<Map>()
-        .map((item) => Map<String, dynamic>.from(item))
-        .toList();
-    await showDialog<void>(
+  Future<void> showAlipayCheckout(Map<String, dynamic> plan) async {
+    if (openingAlipay || store.token.isEmpty) return;
+    if (paymentOffer['available'] != true) await refreshPaymentOffer();
+    if (!mounted || paymentOffer['available'] != true) {
+      if (mounted) message(context, '支付宝会员服务暂未开放');
+      return;
+    }
+    final planId = plan['id'] as String? ?? '';
+    final price = plan['displayPrice'] as String? ?? '';
+    final title = tr(plan['name'] as String? ?? 'VIP');
+    final description = tr(plan['description'] as String? ?? '');
+    var agreed = false;
+    final confirmed = await showDialog<bool>(
         context: context,
-        builder: (dialogContext) => Dialog(
-            insetPadding:
-                const EdgeInsets.symmetric(horizontal: 20, vertical: 32),
-            child: ConstrainedBox(
-                constraints: const BoxConstraints(maxWidth: 560),
-                child: SafeArea(
-                    child: SingleChildScrollView(
-                        padding: const EdgeInsets.fromLTRB(24, 20, 24, 24),
-                        child:
-                            Column(mainAxisSize: MainAxisSize.min, children: [
-                          Row(children: [
-                            Expanded(
-                                child: Text('DentStudy VIP · ¥$price',
-                                    style: const TextStyle(
-                                        fontSize: 22,
-                                        fontWeight: FontWeight.w800))),
-                            IconButton(
-                                tooltip: '关闭',
-                                onPressed: () => Navigator.pop(dialogContext),
-                                icon: const Icon(Icons.close))
-                          ]),
-                          const SizedBox(height: 8),
-                          const Text('会员内测说明',
-                              style: TextStyle(fontWeight: FontWeight.w700)),
-                          const SizedBox(height: 8),
-                          const Text(
-                              '• 新题上限可设置为不限量\n'
-                              '• 小齿深度思考会员额度不限量（以 AI 服务可用性为准）\n'
-                              '• 头像与题目讨论显示金色小牙会员标识\n'
-                              '• 后续上线的会员专属审核题库将自动解锁\n\n'
-                              '现有公开题库始终可正常学习；小齿仅作学习辅助，不提供诊疗建议。',
-                              style: TextStyle(
-                                  height: 1.55, color: Colors.blueGrey)),
-                          const SizedBox(height: 14),
-                          const Text(
-                              '当前为作者内测：商户签约、支付回调验签和退款规则尚未全部完成，因此不会发起扣款或授予会员。',
-                              style: TextStyle(
-                                  fontSize: 12, color: Colors.blueGrey)),
-                          if (providers.isNotEmpty) ...[
-                            const SizedBox(height: 12),
-                            ...providers.map((provider) => ListTile(
-                                dense: true,
-                                contentPadding: EdgeInsets.zero,
-                                leading: Icon(
-                                    provider['id'] == 'alipay'
-                                        ? Icons.account_balance_wallet_outlined
-                                        : Icons.chat_bubble_outline,
-                                    color: teal),
-                                title:
-                                    Text(provider['name'] as String? ?? '支付渠道'),
-                                trailing: Text(
-                                    provider['configured'] == true
-                                        ? '已填写商户标识\n待签约验签'
-                                        : '待绑定',
-                                    textAlign: TextAlign.right,
-                                    style: const TextStyle(
-                                        fontSize: 11.5,
-                                        color: Colors.blueGrey))))
-                          ],
-                          const SizedBox(height: 8),
-                          FilledButton(
-                              onPressed: () => Navigator.pop(dialogContext),
-                              child: const Text('我知道了'))
-                        ]))))));
+        builder: (dialogContext) => StatefulBuilder(
+            builder: (dialogContext, setDialogState) => AlertDialog(
+                    title: Text(tr('确认前往支付宝')),
+                    content: Column(mainAxisSize: MainAxisSize.min, children: [
+                      Align(
+                          alignment: Alignment.centerLeft,
+                          child: Text('DentStudy VIP · $title · ¥$price\n'
+                              '$description\n\n'
+                              '点击“前往支付宝”后会跳转至支付宝收银台；是否付款、扣款金额和支付结果均以支付宝页面为准。支付成功后将返回本站确认会员状态。')),
+                      CheckboxListTile(
+                          contentPadding: EdgeInsets.zero,
+                          controlAffinity: ListTileControlAffinity.leading,
+                          value: agreed,
+                          onChanged: (value) =>
+                              setDialogState(() => agreed = value ?? false),
+                          title: Text(tr('我已阅读会员服务说明与退款规则'),
+                              style: TextStyle(fontSize: 13))),
+                    ]),
+                    actions: [
+                      TextButton(
+                          onPressed: () => Navigator.pop(dialogContext, false),
+                          child: Text(tr('取消'))),
+                      FilledButton(
+                          onPressed: agreed
+                              ? () => Navigator.pop(dialogContext, true)
+                              : null,
+                          child: Text(tr('前往支付宝'))),
+                    ])));
+    if (confirmed != true || !mounted) return;
+    setState(() => openingAlipay = true);
+    try {
+      final result = await store.createAlipayCheckout(planId,
+          mobileWeb: shouldUseAlipayWap());
+      final checkoutUrl = result['checkoutUrl'];
+      if (checkoutUrl is! String || !checkoutUrl.startsWith('https://')) {
+        throw Exception('支付链接无效，请稍后重试');
+      }
+      openAlipayCheckout(checkoutUrl);
+    } catch (error) {
+      if (mounted) message(context, readableImportError(error));
+    } finally {
+      if (mounted) setState(() => openingAlipay = false);
+    }
+  }
+
+  Future<void> refreshSocialBadge() => store.refreshSocialUnread();
+
+  Future<void> openSocialInbox() async {
+    if (store.token.isEmpty) {
+      await showAccountDialog(context, onSuccess: refreshAccountData);
+      if (!mounted || store.token.isEmpty) return;
+    }
+    await Navigator.push<void>(
+        context, MaterialPageRoute(builder: (_) => const SocialInboxPage()));
+    if (mounted) await refreshSocialBadge();
+  }
+
+  Future<void> showPaymentOptions() async {
+    if (store.token.isEmpty) return;
+    await Navigator.push(
+        context, MaterialPageRoute(builder: (_) => const StoneVipPage()));
+    if (mounted) await refreshAccountData();
   }
 
   Future<void> refreshAuthorUserDirectory() async {
@@ -258,7 +375,7 @@ class _ProfilePageState extends State<ProfilePage> {
                 ? '已导入 $imported 道题；这份题库此前已保存。'
                 : '已导入 $imported 道题，现在可以开始练习。');
       }
-      await refreshSubmissionInbox();
+      await Future.wait([refreshSubmissionInbox(), refreshStoneBalance()]);
     } catch (error) {
       updateImportProgress(
           QuestionBankImportStage.partial, '已导入 $imported 道题，但云端保存暂未完成。');
@@ -317,21 +434,21 @@ class _ProfilePageState extends State<ProfilePage> {
             child: Padding(
                 padding: const EdgeInsets.fromLTRB(24, 0, 24, 28),
                 child: Column(mainAxisSize: MainAxisSize.min, children: [
-                  const Text('从 Word / 纯文字生成题库',
+                  Text('从 Word / 纯文字生成题库',
                       style:
                           TextStyle(fontSize: 19, fontWeight: FontWeight.w700)),
                   const SizedBox(height: 8),
-                  const Text('支持 .docx、.txt 或直接粘贴文字；请先确认文件能按题目格式读取。',
+                  Text('支持 .docx、.txt 或直接粘贴文字；请先确认文件能按题目格式读取。',
                       style: TextStyle(color: Colors.blueGrey)),
                   const SizedBox(height: 16),
                   FilledButton.icon(
                       onPressed: () => Navigator.pop(sheetContext, 'file'),
                       icon: const Icon(Icons.upload_file_outlined),
-                      label: const Text('选择 Word / 文本文件')),
+                      label: Text('选择 Word / 文本文件')),
                   TextButton.icon(
                       onPressed: () => Navigator.pop(sheetContext, 'paste'),
                       icon: const Icon(Icons.paste_outlined),
-                      label: const Text('直接粘贴纯文字'))
+                      label: Text('直接粘贴纯文字'))
                 ]))));
     if (choice == null || !mounted) return;
     setState(() {
@@ -411,44 +528,71 @@ class _ProfilePageState extends State<ProfilePage> {
   }
 
   @override
-  Widget build(BuildContext context) => PageBody(children: profile());
+  Widget build(BuildContext context) =>
+      PageBody(controller: _scrollController, children: profile());
   List<Widget> profile() => [
         const SizedBox(height: 24),
         box(Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          Row(children: [
-            UserAvatar(
-                value: accountProfile['avatar'] as String? ?? 'book',
-                radius: 34,
-                vip: accountProfile['isVip'] == true),
-            const SizedBox(width: 16),
-            Expanded(
-                child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                  Text(
-                      store.token.isEmpty
-                          ? '访客同学'
-                          : accountProfile['nickname'] as String? ?? '齿间同学',
-                      style: TextStyle(
-                          fontSize: 23,
-                          fontWeight: FontWeight.w700,
-                          color: ink)),
-                  const SizedBox(height: 5),
-                  Text(
-                      store.token.isEmpty
-                          ? '把进步留在每一天'
-                          : ((accountProfile['university'] as String? ?? '')
-                                  .isEmpty
-                              ? '填写你的就读院校'
-                              : accountProfile['university'] as String),
-                      style: const TextStyle(color: Colors.blueGrey)),
-                ])),
-            if (store.token.isNotEmpty)
+          LayoutBuilder(builder: (context, constraints) {
+            final identity = Row(children: [
+              UserAvatar(
+                  value: accountProfile['avatar'] as String? ?? 'book',
+                  radius: 34,
+                  vip: accountProfile['isVip'] == true),
+              const SizedBox(width: 16),
+              Expanded(
+                  child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                    Text(
+                        store.token.isEmpty
+                            ? '访客同学'
+                            : accountProfile['nickname'] as String? ?? '齿间同学',
+                        style: TextStyle(
+                            fontSize: 23,
+                            fontWeight: FontWeight.w700,
+                            color: ink)),
+                    const SizedBox(height: 5),
+                    Text(
+                        store.token.isEmpty
+                            ? '把进步留在每一天'
+                            : ((accountProfile['university'] as String? ?? '')
+                                    .isEmpty
+                                ? '填写你的就读院校'
+                                : accountProfile['university'] as String),
+                        style: const TextStyle(color: Colors.blueGrey)),
+                  ])),
+            ]);
+            final actions = Row(mainAxisSize: MainAxisSize.min, children: [
+              _StoneWalletEntry(
+                  balance: stoneBalance,
+                  onPressed: () async {
+                    await Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (_) => const StoneWalletPage()));
+                    if (mounted) await refreshStoneBalance();
+                  }),
+              _ProfileMessageButton(onPressed: openSocialInbox),
               IconButton(
-                  tooltip: '编辑个人资料',
+                  tooltip: tr('编辑个人资料'),
                   onPressed: loadingProfile ? null : editProfile,
                   icon: const Icon(Icons.edit_outlined))
-          ]),
+            ]);
+            if (constraints.maxWidth < 460) {
+              return Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    identity,
+                    if (store.token.isNotEmpty)
+                      Align(alignment: Alignment.centerRight, child: actions),
+                  ]);
+            }
+            return Row(children: [
+              Expanded(child: identity),
+              if (store.token.isNotEmpty) actions
+            ]);
+          }),
           if (store.email.isNotEmpty) ...[
             const SizedBox(height: 16),
             Row(children: [
@@ -463,7 +607,7 @@ class _ProfilePageState extends State<ProfilePage> {
                           await safely(context, store.logout);
                           await refreshAccountData();
                         },
-                  child: const Text('退出登录'))
+                  child: Text(tr('退出登录')))
             ])
           ],
           if (store.token.isEmpty) ...[
@@ -472,35 +616,53 @@ class _ProfilePageState extends State<ProfilePage> {
                 onPressed: () =>
                     showAccountDialog(context, onSuccess: refreshAccountData),
                 icon: const Icon(Icons.person_outline),
-                label: const Text('登录 / 注册'))
+                label: Text(tr('登录 / 注册')))
           ]
         ])),
-        if (accountProfile['isAdmin'] == true) ...[
+        if (store.token.isNotEmpty) ...[
           const SizedBox(height: 16),
-          _AuthorVipCard(
-              price: paymentPreview['displayPrice'] as String? ?? '29.90',
-              onOpen: showVipPreview),
+          _AuthorPaymentEntryCard(
+              isVip: accountProfile['isVip'] == true,
+              vipTrial: accountProfile['vipTrial'] == true,
+              vipExpiresAt: accountProfile['vipExpiresAt'] as String?,
+              vipLifetime: accountProfile['vipLifetime'] == true,
+              onOpen: showPaymentOptions),
         ],
-        heading('主题与外观'),
-        box(const AppearanceSettings()),
+        const SizedBox(height: 16),
+        box(ListTile(
+            key: const ValueKey('profile-settings-entry'),
+            contentPadding: EdgeInsets.zero,
+            leading: Icon(Icons.settings_outlined, color: teal),
+            title: Text(tr('设置')),
+            subtitle: Text(tr('主题与外观、学习设置、服务与规则')),
+            trailing: const Icon(Icons.chevron_right),
+            onTap: () => Navigator.push(context,
+                MaterialPageRoute(builder: (_) => const SettingsPage())))),
         heading('导入题库'),
         box(Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          const Text('上传一次即可导入本机练习，并同步到仅作者可见的私密审核箱。'),
+          Text(tr('上传一次即可导入本机练习，并同步到仅作者可见的私密审核箱。')),
           const SizedBox(height: 8),
-          const Text('不会自动进入公开题库。请仅上传你有权分享的资料；不要上传含个人隐私、受限或来源不明的内容。',
+          Text(tr('不会自动进入公开题库。请仅上传你有权分享的资料；不要上传含个人隐私、受限或来源不明的内容。'),
               style: TextStyle(fontSize: 12, color: Colors.blueGrey)),
           const QuestionBankImportHelp(),
           const TextBankSourceRequirements(),
           const SizedBox(height: 14),
-          FilledButton.icon(
-              onPressed: importingBank ? null : pickQuestionBank,
-              icon: const Icon(Icons.upload_file_outlined),
-              label: Text(importingBank ? '正在处理…' : '上传 JSON 题库')),
+          Wrap(
+              spacing: 10,
+              runSpacing: 8,
+              crossAxisAlignment: WrapCrossAlignment.center,
+              children: [
+                FilledButton.icon(
+                    onPressed: importingBank ? null : pickQuestionBank,
+                    icon: const Icon(Icons.upload_file_outlined),
+                    label: Text(tr(importingBank ? '正在处理…' : '上传 JSON 题库'))),
+                _UploadStoneRewardHint(used: dailyUploadRewardCount),
+              ]),
           const SizedBox(height: 8),
           OutlinedButton.icon(
               onPressed: importingBank ? null : importFromWordOrText,
               icon: const Icon(Icons.description_outlined),
-              label: const Text('我只有 Word / 纯文字')),
+              label: Text(tr('我只有 Word / 纯文字'))),
           if (importStage != QuestionBankImportStage.idle)
             QuestionBankImportProgress(
                 stage: importStage, detail: importProgressDetail),
@@ -515,7 +677,7 @@ class _ProfilePageState extends State<ProfilePage> {
                 leading: const Icon(Icons.people_outline),
                 title: Text(
                     '用户目录${authorUserCount == null ? '' : ' · $authorUserCount 人'}'),
-                subtitle: const Text('查看昵称、院校与邮箱'),
+                subtitle: Text('查看昵称、院校与邮箱'),
                 trailing: const Icon(Icons.chevron_right),
                 onTap: () => openAuthorRecords(AuthorRecordKind.users)),
             const Divider(),
@@ -524,15 +686,15 @@ class _ProfilePageState extends State<ProfilePage> {
                 leading: const Icon(Icons.folder_outlined),
                 title: Text(
                     '题库投稿箱${submissionCount == null ? '' : ' · $submissionCount 份'}'),
-                subtitle: const Text('查看用户提交的题库'),
+                subtitle: Text('查看用户提交的题库'),
                 trailing: const Icon(Icons.chevron_right),
                 onTap: () => openAuthorRecords(AuthorRecordKind.submissions)),
             const Divider(),
             ListTile(
                 contentPadding: EdgeInsets.zero,
                 leading: const Icon(Icons.forum_outlined),
-                title: const Text('评论管理'),
-                subtitle: const Text('查看发布者、题目与评论'),
+                title: Text(tr('评论管理')),
+                subtitle: Text(tr('查看发布者、题目与评论')),
                 trailing: const Icon(Icons.chevron_right),
                 onTap: () => Navigator.push(
                     context,
@@ -540,60 +702,6 @@ class _ProfilePageState extends State<ProfilePage> {
                         builder: (_) => const AuthorCommentsPage()))),
           ]))
         ],
-        heading('学习设置'),
-        box(Column(children: [
-          SwitchListTile(
-              contentPadding: EdgeInsets.zero,
-              secondary: Icon(Icons.smart_toy_outlined, color: teal),
-              title: const Text('小齿 · 备考搭子'),
-              subtitle: const Text('右下角聊天陪伴与偶尔问候；聊天不保存记录'),
-              value: store.xiaochiEnabled,
-              onChanged: (value) =>
-                  safely(context, () => store.setXiaochiEnabled(value))),
-          const Divider(),
-          ListTile(
-              contentPadding: EdgeInsets.zero,
-              leading: Icon(Icons.flag_outlined),
-              title: Text('每日学习目标'),
-              subtitle: Text(
-                  '新题上限可自主设置，当前 ${store.dailyNewLimit} · 复习目标 ${store.dailyReviewTarget == null ? '无限制' : store.dailyReviewTarget}'),
-              onTap: goalsDialog),
-          Divider(),
-          SwitchListTile(
-              contentPadding: EdgeInsets.zero,
-              title: Text('每日复习提醒'),
-              subtitle: Text('本地通知 · 北京时间 20:00 · 未来 14 天'),
-              value: store.prefs.getBool('reminders') ?? false,
-              onChanged: (v) => safely(context, () async {
-                    if (v && !await reminders.enable())
-                      throw Exception('通知权限未获允许，请在系统设置中开启');
-                    await store.prefs.setBool('reminders', v);
-                    await reminders.refresh(store);
-                    changed();
-                  })),
-          Divider(),
-          ListTile(
-              contentPadding: EdgeInsets.zero,
-              leading: Icon(Icons.download_for_offline_outlined),
-              title: Text('下载 / 更新离线题库'),
-              subtitle: Text('${store.catalog.countLabel}；断网可答题'),
-              onTap: () => safely(context, () async {
-                    await store.download();
-                    if (mounted) message(context, '离线题库已更新');
-                  })),
-        ])),
-        heading('关于题库'),
-        box(Text(
-            '${store.catalog.countLabel}。\n资料整理题与演示题分别标注审核状态；题量不代表学科覆盖完整。')),
-        heading('服务与规则'),
-        box(ListTile(
-            contentPadding: EdgeInsets.zero,
-            leading: Icon(Icons.policy_outlined, color: teal),
-            title: const Text('服务与规则'),
-            subtitle: const Text('用户协议、隐私说明、版权投诉与数据删除'),
-            trailing: const Icon(Icons.chevron_right),
-            onTap: () => Navigator.push(context,
-                MaterialPageRoute(builder: (_) => const PolicyPage())))),
         const SizedBox(height: 20),
         const Text(
             '齿间 DentStudy · ${BuildInfo.version}\n更新于 ${BuildInfo.builtAt}',
@@ -605,98 +713,169 @@ class _ProfilePageState extends State<ProfilePage> {
     await showProfileEditor(context, initialProfile: accountProfile);
     if (mounted) await refreshAccountData();
   }
-
-  Future<void> goalsDialog() async {
-    final newField = TextEditingController(text: '${store.dailyNewLimit}');
-    final reviewField =
-        TextEditingController(text: '${store.dailyReviewTarget ?? 20}');
-    var unlimited = store.dailyReviewTarget == null;
-    final result = await showDialog<(int, int?)>(
-        context: context,
-        builder: (c) => StatefulBuilder(
-            builder: (c, set) => AlertDialog(
-                    title: Text('每日学习目标'),
-                    content: Column(mainAxisSize: MainAxisSize.min, children: [
-                      TextField(
-                          controller: newField,
-                          keyboardType: TextInputType.number,
-                          decoration: InputDecoration(
-                              labelText: '每日新题上限（0–1,000,000）')),
-                      SizedBox(height: 12),
-                      SwitchListTile(
-                          contentPadding: EdgeInsets.zero,
-                          title: Text('复习题不设上限'),
-                          value: unlimited,
-                          onChanged: (v) => set(() => unlimited = v)),
-                      if (!unlimited)
-                        TextField(
-                            controller: reviewField,
-                            keyboardType: TextInputType.number,
-                            decoration:
-                                InputDecoration(labelText: '每日复习题目标（0–200）')),
-                      SizedBox(height: 8),
-                      Text('复习与学习新题可自主安排；新题上限只限制当天新增题数。',
-                          style:
-                              TextStyle(fontSize: 12, color: Colors.blueGrey)),
-                    ]),
-                    actions: [
-                      TextButton(
-                          onPressed: () => Navigator.pop(c), child: Text('取消')),
-                      FilledButton(
-                          onPressed: () {
-                            final n = int.tryParse(newField.text),
-                                r = unlimited
-                                    ? null
-                                    : int.tryParse(reviewField.text);
-                            if (n == null ||
-                                n < 0 ||
-                                n > 1000000 ||
-                                (!unlimited &&
-                                    (r == null || r < 0 || r > 200))) {
-                              message(c, '新题上限为 0–1,000,000；复习目标为 0–200');
-                              return;
-                            }
-                            Navigator.pop(c, (n, r));
-                          },
-                          child: Text('保存'))
-                    ])));
-    if (result != null && mounted)
-      await safely(context, () async {
-        await store.setGoals(result.$1, result.$2);
-        await reminders.refresh(store);
-      });
-  }
 }
 
-/// This card is deliberately rendered only after the server has identified
-/// the signed-in author. It is an internal product preview, not a client-side
-/// way to grant or purchase membership.
-class _AuthorVipCard extends StatelessWidget {
-  final String price;
+/// Membership details are available to every signed-in learner.  Checkout is
+/// intentionally unavailable while the question bank is being prepared.
+class _AuthorPaymentEntryCard extends StatelessWidget {
+  final bool isVip;
+  final bool vipTrial;
+  final String? vipExpiresAt;
+  final bool vipLifetime;
   final VoidCallback onOpen;
-  const _AuthorVipCard({required this.price, required this.onOpen});
+  const _AuthorPaymentEntryCard(
+      {required this.isVip,
+      required this.vipTrial,
+      required this.vipExpiresAt,
+      required this.vipLifetime,
+      required this.onOpen});
+
+  String get _validity {
+    if (vipLifetime) return tr('终身有效');
+    final moment = DateTime.tryParse(vipExpiresAt ?? '')?.toUtc();
+    if (moment == null) return tr('会员有效期正在确认');
+    final beijing = moment.add(const Duration(hours: 8));
+    return tr(
+        '会员有效至 ${beijing.year}年${beijing.month}月${beijing.day}日 ${beijing.hour.toString().padLeft(2, '0')}:${beijing.minute.toString().padLeft(2, '0')}（北京时间）');
+  }
 
   @override
   Widget build(BuildContext context) =>
       box(Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
         Row(children: [
-          Icon(Icons.workspace_premium_outlined, color: teal),
+          const VipEmblem(size: 30),
           const SizedBox(width: 9),
-          const Expanded(
-              child: Text('VIP 支付内测',
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.w800))),
-          const Text('仅作者可见',
+          Expanded(
+              child: Text(
+                  tr(vipTrial
+                      ? '新用户 7 天 VIP 体验'
+                      : (isVip ? '你已经是 VIP 会员' : '会员支付')),
+                  style: const TextStyle(
+                      fontSize: 16, fontWeight: FontWeight.w800))),
+          Text(tr('会员详情'),
               style: TextStyle(fontSize: 11.5, color: Colors.blueGrey))
         ]),
-        const SizedBox(height: 7),
-        const Text('¥29.90 · 会员权益与支付渠道预览',
-            style: TextStyle(color: Colors.blueGrey)),
-        const SizedBox(height: 12),
-        FilledButton.icon(
-            onPressed: onOpen,
-            icon: const Icon(Icons.payments_outlined),
-            label: Text('开通 VIP · ¥$price'))
+        const SizedBox(height: 10),
+        if (isVip) ...[
+          Text(_validity, style: const TextStyle(color: Colors.blueGrey)),
+          const SizedBox(height: 10),
+        ],
+        if (!isVip) ...[
+          Text(tr('题库还在搭建，请勿充值。'),
+              style: TextStyle(color: Colors.deepOrange, fontSize: 12.5)),
+          const SizedBox(height: 10),
+        ],
+        SizedBox(
+            width: double.infinity,
+            child: FilledButton.icon(
+                onPressed: onOpen,
+                icon: const VipEmblem(size: 23),
+                label: Text(tr(isVip ? '查看续费方案' : '了解会员详情'))))
       ]));
+}
+
+class _ProfileMessageButton extends StatelessWidget {
+  final VoidCallback onPressed;
+  const _ProfileMessageButton({required this.onPressed});
+
+  @override
+  Widget build(BuildContext context) => ListenableBuilder(
+      listenable: store,
+      builder: (_, __) => IconButton(
+          tooltip: tr('消息'),
+          onPressed: onPressed,
+          icon: UnreadDot(
+              visible: store.socialUnreadCount > 0,
+              dotKey: const ValueKey('profile-message-unread-dot'),
+              child: const Icon(Icons.forum_outlined))));
+}
+
+/// Keeps the question-bank reward rule beside the action that earns it.  The
+/// count comes from the signed-in user's stone ledger and never exposes a
+/// submission or reward record belonging to somebody else.
+class _UploadStoneRewardHint extends StatelessWidget {
+  final int? used;
+
+  const _UploadStoneRewardHint({required this.used});
+
+  @override
+  Widget build(BuildContext context) {
+    final count = used == null ? '…' : '$used';
+    return Semantics(
+        label: '每日上传题库成功获得一颗羟基磷灰石，今日已获得 $count 颗，上限 3 颗',
+        child: Container(
+            key: const ValueKey('question-bank-upload-stone-reward'),
+            padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 7),
+            decoration: BoxDecoration(
+                color: const Color(0xfffff6d9),
+                borderRadius: BorderRadius.circular(12),
+                border:
+                    Border.all(color: const Color(0xffd9a42a).withAlpha(110))),
+            child: Wrap(
+                crossAxisAlignment: WrapCrossAlignment.center,
+                spacing: 4,
+                runSpacing: 4,
+                children: [
+                  Text('每日上传成功',
+                      style:
+                          TextStyle(fontSize: 12, fontWeight: FontWeight.w700)),
+                  const SizedBox(width: 4),
+                  const StoneCoinIcon(size: 18),
+                  const SizedBox(width: 2),
+                  Text('+1',
+                      style:
+                          TextStyle(fontSize: 12, fontWeight: FontWeight.w800)),
+                  Text(' · 上限 ', style: TextStyle(fontSize: 12)),
+                  Text('$count/3',
+                      style: const TextStyle(
+                          fontSize: 12, fontWeight: FontWeight.w800)),
+                ])));
+  }
+}
+
+/// A compact balance affordance in the profile card.  It deliberately uses
+/// the supplied tooth-coin artwork rather than a generic material icon, so
+/// the same currency is recognizable before the learner opens the wallet.
+class _StoneWalletEntry extends StatelessWidget {
+  final int? balance;
+  final VoidCallback onPressed;
+
+  const _StoneWalletEntry({required this.balance, required this.onPressed});
+
+  @override
+  Widget build(BuildContext context) {
+    final label = balance == null ? '羟基磷灰石' : '羟基磷灰石余额 $balance 颗';
+    return Semantics(
+        button: true,
+        label: label,
+        child: Tooltip(
+            message: label,
+            child: Material(
+                color: Colors.transparent,
+                child: InkWell(
+                    key: const ValueKey('stone-wallet-entry'),
+                    borderRadius: BorderRadius.circular(18),
+                    onTap: onPressed,
+                    child: Padding(
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 8, vertical: 7),
+                        child: Row(mainAxisSize: MainAxisSize.min, children: [
+                          Container(
+                              width: 30,
+                              height: 30,
+                              padding: const EdgeInsets.all(2),
+                              decoration: BoxDecoration(
+                                  color: const Color(0xfffff4c9),
+                                  borderRadius: BorderRadius.circular(15)),
+                              child: const StoneIcon(size: 26)),
+                          const SizedBox(width: 5),
+                          Text(balance?.toString() ?? '…',
+                              style: TextStyle(
+                                  color: ink,
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.w800)),
+                        ]))))));
+  }
 }
 
 Future<void> showAccountDialog(BuildContext context,
@@ -716,12 +895,24 @@ Future<void> showAccountDialog(BuildContext context,
       barrierDismissible: false,
       builder: (c) => StatefulBuilder(
           builder: (c, set) => AlertDialog(
-                  title: Text(register ? '创建学习账号' : '登录学习账号'),
+                  title: Text(tr(register ? '创建学习账号' : '登录学习账号')),
                   content: AutofillGroup(
                       onDisposeAction: AutofillContextAction.cancel,
                       child: SingleChildScrollView(
                           child:
                               Column(mainAxisSize: MainAxisSize.min, children: [
+                        Align(
+                            alignment: Alignment.centerLeft,
+                            child: LanguageSelector(
+                                compact: true,
+                                value: store.languageCode,
+                                onChanged: busy
+                                    ? null
+                                    : (value) async {
+                                        await store.setLanguage(value);
+                                        if (c.mounted) set(() {});
+                                      })),
+                        const SizedBox(height: 12),
                         TextField(
                             controller: email,
                             autofillHints: remember
@@ -732,7 +923,7 @@ Future<void> showAccountDialog(BuildContext context,
                                 : null,
                             autocorrect: false,
                             keyboardType: TextInputType.emailAddress,
-                            decoration: InputDecoration(labelText: '邮箱')),
+                            decoration: InputDecoration(labelText: tr('邮箱'))),
                         SizedBox(height: 10),
                         TextField(
                             controller: password,
@@ -747,7 +938,7 @@ Future<void> showAccountDialog(BuildContext context,
                             autocorrect: false,
                             obscureText: true,
                             decoration:
-                                InputDecoration(labelText: '密码（至少10位）')),
+                                InputDecoration(labelText: tr('密码（至少10位）'))),
                         if (register) ...[
                           SizedBox(height: 10),
                           TextField(
@@ -756,9 +947,10 @@ Future<void> showAccountDialog(BuildContext context,
                                   ? const [AutofillHints.newPassword]
                                   : null,
                               obscureText: true,
-                              decoration: InputDecoration(labelText: '确认密码')),
+                              decoration:
+                                  InputDecoration(labelText: tr('确认密码'))),
                           SizedBox(height: 10),
-                          const Text('务必记住密码，目前忘记密码无法找回！！！',
+                          Text(tr('务必记住密码，目前忘记密码无法找回！！！'),
                               style: TextStyle(
                                   fontSize: 12,
                                   fontWeight: FontWeight.w700,
@@ -768,28 +960,28 @@ Future<void> showAccountDialog(BuildContext context,
                         CheckboxListTile(
                             contentPadding: EdgeInsets.zero,
                             controlAffinity: ListTileControlAffinity.leading,
-                            title: const Text('记住密码'),
-                            subtitle: const Text('由浏览器或系统密码管理器保存',
+                            title: Text(tr('记住登录状态')),
+                            subtitle: Text(tr('密码仅交由浏览器或系统密码管理器保存'),
                                 style: TextStyle(fontSize: 12)),
                             value: remember,
                             onChanged: busy
                                 ? null
                                 : (value) =>
                                     set(() => remember = value ?? false)),
-                        Text('账号学习进度会自动同步；访客记录保留在本机。',
+                        Text(tr('账号学习进度会自动同步；访客记录保留在本机。'),
                             style: TextStyle(fontSize: 12)),
                         if (error != null)
-                          Text(error!, style: TextStyle(color: Colors.red)),
+                          Text(tr(error!), style: TextStyle(color: Colors.red)),
                         TextButton(
                             onPressed: busy
                                 ? null
                                 : () => set(() => register = !register),
-                            child: Text(register ? '已有账号？登录' : '没有账号？注册'))
+                            child: Text(tr(register ? '已有账号？登录' : '没有账号？注册')))
                       ]))),
                   actions: [
                     TextButton(
                         onPressed: busy ? null : () => Navigator.pop(c),
-                        child: Text('取消')),
+                        child: Text(tr('取消'))),
                     FilledButton(
                         onPressed: busy
                             ? null
@@ -824,7 +1016,7 @@ Future<void> showAccountDialog(BuildContext context,
                                     });
                                 }
                               },
-                        child: Text(busy ? '连接中…' : '继续'))
+                        child: Text(tr(busy ? '连接中…' : '继续')))
                   ])));
   Future.delayed(const Duration(milliseconds: 400), () {
     email.dispose();

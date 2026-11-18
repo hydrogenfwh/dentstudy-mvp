@@ -1,13 +1,11 @@
 import 'session_journal.dart';
 import 'session_summary.dart';
 import 'question_tools.dart';
+import 'practice_widgets.dart';
 import 'package:flutter/material.dart';
 import '../../models.dart';
 import '../../store.dart';
-import '../../app/shared.dart' show teal, ink, box;
-
-Color get _ink => ink;
-Color get _teal => teal;
+import '../../app/language_state.dart';
 
 class BatchStudySession extends StatefulWidget {
   final List<Question> questions;
@@ -56,53 +54,85 @@ class _BatchStudySessionState extends State<BatchStudySession> {
     super.initState();
     final data = widget.journal.data;
     index = (data['index'] as int? ?? 0).clamp(0, widget.questions.length - 1);
-    answers.addAll(Map<String, String>.from(data['answers'] ?? {}));
+    answers.addAll(widget.journal.answers);
     reviewing = data['reviewing'] == true;
-    grades.addAll(Map<String, String>.from(data['grades'] ?? {}));
-    finished = widget.journal.saved.length == widget.questions.length;
+    final saved = widget.journal.saved;
+    finished = data['finished'] == true ||
+        widget.questions.every((item) => saved.contains(item.id));
+    final firstUnanswered = _firstUnanswered;
+    if (reviewing && !finished && firstUnanswered != -1) {
+      reviewing = false;
+      index = firstUnanswered;
+    } else if (reviewing && !finished) {
+      final previousGrades = data['grades'] as Map? ?? {};
+      for (final item in widget.questions) {
+        final grade = previousGrades[item.id];
+        if (item.answer != null && answers[item.id] != item.answer) {
+          grades[item.id] = 'wrong';
+        } else if (grade == 'wrong' ||
+            grade == 'guessed' ||
+            grade == 'mastered') {
+          grades[item.id] = grade as String;
+        }
+      }
+    }
     restoring = false;
-    if (finished) widget.journal.capture({'finished': true});
+    widget.journal.capture(snapshot());
   }
 
   Question get question => widget.questions[index];
+  int get _firstUnanswered => widget.questions
+      .indexWhere((item) => (answers[item.id] ?? '').trim().isEmpty);
 
   Future<bool> _confirmLeave() async {
-    if (busy) return false;
+    if (busy || leaving) return false;
     if (finished) return true;
-    final confirmed = await showDialog<bool>(
-          context: context,
-          builder: (context) => AlertDialog(
-            title: Text('结束批量刷题？'),
-            content: Text('答案和当前进度会保留；整批提交后才更新复习排期。'),
-            actions: [
-              TextButton(
-                onPressed: () => Navigator.pop(context, false),
-                child: Text('继续'),
-              ),
-              FilledButton(
-                onPressed: () => Navigator.pop(context, true),
-                child: Text('结束'),
-              ),
-            ],
-          ),
-        ) ??
-        false;
-    if (confirmed) {
+    super.setState(() => busy = true);
+    try {
       await widget.journal.capture(snapshot());
-      if (widget.journal.error != null) {
-        if (mounted)
-          ScaffoldMessenger.of(context)
-              .showSnackBar(SnackBar(content: Text(widget.journal.error!)));
-        return false;
+      final error = widget.journal.error;
+      if (error == null) return true;
+      if (mounted) {
+        ScaffoldMessenger.of(context)
+            .showSnackBar(SnackBar(content: Text(error)));
       }
+      return false;
+    } finally {
+      if (mounted) super.setState(() => busy = false);
     }
-    return confirmed;
   }
 
-  void _nextQuestion() {
-    if ((answers[question.id] ?? '').trim().isEmpty) return;
+  Future<void> _nextQuestion(Question expected) async {
+    if (busy ||
+        finished ||
+        reviewing ||
+        expected.id != question.id ||
+        (answers[expected.id] ?? '').trim().isEmpty) {
+      return;
+    }
     if (index + 1 < widget.questions.length) {
-      setState(() => index++);
+      setState(() {
+        busy = true;
+        index++;
+      });
+      try {
+        await widget.journal.capture(snapshot());
+        if (widget.journal.error != null) {
+          throw Exception(widget.journal.error);
+        }
+      } catch (error) {
+        if (mounted) {
+          ScaffoldMessenger.of(context)
+              .showSnackBar(SnackBar(content: Text('续练记录保存失败，请重试：$error')));
+        }
+      } finally {
+        if (mounted) setState(() => busy = false);
+      }
+      return;
+    }
+    final firstUnanswered = _firstUnanswered;
+    if (firstUnanswered != -1) {
+      setState(() => index = firstUnanswered);
       return;
     }
     for (final item in widget.questions) {
@@ -116,12 +146,49 @@ class _BatchStudySessionState extends State<BatchStudySession> {
     });
   }
 
+  Future<void> _nextReviewQuestion(Question expected) async {
+    if (busy ||
+        finished ||
+        !reviewing ||
+        expected.id != question.id ||
+        !grades.containsKey(expected.id)) {
+      return;
+    }
+    if (index + 1 < widget.questions.length) {
+      setState(() {
+        busy = true;
+        index++;
+      });
+      try {
+        await widget.journal.capture(snapshot());
+        if (widget.journal.error != null) {
+          throw Exception(widget.journal.error);
+        }
+      } catch (error) {
+        if (mounted) {
+          ScaffoldMessenger.of(context)
+              .showSnackBar(SnackBar(content: Text('续练记录保存失败，请重试：$error')));
+        }
+      } finally {
+        if (mounted) setState(() => busy = false);
+      }
+      return;
+    }
+    final ungraded =
+        widget.questions.indexWhere((item) => !grades.containsKey(item.id));
+    if (ungraded == -1) {
+      _submit();
+    } else {
+      setState(() => index = ungraded);
+    }
+  }
+
   Future<void> _submit() async {
-    if (busy || grades.length != widget.questions.length) return;
     setState(() => busy = true);
     try {
+      final saved = widget.journal.saved;
       final additions = widget.questions
-          .where((item) => !widget.journal.saved.contains(item.id))
+          .where((item) => !saved.contains(item.id))
           .map((item) => <String, dynamic>{
                 'questionId': item.id,
                 'kind': 'review',
@@ -135,10 +202,10 @@ class _BatchStudySessionState extends State<BatchStudySession> {
       // These are the same review events as deep mode. StudyStore's existing
       // reducer schedules them offline; the server reducer recalculates them
       // on sync. No scheduling algorithm is duplicated here.
-      await widget.store.addMany(additions);
+      if (additions.isNotEmpty) await widget.store.addMany(additions);
       if (!mounted) return;
-      await widget.journal.capture(snapshot());
-      await widget.journal.finish();
+      await widget.journal.finish(snapshot());
+      if (!mounted) return;
       setState(() {
         busy = false;
         finished = true;
@@ -152,206 +219,185 @@ class _BatchStudySessionState extends State<BatchStudySession> {
   }
 
   @override
-  Widget build(BuildContext context) => PopScope(
-        canPop: (finished || leaving) && !busy,
-        onPopInvokedWithResult: (didPop, result) async {
-          if (!didPop && await _confirmLeave() && context.mounted) {
-            setState(() => leaving = true);
-            WidgetsBinding.instance.addPostFrameCallback((_) {
-              if (context.mounted) Navigator.pop(context);
-            });
-          }
-        },
+  Widget build(BuildContext context) => ValueListenableBuilder<bool>(
+        valueListenable: widget.journal.checkpointReady,
+        builder: (context, ready, child) => PopScope(
+          canPop: !busy && (finished || leaving || ready),
+          onPopInvokedWithResult: (didPop, result) async {
+            if (!didPop && await _confirmLeave() && context.mounted) {
+              setState(() => leaving = true);
+              WidgetsBinding.instance.addPostFrameCallback((_) {
+                if (context.mounted &&
+                    ModalRoute.of(context)?.isCurrent == true) {
+                  Navigator.pop(context);
+                }
+              });
+            }
+          },
+          child: child!,
+        ),
         child: Scaffold(
           appBar: AppBar(
-            title: Text(finished
-                ? '批量刷题完成'
-                : reviewing
-                    ? '统一查看解析'
-                    : '批量刷题'),
-          ),
-          body: SafeArea(
-            child: Align(
-              alignment: Alignment.topCenter,
-              child: ConstrainedBox(
-                constraints: BoxConstraints(maxWidth: 800),
-                child: ListView(
-                  padding: EdgeInsets.all(20),
-                  children: finished
-                      ? _finishedView()
-                      : reviewing
-                          ? _reviewView()
-                          : _answerView(),
-                ),
-              ),
+            title: Text(
+              tr(finished
+                  ? '批量刷题完成'
+                  : reviewing
+                      ? '统一查看解析'
+                      : '批量刷题'),
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
             ),
+          ),
+          body: PracticeScrollView(
+            page: (finished, reviewing, finished ? null : question.id),
+            children: finished
+                ? [SessionSummary(journal: widget.journal)]
+                : reviewing
+                    ? _reviewView(context)
+                    : _answerView(),
           ),
         ),
       );
 
   List<Widget> _answerView() {
-    final selected = answers[question.id];
+    final item = question;
+    final selected = answers[item.id];
     return [
-      QuestionTools(question: question, store: widget.store),
-      _progress(),
-      SizedBox(height: 24),
-      Wrap(
-          spacing: 8,
-          children: [_pill(question.type), _pill(question.subject)]),
-      if (question.sharedStem.isNotEmpty) ...[
-        SizedBox(height: 16),
-        _card(Text(question.sharedStem,
-            style: TextStyle(fontSize: 15, height: 1.7))),
-      ],
-      SizedBox(height: 20),
-      Text(question.stem,
-          style: TextStyle(
-              fontSize: 21, height: 1.7, fontWeight: FontWeight.w600)),
-      SizedBox(height: 22),
-      if (question.answer != null)
-        ...question.options.entries.map((option) => Padding(
-              padding: EdgeInsets.only(bottom: 12),
-              child: OutlinedButton(
-                onPressed: () =>
-                    setState(() => answers[question.id] = option.key),
-                style: OutlinedButton.styleFrom(
-                  alignment: Alignment.centerLeft,
-                  padding: EdgeInsets.all(18),
-                  backgroundColor: selected == option.key
-                      ? _teal.withAlpha(18)
-                      : Colors.white,
-                  side: BorderSide(
-                      color:
-                          selected == option.key ? _teal : Color(0xFFDDE5DF)),
-                ),
-                child: Text('${option.key}　${option.value}',
-                    style: TextStyle(color: _ink, fontSize: 16)),
-              ),
-            ))
+      PracticeProgress(
+        index: index,
+        count: widget.questions.length,
+        caption: tr('完成作答后统一看解析'),
+      ),
+      PracticeQuestionStem(question: item),
+      QuestionTools(question: item, store: widget.store),
+      if (item.isMultipleChoice)
+        Padding(
+          padding: const EdgeInsets.only(bottom: 8),
+          child: Text(tr('多选题 · 选完后进入下一题')),
+        ),
+      if (item.answer != null)
+        for (final option in item.options.entries)
+          PracticeOption(
+            question: item,
+            option: option,
+            answer: selected,
+            onPressed: () {
+              if (question.id == item.id && !reviewing && !busy) {
+                setState(() => answers[item.id] =
+                    item.choose(answers[item.id], option.key));
+              }
+            },
+          )
       else
         TextFormField(
-          key: ValueKey(question.id),
+          key: ValueKey(item.id),
           initialValue: selected,
-          minLines: 5,
-          maxLines: 10,
-          decoration: InputDecoration(hintText: '写下你的分析要点'),
-          onChanged: (value) => setState(() => answers[question.id] = value),
+          minLines: 3,
+          maxLines: 6,
+          enabled: !busy,
+          decoration: InputDecoration(labelText: tr('写下你的分析要点')),
+          onChanged: (value) {
+            if (!busy) setState(() => answers[item.id] = value);
+          },
         ),
-      SizedBox(height: 18),
-      Row(children: [
-        OutlinedButton(
-          onPressed: index == 0 ? null : () => setState(() => index--),
-          child: Text('上一题'),
+      const SizedBox(height: 12),
+      PracticeNavigation(
+        previous: _previous(item, review: false),
+        next: FilledButton(
+          onPressed: busy || (selected ?? '').trim().isEmpty
+              ? null
+              : () => _nextQuestion(item),
+          child:
+              Text(tr(index + 1 == widget.questions.length ? '完成作答' : '下一题')),
         ),
-        Spacer(),
-        FilledButton(
-          onPressed: (selected ?? '').trim().isEmpty ? null : _nextQuestion,
-          child: Text(index + 1 == widget.questions.length ? '完成作答' : '下一题'),
-        ),
-      ]),
-      SizedBox(height: 12),
-      Text(
-          '已作答 ${answers.values.where((a) => a.trim().isNotEmpty).length} / ${widget.questions.length} · 完成本批后统一看解析',
-          style: TextStyle(fontSize: 12, color: Colors.blueGrey)),
+      ),
     ];
   }
 
-  List<Widget> _reviewView() {
-    final answer = answers[question.id]!;
-    final wrong = question.answer != null && answer != question.answer;
-    final grade = grades[question.id];
+  List<Widget> _reviewView(BuildContext context) {
+    final item = question;
+    final answer = answers[item.id] ?? '';
+    final wrong = item.answer != null && answer != item.answer;
+    final grade = grades[item.id];
+    final colors = Theme.of(context).colorScheme;
+    final last = index + 1 == widget.questions.length;
+    final nextLabel = !last
+        ? '下一题解析'
+        : grades.length == widget.questions.length
+            ? '整批提交'
+            : '继续评级';
     return [
-      QuestionTools(question: question, store: widget.store),
-      _progress(),
-      SizedBox(height: 22),
-      Text(question.stem,
-          style: TextStyle(
-              fontSize: 20, height: 1.6, fontWeight: FontWeight.w600)),
-      SizedBox(height: 12),
-      Text('你的作答：$answer',
-          style: TextStyle(
-              color: wrong ? Colors.deepOrange : _teal,
-              fontWeight: FontWeight.w600)),
-      SizedBox(height: 16),
-      _card(Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-        Text('参考答案：${question.answer ?? question.data['rubric']}',
-            style: TextStyle(color: _teal, fontWeight: FontWeight.bold)),
-        SizedBox(height: 12),
-        SourceDetails(question: question),
-        Text(question.explanation, style: TextStyle(height: 1.75, color: _ink)),
-        QuestionLearningSupport(question: question, store: widget.store),
-      ])),
-      SizedBox(height: 18),
-      if (wrong)
-        ListTile(
-          contentPadding: EdgeInsets.zero,
-          leading: Icon(Icons.error_outline, color: Colors.deepOrange),
-          title: Text('客观题答错，已自动标记“做错”'),
-          subtitle: Text('整批提交后进入复习队列，无需再次确认。'),
-        )
-      else ...[
-        Text('请确认掌握程度', style: TextStyle(fontWeight: FontWeight.bold)),
-        SizedBox(height: 10),
-        Wrap(spacing: 8, runSpacing: 8, children: [
-          _gradeChoice('做错', 'wrong', Colors.deepOrange, grade),
-          _gradeChoice('蒙对 / 不稳', 'guessed', Color(0xFFA77625), grade),
-          _gradeChoice('完全掌握', 'mastered', _teal, grade),
+      PracticeProgress(
+        index: index,
+        count: widget.questions.length,
+        caption: tr('解析与评级'),
+      ),
+      PracticeQuestionStem(question: item),
+      QuestionTools(question: item, store: widget.store),
+      if (item.answer != null)
+        for (final option in item.options.entries)
+          PracticeOption(
+              question: item, option: option, answer: answer, revealed: true),
+      Text('${tr('你的作答：')}${answer.isEmpty ? tr('未作答') : answer}'),
+      const SizedBox(height: 8),
+      PracticeExplanation(
+        question: item,
+        result: item.answer == null
+            ? null
+            : Text(
+                tr(wrong ? '客观题答错，已自动标记“做错”' : '回答正确'),
+                style: TextStyle(
+                  color: wrong ? colors.error : colors.primary,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+      ),
+      if (!wrong) ...[
+        const SizedBox(height: 12),
+        Text(tr('请确认掌握程度'),
+            style: const TextStyle(fontWeight: FontWeight.bold)),
+        const SizedBox(height: 6),
+        Wrap(spacing: 8, runSpacing: 4, children: [
+          for (final choice in const [
+            ('做错', 'wrong'),
+            ('蒙对 / 不稳', 'guessed'),
+            ('完全掌握', 'mastered'),
+          ])
+            ChoiceChip(
+              label: Text(tr(choice.$1)),
+              selected: grade == choice.$2,
+              materialTapTargetSize: MaterialTapTargetSize.padded,
+              onSelected: busy
+                  ? null
+                  : (_) {
+                      if (!busy && question.id == item.id && reviewing) {
+                        setState(() => grades[item.id] = choice.$2);
+                      }
+                    },
+            ),
         ]),
       ],
-      SizedBox(height: 22),
-      Row(children: [
-        OutlinedButton(
-          onPressed: index == 0 ? null : () => setState(() => index--),
-          child: Text('上一题'),
+      const SizedBox(height: 12),
+      PracticeNavigation(
+        previous: _previous(item, review: true),
+        next: FilledButton(
+          onPressed:
+              busy || grade == null ? null : () => _nextReviewQuestion(item),
+          child: Text(tr(busy ? '保存中…' : nextLabel)),
         ),
-        Spacer(),
-        FilledButton(
-          onPressed: grade == null
-              ? null
-              : index + 1 < widget.questions.length
-                  ? () => setState(() => index++)
-                  : _submit,
-          child: Text(index + 1 == widget.questions.length
-              ? busy
-                  ? '保存中…'
-                  : '整批提交'
-              : '下一题解析'),
-        ),
-      ]),
+      ),
+      QuestionLearningSupport(question: item, store: widget.store),
     ];
   }
 
-  Widget _gradeChoice(
-          String text, String value, Color color, String? selected) =>
-      FilledButton(
-        onPressed: () => setState(() => grades[question.id] = value),
-        style: FilledButton.styleFrom(
-            backgroundColor: selected == value ? color : color.withAlpha(150)),
-        child: Text(selected == value ? '✓ $text' : text),
+  Widget _previous(Question item, {required bool review}) => OutlinedButton(
+        onPressed: index == 0 || busy
+            ? null
+            : () {
+                if (!busy && reviewing == review && question.id == item.id) {
+                  setState(() => index--);
+                }
+              },
+        child: Text(tr('上一题')),
       );
-
-  List<Widget> _finishedView() => [SessionSummary(journal: widget.journal)];
-
-  Widget _progress() => Column(children: [
-        Row(children: [
-          Text('${index + 1} / ${widget.questions.length}',
-              style: TextStyle(color: _teal, fontWeight: FontWeight.bold)),
-          Spacer(),
-          Text(reviewing ? '解析与评级' : '连续作答',
-              style: TextStyle(fontSize: 12, color: Colors.blueGrey)),
-        ]),
-        SizedBox(height: 10),
-        LinearProgressIndicator(
-            value: (index + 1) / widget.questions.length,
-            minHeight: 5,
-            color: _teal),
-      ]);
-
-  Widget _card(Widget child) => box(child);
-
-  Widget _pill(String text) => Container(
-      padding: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-      decoration: BoxDecoration(
-          color: _teal.withAlpha(16), borderRadius: BorderRadius.circular(8)),
-      child: Text(text, style: TextStyle(fontSize: 12, color: _teal)));
 }

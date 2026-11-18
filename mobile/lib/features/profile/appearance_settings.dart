@@ -29,7 +29,7 @@ class _AppearanceSettingsState extends State<AppearanceSettings> {
     final value =
         background ? store.customBackgroundKey : store.customPrimaryKey;
     return InputDecorator(
-        decoration: InputDecoration(labelText: background ? '淡背景色' : '主色调'),
+        decoration: InputDecoration(labelText: tr(background ? '淡背景色' : '主色调')),
         child: DropdownButtonHideUnderline(
             child: DropdownButton<String>(
                 key: ValueKey(background
@@ -44,7 +44,7 @@ class _AppearanceSettingsState extends State<AppearanceSettings> {
                         child: Row(children: [
                           _swatch(key, pale: background),
                           const SizedBox(width: 10),
-                          Text(themeNames[key]!)
+                          Text(tr(themeNames[key]!))
                         ])))
                     .toList(),
                 onChanged: (key) {
@@ -74,13 +74,13 @@ class _AppearanceSettingsState extends State<AppearanceSettings> {
       if (file.bytes == null ||
           !const ['jpg', 'jpeg', 'png', 'webp']
               .contains(file.extension?.toLowerCase())) {
-        throw Exception('请选择 JPG、PNG 或 WebP 格式的图片');
+        throw Exception(tr('请选择 JPG、PNG 或 WebP 格式的图片'));
       }
       final prepared = await prepareBackgroundImage(file.bytes!);
       await store.setCustomBackground(prepared);
       if (mounted) {
         message(context,
-            '背景已保存，并按图片主色匹配为${themeNames[prepared.suggestedThemeKey]}主题');
+            tr('背景已保存，并按图片主色匹配为${themeNames[prepared.suggestedThemeKey]}主题'));
       }
     } catch (error) {
       if (mounted) {
@@ -117,9 +117,9 @@ class _AppearanceSettingsState extends State<AppearanceSettings> {
                           tint: backgroundTint,
                           borderColor: Colors.transparent,
                           padding: const EdgeInsets.all(16),
-                          child: const Center(
-                              child: Text('玻璃预览',
-                                  style: TextStyle(
+                          child: Center(
+                              child: Text(tr('玻璃预览'),
+                                  style: const TextStyle(
                                       fontSize: 17,
                                       fontWeight: FontWeight.w700))))))
             ])));
@@ -134,22 +134,22 @@ class _AppearanceSettingsState extends State<AppearanceSettings> {
       radius: 16,
       padding: const EdgeInsets.all(16),
       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-        const Row(children: [
-          Icon(Icons.wallpaper_outlined),
-          SizedBox(width: 10),
-          Text('自定义图片背景',
+        Row(children: [
+          const Icon(Icons.wallpaper_outlined),
+          const SizedBox(width: 10),
+          Text(tr('自定义图片背景'),
               style: TextStyle(fontWeight: FontWeight.w700, fontSize: 16))
         ]),
         const SizedBox(height: 8),
-        const Text(
-            '仅保存在本设备，不上传服务器、不参与账号同步。支持 JPG / PNG / WebP；原图不超过 8 MB，建议 16:9 或 9:16 图片。系统会压缩为适合网页本机保存的背景，暂不支持 HEIC、GIF、PDF 或截图文件夹。',
-            style:
-                TextStyle(fontSize: 12, height: 1.5, color: Colors.blueGrey)),
+        Text(
+            tr('仅保存在本设备，不上传服务器、不参与账号同步。支持 JPG / PNG / WebP；原图不超过 8 MB，建议 16:9 或 9:16 图片。系统会压缩为适合网页本机保存的背景，暂不支持 HEIC、GIF、PDF 或截图文件夹。'),
+            style: const TextStyle(
+                fontSize: 12, height: 1.5, color: Colors.blueGrey)),
         const SizedBox(height: 14),
         if (store.hasCustomBackground) ...[
           backgroundPreview(),
           const SizedBox(height: 12),
-          Text('图片主色已自动匹配为${themeNames[store.customPrimaryKey]}；可继续调整。',
+          Text(tr('图片主色已自动匹配为${themeNames[store.customPrimaryKey]}；可继续调整。'),
               style: TextStyle(fontSize: 12, color: teal)),
           const SizedBox(height: 10),
           Row(children: [
@@ -168,7 +168,7 @@ class _AppearanceSettingsState extends State<AppearanceSettings> {
                         context, store.saveCustomBackgroundPresentation))),
             const Icon(Icons.zoom_in, size: 18)
           ]),
-          Text('缩放 ${store.customBackgroundScale.toStringAsFixed(2)}×',
+          Text(tr('缩放 ${store.customBackgroundScale.toStringAsFixed(2)}×'),
               style: const TextStyle(fontSize: 12, color: Colors.blueGrey)),
           const SizedBox(height: 4),
           Slider(
@@ -183,7 +183,7 @@ class _AppearanceSettingsState extends State<AppearanceSettings> {
               onChangeEnd: (_) =>
                   safely(context, store.saveCustomBackgroundPresentation)),
           Text(
-              '背景图片透明度 ${(store.customBackgroundOpacity * 100).round()}%（0% 完全透明，100% 完整显示）',
+              tr('背景图片透明度 ${(store.customBackgroundOpacity * 100).round()}%（0% 完全透明，100% 完整显示）'),
               style: const TextStyle(fontSize: 12, color: Colors.blueGrey)),
           const SizedBox(height: 10),
         ],
@@ -194,15 +194,15 @@ class _AppearanceSettingsState extends State<AppearanceSettings> {
                   ? Icons.hourglass_top_outlined
                   : Icons.photo_library_outlined),
               label: Text(choosingImage
-                  ? '正在处理图片…'
+                  ? tr('正在处理图片…')
                   : store.hasCustomBackground
-                      ? '更换背景图片'
-                      : '选择背景图片')),
+                      ? tr('更换背景图片')
+                      : tr('选择背景图片'))),
           if (store.hasCustomBackground)
             OutlinedButton.icon(
                 onPressed: () => safely(context, store.clearCustomBackground),
                 icon: const Icon(Icons.hide_image_outlined),
-                label: const Text('移除图片背景'))
+                label: Text(tr('移除图片背景')))
         ]),
         if (imageError != null) ...[
           const SizedBox(height: 8),
@@ -216,7 +216,7 @@ class _AppearanceSettingsState extends State<AppearanceSettings> {
       listenable: store,
       builder: (context, _) =>
           Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-            const Text('选择主题，或自由搭配主色与淡背景。'),
+            Text(tr('选择主题，或自由搭配主色与淡背景。')),
             const SizedBox(height: 16),
             Wrap(
                 spacing: 12,
@@ -224,9 +224,9 @@ class _AppearanceSettingsState extends State<AppearanceSettings> {
                 children: themeColors.entries.map((entry) {
                   final selected = store.themeColorKey == entry.key;
                   return Tooltip(
-                      message: themeNames[entry.key]!,
+                      message: tr(themeNames[entry.key]!),
                       child: Semantics(
-                          label: themeNames[entry.key],
+                          label: tr(themeNames[entry.key]!),
                           selected: selected,
                           button: true,
                           child: InkWell(
@@ -261,11 +261,11 @@ class _AppearanceSettingsState extends State<AppearanceSettings> {
                       icon: Icon(store.themeColorKey == 'custom'
                           ? Icons.check_circle_outline
                           : Icons.palette_outlined),
-                      label: const Text('自定义')),
+                      label: Text(tr('自定义'))),
                   Text(
                       store.themeColorKey == 'custom'
-                          ? '自定义配色已启用'
-                          : '当前：${themeNames[store.themeColorKey] ?? '青绿'}',
+                          ? tr('自定义配色已启用')
+                          : tr('当前：${themeNames[store.themeColorKey] ?? '青绿'}'),
                       style: const TextStyle(
                           fontSize: 12, color: Colors.blueGrey)),
                 ]),
@@ -296,7 +296,7 @@ class _AppearanceSettingsState extends State<AppearanceSettings> {
                     const SizedBox(width: 10),
                     Expanded(
                         child: Text(
-                            '主色：${themeNames[store.customPrimaryKey]} · 背景：淡${themeNames[store.customBackgroundKey]}',
+                            tr('主色：${themeNames[store.customPrimaryKey]} · 背景：淡${themeNames[store.customBackgroundKey]}'),
                             style: TextStyle(color: ink)))
                   ])),
             ],
@@ -305,8 +305,8 @@ class _AppearanceSettingsState extends State<AppearanceSettings> {
             const Divider(height: 32),
             SwitchListTile(
                 contentPadding: EdgeInsets.zero,
-                title: const Text('玻璃质感'),
-                subtitle: const Text('透出背景的清澈折射卡片与半透明导航'),
+                title: Text(tr('玻璃质感')),
+                subtitle: Text(tr('透出背景的清澈折射卡片与半透明导航')),
                 secondary: const Icon(Icons.blur_on),
                 value: store.glassEnabled,
                 onChanged: (value) =>

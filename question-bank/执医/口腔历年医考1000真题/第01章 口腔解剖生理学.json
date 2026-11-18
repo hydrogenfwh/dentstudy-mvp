@@ -1,0 +1,6774 @@
+{
+  "version": "2026-10-23",
+  "name": "口腔历年医考1000真题 · 口腔解剖生理学",
+  "isDemo": false,
+  "sourceDocument": "口腔历年医考1000真题.pdf",
+  "sourceNote": "口腔执业（助理）医师资格考试 1000 题；答案与解析取自原文文末。年份与来源待核验。",
+  "questions": [
+    {
+      "id": "YS1000-0001",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "牙周组织和牙髓组织间最重要的解剖通道是：",
+      "options": {
+        "A": "根管侧支",
+        "B": "暴露的牙本质小管",
+        "C": "根尖孔",
+        "D": "髓室底副根管",
+        "E": "畸形舌侧沟"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "牙髓组织和牙周组织在解剖学方面是互相沟通的，在组织发生学方面均来源于中胚叶或外中胚叶。两者之间存在着以下的交通途径：①根尖孔：是牙周组织和牙髓的重要通道，血管、神经和淋巴通过根尖孔互相通连，而感染和炎症也易交互扩散。②根管侧支。③牙本质小管。④其他某些解剖异常或病理情况如牙根纵裂、牙骨质发育不良等。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 1,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0002",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "正确的乳牙萌出顺序是：",
+      "options": {
+        "A": "Ⅰ、Ⅱ、Ⅲ、Ⅳ、Ⅴ",
+        "B": "Ⅰ、Ⅱ、Ⅲ、Ⅴ、Ⅳ",
+        "C": "Ⅰ、Ⅱ、Ⅳ、Ⅲ、Ⅴ",
+        "D": "Ⅰ、Ⅱ、Ⅳ、Ⅴ、Ⅲ",
+        "E": "Ⅰ、Ⅱ、Ⅴ、III、Ⅲ"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "乳牙萌出顺序是Ⅰ、Ⅱ、Ⅳ、Ⅲ、Ⅴ。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 2,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0003",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "乳磨牙髓室底解剖特点是：",
+      "options": {
+        "A": "与恒牙厚度一致，侧支根管少",
+        "B": "较恒牙厚，侧支根管少",
+        "C": "较恒牙厚，侧支根管多",
+        "D": "较恒牙薄，侧支根管少",
+        "E": "较恒牙薄，侧支根管多"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "乳牙髓室大，髓壁薄，髓角高，根管粗，根管方向斜度大，根尖孔亦大；乳磨牙髓室较大，通常有三个根管：上颌乳磨牙有两个颊侧根管，一个舌侧根管；下颌乳磨牙有两个近中根管，一个远中根管；下颌第二乳磨牙有时可出现四根管。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 3,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0004",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下颌第一前磨牙形态中哪一点是错误的：",
+      "options": {
+        "A": "可见近中面沟",
+        "B": "唇面五边形",
+        "C": "颊尖明显大于舌尖",
+        "D": "可见横嵴",
+        "E": "牙冠舌倾"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "下颌第一前磨牙为前磨牙中体积最小，牙合面有横嵴，颊舌尖高度差别最大者。颊面呈五边形，向舌侧倾斜显著，舌尖明显小于颊尖。下颌第一前磨牙没有近中沟，故本题选A。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 4,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0005",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "不属于前磨牙特点的是：",
+      "options": {
+        "A": "咬合面的点隙及邻面均为龋齿好发部位",
+        "B": "常作为判断颏孔位置的标志",
+        "C": "常作为义齿修复的基牙",
+        "D": "可能出现畸形中央尖",
+        "E": "拔除可用旋转力"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "前磨牙的点隙及邻面均为龋齿好发部位，所以A 正确；颏孔通常在下颌第一、二前磨牙之间，前磨牙可作为判断颏孔位置的标志，B 正确；前磨牙牙根比较扁长，可作为义齿修复的基牙，所以C 正确；下颌第二前磨牙可出现畸形中央尖，所以D正确；上颌第一前磨牙牙根常有分叉，所以拔除不可旋转力，故E 错误，所以此题选E。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 5,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0006",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "对“牙尖”的解释哪一个是正确的：",
+      "options": {
+        "A": "釉质三角形隆起",
+        "B": "釉质过分钙化所形成的小突起",
+        "C": "牙冠上近似锥体形的显著隆起",
+        "D": "两个斜面相交而成",
+        "E": "两个轴面相交而成"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "牙尖，牙冠上近似锥体形、突出成尖的部分。A、B、D、E 均不正确。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 6,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0007",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "对三角嵴的解释哪一个是正确的：",
+      "options": {
+        "A": "两斜面相交而成",
+        "B": "位于面，由牙尖的两斜面汇合而成",
+        "C": "三个面相交而成",
+        "D": "从牙尖顶伸向牙颈部的纵形隆起",
+        "E": "两轴面相交而成"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "三角嵴为牙合面牙尖两斜面汇合成的细长形的牙釉质隆起。A 项为三角嵴的定义，C 项为点角的定义，D 项为轴嵴的定义，E 项为线角定义。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 7,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0008",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "牙的功能不包括：",
+      "options": {
+        "A": "切割食物的功能",
+        "B": "捣碎和磨细食物",
+        "C": "发音和言语功能",
+        "D": "保持面部的协调美观",
+        "E": "保持口腔清洁"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "牙的功能包括：咀嚼、发音和言语，保持面部协调美观，而没有保持口腔清洁。故选E。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 8,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0009",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "上颌中切牙牙冠唇面形态中哪一点是错误的：",
+      "options": {
+        "A": "梯形",
+        "B": "切龈径小于近远中径",
+        "C": "近中切角似直角",
+        "D": "远中切角圆钝",
+        "E": "切 1/3 有两条发育沟"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "上颌中切牙牙冠唇面略呈梯形，牙合龈径大于近远中径。切1/3和中1/3 较平坦，颈1/3 较为突出，切1/3 可见两条发育沟，近中切角近似直角，远中切角略微圆钝，借以区分左右。所以，B 项是错误的，应是牙合龈径大于近远中径。本题选B。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 9,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0010",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "根尖孔的位置多位于：",
+      "options": {
+        "A": "根尖顶",
+        "B": "根尖唇侧",
+        "C": "根尖舌侧",
+        "D": "根尖近中侧",
+        "E": "根尖远中侧"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "根管在牙根表面的开口称为根尖孔，根尖孔位于根尖者较多(57%)，位于根尖旁侧者较少(43%)。其中以舌侧者最多，其余依次为远中、近中和唇颊侧。所以A正确。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 10,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0011",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下颌第二乳磨牙和下颌第一恒磨牙形态近似位置彼此相邻，容易混淆，下列哪项不是第二乳磨牙的特点：",
+      "options": {
+        "A": "牙冠短小，色白",
+        "B": "牙冠颈部明显缩小，颈嵴特突，牙冠由颈部向（牙合）方缩小",
+        "C": "近中颊尖、远中颊尖及远中尖的大小约相等",
+        "D": "第二乳磨牙的根干短，牙根向外张开",
+        "E": "近中颊尖、远中颊尖大小相等，远中尖最小"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "下颌第二乳磨牙牙冠较第一恒磨牙小、色乳白；牙冠近颈缘明显缩小，颈嵴突出，牙冠向牙合方缩小，故近颈部大而牙合面小；近中颊尖、远中颊尖及远中尖大小约相等(E 错)，而下颌第一恒磨牙此三尖中，远中尖最小；上颌第二乳磨牙为三根，下颌者为双根，根柱短，牙根向周围张开，所以选E。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 11,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0012",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "髓腔形态的生理和病理变化中哪一点是错误的：",
+      "options": {
+        "A": "髓腔的大小随着年龄的增长而不断缩小",
+        "B": "乳牙髓腔比恒牙大",
+        "C": "青少年的恒牙髓腔比老年者大",
+        "D": "髓室顶、髓角随着牙的不断磨耗而降低",
+        "E": "外伤、龋病对牙体的侵袭使髓腔缩小"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "乳牙髓腔从相对比例较恒牙者大，年轻恒牙髓腔比老年者大，表现为髓室大、髓角高、髓室角低平、髓室高大、根管粗、根尖孔大。随年龄增长，髓腔内壁牙本质沉积，使髓腔体积逐渐减小、髓角变低、髓室底变低、髓室高度变小、根管变细、根尖孔变小。所以B 项错误，过于绝对，因为恒牙的体积比乳牙大。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 12,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0013",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下列哪项不是乳牙牙髓腔的特点：",
+      "options": {
+        "A": "髓腔大",
+        "B": "髓角高",
+        "C": "根管细",
+        "D": "根尖孔大",
+        "E": "髓壁薄"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "乳牙髓腔：髓腔大，管壁薄，髓角高，根管粗，根分叉大，根尖孔大",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 13,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0014",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "右侧下颌第二前磨牙依照国际牙科联合会系统记录牙位的方法应该记录为：",
+      "options": {
+        "A": "15",
+        "B": "20",
+        "C": "25",
+        "D": "35",
+        "E": "45"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "右侧下颌第二前磨牙依照国际牙科联合会系统记录牙位的方法应该记录是45.",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 14,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0015",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "近中面存在发育沟的牙体是：",
+      "options": {
+        "A": "上颌第一前磨牙",
+        "B": "上颌第二前磨牙",
+        "C": "下颌第一前磨牙",
+        "D": "下颌第二前磨牙",
+        "E": "上颌第一、第二前磨牙"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "上颌第一磨牙近中面有发育沟，称为近中沟。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 15,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0016",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "上颌尖牙的萌出时间是：",
+      "options": {
+        "A": "7 岁左右",
+        "B": "8 岁左右",
+        "C": "9 岁左右",
+        "D": "11 岁左右",
+        "E": "13 岁左右"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "上颌尖牙萌出时间在11~12 岁，因此D 选项正确。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 16,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0017",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下颌第二前磨牙牙冠的形态为：",
+      "options": {
+        "A": "长方形",
+        "B": "正方形",
+        "C": "方圆形",
+        "D": "斜方形",
+        "E": "圆形"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "下颌第二前磨牙牙冠的形态为方圆形，牙合面呈圆形或卵圆形。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 17,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0018",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "对牙根的解释哪一项是正确的：",
+      "options": {
+        "A": "固定在牙槽窝内的部分",
+        "B": "支持的部分",
+        "C": "被牙骨质所包裹的牙体部分",
+        "D": "被牙本质所包裹的牙体部分",
+        "E": "发挥咀嚼功能的部分"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "牙根分为解剖牙根和临床牙根，解剖牙根系牙骨质覆盖的部分，牙根与牙冠以牙颈为界；临床牙根为牙体在口腔内不能见到的部分，以牙龈为界。因此本题选C。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 18,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0019",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "人类的牙属于：",
+      "options": {
+        "A": "槽生牙",
+        "B": "侧生牙",
+        "C": "端生牙",
+        "D": "多牙列",
+        "E": "单牙列"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "牙齿根据其附着于颌骨的方式分为两类：一类为侧生牙，一类为槽生牙。有完善的牙根，位于牙槽窝内称为槽生牙。人类牙齿属于槽生牙，选A。侧生牙是指牙的基部与颌骨相连，其一侧附着于颌骨的内缘，如一些爬行类动物牙齿，故B 不正确。端生牙是指牙齿无牙根，借纤维膜附着于颌骨边缘，如鱼类的牙齿。多牙列是指在每一牙的舌侧，有若干后备牙，牙脱落后由新牙补充，去旧更新，终生不止，而人类一生只换牙一次，属于为双牙列，故D、E 均不正确。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 19,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0020",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下颌磨牙髓室底距根分叉的距离约为：",
+      "options": {
+        "A": "1.0mm",
+        "B": "2.0mm",
+        "C": "3.0mm",
+        "D": "4.0mm",
+        "E": "5.0mm"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "下颌第一磨牙髓室呈矮立方形，髓室顶凹，与髓室顶对应的髓室壁为髓室底，髓室底距根分叉的距离约为2.0mm，所以B 正确。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 20,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0021",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "乳牙与恒牙的鉴别中，错误的是：",
+      "options": {
+        "A": "乳牙根分叉大",
+        "B": "乳牙冠根分界明显",
+        "C": "乳磨牙体积依次减小",
+        "D": "乳牙颈嵴明显突出",
+        "E": "乳牙体积小，色乳白"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "颜色乳牙色白，而恒牙略带黄色。这是因为恒牙表层的釉质比乳牙钙化度高，透明度大，会把牙本质的黄色透视出来。体积乳牙比同名的恒牙小。这是因为儿童颌骨比较小，随着年龄的增加，颌骨逐渐发育长大，容量扩增，新长出的恒牙比同名的乳牙要大。磨耗乳牙因咀嚼了几年，牙尖磨耗较多，而恒牙刚刚长出，很少磨耗。牙颈部乳牙的牙颈部比恒牙颈部细。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 21,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0022",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "外形高点位于中 1/3 处的是：",
+      "options": {
+        "A": "切牙唇侧",
+        "B": "切牙舌侧",
+        "C": "尖牙舌侧",
+        "D": "磨牙舌侧",
+        "E": "尖牙颊侧"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "切牙唇侧外形高点位于颈1/3,尖牙颊侧外形高点在中1/3 与颈1/3交界处的唇轴嵴上，磨牙舌侧的外形高点在中1/3,故本题选D。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 22,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0023",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "属于上颌中切牙特点的是：",
+      "options": {
+        "A": "近中切角为直角，远中切角为锐角",
+        "B": "舌窝浅，不明显",
+        "C": "牙冠由 3 个生长叶组成",
+        "D": "切嵴位于牙体长轴的唇侧",
+        "E": "近中面稍短，较圆突"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "近中缘与切缘较直，远中缘略突；中央凹陷形成舌窝，四周为突起的嵴，舌窝明显；牙冠由4 个生长叶组成；远中面似近中面但稍短而圆突。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 23,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0024",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "形态不同于任何恒牙的是：",
+      "options": {
+        "A": "上颌乳尖牙",
+        "B": "下颌第一乳磨牙",
+        "C": "下颌第二乳磨牙",
+        "D": "上颌第一乳磨牙",
+        "E": "上颌第二乳磨牙"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "下颌第一乳磨牙形态不似任何恒牙，其面为不规则的四边形，其近中边缘嵴特短，近中颊尖大于远中颊尖，近中颈嵴最突。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 24,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0025",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "牙的萌出时间是指牙冠：",
+      "options": {
+        "A": "发育开始的时间",
+        "B": "钙化开始的时间",
+        "C": "完整形成的时间",
+        "D": "达到咬合的时间",
+        "E": "破龈而出的时间"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "牙的萌出时间是指牙冠出龈的时间",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 25,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0026",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "对结节的解释是：",
+      "options": {
+        "A": "牙面上近似锥体形的隆起",
+        "B": "牙冠表面釉质的线状隆起",
+        "C": "牙冠部釉质过度钙化形成的小突起",
+        "D": "前牙舌面半月形釉质突起",
+        "E": "前牙切嵴舌侧的长条形水平隆起"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "牙冠部釉质过度钙化形成的小突起是结节。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 26,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0027",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "畸形中央尖最多发生于：",
+      "options": {
+        "A": "下颌第一前磨牙",
+        "B": "下颌第二前磨牙",
+        "C": "上颌第二前磨牙",
+        "D": "上颌第一磨牙",
+        "E": "下颌第一磨牙"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "畸形中央尖最多发生于下颌第二前磨牙。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 27,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0028",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "所谓“管间侧支”是指：",
+      "options": {
+        "A": "相邻根管间的交通支",
+        "B": "根管的细小分支",
+        "C": "垂直于主根管的分支",
+        "D": "主根管分支贯穿牙本质和牙骨质达牙周膜",
+        "E": "根管在根尖部分歧"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "管间吻合，又称管间侧支或管间交通支，为发自相邻根管间的交通支，可为1～2 支，呈水平、弧形甚或呈网状，多见于双根管型，根中1／3 的管间侧支多于根尖1／3，根颈1／3 者最少。故选A。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 28,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0029",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "最早脱落的乳牙是：",
+      "options": {
+        "A": "上颌乳中切牙",
+        "B": "下颌乳中切牙",
+        "C": "上颌乳侧切牙",
+        "D": "下颌乳侧切牙",
+        "E": "上颌乳尖牙"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "最早萌出的乳牙是下颌乳中切牙，最早脱落的乳牙也是下颌乳中切牙。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 29,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0030",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "“临床牙冠”是指：",
+      "options": {
+        "A": "暴露于口腔的牙体部分",
+        "B": "被牙龈覆盖的牙体部分",
+        "C": "发挥咀嚼功能的牙体部分",
+        "D": "被牙本质所覆盖的牙体部分",
+        "E": "被牙釉质所覆盖的牙体部分"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "临床牙冠为牙体露于口腔的部分，牙冠和牙根以牙龈为界。解剖牙冠是牙釉质覆盖的部分，牙冠与牙根以牙颈为界。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 30,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0031",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "上颌第一磨牙有三个牙根，即：",
+      "options": {
+        "A": "近中根、远中根、舌根",
+        "B": "颊根、近中舌根、远中舌根",
+        "C": "近中根、远中颊根、远中舌根",
+        "D": "近中颊根、近中舌根、远中根",
+        "E": "近中颊根、远中颊根、舌根"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "上颌第一磨牙的特点：①牙合面四个尖，近中舌尖最大，近中颊尖稍大于远中颊尖，远中舌尖最小；在近中舌尖的舌侧有时有第五尖。②每一牙尖顶有三角嵴，远中颊尖三角嵴与近中舌尖三角嵴形成斜嵴，斜嵴将牙合面分成近中窝及远中窝两部分。③牙合面上的发育沟有颊沟、近中沟及远中舌沟。④根在根柱以上分叉为三根，即近中颊根、远中颊根、舌根，均呈扁形，舌根最大。故选E。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 31,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0032",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "左侧上颌牙列包括第一恒磨牙、第二恒前磨牙、第一恒前磨牙、乳尖牙、恒侧切牙、恒中切牙，采用国际牙科联合会系统记录牙位的方法应记录为：",
+      "options": {
+        "A": "36，65，34，63，32，31",
+        "B": "16，15，44，43，12，11",
+        "C": "26，25，54，53，22，21",
+        "D": "26，25，24，63，22，21",
+        "E": "16，25，14，43，12，11"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "左侧上颌牙列包括第一恒磨牙、第二恒前磨牙、第一恒前磨牙、乳尖牙、恒侧切牙、恒中切牙，采用国际牙科联合会系统记录牙位的方法应记录分别为26,25,24,63,22,21。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 32,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0033",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A2",
+      "stem": "10 岁，男童。下颌一牙体的特点是颊面近似以近中缘为底的三角形；两颊尖之间有颊沟；颊颈嵴近中部分最突出，呈明显的结节状；近中面近似一以颈缘为底的三角形；咬合面近似为一以远中缘为底的三角形。该牙是：",
+      "options": {
+        "A": "下颌第一磨牙",
+        "B": "下颌第二磨牙",
+        "C": "下颌第三磨牙",
+        "D": "下颌第一乳磨牙",
+        "E": "下颌第二乳磨牙"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "下颌第一乳磨牙：颊面近似为-以近中缘为底的三角形；近中面近似一以颈缘为底的三角形；咬合面近似为一以远中缘为底的三角形。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 33,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0034",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下颌中切牙近远中切角为：",
+      "options": {
+        "A": "近远中切角相似，均为锐角",
+        "B": "近中切角为近似直角，远中切角为一圆钝角",
+        "C": "近远中切角相似，均为钝角",
+        "D": "近中切角为锐角，远中切角为一圆钝角",
+        "E": "近远中切角相似，均为直角"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "下中切牙：全口牙中体积最小，牙冠宽度约为上颌中切牙的2/3。①唇面：近中缘、近中切角与远中缘、远中切角基本对称，离体后不易区分近远中。②舌窝：不明显。③邻面：接触区均靠近切角。④牙根：近颈部横断面呈葫芦形，远中面凹陷比近中面凹陷深。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 34,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0035",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "上颌中切牙近中切角：",
+      "options": {
+        "A": "与远中切角相似",
+        "B": "近似直角",
+        "C": "为一圆钝角",
+        "D": "为一圆弧角",
+        "E": "为一锐角"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "上颌中切牙近中切角近似直角，远中切角略微圆钝，借以区分左右。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 35,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0036",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "随着牙齿的演化，哺乳动物的牙齿应属于（助理不考）：",
+      "options": {
+        "A": "单锥体牙",
+        "B": "同形牙",
+        "C": "多牙列",
+        "D": "端生牙",
+        "E": "异形牙"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "哺乳类的牙已发展为异形牙，可分为切牙、尖牙、前磨牙、磨牙四类。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 36,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0037",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "符合牙演化特点的是（助理不考）：",
+      "options": {
+        "A": "牙数由少到多",
+        "B": "牙根从无到有",
+        "C": "形态从复杂到简单",
+        "D": "从单牙列到多牙列",
+        "E": "生长部位从集中到分散"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "牙演化的特点：①牙形由单一同形牙向异形牙演化；②牙数由多变少；③牙替换次数由多牙列向双牙列演化；④牙根从无到有；⑤牙的分布由广泛至集中于上、下颌骨；⑥牙附着于颌骨的方式由端生牙至侧生牙，最后向槽生牙演化。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 37,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0038",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "动物在由低级向高级发展过程中的特点是（助理不考）：",
+      "options": {
+        "A": "牙根数目减少",
+        "B": "牙根长度增加",
+        "C": "牙的分布由广泛至集中",
+        "D": "牙尖高度降低",
+        "E": "磨牙逐渐前移"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "牙数由多到少；牙根从无到有；从多牙列到双牙列；从同形牙到异行牙；从分散到集中；由端生牙向侧生牙、槽生牙演化。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 38,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0039",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下列不是构成牙体软硬组织的是：",
+      "options": {
+        "A": "牙釉质",
+        "B": "牙本质",
+        "C": "牙骨质",
+        "D": "牙髓",
+        "E": "牙龈"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "牙龈不属于牙体软硬组织，是牙周组织。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 39,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0040",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "按照牙体形态特点及功能特性，人类牙体可以分为：",
+      "options": {
+        "A": "前牙和后牙",
+        "B": "上颌牙体与下颌牙体",
+        "C": "切牙、尖牙、前磨牙、磨牙",
+        "D": "乳牙与恒牙",
+        "E": "正常牙体与多生牙"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "按照牙体形态特点及功能特性，人类牙体可以分为切牙、尖牙、前磨牙、磨牙。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 40,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0041",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下列关于下颌前牙髓腔形态的相关描述中，不恰当的是：",
+      "options": {
+        "A": "下颌切牙髓腔呈窄长三角形",
+        "B": "下颌切牙近切嵴部分的髓室最宽",
+        "C": "下颌切牙颈部横剖面髓室的唇舌径大于近远中径",
+        "D": "下颌切牙根中横剖面呈椭圆形或圆形",
+        "E": "下颌切牙不会出现唇、舌向两根管"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "下颌切牙颈部横剖面髓室的唇舌径大于近远中径，根中横剖面呈椭圆形或圆形，根管的唇舌径及近远中径均缩小，有时可见唇、舌向两根管。下颌尖牙根管与上颌尖牙的相似，但较其窄小。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 41,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0042",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "以下不符合乳牙的髓腔形态特征的是：",
+      "options": {
+        "A": "髓室大",
+        "B": "髓壁薄",
+        "C": "髓角高",
+        "D": "根管粗",
+        "E": "根尖孔较小"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "乳牙的髓腔形态：虽与乳牙的外形相似，但按牙体比例而言，乳牙髓腔较恒牙者为大，表现为髓室大、髓壁薄、髓角高、根管粗、根管斜度较大，根尖孔亦大。故在制备洞形时，应注意保护牙髓，防止穿髓。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 42,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0043",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "关于解剖牙冠的说法错误的是：",
+      "options": {
+        "A": "牙体外层被釉质覆盖的部分称为解剖牙冠",
+        "B": "解剖牙冠釉质是全身矿化组织中最坚硬的牙体组织",
+        "C": "解剖牙冠的釉质厚度都是相同的",
+        "D": "恒切牙切缘釉质最厚厚度约 2.0mm",
+        "E": "磨牙牙尖处釉质厚度约为 2.5mm"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "牙体外层被釉质覆盖的部分称为解剖牙冠，其表层釉质是高度钙化的最坚硬的牙体组织，也是全身矿化组织中最坚硬的。其厚度随着牙及牙部位的不同而异。恒切牙切缘釉质最厚约为2.0mm，磨牙牙尖处的釉质最厚约为2.5mm。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 43,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0044",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "不属于牙演化的特点的描述是：",
+      "options": {
+        "A": "牙附着于颌骨的方式为槽生牙至侧生牙，最后向端生牙演化",
+        "B": "牙的数目由多变少",
+        "C": "牙齿的形态由同形牙向异形牙演化",
+        "D": "牙的替换次数由多牙列向双牙列演化",
+        "E": "牙的分布由广泛至逐渐集中"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "牙演化的特点：①牙形由单一同形牙向复杂异形牙演化；②牙数目由多变少；③牙的替换次数由多牙列向双牙列演化；④牙的分布由广泛至逐渐集中于上、下颌骨；⑤牙根从无到有，牙附着于颌骨的方式由端生牙至侧生牙，最后向槽生牙演化。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 44,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0045",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "关于多牙列的说法错误的是：",
+      "options": {
+        "A": "槽生牙属于多牙列",
+        "B": "端生牙或侧生牙属于多牙列",
+        "C": "多牙列牙齿缺失以后可由后备牙补充",
+        "D": "多牙列能够去旧更新，终生不止",
+        "E": "大部分硬骨鱼类，爬行类为多牙列"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "多牙列：在端生牙或侧生牙的舌侧有若干后备牙，牙缺失后可由后备牙补充，去旧更新，终生不止，故名为多牙列。大部分硬骨鱼类、两栖类、和爬行类为多牙列。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 45,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0046",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下列关于青少年与老年人恒牙髓腔的叙述中，不正确的是：",
+      "options": {
+        "A": "青少年恒牙的髓腔比老年者大",
+        "B": "老年人的髓腔根管逐渐变细",
+        "C": "青少年恒牙的髓腔髓室大",
+        "D": "青少年恒牙的髓腔有继发性牙本质向心性沉积",
+        "E": "青少年恒牙的髓腔根管粗"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "青少年恒牙的髓腔比老年者大，表现为髓室大、髓角高、根管粗、根尖孔亦大。老年人随着年龄的增长，在髓腔内壁有继发性牙本质向心性沉积，使髓腔的体积逐渐缩小，髓角变低平，根管变细，根尖孔窄小，有的髓腔部分或全部钙化阻塞，给临床治疗带来困难。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 46,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0047",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "动物由低等向高等发展过程中，牙齿的演化叙述正确的是：",
+      "options": {
+        "A": "牙数目由少变多",
+        "B": "牙形由复杂异形变为单一同形",
+        "C": "牙替换次数由双牙列变为多牙列",
+        "D": "牙附着于颌骨的方式由端生牙变为侧生牙最后演化槽生牙",
+        "E": "牙附着于颌骨的方式由侧生牙变为端生牙最后演化槽生牙"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "牙演化的特点：①牙形由单一同形牙向复杂异形牙演化；②牙数目由多变少；③牙的替换次数由多牙列向双牙列演化；④牙的分布由广泛至逐渐集中于上、下颌骨；⑤牙根从无到有，牙附着于颌骨的方式由端生牙至侧生牙，最后向槽生牙演化。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 47,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0048",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "正常情况，牙冠的大部分显露于口腔，其中龈缘上方的牙体部分被称为：",
+      "options": {
+        "A": "临床牙冠",
+        "B": "解剖牙冠",
+        "C": "牙根",
+        "D": "牙颈",
+        "E": "釉牙骨质界"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "正常情况下，牙冠的大部分显露于口腔，其中龈缘上方的牙体部分被称为临床牙冠。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 48,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0049",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "关于上颌尖牙舌面的解剖特点说法正确的是：",
+      "options": {
+        "A": "近中边缘嵴较远中边缘嵴短",
+        "B": "似唇面，但略小",
+        "C": "远中牙尖嵴短",
+        "D": "舌面隆突不明显",
+        "E": "近中牙尖嵴长"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "上颌尖牙舌面解剖特点：似唇面，但略小。近中边缘嵴较远中边缘嵴长而直，近中牙尖嵴短，远中牙尖嵴长，舌面隆突显著。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 49,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0050",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "关于部位记录法的说法错误的是：",
+      "options": {
+        "A": "以“+”符号将牙弓分为上、下、左、右四区",
+        "B": "每区以阿拉伯数字 1～8 分别依次代表每区的中切牙至第三磨牙",
+        "C": "以罗马数字Ⅰ～Ⅴ分别依次代表每区的乳中切牙至第二乳磨牙",
+        "D": "牙位越远离中线，数字越小",
+        "E": "牙位越靠近中线，数字越小"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "部位记录法：以“+”将牙弓分为上、下、左、右四区；每区以阿拉伯数字1～8 分别依次代表中切牙至第三磨牙；以罗马数字Ⅰ～Ⅴ分别依次代表每区的乳中切牙至第二乳磨牙；牙位越靠近中线，数字越小；牙位越远离中线，数字越大。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 50,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0051",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "牙龈因失去食物按摩废用萎缩是由于：",
+      "options": {
+        "A": "牙冠轴面凸度过大",
+        "B": "牙冠轴面凸度过小",
+        "C": "牙冠轴面无凸度",
+        "D": "牙冠（牙合）外展隙不明显",
+        "E": "牙冠（牙合）面副沟、排溢道不明显"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "牙冠唇（颊）、舌面突度的生理意义：咀嚼时，排溢的食物顺着正常的牙冠突度滑至口腔，擦过牙龈表面时对牙龈起按摩作用，可促进血液循环，有利于牙龈的健康。若牙冠突度过小或无突度，牙龈将会受食物直接撞击而受伤；反之，若牙冠突度过大，牙龈会失去食物对其的按摩作用，可能产生废用性萎缩。牙冠颈1/3 的突度，还可起到扩展龈缘的作用，使其紧张而有力。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 51,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0052",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下列关于髓腔增龄变化的叙述中，不恰当的说法是：",
+      "options": {
+        "A": "乳牙的髓腔髓角高，根尖孔也大",
+        "B": "青少年恒牙的髓腔比老年者大",
+        "C": "老年人的髓腔根管粗、根尖孔大",
+        "D": "青少年恒牙的髓腔髓室大、髓角高",
+        "E": "老年人的髓腔随着年龄的增长体积逐渐缩小"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "乳牙的髓腔从相对比例看比恒牙者大，髓角高，根尖孔也大些。青少年恒牙的髓腔比老年者大，表现为髓室大、髓角高、根管粗、根尖孔亦大。老年人随着年龄的增长，在髓腔内壁有继发性牙本质向心性沉积，使髓腔的体积逐渐缩小，髓角变低平，根管变细，根尖孔窄小，有的髓腔部分或全部钙化阻塞，给临床治疗带来困难。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 52,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0053",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下颌第一磨牙的最小牙尖是哪一个尖：",
+      "options": {
+        "A": "近中颊尖",
+        "B": "远中尖",
+        "C": "近中舌尖",
+        "D": "远中舌尖",
+        "E": "远中颊尖"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "下颌第一磨牙（牙合）面：略呈长方形，近远中径大于颊舌径，颊缘长于舌缘；近中缘较直，远中缘短而突。可见五个牙尖：近中颊尖、远中颊尖、远中尖、近中舌尖和远中舌尖，远中尖最小。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 53,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0054",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下列关于乳牙与恒牙的鉴别的相关叙述中，不正确的一项是：",
+      "options": {
+        "A": "恒牙颈嵴突起不明显，乳牙颈嵴突起明显",
+        "B": "乳牙牙冠呈乳白色偏黄，恒牙牙冠呈乳白色偏青白",
+        "C": "恒牙牙冠颈部缩窄，形态上与牙根的分界不大明显",
+        "D": "乳牙牙冠颈嵴突出，冠根分明",
+        "E": "恒磨牙根分叉小，乳磨牙根分叉大"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "恒牙牙冠呈乳白色偏黄，乳牙牙冠呈乳白色偏青白。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 54,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0055",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "以下有关恒牙髓腔的应用解剖叙述中，不正确的是：",
+      "options": {
+        "A": "下颌切牙因根管较小，根管侧壁，厚约 1mm，根管治疗时应防止侧穿根管壁",
+        "B": "上颌前磨牙颊侧髓角较高，补牙备洞时应避免穿通颊侧髓角",
+        "C": "上颌前磨牙因髓室底较深，开髓时勿将暴露的髓角误认为是根管口",
+        "D": "下颌磨牙牙冠向舌侧倾斜，应在（牙合）面正中央处开髓，尤其是偏向舌侧，可避免舌侧薄弱而折断",
+        "E": "下颌第一磨牙远中舌侧根管细小弯曲，治疗时应加注意"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "下颌磨牙牙冠向舌侧倾斜，即牙冠颊面近颈部突出，牙冠舌面近（牙合）缘较突出，其髓腔亦偏向颊侧，故开髓部位应在（牙合）面偏向颊尖处；若在（牙合）面正中央处开髓，尤其是偏向舌侧，常致舌侧薄弱而折断。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 55,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0056",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "上颌前磨牙的髓室形态中哪项正确：",
+      "options": {
+        "A": "近远中径大于唇舌径",
+        "B": "近远中径大于（牙合）龈径",
+        "C": "近远中径大于颊舌径",
+        "D": "（牙合）龈径大于唇舌径",
+        "E": "颊舌径大于近远中径"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "上颌前磨牙的髓腔形态：髓室似立方形，颊舌径大于近远中径。髓室位于牙冠颈部及根柱内。髓室顶中部凸向髓腔，最凸处约与颈缘平齐。髓室顶上有颊舌两个髓角。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 56,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0057",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "以下关于端生牙的说法正确的是：",
+      "options": {
+        "A": "端生牙有牙根",
+        "B": "端生牙凭借牙骨质附着于颌骨的边缘",
+        "C": "端生牙易脱落",
+        "D": "端生牙在爬行动物中常见",
+        "E": "端生牙在哺乳动物中可见"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "端生牙：此类牙无牙根，仅借纤维膜附着于颌骨的边缘，易脱落。大部分硬骨鱼类为端生牙。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 57,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0058",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "关于乳牙的萌出，下列说法错误的是：",
+      "options": {
+        "A": "乳牙胚从第 2 个月即发生",
+        "B": "乳牙胚的钙化为胚胎 5～6 个月",
+        "C": "婴儿出生约 6 个月乳牙开始萌出",
+        "D": "至两岁半左右全部萌出",
+        "E": "乳尖牙的萌出是在最后"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "乳牙的萌出：乳牙胚从胚胎第2 个月即发生，5～6 个月开始钙化，至出生时颌骨内20 个乳牙胚均已形成。婴儿于出生后6 个月乳牙开始萌出，至2 岁半左右全部萌出。一般情况下，乳牙的萌出顺序为Ⅰ→Ⅱ→Ⅳ→Ⅲ→Ⅴ。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 58,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0059",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下列关于颈嵴的说法，正确的是：",
+      "options": {
+        "A": "（牙合）面两牙尖三角嵴斜形相连形成的嵴",
+        "B": "是前牙舌面窝的近远中边缘及后牙（牙合）面边缘的长条形釉质隆起",
+        "C": "相对牙尖的两条三角嵴，横过（牙合）面相连形成的嵴",
+        "D": "是轴面上从牙尖顶端伸向牙颈的纵行隆起",
+        "E": "牙冠的唇、颊面上，沿颈缘部位微突的釉质隆起"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "颈嵴：牙冠的唇、颊面上，沿颈缘部位微突的釉质隆起。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 59,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0060",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "关于上颌尖牙的解剖特点说法错误的是：",
+      "options": {
+        "A": "尖牙牙根直且粗壮",
+        "B": "唇舌径大于近远中径",
+        "C": "根颈横切面呈卵圆三角形",
+        "D": "根长约为冠长的 2 倍",
+        "E": "牙尖略偏远中"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "上颌尖牙牙根的解剖特点：单根，直且粗壮，唇舌径大于近远中径，根颈横切面呈卵圆三角形。根长约为冠长的2 倍，根尖略偏远中。牙尖略偏近中。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 60,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0061",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "动物在由低级向高级发展过程中的特点是：",
+      "options": {
+        "A": "牙根数目减少",
+        "B": "牙根长度增加",
+        "C": "牙体数目由多变少",
+        "D": "牙尖高度降低",
+        "E": "磨牙逐渐前移"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "牙演化的特点：①牙形由单一同形牙向复杂异形牙演化；②牙数目由多变少；③牙的替换次数由多牙列向双牙列演化；④牙的分布由广泛至逐渐集中于上、下颌骨；⑤牙根从无到有，牙附着于颌骨的方式由端生牙至侧生牙，最后向槽生牙演化。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 61,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0062",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "关于上颌第一乳磨牙的解剖特点说法，错误的一项是：",
+      "options": {
+        "A": "颊面的宽度大于长度，近中缘长直，远中缘短突，颈部缩窄",
+        "B": "颊尖微突，略偏近中",
+        "C": "邻面可见其（牙合）1/3 显著缩窄，颊侧颈 1/3 处非常突出",
+        "D": "（牙合）面形态似上颌前磨牙",
+        "E": "牙根细长，三根分叉大，根干较长"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "上颌第一乳磨牙：①牙冠：颊面的宽度大于长度。近中缘长直，远中缘短突，颈部缩窄。颊尖微突，略偏近中。舌面较小而突。邻面可见其1/3 显著缩窄，颊侧颈1/3 处非常突出。（牙合）面形态似上颌前磨牙，但颊、舌两牙尖的三角嵴及（牙合）面沟的形态均不如上颌前磨牙清晰。（牙合）面有中央窝及近中窝。②牙根：细长，三根分叉大，根干较短。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 62,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0063",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下列关于双牙列的说法错误的是：",
+      "options": {
+        "A": "牙齿在一生中只能够替换一次",
+        "B": "分为乳牙列和恒牙列",
+        "C": "主要是槽生牙",
+        "D": "哺乳动物包括人类为双牙列",
+        "E": "去旧更新，终生不止"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "双牙列：牙在一生中只替换一次，即乳牙列和恒牙列，故称为双牙列。双牙列主要是槽生牙，哺乳动物包括人类为双牙列。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 63,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0064",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下颌侧切牙与上颌侧切牙的区别中哪点是错误的：",
+      "options": {
+        "A": "下颌侧切牙唇面较平",
+        "B": "下颌侧切牙边缘嵴较明显",
+        "C": "上颌侧切牙唇面较圆",
+        "D": "下颌侧切牙为扁根",
+        "E": "邻面观上颌侧切牙的切嵴在牙体长轴的唇侧"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "上颌切牙舌面边缘嵴明显，中央凹陷成窝，而下颌切牙舌面无明显的边缘嵴，舌窝浅而不显著。下颌中切牙：全口牙中体积最小，形态最对称，离体后难分辨左右，边缘嵴较明显。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 64,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0065",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "以下上颌前牙的髓腔形态的叙述中，正确的是：",
+      "options": {
+        "A": "上颌前牙的髓腔唇舌剖面观呈梭形",
+        "B": "上颌前牙的髓腔近远中剖面观呈三角形",
+        "C": "上颌切牙根颈横剖面的髓腔呈圆三角形，唇侧比舌侧宽，与牙根外形基本一致",
+        "D": "上颌尖牙髓腔为椭圆形，位于牙根的中央，唇舌径大于近远中径",
+        "E": "以上均正确"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "切牙根颈横剖面的髓腔呈圆三角形，唇侧比舌侧宽，与牙根外形基本一致，位居剖面的中央略偏唇侧。尖牙髓腔为椭圆形，位于牙根的中央，唇舌径大于近远中径。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 65,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0066",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下列关于乳牙髓腔形态特点的叙述中，正确的是：",
+      "options": {
+        "A": "髓室顶和髓角多位于牙冠中部",
+        "B": "乳前牙髓腔与其牙冠外形相似",
+        "C": "乳前牙髓腔根管多为单根管",
+        "D": "乳前牙髓腔偶见下颌乳切牙根管分为唇、舌向 2 个根管",
+        "E": "以上均正确"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "乳前牙髓腔与其牙冠外形相似，根管多为单根管，偶见下颌乳切牙根管分为唇、舌向2 个根管。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 66,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0067",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "关于上颌乳中切牙的解剖特点，下列叙述不正确的是：",
+      "options": {
+        "A": "牙冠短而宽，发育沟明显",
+        "B": "舌面隆突、舌窝明显",
+        "C": "单根扁而宽，根尖向唇侧弯曲",
+        "D": "根长约为冠长的 2 倍",
+        "E": "该牙的解剖标志是宽冠宽根"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "上颌乳中切牙牙冠短而宽，似铲形，发育沟不明显。舌面隆突、舌窝明显。单根扁而宽，根尖向唇侧弯曲，根长约为冠长的2 倍。宽冠宽根是上颌乳中切牙的解剖标志。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 67,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0068",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "轴面上从牙尖顶端伸向牙颈的纵行隆起，称为：",
+      "options": {
+        "A": "三角嵴",
+        "B": "斜嵴",
+        "C": "切嵴",
+        "D": "轴嵴",
+        "E": "颈嵴"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "轴嵴：是轴面上从牙尖顶端伸向牙颈的纵行隆起。尖牙唇面的轴嵴称为唇轴嵴；后牙颊面的轴嵴称为颊轴嵴；尖牙及后牙舌面的轴嵴称为舌轴嵴。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 68,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0069",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "从牙尖顶端斜向近、远中的嵴，称为：",
+      "options": {
+        "A": "切嵴",
+        "B": "边缘嵴",
+        "C": "牙尖嵴",
+        "D": "三角嵴",
+        "E": "斜嵴"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "牙尖嵴：从牙尖顶端斜向近、远中的嵴，称为牙尖嵴。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 69,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0070",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "牙冠表面细长形的釉质隆起称为：",
+      "options": {
+        "A": "牙尖",
+        "B": "牙体长轴",
+        "C": "嵴",
+        "D": "沟",
+        "E": "窝"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "嵴：为牙冠表面细长形的釉质隆起。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 70,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0071",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下列关于切牙的应用解剖的说法，正确的是：",
+      "options": {
+        "A": "下颌切牙唇面近颈部有牙石沉积",
+        "B": "上颌中切牙拔除时不能使用旋转力",
+        "C": "下颌切牙拔除时可以使用旋转力",
+        "D": "上颌侧切牙拔除时不可以使用旋转力",
+        "E": "上颌侧切牙外形常有变异或先天缺失"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "下颌切牙受唾液冲刷不易发生龋齿，但舌面近颈部往往有牙垢、牙石沉积。上颌中切牙牙根较圆且直，拔除时可使用旋转力。上颌侧切牙可使用扭转力，但扭转的角度要较小；下颌切牙牙根扁长，拔除时不可用旋转力。上颌侧切牙外形常常有变异或先天缺失。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 71,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0072",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "上颌第一磨牙（牙合）面形态中哪一点是错误的：",
+      "options": {
+        "A": "斜方形",
+        "B": "近中颊（牙合）角及远中舌（牙合）角是锐角",
+        "C": "可见斜嵴",
+        "D": "5 条发育沟",
+        "E": "近中窝大于远中窝"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "上颌第一磨牙有3 条发育沟：颊沟，近中沟，远中舌沟。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 72,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0073",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下列乳牙髓腔形态特点说法中，正确的是：",
+      "options": {
+        "A": "乳磨牙通常有 3 个根管",
+        "B": "乳磨牙通常有 4 个根管",
+        "C": "乳磨牙通常有 2 个根管",
+        "D": "下颌第二乳磨牙一般为 4 个根管",
+        "E": "上颌乳磨牙一般为 2 个根管"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "乳磨牙髓室较大，通常均有3 个根管，上颌乳磨牙有2 个颊侧根管，1 个舌侧根管；下颌乳磨牙有两个近中根管，1 个远中根管。下颌第二乳磨牙有时可出现4 个根管，其分布为近中2 个根管，远中2 个根管。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 73,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0074",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "恒牙中最早萌的“六龄牙”是：",
+      "options": {
+        "A": "上颌第一磨牙",
+        "B": "下颌第一磨牙",
+        "C": "上颌第一乳磨牙",
+        "D": "下颌第二磨牙",
+        "E": "下颌第二乳磨牙"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "下颌第一磨牙是恒牙中萌出最早的牙，约在6 岁萌出，亦称“六龄牙”，是下颌牙弓中体积最大的牙。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 74,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0075",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "上颌尖牙牙冠唇面形态中正确的是：",
+      "options": {
+        "A": "圆五边形",
+        "B": "唇轴嵴两侧各有一条发育沟",
+        "C": "近中缘长，近中斜缘短",
+        "D": "外形高点在颈 1/3 与中 1/3 交界处",
+        "E": "以上均正确"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "上颌尖牙唇面似圆五边形，颈缘呈弧形，近中缘长，近中斜缘短，远中斜缘长，远中缘短。尖牙初萌出时，近、远中斜缘在牙尖顶端相交成的角约为90°。唇面中部由牙尖顶伸至颈1/3 的突起形成唇轴嵴。唇轴嵴两侧各有一条发育沟，唇面的外形高点在中1/3 与颈1/3 交界处的唇轴嵴上。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 75,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0076",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下颌第一前磨牙特有的解剖标志是：",
+      "options": {
+        "A": "斜嵴",
+        "B": "横嵴",
+        "C": "近中沟",
+        "D": "远中沟",
+        "E": "切嵴"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "下颌第一前磨牙（牙合）面颊、舌尖三角嵴相连横过（牙合）面形成横嵴，是该牙的重要的解剖标志。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 76,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0077",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "在两牙接触区周围均有向四周展开的呈Ⅴ形的空隙，在龈方的空隙称为：",
+      "options": {
+        "A": "外展隙",
+        "B": "邻间隙",
+        "C": "楔状缺损",
+        "D": "缺牙间隙",
+        "E": "灵长间隙"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "在两牙接触区周围均有向四周展开的呈Ⅴ形的空隙，称为楔状隙或外展隙。在龈方的空隙称为邻间隙。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 77,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0078",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下颌尖牙形态中哪一点是错误的：",
+      "options": {
+        "A": "近中牙尖嵴较远中牙尖嵴短",
+        "B": "唇面五边形",
+        "C": "牙尖偏近中",
+        "D": "舌轴嵴较上颌尖牙显著",
+        "E": "发育沟不明显"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "上颌尖牙颈嵴、轴嵴和舌隆突较明显，舌窝较深；下颌尖牙颈嵴、轴嵴和舌隆突不明显，舌窝较浅。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 78,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0079",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "上颌第一双尖牙形态中哪一点是错误的：",
+      "options": {
+        "A": "可见近中沟",
+        "B": "颊面五边形",
+        "C": "颊尖偏近中",
+        "D": "颊侧宽于舌侧",
+        "E": "（牙合）面六边形"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "上颌第一前磨牙颊面与尖牙唇面相似为五边形。（牙合）面外形为轮廓明显的六边形。颊尖略偏远中。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 79,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0080",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下列有关牙演化特点的描述中，不正确的一项是：",
+      "options": {
+        "A": "牙附着于颌骨的方式为端生牙至侧生牙，最后向槽生牙演化",
+        "B": "牙的分布由广泛至逐渐集中于上、下颌骨",
+        "C": "牙的替换次数由双牙列向多牙列演化",
+        "D": "牙形由单一同形牙向复杂异形牙演化",
+        "E": "牙数目由多变少"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "牙演化的特点：①牙形由单一同形牙向复杂异形牙演化；②牙数目由多变少；③牙的替换次数由多牙列向双牙列演化；④牙的分布由广泛至逐渐集中于上、下颌骨；⑤牙根从无到有，牙附着于颌骨的方式由端生牙至侧生牙，最后向槽生牙演化。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 80,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0081",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "第二乳磨牙与第一恒磨牙的区别要点中哪一点是错误的：",
+      "options": {
+        "A": "第二乳磨牙的牙冠较小、色白",
+        "B": "第二乳磨牙的牙冠颈部明显缩小，颈嵴较突",
+        "C": "第二乳磨牙的牙冠（牙合）面尖窝清晰",
+        "D": "第二乳磨牙的近中颊尖、远中颊尖、远中尖大小约相等",
+        "E": "第二乳磨牙的牙根干短，牙根向外张开"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "第二乳磨牙与第一恒牙相比，第一恒牙牙冠（牙合）面尖窝清晰。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 81,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0082",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下列关于老年人髓腔解剖的叙述中，不恰当的一项是：",
+      "options": {
+        "A": "髓腔明显变小",
+        "B": "牙髓的恢复能力强",
+        "C": "牙髓组织萎缩",
+        "D": "根管变细",
+        "E": "纤维成分显著增加而细胞成分减少"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "老年人整个髓腔明显变小，牙髓组织萎缩，纤维成分显著增加而细胞成分减少，牙髓的恢复能力弱，治疗效果较差，这些改变可以作为选择治疗方法的依据。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 82,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0083",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "关于切牙的临床应用解剖，下列说法错误的是：",
+      "options": {
+        "A": "上颌切牙位于牙弓前部，易受创伤",
+        "B": "上颌切牙缺损后对发音和美观都有直接影响",
+        "C": "上颌切牙邻面接触区为龋病的好发部位",
+        "D": "只有上颌侧切牙邻面接触区为龋病的好发部位",
+        "E": "下颌切牙不易发生龋齿"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "上颌切牙位于牙弓前部，易受创伤，缺损后对发音和美观都有直接影响。上颌切牙邻面接触区和上颌侧切牙舌窝顶端为龋病的好发部位。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 83,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0084",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "牙龈将会受食物直接撞击而受伤是由于：",
+      "options": {
+        "A": "牙冠轴面凸度过大",
+        "B": "牙冠轴面凸度过小",
+        "C": "牙冠（牙合）外展隙不明显",
+        "D": "牙冠（牙合）面副沟、排溢道不明显",
+        "E": "牙冠（牙合）楔状隙不明显"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "牙冠唇（颊）、舌面突度的生理意义：咀嚼时，排溢的食物顺着正常的牙冠突度滑至口腔，擦过牙龈表面时对牙龈起按摩作用，可促进血液循环，有利于牙龈的健康。若牙冠突度过小或无突度，牙龈将会受食物直接撞击而受伤；反之，若牙冠突度过大，牙龈会失去食物对其的按摩作用，可能产生废用性萎缩。牙冠颈1/3 的突度，还可起到扩展龈缘的作用，使其紧张而有力。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 84,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0085",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "上颌第一前磨牙的特有解剖标志是：",
+      "options": {
+        "A": "横嵴",
+        "B": "斜嵴",
+        "C": "近中沟",
+        "D": "远中沟",
+        "E": "切嵴"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "（牙合）面中央凹下形成中央窝，由近中点隙发出的沟越过近中边缘嵴至近中面，称为近中沟，是上颌第一前磨牙的特有解剖标志。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 85,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0086",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下列说法中，正确的是：",
+      "options": {
+        "A": "恒前牙根尖可偏远中",
+        "B": "乳前牙根尖可偏唇侧",
+        "C": "恒磨牙根干较长，根分叉小",
+        "D": "乳磨牙根干短，根分叉大",
+        "E": "以上均正确"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "恒前牙根尖可偏远中，乳前牙根尖可偏唇侧。恒磨牙根干较长，根分叉小；乳磨牙根干短，根分叉大。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 86,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0087",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "上颌尖牙唇面外形高点的位置是：",
+      "options": {
+        "A": "颈缘处",
+        "B": "舌隆突处",
+        "C": "颈嵴处",
+        "D": "中 1/3 处",
+        "E": "中 1/3 与颈 1/3 交界处"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "上颌尖牙唇面的外形高点在中1/3 与颈1/3 交界处的唇轴嵴上。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 87,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0088",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下列关于下颌磨牙髓腔形态的叙述中，正确的是：",
+      "options": {
+        "A": "近远中径＞颊舌径＞髓室高度",
+        "B": "髓室底多见 3～4 个根管口",
+        "C": "下颌磨牙的髓室呈矮立方形",
+        "D": "下颌第三磨牙髓腔变异很大",
+        "E": "以上均正确"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "下颌磨牙的髓室呈矮立方形，近远中径＞颊舌径＞髓室高度，髓室底多见3～4 个根管口。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 88,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0089",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "牙冠各轴面上最突出的部分为：",
+      "options": {
+        "A": "牙体长轴",
+        "B": "接触区",
+        "C": "外形高点",
+        "D": "点角",
+        "E": "线角"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "外形高点：牙冠各轴面上最突出的部分。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 89,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0090",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "牙体外层被釉质覆盖的部分称为牙冠，也称为：",
+      "options": {
+        "A": "临床牙冠",
+        "B": "解剖牙冠",
+        "C": "牙根",
+        "D": "牙颈",
+        "E": "釉牙骨质界"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "牙体外层被釉质覆盖的部分成为牙冠，也称为解剖牙冠。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 90,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0091",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "切牙切端舌侧长条形的釉质隆起，称为：",
+      "options": {
+        "A": "边缘嵴",
+        "B": "切嵴",
+        "C": "牙尖嵴",
+        "D": "三角嵴",
+        "E": "斜嵴"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "切嵴：是切牙切端舌侧长条形的釉质隆起，具有切割功能。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 91,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0092",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "对轴嵴的解释哪一个是正确的：",
+      "options": {
+        "A": "牙釉质的长形线状隆起",
+        "B": "轴面与轴面相交所形成的长形线状隆起",
+        "C": "在唇、颊面上的长形线状隆起",
+        "D": "在轴面上，从牙尖顶端伸向牙颈部的纵形隆起",
+        "E": "（牙合）面与轴面相交的长形隆起"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "轴嵴是在轴面上，从牙尖顶端伸向牙颈部的纵行隆起。嵴：牙冠表面细长形的釉质隆起。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 92,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0093",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "关于上、下颌第二乳磨牙特点的叙述错误的是：",
+      "options": {
+        "A": "第二乳磨牙根干短，牙根向外张开",
+        "B": "第二乳磨牙的牙冠由颈部向（牙合）方扩大",
+        "C": "第二乳磨牙的牙冠颈部明显缩小，颈嵴较突",
+        "D": "下颌第二乳磨牙的近中、远中颊尖及远中尖的大小约相等",
+        "E": "第二乳磨牙的牙冠短小，色乳白"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "上、下颌第二乳磨牙与同颌的第一恒磨牙形态近似，位置相邻，很容易混淆：①第二乳磨牙的牙冠短小，色乳白；②第二乳磨牙的牙冠颈部明显缩小，颈嵴较突，牙冠由颈部向（牙合）方缩小；③下颌第二乳磨牙的近中颊尖、远中颊尖及远中尖的大小约相等，而下颌第一恒磨牙此三尖中，以远中尖最小；④第二乳磨牙根干短，牙根向外张开。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 93,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0094",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "关于乳尖牙的解剖特点叙述正确的是：",
+      "options": {
+        "A": "上颌乳尖牙唇面牙尖短小",
+        "B": "远中牙尖嵴长于近中牙尖嵴",
+        "C": "牙尖偏向近中",
+        "D": "牙尖偏移方向与恒尖牙相同",
+        "E": "单根细长并向唇侧弯曲"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "上颌乳尖牙解剖特点：上颌乳尖牙唇面牙尖长大，约占牙冠长度的一半。近中牙尖嵴长于远中牙尖嵴，牙尖偏向远中，与恒尖牙相反。单根细长，根尖偏远中并向唇侧弯曲。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 94,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0095",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "以下关于槽生牙的说法错误的是：",
+      "options": {
+        "A": "槽生牙有较完善的牙根",
+        "B": "槽生牙位于牙槽窝内",
+        "C": "槽生牙有血管神经末梢从根尖孔入髓腔",
+        "D": "槽生牙的动物为哺乳类动物",
+        "E": "槽生牙可以在一生中不停地被替换"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "槽生牙：此类牙齿有较完善的位于牙槽窝内的牙根，并有血管和神经末梢从根尖孔进入髓腔。哺乳动物包括人类的牙齿均为槽生牙。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 95,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0096",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下颌第二乳磨牙和下颌第一恒磨牙形态近似、位置彼此相邻。容易混淆，下列哪项不是第二乳磨牙的特点：",
+      "options": {
+        "A": "牙冠短小，色白",
+        "B": "牙冠颈部明显缩小，颈嵴特别突处，牙冠由颈部向（牙合）方缩小",
+        "C": "近中颊尖、远中颊尖及远中尖的大小约相等",
+        "D": "第二乳磨牙的根干短，牙根向外张开",
+        "E": "近中颊尖、远中颊尖大小相等，远中尖最小"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "下颌第二乳磨牙的近中颊尖、远中颊尖及远中尖大小约相等，而下颌第一恒磨牙此三尖中，以远中尖最小。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 96,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0097",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "以下关于磨牙应用解剖的说法正确的是：",
+      "options": {
+        "A": "上下颌第一磨牙早期龋坏可以拔除，不用及时修复",
+        "B": "混合牙列期拔牙时应注意鉴别第一磨牙与第一乳磨牙形态，以免误认",
+        "C": "上颌磨牙断根在取出时容易将断根推入相邻颌面间隙中",
+        "D": "下颌第三磨牙断根拔除时容易将断根推入下颌管",
+        "E": "上颌第三磨牙是寻找腮腺导管口的标志，拔除时还要注意牙根数目、方向"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "磨牙应用解剖：①上下颌第一磨牙的位置和关系，对建立正常咬合起重要作用，故应尽量保留和尽早治疗。如必须拔除，也应及时修复，以免影响正常咬合关系；②第一磨牙牙冠形态与第二乳磨牙相似，在拔牙时应注意鉴别，以免误认；③上颌磨牙根尖与上颌窦底壁仅以薄骨质相隔，其根尖感染可能引起牙源性上颌窦炎。拔牙时，特别是在取出断根时，应避免将断根推入上颌窦；④下颌第三磨牙牙根与下颌管关系密切，在拔牙时应注意器械的用力方向，以免将牙根推入下颌管，损伤下牙槽神经；⑤上颌第二磨牙牙冠相对的颊黏膜上有腮腺管口。上颌第三磨牙是临床寻找腭大孔的标志；⑥拔上下颌磨牙时，注意牙根数目、分叉度和方向，以免断根或有牙根残留。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 97,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0098",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "Palmer 记录中乳牙以英语字母表示，其中 A 代表：",
+      "options": {
+        "A": "乳中切牙",
+        "B": "乳侧切牙",
+        "C": "乳尖牙",
+        "D": "第一乳磨牙",
+        "E": "第二乳磨牙"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "Palmer 记录系统也是以“+”符号将牙弓分为上、下、左、右四区，恒牙记录同部位记录法；乳牙以英文字母A～E 代表每区的乳中切牙至第二乳磨牙。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 98,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0099",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "楔状隙又称之为：",
+      "options": {
+        "A": "外展隙",
+        "B": "邻间隙",
+        "C": "楔状缺损",
+        "D": "缺牙间隙",
+        "E": "灵长间隙"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "在两牙接触区周围均有向四周展开的呈Ⅴ形的空隙，称为楔状隙或外展隙。在龈方的空隙称为邻间隙。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 99,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0100",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "切牙中体积最大，近远中径最宽的牙齿是：",
+      "options": {
+        "A": "上颌中切牙",
+        "B": "下颌侧切牙",
+        "C": "上颌乳中切牙",
+        "D": "下颌乳侧切牙",
+        "E": "上颌尖牙"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "上颌中切牙是切牙中体积最大、近远中径最宽的牙齿。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 100,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0101",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "根管横断面可呈 C 字形的牙齿为：",
+      "options": {
+        "A": "上颌第一磨牙",
+        "B": "上颌第二磨牙",
+        "C": "上颌第三磨牙",
+        "D": "下颌第一磨牙",
+        "E": "下颌第二磨牙"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "下颌第二磨牙根管的颊舌径很宽，有的近中根只有1 个较扁的根管，也有一些第二磨牙近远中根管在颊侧融合，横断面呈1 个C 形单根管。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 101,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0102",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下述牙冠轴面突度生理意义中正确的是：",
+      "options": {
+        "A": "正常的牙冠突度可促进血液循环",
+        "B": "牙冠颈 1/3 的突度，还可起到扩展龈缘的作用",
+        "C": "牙冠突度过小或无突度，牙龈将会受食物直接撞击而受伤",
+        "D": "牙冠突度过大，牙龈会失去食物对其的按摩作用，可能产生废用性萎缩",
+        "E": "以上均正确"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "牙冠唇（颊）、舌面突度的生理意义：咀嚼时，排溢的食物顺着正常的牙冠突度滑至口腔，擦过牙龈表面时对牙龈起按摩作用，可促进血液循环，有利于牙龈的健康。若牙冠突度过小或无突度，牙龈将会受食物直接撞击而受伤；反之，若牙冠突度过大，牙龈会失去食物对其的按摩作用，可能产生废用性萎缩。牙冠颈1/3 的突度，还可起到扩展龈缘的作用，使其紧张而有力。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 102,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0103",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "乳牙形态不同于恒牙的描述中，错误的是：",
+      "options": {
+        "A": "乳牙色泽呈乳黄色",
+        "B": "乳牙冠根分明",
+        "C": "乳牙相对自身牙体髓腔较大",
+        "D": "乳前牙的牙冠相对较宽",
+        "E": "乳牙牙冠呈乳白色偏青白"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "恒牙牙冠呈乳白色偏黄，乳牙牙冠呈乳白色偏青白。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 103,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0104",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "牙齿萌出的生理特点哪项是错误的：",
+      "options": {
+        "A": "在一定时间内萌出",
+        "B": "同颌同名牙左侧萌出早于右侧",
+        "C": "下颌牙萌出早于上颌牙",
+        "D": "男女同龄人萌出情况不相同",
+        "E": "按一定顺序先后萌出"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "牙萌出的规律：①在一定的时间内，按照一定的顺序，左右成对萌出；②一般情况下，下颌牙的萌出较上颌同名牙略早；③女性同名牙的萌出略早于男性。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 104,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0105",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "关于上颌中切牙的解剖特点说法正确的是：",
+      "options": {
+        "A": "唇面的近远中径大于切颈径",
+        "B": "舌面牙颈部有轴嵴",
+        "C": "近中邻面接触区在切 1/3 距切角稍远",
+        "D": "邻面观，切嵴位于牙体长轴的唇侧",
+        "E": "牙根的舌侧宽于唇侧"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "上颌中切牙：唇面切颈径大于近远中径；舌侧牙颈部有舌面隆突；近中邻面接触区在切1/3 靠近切角；邻面观切嵴位于牙体长轴的唇侧；牙根的唇侧宽于舌侧。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 105,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0106",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下列关于牙齿附着于颌骨的方式，下列说法错误的是：",
+      "options": {
+        "A": "端生牙为牙齿附着于颌骨的方式之一",
+        "B": "槽生牙为牙齿附着于颌骨的方式之一",
+        "C": "侧生牙为牙齿附着于颌骨的方式之一",
+        "D": "侧生牙较端生牙牢固",
+        "E": "端生牙不易脱落"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "牙附着于颌骨的方式分为端生牙、侧生牙、槽生牙，其中端生牙附着于颌骨的边缘，易脱落，侧生牙虽无完善的牙根，但比端生牙牢固。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 106,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0107",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下列关于横嵴的说法正确的是：",
+      "options": {
+        "A": "从后牙牙尖顶端伸向（牙合）面中央的细长形釉质隆起",
+        "B": "从牙尖顶端斜向近、远中的嵴",
+        "C": "前牙舌面窝的近远中边缘及后牙（牙合）面边缘的长条形釉质隆起",
+        "D": "牙冠表面细长形的釉质隆起",
+        "E": "相对牙尖的两条三角嵴，横过（牙合）面相连形成的嵴"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "横嵴：是相对牙尖的两条三角嵴，横过（牙合）面相连形成的嵴。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 107,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0108",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "关于上颌尖牙唇面特点叙述中错误的是：",
+      "options": {
+        "A": "唇轴嵴的位置在尖牙唇面中部由牙尖顶伸至牙颈 1/3 的突起",
+        "B": "在唇轴嵴的两侧各有一条发育沟",
+        "C": "唇面外形高点在中 1/3 与颈 1/3 交界处的唇轴嵴上",
+        "D": "唇面外形高点在上 1/3 与中 1/3 交界处的唇轴嵴上",
+        "E": "初萌时，近远中斜缘在牙尖相交形成的角度约为 90°"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "上颌尖牙初萌时，近、远中斜缘在牙尖顶端相交呈的角度约为90°；唇面中部由牙尖顶伸至颈1/3 的突起形成唇轴嵴。唇轴嵴两侧各有一条发育沟，唇面的外形高点在中1/3 与颈1/3 交界处的唇轴嵴上。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 108,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0109",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "关于尖牙的临床应用解剖的说法错误的是：",
+      "options": {
+        "A": "位于口角处，能够支撑口角",
+        "B": "若缺失，则口角塌陷，对面容影响较大",
+        "C": "发生龋齿机会多",
+        "D": "留存时间最久的牙齿",
+        "E": "口腔修复时多用作基牙"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "尖牙的应用解剖：①尖牙位于口角处，其根长大粗壮，起支撑口角的作用。如缺失则口角塌陷，对面容影响较大；②牙冠各面光滑，自洁作用良好，发生龋齿的机会较少；③因其牙根长、稳固，通常是口内留存时间最长的牙。修复时多用作基牙；④上颌尖牙牙根为圆锥形单根较直，拔除时可用旋转力。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 109,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0110",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "关于舌轴嵴的说法正确的是：",
+      "options": {
+        "A": "舌轴嵴只存在于上颌尖牙",
+        "B": "上颌切牙也有舌轴嵴",
+        "C": "上颌尖牙有一条舌轴嵴",
+        "D": "上颌尖牙的近中舌窝较远中舌窝大",
+        "E": "下颌切牙舌窝被舌轴嵴分为两个舌窝"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "上颌尖牙的舌侧由牙尖伸向舌隆突有一纵嵴称为舌轴嵴，舌窝被舌轴嵴分成较小的近中舌窝和较大的远中舌窝。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 110,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0111",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "在磨牙（牙合）面中尖、嵴、窝、沟、斜面最多的牙是：",
+      "options": {
+        "A": "上颌第一磨牙",
+        "B": "下颌第一磨牙",
+        "C": "上颌第二磨牙",
+        "D": "下颌第二磨牙",
+        "E": "上颌第一乳磨牙"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "下颌第一磨牙（牙合）面中的尖、嵴、窝、沟、斜面最多。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 111,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0112",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "上颌侧切牙与上颌中切牙的区别中哪一点是错误的：",
+      "options": {
+        "A": "上颌侧切牙唇面较窄小、圆突",
+        "B": "上颌侧切牙舌窝窄而深",
+        "C": "上颌侧切牙切缘向远中舌侧的倾斜度较中切牙大",
+        "D": "上颌侧切牙近中切角似锐角",
+        "E": "上颌侧切牙根长与冠长相近"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "上颌侧切牙切嵴向远中舌侧的倾斜度较中切牙大，似与远中面连续。上颌侧切牙外形基本与上颌中切牙相似，特点是体积稍小，形态窄而长。与上颌中切牙形态的主要区别：①唇面窄小而圆突，近中切角为锐角，远中切角呈圆弧形，发育沟不如上颌中切牙明显。②舌面的边缘嵴比中切牙明显，舌窝窄而深，有时有沟越过舌隆突的远中并延续到根面。③邻面的近远中接触区均比中切牙距切角远。④牙根细而稍长，根长大于冠长，牙根近颈部的横断面呈卵圆形。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 112,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0113",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下列关于乳牙与恒牙牙冠的叙述中，不正确的说法是：",
+      "options": {
+        "A": "乳牙体积比同名恒牙要小",
+        "B": "乳磨牙体积以第一乳磨牙较小，而第二乳磨牙较大",
+        "C": "恒牙牙冠呈乳白色偏黄",
+        "D": "乳牙牙冠呈乳白色偏青白",
+        "E": "恒牙体积较大，磨牙体积以第二磨牙最大"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "恒牙体积较大，磨牙体积以第一磨牙最大，第二磨牙次之。乳牙体积比同名恒牙要小，乳磨牙体积以第一乳磨牙较小，而第二乳磨牙较大。恒牙牙冠呈乳白色偏黄，乳牙牙冠呈乳白色偏青白。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 113,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0114",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "关于牙的组成，下列说法错误的是：",
+      "options": {
+        "A": "从牙体外部观察，每颗牙均由牙冠、牙根和牙颈三部分构成",
+        "B": "从纵剖面观察，牙体的组织包括牙釉质、牙骨质、牙本质和牙髓四部分构成",
+        "C": "牙冠是发挥咀嚼功能的主要部分",
+        "D": "牙根是牙体的支持部分，起稳固牙体的作用",
+        "E": "根尖孔仅是血管与牙周组织相连通的一种通道"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "从牙体外部观察，每颗牙有牙冠、牙根和牙颈三部分构成；从纵剖面观察，牙体的组织包括釉质、牙骨质、牙本质与牙髓四部分构成；其中牙冠是牙发挥咀嚼功能的主要部分；牙根是牙体的支持部分，起稳固牙体的作用；牙髓中的血管、淋巴管和神经仅通过根尖孔与根尖部牙周组织相连通。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 114,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0115",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "以下关于乳前牙的临床应用解剖说法错误的是：",
+      "options": {
+        "A": "体积小，牙冠短小，乳白色",
+        "B": "颈嵴突出，冠根分明",
+        "C": "宽冠窄根是乳前牙的特点",
+        "D": "乳中切牙的解剖标志是宽冠宽根",
+        "E": "上颌乳尖牙的牙尖偏向远中，与恒尖牙相同"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "乳牙外形的特点：体积小、牙冠短小、乳白色；颈嵴突出、冠根分明；上颌乳尖牙的牙尖偏远中，与恒尖牙相反；宽冠窄根是乳前牙的特点，但是乳中切牙的特点是宽冠宽根。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 115,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0116",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "第三磨牙的形态特点中哪一点是错误的：",
+      "options": {
+        "A": "牙的形态、大小、位置变异很多",
+        "B": "上颌第三磨牙与上颌第二磨牙相似",
+        "C": "（牙合）面副沟多",
+        "D": "根多合并成一锥形根",
+        "E": "牙尖和边缘嵴明显"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "第三磨牙的牙尖、嵴、窝不清晰，副沟多。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 116,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0117",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "解剖牙冠与牙根交界处的弧形曲线为：",
+      "options": {
+        "A": "牙冠",
+        "B": "牙根",
+        "C": "牙颈",
+        "D": "釉牙本质界",
+        "E": "牙本质小管"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "牙颈：指解剖牙冠与牙根交界处的弧形曲线。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 117,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0118",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "上颌恒牙萌出顺序哪一个是正确的：",
+      "options": {
+        "A": "12435678",
+        "B": "12345678",
+        "C": "61245387",
+        "D": "61253478",
+        "E": "61243578"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "恒牙萌出顺序有一定规律：上颌多为6→1→2→4→3→5→7 或6→1→2→4→5→3→7；下颌多为6→1→2→3→4→5→7 或6→1→2→4→3→5→7。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 118,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0119",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "上颌第一磨牙的外形高点与接触区叙述不正确的是：",
+      "options": {
+        "A": "颊面外形高点位于颈 1/3 处",
+        "B": "舌面外形高点位于舌中 1/3 处",
+        "C": "邻面外形高点位于（牙合）1/3 处",
+        "D": "近中接触区位于（牙合）1/3 与颊 1/3 交界处",
+        "E": "近中接触区位于（牙合）1/3 与颊 1/3、中 1/3 交界处"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "上颌第一磨牙颊面的外形高点在颈1/3 处，舌面外形高点在舌中1/3 处，邻面外形高点在（牙合）1/3 处，远中接触区在（牙合）1/3 与中1/3、舌1/3 交界处，近中接触区位于（牙合）1/3 与颊1/3、中1/3 交界处。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 119,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0120",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "有时在（牙合）面可见卡氏尖的牙齿是：",
+      "options": {
+        "A": "上颌第一磨牙",
+        "B": "上颌第二磨牙",
+        "C": "下颌第一磨牙",
+        "D": "下颌第二磨牙",
+        "E": "上颌第二前磨牙"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "上颌第一磨牙在近中舌尖的舌侧偶有第五牙尖，又称卡氏尖。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 120,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0121",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "对边缘嵴的解释正确的一项是：",
+      "options": {
+        "A": "前牙舌面窝近远中边缘及后牙（牙合）面边缘的长条形釉质隆起",
+        "B": "从牙尖顶端斜向近、远中的嵴",
+        "C": "从后牙牙尖顶端伸向（牙合）面中央的细长形釉质隆起",
+        "D": "牙冠表面细长形的釉质隆起",
+        "E": "（牙合）面与轴面相交的长形隆起"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "边缘嵴：是前牙舌面窝的近远中边缘及后牙（牙合）面边缘的长条形釉质隆起。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 121,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0122",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "下列说法中，不恰当的一项是：",
+      "options": {
+        "A": "恒牙颈嵴突起特别明显",
+        "B": "乳磨牙根干短，根分叉大",
+        "C": "乳牙牙冠颈嵴突出，冠根分明",
+        "D": "恒牙牙冠颈部缩窄，形态上与牙根的分界不大明显",
+        "E": "乳牙颈嵴突起明显"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "恒牙颈嵴突起不明显，乳牙颈嵴突起明显。恒牙牙冠颈部缩窄，形态上与牙根的分界不大明显。乳牙牙冠颈嵴突出，冠根分明。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 122,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0123",
+      "subject": "口腔解剖生理学",
+      "chapter": "口腔解剖生理学",
+      "type": "A1",
+      "stem": "关于上颌中切牙的说法错误的是：",
+      "options": {
+        "A": "唇面近似梯形",
+        "B": "舌面中央凹陷舌窝",
+        "C": "近中邻面似三角形",
+        "D": "唇侧切嵴较圆突",
+        "E": "牙根为粗壮较直的单根"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "上颌中切牙：唇面近似梯形；舌面中央凹陷成舌窝；近中邻面似三角形；唇侧切嵴较平直；牙根为粗壮较直的单根。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔解剖生理学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-01",
+      "paperName": "口腔历年医考1000真题 · 口腔解剖生理学",
+      "durationMinutes": 90,
+      "order": 123,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "一、牙体解剖"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    }
+  ]
+}

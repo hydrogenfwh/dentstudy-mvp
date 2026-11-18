@@ -81,12 +81,82 @@ class CmbImportTests(unittest.TestCase):
 
     def test_runtime_bank_has_the_two_chapter_organized_postgraduate_subjects(self):
         bank = json.loads((ROOT / 'mobile/assets/all_questions.json').read_text())
-        self.assertEqual(len(bank['questions']), 4210)
+        bank['questions'] = [
+            q for q in bank['questions'] if q.get('collection') != '人卫练习题'
+        ]
+        self.assertEqual(len(bank['questions']), 7306)
         self.assertEqual(
             {question['subject'] for question in bank['questions']},
-            {'口腔颌面外科学', '口腔修复学'},
+            {
+                '口腔颌面外科学', '口腔修复学', '口腔解剖生理学',
+                '口腔组织病理学', '口腔黏膜病学', '口腔预防医学', '基础医学',
+            },
         )
-        self.assertEqual(len({question['chapter'] for question in bank['questions']}), 22)
+        self.assertEqual(len({question['chapter'] for question in bank['questions']}), 59)
+        exercises = [
+            question for question in bank['questions']
+            if question.get('collection') == '口外练习题'
+        ]
+        self.assertEqual(len(exercises), 1243)
+        self.assertEqual(len({question['paperName'] for question in exercises}), 14)
+        self.assertEqual(
+            len([question for question in bank['questions']
+                 if question['id'].startswith('OMFS-EX-')]),
+            1143,
+        )
+        jyj = [
+            question for question in bank['questions']
+            if question.get('paperId') == 'jyj-omfs-100'
+        ]
+        self.assertEqual(len(jyj), 100)
+        self.assertEqual(
+            {question['paperName'] for question in jyj},
+            {'金英杰口外模拟题'},
+        )
+        self.assertEqual(
+            {question['collection'] for question in jyj},
+            {'金英杰口外模拟题'},
+        )
+        self.assertEqual(
+            {question['chapter'] for question in jyj}
+                .intersection({question['chapter'] for question in exercises}),
+            {question['chapter'] for question in jyj},
+        )
+        oral_histo_exercises = [
+            question for question in bank['questions']
+            if question.get('collection') == '口组病练习题'
+        ]
+        self.assertEqual(len(oral_histo_exercises), 853)
+        self.assertEqual(
+            len({question['paperName'] for question in oral_histo_exercises}), 17
+        )
+        self.assertEqual(
+            len(
+                [
+                    question
+                    for question in bank['questions']
+                    if question['id'].startswith('ORAL-HISTO-EX-')
+                ]
+            ),
+            853,
+        )
+        legacy_oral_histo = [
+            question
+            for question in bank['questions']
+            if question.get('paperId') == 'zhiyi-1000-02'
+        ]
+        self.assertEqual(len(legacy_oral_histo), 177)
+        self.assertEqual(
+            {question['collection'] for question in legacy_oral_histo},
+            {'口腔医考历年1000真题'},
+        )
+        self.assertEqual(
+            {question['chapter'] for question in legacy_oral_histo}
+                .intersection(
+                    {question['chapter'] for question in oral_histo_exercises}
+                ),
+            {question['chapter'] for question in legacy_oral_histo},
+        )
 
 
 if __name__ == '__main__':

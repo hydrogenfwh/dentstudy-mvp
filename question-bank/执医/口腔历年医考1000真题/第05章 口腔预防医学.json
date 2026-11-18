@@ -1,0 +1,5109 @@
+{
+ "version": "2026-10-23",
+ "name": "口腔历年医考1000真题 · 口腔预防医学",
+ "isDemo": false,
+ "sourceDocument": "口腔历年医考1000真题.pdf",
+ "sourceNote": "口腔执业（助理）医师资格考试 1000 题；答案与解析取自原文文末。年份与来源待核验。",
+ "questions": [
+  {
+   "id": "YS1000-0501",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "去除暴露的根分叉区菌斑的适宜工具是：",
+   "options": {
+    "A": "牙刷",
+    "B": "牙线",
+    "C": "冲牙器",
+    "D": "电动牙刷",
+    "E": "牙间隙刷"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "牙间刷适用于龈乳头丧失的邻间区，以及暴露的根分叉区和排列不整齐的牙邻面，牙间隙刷可去除暴露的根分叉区菌斑。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 501,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0502",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "牙周疾病流行特征不包括：",
+   "options": {
+    "A": "地区分布",
+    "B": "时间分布",
+    "C": "城乡分布",
+    "D": "年龄分布",
+    "E": "微生物种群分布"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "牙周疾病的流行特征主要有地区分布、时间分布、性别分布、年龄分布和民族分布。发展中地区高于发达地区（牙龈炎、牙结石），农村居民的患病程度高于城市居民。软垢指数不论城市还是农村，所有年龄组软垢指数都较高，农村均高于城市。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 502,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0503",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "一般在检查龈沟出血指数前不能检查：",
+   "options": {
+    "A": "简化软垢指数",
+    "B": "简化牙石指数",
+    "C": "菌斑指数",
+    "D": "牙龈指数",
+    "E": "社区牙周指数"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "菌斑指数的检查方法：用染色剂进行染色后，用视诊结合探针的方法检查，检查时用探针轻划牙面，根据菌斑的量和厚度记分而不根据菌斑覆盖面积记分。检查龈沟出血指数前，一般不能检查菌斑指数，因染色剂使用后，会影响龈沟出血情况的辨别，故选C。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 503,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0504",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "对于牙刷的保护，下列做法错误的是：",
+   "options": {
+    "A": "使用后用清水冲洗干净并甩干刷毛上的水分",
+    "B": "清洁甩干后将牙刷头向上放入漱口杯中",
+    "C": "将牙刷清洗甩干后放入密闭的牙刷盒内",
+    "D": "定期用专用清洁剂对牙刷进行消毒",
+    "E": "将牙刷插入过氧化氢液浸泡数分钟后再用清水洗净甩干"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "牙刷清洁的保持很重要，因此，每次使用后，用清水冲洗干净并甩干刷毛上的水分，并将牙刷上的水分甩干，牙刷头朝上置于通风处，牙刷需用清洁剂来消毒，可用过氧化氢液浸泡牙刷以消灭厌氧菌。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 504,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0505",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "通过刷牙不能有效地达到：",
+   "options": {
+    "A": "去除牙颈部的牙垢与菌斑",
+    "B": "去除龈沟内的牙垢与菌斑",
+    "C": "去除牙面的食物残渣",
+    "D": "去除牙邻面的牙垢与菌斑",
+    "E": "按摩牙龈，增强牙周组织的抗病能力"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "刷牙不能有效地达到牙邻面，邻面可用牙线、牙签等进行清洁。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 505,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0506",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "当群体牙龈指数为 0.1~1.0 时，说明人群牙龈炎流行程度为：",
+   "options": {
+    "A": "不流行",
+    "B": "轻度",
+    "C": "中度",
+    "D": "重度",
+    "E": "特重度"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "牙龈指数与牙龈炎流行程度关系如下：①0 表示无流行；②0.1～1.0 表示轻度流行；③1.1～2.0 表示中度流行；④2.1～3.0 表示重度流行。故选B。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 506,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0507",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "牙周病一级预防不包括：",
+   "options": {
+    "A": "口腔健康教育和指导",
+    "B": "建立良好的口腔卫生习惯",
+    "C": "掌握正确的刷牙方法",
+    "D": "提高宿主抵抗力",
+    "E": "专业洁治，平整根面，去除菌斑和牙石"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "一级预防又称初级预防，是指在牙周组织受到损害之前防止致病因素的侵袭，或致病因素已侵袭到牙周组织，但尚未引起牙周病损之前立即将其去除。包括所有针对牙周病的病因采取的干预措施。E 属于二级预防。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 507,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0508",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "口腔预防人员对一社区的居民进行口腔健康检查，若检查得到某人的 CPI 指数值为 4，则表示：",
+   "options": {
+    "A": "龈炎，探诊后出血",
+    "B": "牙石，探诊可发现牙石",
+    "C": "少于两颗功能牙存在",
+    "D": "晚期牙周病，牙周袋深度>6mm",
+    "E": "早期牙周病，龈袋深度在 45mm"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "CPI 记分标准：0=牙龈健康。1=牙龈炎，探诊后出血。2=牙石，探诊可发现牙石，但探针黑色部分全部露在龈袋外。3=早期牙周病，龈缘覆盖部分探针黑色部分，龈袋深度在4～5mm。4=晚期牙周病，探针黑色部分被龈缘完全覆盖，牙周袋深度6mm 或以上。X=除外区段（少于两颗功能牙存在）。9=无法检查（不记录）。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 508,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0509",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "关于牙周健康指数以下不正确的是：",
+   "options": {
+    "A": "检查 CI-S 时根据牙颈部牙石的量记分",
+    "B": "当牙颈部有散在龈下牙石时，CI-S 记分为 2",
+    "C": "OHI-S 只检查 16、11、26、31 的唇（颊）面，36、46 的舌面",
+    "D": "Sihacss 和 Loe 的菌斑指数是根据菌斑覆盖面积而不是菌斑的厚度记分",
+    "E": "检查 GI 时使用钝头牙周探针，结合视诊和探诊"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "CI-S 是简化牙石指数，是根据牙颈部牙石的量计分，A 正确。当龈上牙石覆盖面积占牙面1/3～2/3 之间，或有散在龈下牙石时记分为2，B 正确。OHI-S是简化口腔卫生指数，通常只检查6 个牙面16、11、26、31 的唇（颊）面，46 的舌面，C正确。Sihacss 的菌斑指数是根据牙龈区菌斑的厚度记分，D 不正确。检查GI 时使用钝头探针，结合视诊和探诊，E 正确。故选D。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 509,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0510",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "口腔保健中牙刷刷毛的直径应：",
+   "options": {
+    "A": "<0.5mm",
+    "B": "<0.4mm",
+    "C": "<0.3mm",
+    "D": "<0.2mm",
+    "E": "<0.1mm"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "我国保健牙刷标准规定，13 岁以下使用的牙刷刷毛直径为≤0.18。刷毛适当弹性、硬度，表面光滑，不易吸收水分，容易洗涤及干燥，无臭无味；优质尼龙丝，其直径为0.20mm 及以下。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 510,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0511",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A2",
+   "stem": "口腔医生了解和评估口腔患者的健康状态主要是通过：",
+   "options": {
+    "A": "疾病的流行趋势",
+    "B": "疾病造成损伤的大小",
+    "C": "疾病的传播途径",
+    "D": "疾病对动物的危险性",
+    "E": "患者检查与评价采集病史"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "口腔医生主要通过患者检查与评价采集病史来了解和评估口腔患者的健康状态。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 511,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0512",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "Kappa 值为 0.40 以下时可定为：",
+   "options": {
+    "A": "完全不可靠",
+    "B": "可靠度不合格",
+    "C": "可靠度中等",
+    "D": "可靠度优",
+    "E": "完全可靠"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "Kappa 值的大小与可靠度的关系 0.40 以下 0.41～0.600.61～0.800.81～1.0",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 512,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0513",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "关于口腔流行病学的主要作用描述错误的是：",
+   "options": {
+    "A": "用于口腔疾病发展趋势的监测",
+    "B": "研究口腔疾病的病因和影响流行的因素",
+    "C": "研究口腔疾病治疗的新教材和新技术",
+    "D": "制定口腔卫生保健规划并评价其发展",
+    "E": "用于研究疾病预防措施并评价其效果"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "口腔流行病学作用：①描述人群口腔健康与疾病的分布状态。②研究口腔疾病的病因和影响流行的因素。③研究疾病预防措施并评价其效果。④监测口腔疾病流行趋势。⑤为制订口腔卫生保健规划提供依据。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 513,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0514",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "机械性去除菌斑和软垢最常用的有效方法是：",
+   "options": {
+    "A": "刷牙",
+    "B": "漱口",
+    "C": "牙签",
+    "D": "牙线",
+    "E": "洁治"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "刷牙是常规的自我口腔保健措施，是机械性去除菌斑和软垢最常用的有效方法。单纯的刷牙平均只能清除菌斑的50%左右。特别是难以消除邻面菌斑。因此，除了刷牙外，还需要采用一些特殊的牙间清洁器，如牙线、牙签、牙间刷等帮助去除牙间隙的菌斑及软垢。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 514,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0515",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "研究某口腔医院过去几年来初诊主述变化的流行病学方法，称为：",
+   "options": {
+    "A": "横断面研究",
+    "B": "纵向研究",
+    "C": "常规资料分析",
+    "D": "病例-对照研究",
+    "E": "群组研究"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "常规资料分析又称历史资料分析，即对已有的资料或者疾病监测记录做分析或总结。如病史记录、疾病监测资料等。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 515,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0516",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "使用 0.12%或 0.2%氯己定液含漱，每天 2 次，每次 10ml，每次 1 分钟，可抑制菌斑形成达：",
+   "options": {
+    "A": "27%～45%",
+    "B": "27%～67%",
+    "C": "45%～61%",
+    "D": "45%～87%",
+    "E": "61%～87%"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "使用0.12%或0.2%氯己定液含漱，每天2 次，每次10ml，每次1 分钟，可抑制菌斑形成达45%～61%，牙龈炎可减少27%～67%。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 516,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0517",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "在随机抽样时，样本人群由于主观或客观原因未能接受检查出现的偏倚称为：",
+   "options": {
+    "A": "无应答偏倚",
+    "B": "标准误差",
+    "C": "选择性偏倚",
+    "D": "决定性偏倚",
+    "E": "测量误差"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "无应答偏倚：在随机抽样时，属于样本人群中的受检者，由于主观或客观原因未能接受检查，如未接受检查的人数达到抽样人数的30%，应答率仅有70%，结果就难以用来估计总体的现患率。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 517,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0518",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "6 岁以上儿童氟水漱口的剂量每次可使用：",
+   "options": {
+    "A": "1ml",
+    "B": "5ml",
+    "C": "10ml",
+    "D": "15ml",
+    "E": "20ml"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "含漱：使用漱口水时，根据儿童的年龄，用量筒或注射器取5ml或10ml 配好的溶液于漱口杯中，5～6 岁儿童每次用5ml，6 岁以上儿童每次用10ml，嘱儿童将溶液含入口中，鼓漱1 分钟后吐出，半小时内不进食或漱口。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 518,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0519",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "将特定人群按其是否暴露于某因素分为两组，追踪观察一定时间，比较两组的发病率，以检验该因素与某疾病联系的假设属于哪种调查方法：",
+   "options": {
+    "A": "病例-对照研究",
+    "B": "群组研究",
+    "C": "横断面研究",
+    "D": "常规资料分析",
+    "E": "纵向研究"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "群组研究：又称队列研究，将特定人群按其是否暴露于某因素分为两组，追踪观察一定时间，比较两组的发病率，以检验该因素与某疾病联系的假设。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 519,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0520",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "汗腺排出的氟约占：",
+   "options": {
+    "A": "5%～8%",
+    "B": "6%～9%",
+    "C": "7%～10%",
+    "D": "8%～11%",
+    "E": "9%～12%"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "机体还可通过其他途径排出部分氟，粪便排出12.6%～19.5%的氟，汗腺排出的氟约占7%～10%。还有微量的氟可由泪液、头发、指甲排出。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 520,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0521",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "药物漱口制剂中没有：",
+   "options": {
+    "A": "氯己定",
+    "B": "抗生素",
+    "C": "血根碱",
+    "D": "酚类化合物",
+    "E": "季铵化合物"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "在机械性控制菌斑的基础上，配合化学制剂可有效地控制菌斑，达到预防和治疗牙周病的目的。常用控制菌斑的化学制剂有以下几类：①氯己定；②酚类化合物（又称香精油）；③季铵化合物；④血根碱；⑤氟化亚锡；⑥三氯羟苯醚。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 521,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0522",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "氟吸收的主要场所：",
+   "options": {
+    "A": "心",
+    "B": "肝",
+    "C": "脾",
+    "D": "肺",
+    "E": "胃、肠道"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "氟吸收是一个简单扩散过程。氟在胃、肠道均可被吸收。氟在胃部吸收机制与胃的酸度有关。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 522,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0523",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "下列关于氟排泄错误的是：",
+   "options": {
+    "A": "摄入氟最初 5 个小时排泄最快",
+    "B": "成人摄氟量的 40%～60%由尿排出",
+    "C": "24 小时可排出摄入氟的 50%以上",
+    "D": "3～4 小时可排出摄入氟的 20%～30%",
+    "E": "氟的快速排出对人体是一种保护作用"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "一般成人摄氟量的40%～60%由尿排出。肾的氟清除率与尿pH和流速呈正比关系。pH 高（碱性尿），尿流速快，肾清除氟的速度则快，pH 低（酸性尿），尿流速慢，则清除较慢。一般尿氟的排泄速度，在摄入氟的最初4 小时最快，3～4 小时可排出摄入氟的20%～30%，24 小时可排出摄入氟的50%以上。氟的快速排出对人体是一种保护作用。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 523,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0524",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "常用的分层因素有年龄、性别、文化程度的抽样为：",
+   "options": {
+    "A": "单纯随机抽样",
+    "B": "系统抽样",
+    "C": "分层抽样",
+    "D": "整群抽样",
+    "E": "多级抽样"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "分层抽样：先将总体按某种特征分成若干个“层”，再在每个层中用随机方式抽取调查对象，再将每个层所有抽取的调查对象合成一个样本，称分层抽样。常用的分层因素有年龄、性别、居住地、文化程度、经济条件等，将调查人群分成若干组。还可分成等比例（即按比例）和不等比例（即最优分配）两种分层随机抽样。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 524,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0525",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "先按疾病状态，确定调查对象，选择有特定疾病的人群组，与未患这种疾病的对照组，比较两组人群过去暴露于某种可能危险因素的程度，分析暴露是否与疾病有关。此种调查方法为：",
+   "options": {
+    "A": "纵向研究",
+    "B": "常规资料分析",
+    "C": "横断面研究",
+    "D": "群组研究",
+    "E": "病例-对照研究"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "病例-对照研究：主要用于探讨病因、相关因素对于疾病产生的影响。它先按疾病状态，确定调查对象，选择有特定疾病的人群组，与未患这种疾病的对照组，比较两组人群过去暴露于某种可能危险因素的程度，分析暴露是否与疾病有关。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 525,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0526",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "对所假设的病因或流行因素进一步在选择的人群中探索疾病发生的条件和规律，验证病因假设属于口腔流行病学研究方法中的：",
+   "options": {
+    "A": "描述性流行病学",
+    "B": "分析性流行病学",
+    "C": "实验性流行病学",
+    "D": "口腔疾病的一般统计",
+    "E": "口腔流行病学调查"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "分析性流行病学就是对所假设的病因或流行因素进一步在选择的人群中探索疾病发生的条件和规律，验证病因假设。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 526,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0527",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "下列哪项能够在正态分布或近似正态分布中表示范围的估计值：",
+   "options": {
+    "A": "平均数",
+    "B": "构成比",
+    "C": "率",
+    "D": "可信区间",
+    "E": "标准差"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "可信区间：在抽样调查中，虽有抽样误差存在，但只要是随机样本，其样本均数（或率）围绕总体均数（或率）呈正态分布或近似正态分布，故可以用样本均数（或率）和标准误对总体均数（或率）作出区间估计。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 527,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0528",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "龋病二级预防的内容不包括：",
+   "options": {
+    "A": "定期口腔检查",
+    "B": "X 线辅助诊断",
+    "C": "窝沟封闭",
+    "D": "早期诊断",
+    "E": "早期治疗"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "龋病的二级预防：早期诊断早期处理，定期进行临床检查及X线辅助检查，发现早期龋及时充填。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 528,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0529",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "口腔医疗保健中最常见的病毒感染是：",
+   "options": {
+    "A": "乙肝",
+    "B": "结核",
+    "C": "单纯疱疹",
+    "D": "AIDS",
+    "E": "梅毒"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "病毒感染是口腔工作者工作最大的危险，在口腔医学的实践中，由于一些感染性疾病本身传染性强，或者危险性大，加之口腔疾病的普遍性和口腔临床工作的特殊性，给疾病的传播提供了便利条件，通过多种传播途径带来的各种感染问题已日趋明显。乙肝的发病率相对较高。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 529,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0530",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "乳牙酸蚀的时间最好为：",
+   "options": {
+    "A": "20 秒",
+    "B": "30 秒",
+    "C": "40 秒",
+    "D": "50 秒",
+    "E": "60 秒"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "恒牙酸蚀的时间一般为20～30 秒，乳牙酸蚀60 秒。注意酸蚀过程中不要擦拭酸蚀牙面，因为这会破坏被酸蚀的牙釉面，降低黏结力。放置酸蚀剂时要注意酸的用量适当，不要溢出到口腔软组织，还要注意避免产生气泡。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 530,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0531",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "下列哪项能够表示抽样误差的大小：",
+   "options": {
+    "A": "构成比",
+    "B": "率",
+    "C": "可信区间",
+    "D": "标准差",
+    "E": "标准误"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "抽样调查中，使样本均数（或率）与总体均数（或率）之间出现差别的重要原因之一是存在抽样误差。标准误是用来表示抽样误差的大小。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 531,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0532",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "釉质表层氟含量较深层：",
+   "options": {
+    "A": "相同",
+    "B": "低 1～5 倍",
+    "C": "低 5～10 倍",
+    "D": "高 5～10 倍",
+    "E": "高 1～5 倍"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "牙的氟蓄积与骨基本相似。也是随着年龄和摄氟量的增加而增加。个体牙氟含量相对低于其骨氟含量。氟在牙形成、矿化以及矿化后进入牙组织，釉质氟主要聚积在表层，釉质表层较深层高5～10 倍。牙本质的氟浓度介于表层和深层釉质之间。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 532,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0533",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "在流行病学调查中能够表现调查对象的基本特征的是：",
+   "options": {
+    "A": "口腔健康行为",
+    "B": "口腔健康知识",
+    "C": "口腔健康相关生活质量",
+    "D": "口腔健康态度",
+    "E": "研究对象的属性"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "研究对象的属性：即调查对象的基本特征，包括反映一个人社会人口学特征的年龄、性别、种族、婚姻状况、居住地等的信息和反映一个人社会经济特征的受教育程度、职业、收入等信息。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 533,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0534",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "能发现调查人群中的全部病例并给予及时治疗，或用作项目开发的依据是哪种调查方法的最大优点：",
+   "options": {
+    "A": "抽样调查",
+    "B": "普查",
+    "C": "捷径调查",
+    "D": "病例-对照研究",
+    "E": "群组研究"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "普查的最大优点是能发现调查人群中的全部病例并给予及时治疗，或用作项目开发的依据。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 534,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0535",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "在调查过程中样本人群的选择是随意选择，破坏了同质性，使调查结果与总体人群患病情况之间产生的误差，称为：",
+   "options": {
+    "A": "无应答偏倚",
+    "B": "标准误差",
+    "C": "选择性偏倚",
+    "D": "决定性偏倚",
+    "E": "测量误差"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "在调查过程中样本人群的选择不是按照抽样设计的方案进行，而是随意选择，由于调查对象的代表性差，破坏了同质性，使调查结果与总体人群患病情况之间产生的误差，称为选择性偏倚。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 535,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0536",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "关于病例-对照研究特点不包括哪一项：",
+   "options": {
+    "A": "观察时间短",
+    "B": "需要研究的对象少",
+    "C": "适合研究一些病程较长的慢性病和一些比较多见的疾病",
+    "D": "尤其适合那些原因未明疾病的研究",
+    "E": "准确性低，可靠性较差，回忆偏倚较大"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "病例-对照研究的特点是观察时间短、需要研究的对象少，适合研究一些病程较长的慢性病和一些比较少见的疾病。又由于它一次可研究多个因素，尤其适合那些原因未明疾病的研究。但由于病例-对照研究是对过去因素的回顾性调查，所以准确性较低，可靠性较差，回忆偏倚较大。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 536,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0537",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "下列有关牙签的使用方法及注意事项中，除外的是：",
+   "options": {
+    "A": "以 45°角进入牙间隙，牙签尖端指向龈面",
+    "B": "牙签侧面紧贴邻面牙颈部",
+    "C": "清除邻面菌斑和嵌塞的食物后漱口",
+    "D": "注意防止刺伤龈沟底，破坏上皮附着",
+    "E": "勿将牙签压入健康的牙龈乳头区"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "牙签使用方法：将牙签以45°角进入牙间隙，牙签尖端指向（牙合）面，侧面紧贴邻面牙颈部，向（牙合）方剔起或作颊舌向穿刺动作，清除邻面菌斑和嵌塞的食物，并磨光牙面，然后漱口。注意事项：①勿将牙签压入健康的牙龈乳头区，以免形成人为的牙间隙；②使用牙签时动作要轻，以防损伤龈乳头或刺伤龈沟底，破坏上皮附着。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 537,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0538",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "光固封闭剂涂布后用可见光源照射，照射距离约离牙尖：",
+   "options": {
+    "A": "1mm",
+    "B": "2mm",
+    "C": "3mm",
+    "D": "4mm",
+    "E": "1cm"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "自凝封闭剂涂布后1～2 分钟即可自行固化。光固封闭剂涂布后，立即用可见光源照射。照射距离约离牙尖1mm，照射时间要根据采用的产品类型与可见光源性能决定，一般约为20～40 秒。照射的部位要大于封闭剂涂布的部位。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 538,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0539",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "下列哪项能够反映一组性质相同的观察值的平均水平或集中趋势的统计指标：",
+   "options": {
+    "A": "标准差",
+    "B": "标准误",
+    "C": "平均数",
+    "D": "可信区间",
+    "E": "构成比"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "平均数：分析计量资料常用平均数，它是反映一组性质相同的观察值的平均水平或集中趋势的统计指标。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 539,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0540",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "临床试验应符合的原则是：",
+   "options": {
+    "A": "公平原则",
+    "B": "分组原则",
+    "C": "平等原则",
+    "D": "随机原则",
+    "E": "尊重原则"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "临床试验与其他流行病学方法相比有其特点。其设计应符合三个基本原则，即随机、对照和盲法。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 540,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0541",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "下列哪项是用来说明某事物内部各构成部分所占的比重的：",
+   "options": {
+    "A": "可信区间",
+    "B": "标准误",
+    "C": "标准差",
+    "D": "平均数",
+    "E": "构成比"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "构成比：是用来说明某事物内部各构成部分所占的比重。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 541,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0542",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "在特定时间范围内，对特定人群中的每一个成员进行的调查或检查，属于调查方法中的：",
+   "options": {
+    "A": "抽样调查",
+    "B": "普查",
+    "C": "捷径调查",
+    "D": "验证病因假设",
+    "E": "设立对照组"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "普查是指在特定时间范围内，一般为1～2 天或1～2 周，对特定人群中的每一个成员进行的调查或检查，又称全面调查。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 542,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0543",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A2",
+   "stem": "患牙龈炎的患者禁用：",
+   "options": {
+    "A": "氟化自来水",
+    "B": "含氟涂料",
+    "C": "局部涂氟",
+    "D": "含氟泡沫",
+    "E": "含氟牙线"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "含氟涂料的缺点是涂布后可导致牙齿短暂时间内的变色，刷牙可使其恢复正常；少数患者可对其产生接触性过敏；牙龈出血者禁用。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 543,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0544",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "下列有关氟摄入说法错误的是：",
+   "options": {
+    "A": "人体氟的主要来源是饮水",
+    "B": "空气中的氟会引起氟中毒",
+    "C": "食物中摄取的氟量不是恒定的",
+    "D": "成人饮水量每日约 2500～3000ml",
+    "E": "水中氟不易被吸收"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "人体氟的主要来源是饮水，约占人体氟来源的65%。虽然空气中的氟不是人体氟的主要来源，但在某些特殊环境条件下可引起空气氟污染，空气中的氟可以通过呼吸道进入人体，造成机体氟中毒。同一地区的不同种类的食品，不同地区的同类食品的氟含量都存在着一定的差异，故从食品中摄取的氟量不是恒定的。水中氟很容易被吸收。机体从饮水中摄入氟量的多少直接受到饮水氟浓度和饮水量的调控。饮水摄入量又与个体的年龄、生活习惯及当地的气温等因素有关，12 岁以前的饮水量约占液体总摄入量的50%，成人饮水量每日约2500～3000ml。热带地区饮水量显著大于严寒地区。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 544,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0545",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "以人体作为观察对象，以临床为研究场所，对口腔诊断技术、口腔治疗方法和口腔预防措施的效果进行评价的研究方法是：",
+   "options": {
+    "A": "横断面研究",
+    "B": "群组研究",
+    "C": "临床试验",
+    "D": "病例对照研究",
+    "E": "纵向研究"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "临床试验是指以人体作为观察对象，以临床为研究场所，对口腔诊断技术、口腔治疗方法和口腔预防措施的效果进行评价的研究方法。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 545,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0546",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "龋病二级预防包括：",
+   "options": {
+    "A": "修复牙列缺损",
+    "B": "治疗根尖周病的牙",
+    "C": "筛选高危人群并进行防护",
+    "D": "早期充填釉质龋",
+    "E": "不充填老年牙骨质龋"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "二级预防：早期诊断早期处理：定期进行临床检查及X 线辅助检查，发现早期龋及时充填。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 546,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0547",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "控制菌斑的方法中，不能有效去除菌斑的方法是：",
+   "options": {
+    "A": "刷牙",
+    "B": "漱口",
+    "C": "牙签",
+    "D": "牙线",
+    "E": "洁治"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "刷牙或使用牙线、牙签，洁治等机械方法是去除牙菌斑、清洁牙、保持口腔卫生的重要措施。一般漱口大多是利用水在口内流动的冲击力去除滞留的食物残屑，能暂时减少口腔微生物的数量，使口腔保持清新，但漱口的力量不足以去除牙菌斑。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 547,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0548",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "不属于化学性控制菌斑制剂的是：",
+   "options": {
+    "A": "洗必泰",
+    "B": "酚类化合物",
+    "C": "季铵化合物",
+    "D": "三氯羟苯醚",
+    "E": "甲基丙烯酸甲脂"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "常用的控制菌斑化学制剂：①氯己定；②酚类化合物；③季铵化合物；④氟化亚锡；⑤三氯羟苯醚。甲基丙烯酸甲脂为窝沟封闭的稀释剂。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 548,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0549",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "控制感染的基本特点为：",
+   "options": {
+    "A": "防止血源性以及非血源性疾病的传播",
+    "B": "强调双向防护",
+    "C": "采取接触隔离",
+    "D": "采取空气隔离",
+    "E": "以上均正确"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "控制感染应遵循标准预防的原则，其基本特点为：①既要防止血源性疾病的传播，也要防止非血源性疾病的传播；②强调双向防护，既防止疾病从患者传至医务人员，又防止疾病从医务人员传至患者；③根据疾病的主要传播途径，采取相应的隔离措施，包括接触隔离、空气隔离和微粒隔离。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 549,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0550",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "收集以下哪项的信息是问卷调查在口腔流行病学研究中的基本应用：",
+   "options": {
+    "A": "口腔保健知识",
+    "B": "口腔预防策略",
+    "C": "口腔健康相关生活质量",
+    "D": "口腔健康知识、态度和行为",
+    "E": "研究对象的属性"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "口腔健康知识、态度和行为是口腔流行病学中常用的资料，收集这些方面的信息是问卷调查在口腔流行病学研究中的基本应用。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 550,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0551",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "在下列流行病学调查方法中，研究时间较长，尤其对慢性病的观察费时更多的是：",
+   "options": {
+    "A": "病例-对照研究",
+    "B": "群组研究",
+    "C": "常规资料分析",
+    "D": "横断面研究",
+    "E": "纵向研究"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "由于群组研究属于前瞻性研究，研究时间较长，尤其对慢性病的观察费时更多，所以常在病例-对照研究获得较明确的危险因素后用于进一步验证病因假设。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 551,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0552",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "口腔临床医疗实践中，口腔科医师判断一种新技术的诊疗效果，最常用的方法是：",
+   "options": {
+    "A": "横断面研究",
+    "B": "群组研究",
+    "C": "临床试验",
+    "D": "病例对照研究",
+    "E": "纵向研究"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "在口腔临床医疗实践中，口腔科医师经常会遇到判断新技术、新药物或新方法效果的经历，而判断这些效果的最常用的方法就是临床试验。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 552,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0553",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "下列有关氯己定作用机制的论述中，错误的是：",
+   "options": {
+    "A": "减少唾液中能吸附到牙面上的细菌数",
+    "B": "氯己定与唾液酸性糖蛋白的酸性基团结合，使唾液糖蛋白对牙面的吸附能力增强",
+    "C": "封闭唾液糖蛋白的酸性基团，抑制获得性膜和菌斑的形成",
+    "D": "氯己定与牙面釉质结合，阻碍了唾液细菌对牙面的吸附",
+    "E": "氯己定取代 Ca2+与唾液中凝集细菌的酸性凝集因子作用，抑制了细菌吸附"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "氯己定与唾液酸性糖蛋白的酸性基团结合，从而封闭唾液糖蛋白的酸性基团，使唾液糖蛋白对牙面的吸附能力减弱，抑制获得性膜和菌斑的形成。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 553,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0554",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "以下哪种调查方法可以提供某种或某些疾病的流行因素的线索，形成危险因子假设：",
+   "options": {
+    "A": "纵向调查",
+    "B": "横断面调查",
+    "C": "临床试验",
+    "D": "群组调查",
+    "E": "常规资料分析"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "利用横断面调查可以提供某种或某些疾病的流行因素的线索，形成危险因子假设。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 554,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0555",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "艾滋病的口腔常见病损不包括：",
+   "options": {
+    "A": "口腔毛状白斑",
+    "B": "龋齿形成",
+    "C": "卡波西肉瘤",
+    "D": "非霍奇金淋巴瘤",
+    "E": "口腔念珠菌病"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "艾滋病的口腔常见病损：包括：①口腔毛状白斑；②口腔念珠球菌病；③卡波西肉瘤；④非霍奇金淋巴瘤。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 555,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0556",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "下列哪项能够用来说明某种现象发生的频率或强度：",
+   "options": {
+    "A": "率",
+    "B": "构成比",
+    "C": "平均数",
+    "D": "标准差",
+    "E": "标准误"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "率：是用来说明某种现象发生的频率或强度。在评价口腔疾病的患病状况时，常用率来表示人群中疾病状况的高低。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 556,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0557",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "窝沟封闭失败的最主要原因是：",
+   "options": {
+    "A": "清洁不彻底",
+    "B": "酸蚀时间不够",
+    "C": "酸蚀后唾液污染",
+    "D": "固化时间短",
+    "E": "涂布封闭剂有气泡"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "封闭前保持牙面干燥，不被唾液污染是封闭成功的关键。实践证明使用棉卷可做到很好的隔湿，其他还可采用专门提供的三角形吸湿纸板或橡皮障等。隔湿在很大程度上也依靠患者的合作。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 557,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0558",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "以下被称为背景资料，可依研究目的决定需收集的信息的是：",
+   "options": {
+    "A": "口腔健康行为",
+    "B": "口腔健康知识",
+    "C": "口腔健康相关生活质量",
+    "D": "口腔健康态度",
+    "E": "研究对象的属性资料"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "研究对象的属性资料也称为背景资料，可依研究目的决定需收集的信息。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 558,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0559",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "下列哪项属于 WHO 推荐的其目的是为了在较短时间内了解某群体口腔健康状况，并估计在该群体中开展口腔保健工作所需的人力和物力的调查方法：",
+   "options": {
+    "A": "单纯随机抽样",
+    "B": "系统抽样",
+    "C": "捷径调查",
+    "D": "整群抽样",
+    "E": "普查"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "捷径调查是WHO 推荐的另一个调查方法。其目的是为了在较短时间内了解某群体口腔健康状况，并估计在该群体中开展口腔保健工作所需的人力和物力。由于这种方法只查有代表性的指数年龄组的人群（5、12、15、35～44、65～74 岁），因此这种方法经济实用，节省时间和人力，故称为捷径调查。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 559,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0560",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "以下哪种方法可以做到通过对一个地区、某一人群在一定时间内的某种或某些口腔疾病进行调查，获得该地区特定人群某种或某些口腔疾病的患病情况和分布特点：",
+   "options": {
+    "A": "横断面调查",
+    "B": "纵向调查",
+    "C": "常规资料分析",
+    "D": "群组调查",
+    "E": "临床试验"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "横断面调查可以通过对一个地区、某一人群在一定时间内的某种或某些口腔疾病进行调查，获得该地区特定人群某种或某些口腔疾病的患病情况和分布特点。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 560,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0561",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "关于 HBV 感染特征错误的是：",
+   "options": {
+    "A": "可通过血液感染",
+    "B": "可通过伤口感染",
+    "C": "可通过龈沟液感染",
+    "D": "可通过污染器械感染",
+    "E": "由口腔科医生传播给病人的机会多"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "乙肝病毒在口腔临床中的传播方式主要是接触传播，通过直接接触患者的血液、唾液、龈沟液以及接触被污染的环境都可能感染疾病。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 561,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0562",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "根据试验的目的决定试验观察期限，如氟防龋效果观察，至少应持续：",
+   "options": {
+    "A": "半年",
+    "B": "2 年",
+    "C": "4 年",
+    "D": "6 年",
+    "E": "10 年"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "口腔临床试验需要一定的试验周期，一般应该根据试验目的决定试验的观察期限，如氟防龋效果观察，至少应持续2 年，一般为2～3 年。牙周病预防措施的效果观察可以持续6 周～18 个月。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 562,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0563",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "下列属于龋病三级预防的是：",
+   "options": {
+    "A": "窝沟封闭",
+    "B": "口腔健康教育",
+    "C": "发现早期龋及时充填",
+    "D": "不能保留的牙应及时拔除",
+    "E": "使用各种氟化物的防龋方法"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "三级预防：①防止龋病的并发症：对龋病引起的牙髓炎、根尖周炎应进行恰当治疗，防止炎症继续发展。对不能保留的牙应及时拔除。②恢复功能：对牙体缺损及牙列缺失，及时修复，恢复口腔正常功能，保持身体健康。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 563,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0564",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "下列哪项不是提高问卷回收率的方法：",
+   "options": {
+    "A": "争取权威机构的支持，以其名义发放问卷，较易引起重视",
+    "B": "版面设计简洁、美观且容易阅读",
+    "C": "方便调查对象，注重调查员的培训",
+    "D": "注意等级答案的明确性",
+    "E": "问卷问题数量合适且容易回答"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "问卷的科学设计和良好的访谈技巧是获得高回收率的保障。提高回收率的方法有多种，常用的有：①版面设计简洁、美观且容易阅读；②问卷问题数量合适且容易回答，最好采用打勾、画圈等选择形式；③争取权威机构的支持，以其名义发放问卷，较易引起重视；④让调查对象事先对研究的目的和意义有所了解，从而更愿意接受调查；⑤方便调查对象；⑥注重调查员的培训；⑦赠送纪念品以表明调查者要求配合的恳切希望，并表达谢意。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 564,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0565",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "口腔临床试验的基本分类不包括：",
+   "options": {
+    "A": "历史性对照研究",
+    "B": "病例对照研究",
+    "C": "随机对照试验",
+    "D": "交叉设计临床试验",
+    "E": "序贯临床试验"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "临床试验的基本分类：①历史性对照研究。②非随机同期对照试验。③随机对照试验。④交叉设计临床试验。⑤序贯临床试验。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 565,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0566",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "氯己定能较好地抑制龈上菌斑形成和控制龈炎，平均效果可达到：",
+   "options": {
+    "A": "40%",
+    "B": "50%",
+    "C": "60%",
+    "D": "70%",
+    "E": "80%"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "氯己定能较好地抑制龈上菌斑形成和控制龈炎，平均效果达到60%。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 566,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0567",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "对口腔科医生最危险的是：",
+   "options": {
+    "A": "疱疹",
+    "B": "肠炎",
+    "C": "痢疾",
+    "D": "乙肝",
+    "E": "脑炎"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "乙肝病毒是一种耐热的病毒，在95℃时要5 分钟才能将其杀灭，这种病毒在工作台表面可存活几周，较污染器械上的存活期长。在血液和血制品中可以发现HBV，唾液、血液，痰，母乳、眼泪、伤口分泌的液体、尿、精液及月经中都可以发现HBV，仅需极少量的病毒就可以导致感染。在没有应用乙肝疫苗的国家和地区，口腔卫生及有关人员仍属高危人群。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 567,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0568",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "标准一致性试验中可靠度优的 Kappa 值是：",
+   "options": {
+    "A": "0.40 以下",
+    "B": "0.41～0.60",
+    "C": "0.61～0.80",
+    "D": "0.81～1.0",
+    "E": "1.0"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "Kappa 值的大小与可靠度的关系 0.40 以下 0.41～0.600.61～0.800.81～1.0",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 568,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0569",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "反映口腔疾病及其防治对人们的生理功能、心理功能及社会功能等方面影响的综合评估指标：",
+   "options": {
+    "A": "口腔健康相关生活质量",
+    "B": "研究对象的属性",
+    "C": "口腔健康知识",
+    "D": "口腔健康态度",
+    "E": "口腔健康行为"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "口腔健康相关生活质量是反映口腔疾病及其防治对人们的生理功能、心理功能及社会功能等方面影响的综合评估指标。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 569,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0570",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "龋病预防方法中属于菌斑控制的方法是：",
+   "options": {
+    "A": "化学方法",
+    "B": "机械方法",
+    "C": "生物方法",
+    "D": "植物提取物",
+    "E": "以上说法均正确"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "菌斑控制：机械方法；化学方法；其他分法；①植物提取物；②生物方法；③抗菌斑附着剂；④替代疗法；⑤免疫方法。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 570,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0571",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "可以获得不同暴露强度与疾病的关系，也可以观察一种暴露因素与多种疾病的关系为下列哪种流行病学调查的特点：",
+   "options": {
+    "A": "病例-对照研究",
+    "B": "群组研究",
+    "C": "常规资料分析",
+    "D": "横断面研究",
+    "E": "纵向研究"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "群组研究的特点是可以获得不同暴露强度与疾病的关系，也可以观察一种暴露因素与多种疾病的关系。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 571,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0572",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "饮水占人体氟来源的：",
+   "options": {
+    "A": "55%",
+    "B": "65%",
+    "C": "75%",
+    "D": "85%",
+    "E": "95%"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "人体氟的主要来源是饮水，约占人体氟来源的65%。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 572,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0573",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A2",
+   "stem": "关于感染控制中对于患者的评估，需要注意的事项错误的是：",
+   "options": {
+    "A": "患者的信息需要公布，隐私不必保密",
+    "B": "患者的信息只能提供给需要信息的治疗人员",
+    "C": "没有患者的同意不能将信息披露给第三方",
+    "D": "口腔医师不能歧视患有传染性疾病的患者",
+    "E": "医护人员有责任采用感染控制措施防止感染传播"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "患者健康检查与评估的注意事项：①注意保护患者的隐私。对于一些敏感的问题，要注意场合和方式。患者的信息只能提供给需要信息的治疗人员，没有患者的同意不能披露给第三方；②口腔医师不能歧视患有传染性疾病的患者，拒绝给他们提供治疗是不道德的；③医护人员有责任采用感染控制措施防止感染传播，在自己不被感染又不将感染传播给其他患者的前提下进行治疗。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 573,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0574",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "关于口腔临床试验的描述错误的是：",
+   "options": {
+    "A": "口腔临床试验可以对口腔诊断技术的效果进行评价",
+    "B": "口腔临床试验可以对口腔治疗方法的效果进行评价",
+    "C": "口腔临床试验可以对口腔预防措施的效果进行评价",
+    "D": "口腔临床试验的观察对象是人体或动物",
+    "E": "临床试验是指以人体作为观察对象"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "临床试验是指以人体作为观察对象，以临床为研究场所，对口腔诊断技术、口腔治疗方法和口腔预防措施的效果进行评价的研究方法。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 574,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0575",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "抑制龋齿发生效果最好的糖代用品是：",
+   "options": {
+    "A": "糖精",
+    "B": "山梨醇",
+    "C": "木糖醇",
+    "D": "甘露醇",
+    "E": "蛋白糖"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "木糖醇等糖的替代品不会被致龋菌利用产酸和形成多聚糖，通常作为甜味剂被使用。但在实际生活中，糖代用品还不能完全代替蔗糖，因此，控制食糖频率及吃糖后及时清洁口腔，减少糖在口腔内的滞留时间尤为重要。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 575,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0576",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "单纯的刷牙能平均清除菌斑的：",
+   "options": {
+    "A": "40%左右",
+    "B": "50%左右",
+    "C": "60%左右",
+    "D": "70%左右",
+    "E": "80%左右"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "刷牙是常规的自我口腔保健措施，是机械性去除菌斑和软垢最常用的有效方法。单纯的刷牙平均只能清除菌斑的50%左右。特别是难以消除邻面菌斑。因此，除了刷牙外，还需要采用一些特殊的牙间清洁器，如牙线、牙签、牙间刷等帮助去除牙间隙的菌斑及软垢。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 576,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0577",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "下列选项中经接触传播的微生物是：",
+   "options": {
+    "A": "水痘病毒",
+    "B": "麻疹病毒",
+    "C": "风疹病毒",
+    "D": "流行性腮腺炎病毒",
+    "E": "乙肝病毒"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "由接触传播的微生物与疾病微生物乙肝病毒（HBV）丙肝病毒丁肝病毒单纯疱疹Ⅰ型单纯疱疹Ⅱ型人类免疫缺陷病毒（HIV）淋病双球菌梅毒螺旋体绿脓杆菌（铜绿假单胞菌）金色/白色葡萄球菌破伤风杆菌",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 577,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0578",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "回收的问卷份数与发出的份数的比率称为：",
+   "options": {
+    "A": "问卷设计",
+    "B": "问卷调查",
+    "C": "问卷的信度",
+    "D": "问卷效度",
+    "E": "问卷回收率"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "通常所说的问卷回收率是回收的问卷份数与发出的份数的比率。回收率是反映问卷调查质量的一个重要指标。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 578,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0579",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "人体氟可来源于：",
+   "options": {
+    "A": "饮水",
+    "B": "空气",
+    "C": "食物",
+    "D": "局部涂氟",
+    "E": "以上说法均正确"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "人体氟大部分来源于摄入的食品和水。如：饮水；食物；空气；其他可能的氟来源。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 579,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0580",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "调查需要的工作量大，成本太高，所以只能在较小范围内使用，属于下列哪种调查方法的最大缺点：",
+   "options": {
+    "A": "抽样调查",
+    "B": "群组研究",
+    "C": "捷径调查",
+    "D": "病例-对照研究",
+    "E": "普查"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "普查的最大缺点是这种调查需要的工作量大，成本太高，所以只能在较小范围内使用，如计划在一所或几所学校或某个社区开展的口腔保健活动，在此之前可使用普查以准确获得疾病的基线资料。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 580,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0581",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "乙肝病毒可以通过以下几种途径在口腔临床中进行传播，除外的是：",
+   "options": {
+    "A": "血液",
+    "B": "唾液",
+    "C": "龈沟液",
+    "D": "接触被污染的环境",
+    "E": "牙齿"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "乙肝病毒在口腔临床中的传播方式主要是接触传播，通过直接接触患者的血液、唾液、龈沟液以及接触被污染的环境都可能感染疾病。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 581,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0582",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "临床试验按照时间层面来说，属于：",
+   "options": {
+    "A": "前瞻性研究",
+    "B": "验证性研究",
+    "C": "随时间进行研究",
+    "D": "回顾性研究",
+    "E": "渐进性研究"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "临床试验还是一种特殊的前瞻性研究，它被人为地给予了干预，包括分组以及干预措施。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 582,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0583",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "0.12%或 0.2%氯己定液含漱的正确使用方法是：",
+   "options": {
+    "A": "每天 1 次，每次 10ml，每次 1 分钟",
+    "B": "每天 1 次，每次 20ml，每次 1 分钟",
+    "C": "每天 2 次，每次 10ml，每次 1 分钟",
+    "D": "每天 2 次，每次 20ml，每次 1 分钟",
+    "E": "每天 3 次，每次 10ml，每次 1 分钟"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "使用0.12%或0.2%氯己定液含漱，每天2 次，每次10ml，每次1 分钟，可抑制菌斑形成达45%～61%，牙龈炎可减少27%～67%。除了抗菌斑与龈炎外，还可用于口内手术之后，预防根面龋及龈下冲洗。当与氟化亚锡一起用于预防项目时，应在用氯己定液含漱后30～60 分钟再用氟化亚锡，以防止作用相互抵消。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 583,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0584",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "去除颈部和根面上附着的菌斑最有效的是：",
+   "options": {
+    "A": "牙线",
+    "B": "牙签",
+    "C": "含漱剂",
+    "D": "牙间刷",
+    "E": "牙龈按摩器"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "牙间刷适用于龈乳头丧失的邻间区，以及暴露的根分叉区和排列不整齐的牙邻面。特别是对去除颈部和根面上附着的菌斑比牙线和牙签更有效，使用起来比牙线方便。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 584,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0585",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "窝沟封闭酸蚀牙面范围为：",
+   "options": {
+    "A": "牙尖斜面的 1/3",
+    "B": "牙尖斜面的 2/3",
+    "C": "牙尖斜面的 1/2",
+    "D": "（牙合）面",
+    "E": "暴露在口腔的牙冠"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "酸蚀剂可为磷酸液或含磷酸的凝胶，酸蚀面积应为接受封闭的范围，一般为牙尖斜面的2/3。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 585,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0586",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "人体氟主要分布在：",
+   "options": {
+    "A": "牙",
+    "B": "骨",
+    "C": "血液",
+    "D": "唾液",
+    "E": "以上说法均正确"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "人体氟主要分布于骨、牙、血液、唾液和菌斑中。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 586,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0587",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "窝沟封闭的操作步骤包括：",
+   "options": {
+    "A": "酸蚀",
+    "B": "冲洗和干燥",
+    "C": "清洁牙面",
+    "D": "涂布封闭剂",
+    "E": "以上说法均正确"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "窝沟封闭的操作可分为清洁牙面、酸蚀、冲洗和干燥、涂布封闭剂、固化、检查六个步骤。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 587,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0588",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "观察时间短、研究对象少，适合研究一些慢性病和一些比较少见的疾病是哪种流行病学调查的特点：",
+   "options": {
+    "A": "病例-对照研究",
+    "B": "群组研究",
+    "C": "常规资料分析",
+    "D": "横断面研究",
+    "E": "纵向研究"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "病例-对照研究的特点是观察时间短、需要研究的对象少，适合研究一些病程较长的慢性病和一些比较少见的疾病。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 588,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0589",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "人体氟代谢过程分为：",
+   "options": {
+    "A": "吸收",
+    "B": "分布",
+    "C": "排泄",
+    "D": "A+B",
+    "E": "A+B+C"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "氟的代谢过程可分为吸收、分布与排泄。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 589,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0590",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "可以清洁牙齿邻面菌斑的有效方法是：",
+   "options": {
+    "A": "牙线",
+    "B": "牙签",
+    "C": "牙间刷",
+    "D": "牙间清洁器",
+    "E": "以上都可"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "刷牙是常规的自我口腔保健措施，是机械性去除菌斑和软垢最常用的有效方法。单纯的刷牙平均只能清除菌斑的50%左右。特别是难以消除邻面菌斑。因此，除了刷牙外，还需要采用一些特殊的牙间清洁器，如牙线、牙签、牙间刷等帮助去除牙间隙的菌斑及软垢。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 590,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0591",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "人们对于口腔健康各方面的看法和观念指的是：",
+   "options": {
+    "A": "口腔健康知识",
+    "B": "口腔流行病学资料",
+    "C": "口腔健康行为",
+    "D": "口腔保健方法",
+    "E": "口腔健康态度"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "口腔健康态度是人们对于口腔健康各方面的看法和观念。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 591,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0592",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "下列有关血浆氟说法不正确的是：",
+   "options": {
+    "A": "氟不易通过血脑屏障",
+    "B": "大部分血浆氟都是离子型",
+    "C": "血浆氟通常有两种存在形式",
+    "D": "血浆游离氟一般为 0.06～0.08mg/L",
+    "E": "胎儿血氟水平约为母体血氟水平的 75%"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "血浆氟通常也有两种存在形式，一种为离子型（游离氟），另一种为非离子氟（结合氟）。几乎所有血浆氟都是离子型，它不与血浆蛋白，或其他成分或软组织结合参与生理代谢过程。在正常情况下，血浆游离氟一般为0.01～0.02mg/L。母体内的氟化物可通过胎盘进入胎儿体内，胎儿血氟水平约为母体血氟水平的75%，说明胎盘起到部分屏障作用。脑的氟含量最低。提示氟不易通过血脑屏障。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 592,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0593",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A2",
+   "stem": "牙周病患者在使用牙线前应首先进行：",
+   "options": {
+    "A": "刷牙",
+    "B": "漱口",
+    "C": "牙签去除菌斑",
+    "D": "龈上洁治和根面平整",
+    "E": "牙间隙刷"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "牙周病患者使用牙线之前，应首先进行龈上洁治和根面平整，如磨光邻面充填体悬突， 使之与牙齿的解剖外形一致， 以免钩住牙线使牙线磨损而容易拉断。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 593,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0594",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "人体血液中的氟主要存在于：",
+   "options": {
+    "A": "酶",
+    "B": "血浆",
+    "C": "激素",
+    "D": "无机盐",
+    "E": "红细胞"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "人体血液中75%的氟存在于血浆中，其余的主要存在于红细胞。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 594,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0595",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "可用于口腔疾病预防措施和预防方法的研究，并对其效果进行评价的是以下哪项：",
+   "options": {
+    "A": "口腔预防医学",
+    "B": "口腔流行病学",
+    "C": "口腔解剖学",
+    "D": "口腔统计学",
+    "E": "口腔修复学"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "口腔流行病学也可用于口腔疾病预防措施和预防方法的研究，并对其效果进行评价。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 595,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0596",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "下列哪项能够说明一组观察值之间的变异程度，即离散度：",
+   "options": {
+    "A": "标准误",
+    "B": "标准差",
+    "C": "可信区间",
+    "D": "率",
+    "E": "构成比"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "标准差:是用来说明一组观察值之间的变异程度，即离散度。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 596,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0597",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "口腔的感染源有：",
+   "options": {
+    "A": "急性传染病患者",
+    "B": "潜伏期感染者",
+    "C": "病毒携带者",
+    "D": "A+B+C",
+    "E": "A+C"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "感染源及感染来源包括急性传染病患者、潜伏期感染者、病毒携带者。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 597,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0598",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "下列有关抗菌斑附着剂说法不正确的是：",
+   "options": {
+    "A": "阻止菌斑在牙面附着",
+    "B": "吸附凝集口腔内细菌",
+    "C": "阻止菌斑堆积",
+    "D": "不具有解吸附功能",
+    "E": "包括茶多酚、甲壳胺"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "抗菌斑附着剂：包括茶多酚、甲壳胺等，这些物质除有弱的抑菌作用外，主要作用是阻止菌斑在牙表面附着。甲壳胺是氨基多糖类物质，有表面阳离子活性，可以吸附凝集口腔内细菌，阻止菌斑堆积，同时也有解吸附功能，使已附着牙面的菌斑脱落。一些无机离子如：氟、锌、镧有明显抗附着作用。茶多酚、甲壳胺可以放在含漱剂或牙膏内使用。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 598,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0599",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "下列关于牙签的介绍，除外的是：",
+   "options": {
+    "A": "可用于牙龈乳头退缩或牙周治疗后牙间隙增大",
+    "B": "用来清洁邻面和根分叉区",
+    "C": "木质牙签横断面以正方形为佳",
+    "D": "常用的牙签有木质牙签和塑料牙签",
+    "E": "塑料牙签可设计成匕首形"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "牙签：在牙龈乳头退缩或牙周治疗后牙间隙增大时，可用牙签来清洁邻面和根分叉区。常用的牙签有木质和塑料的。木质牙签要有足够的硬度和韧性，避免折断；表面要光滑，没有毛刺，以免刺伤牙龈；横断面以扁圆形或三角形为佳。塑料牙签则根据牙间隙和龈乳头的解剖形态，设计成匕首形，尖端和刀口圆钝且薄，易于进入牙间隙。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 599,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0600",
+   "subject": "口腔预防医学",
+   "chapter": "口腔预防医学",
+   "type": "A1",
+   "stem": "口腔医疗保健中易感染的疾病有：",
+   "options": {
+    "A": "HIV 感染与 AIDS 病",
+    "B": "乙型肝炎",
+    "C": "梅毒",
+    "D": "结核",
+    "E": "以上都易感染"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "口腔环境是口腔医疗保健中潜在的病原体来源，包括血源性疾病、口腔疾病、系统性疾病的口腔病损及呼吸道疾病。如人类免疫缺陷病毒疾病、病毒性肝炎、结核、人疱疹病毒、梅毒等。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔预防医学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-05",
+   "paperName": "口腔历年医考1000真题 · 口腔预防医学",
+   "durationMinutes": 90,
+   "order": 600,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  }
+ ]
+}

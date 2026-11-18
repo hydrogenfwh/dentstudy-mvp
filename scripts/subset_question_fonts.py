@@ -31,6 +31,9 @@ def strings(value):
 def main():
     text = "".join(strings(json.loads(
         (ROOT / "mobile/assets/all_questions.json").read_text(encoding="utf-8"))))
+    school_asset = ROOT / "mobile/assets/school_library.json"
+    if school_asset.exists():
+        text += "".join(strings(json.loads(school_asset.read_text(encoding="utf-8"))))
     text += "".join(path.read_text(encoding="utf-8")
                     for path in (ROOT / "mobile/lib").rglob("*.dart"))
     requested = {ord(c) for c in text if not unicodedata.category(c).startswith("C")}
@@ -78,6 +81,8 @@ def main():
               f"copyright: {result['name'].getDebugName(0)}")
     for family, symbols in fallback_sources.items():
         needed = symbol_needed & set(symbols.getBestCmap())
+        # Keep a valid cmap even when this fallback has no exclusive glyphs.
+        needed.add(0x20)
         options = subset.Options()
         options.name_IDs = [0, 1, 2, 3, 4, 5, 6, 13, 14]
         builder = subset.Subsetter(options=options)

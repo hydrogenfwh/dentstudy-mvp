@@ -79,11 +79,11 @@ class _NotebooksPageState extends State<NotebooksPage> {
         .toList();
     final count = practice.length;
     return PageBody(children: [
-      heading('我的题本', sub: '疑问题为最近一次标记“蒙对／不稳”的题目'),
+      heading(tr('我的题本'), sub: tr('疑问题为最近一次标记“蒙对／不稳”的题目')),
       Wrap(spacing: 8, children: [
         for (final e in groups.entries)
           ChoiceChip(
-              label: Text('${e.key} ${e.value.length}'),
+              label: Text('${tr(e.key)} ${e.value.length}'),
               selected: kind == e.key,
               onSelected: (_) => setState(() {
                     kind = e.key;
@@ -95,15 +95,15 @@ class _NotebooksPageState extends State<NotebooksPage> {
             padding: const EdgeInsets.only(top: 14),
             child: box(
                 Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              const Text('错题优先级',
-                  style: TextStyle(fontWeight: FontWeight.bold)),
+              Text(tr('错题优先级'), style: TextStyle(fontWeight: FontWeight.bold)),
               const SizedBox(height: 7),
-              Text(
-                  '今日订正 ${justWrong.length} 题 · 反复错 ${repeated.length} 题 · 其他错题 ${activeMistakes.length - justWrong.length - repeated.length} 题 · 已掌握待归档 ${recovered.length} 题'),
+              Text(tr(
+                  '今日订正 ${justWrong.length} 题 · 反复错 ${repeated.length} 题 · 其他错题 ${activeMistakes.length - justWrong.length - repeated.length} 题 · 已掌握待归档 ${recovered.length} 题')),
               const SizedBox(height: 5),
-              const Text(
-                  '列表已按“今日刚错 → 反复错 → 其他 → 已掌握待归档”排序。移出错题本只改变你的题本标记，不会删除作答记录或复习排期。',
-                  style: TextStyle(fontSize: 12, color: Colors.blueGrey)),
+              Text(tr('列表已按“今日刚错 → 反复错 → 其他 → 已掌握待归档”排序。移出错题本只改变你的题本标记，不会删除作答记录或复习排期。'),
+                  style: TextStyle(
+                      fontSize: 12,
+                      color: Theme.of(context).colorScheme.onSurfaceVariant)),
             ]))),
       if (kind == '笔记') _noteTopics(groups['笔记']!),
       Align(
@@ -111,34 +111,35 @@ class _NotebooksPageState extends State<NotebooksPage> {
           child: TextButton.icon(
               onPressed: () => setState(() => filtering = !filtering),
               icon: const Icon(Icons.filter_list),
-              label: Text(filtering ? '收起筛选' : '筛选'))),
+              label: Text(tr(filtering ? '收起筛选' : '筛选')))),
       if (filtering) ...[
         TextField(
             controller: search,
-            decoration: const InputDecoration(labelText: '搜索题干、选项、解析或考点'),
+            decoration: InputDecoration(labelText: tr('搜索题干、选项、解析或考点')),
             onChanged: (v) => setState(() {
                   keyword = v.trim();
                   shown = 20;
                 })),
-        _select('学科', subject, store.questions.map((q) => q.subject).toSet(),
+        _select(
+            tr('学科'), subject, store.questions.map((q) => q.subject).toSet(),
             (v) {
           subject = v;
           chapter = '全部';
         }),
         _select(
-            '章节',
+            tr('章节'),
             chapter,
             store.questions
                 .where((q) => subject == '全部' || q.subject == subject)
                 .map((q) => q.chapter)
                 .toSet(),
             (v) => chapter = v),
-        _select('题型', type, store.questions.map((q) => q.type).toSet(),
+        _select(tr('题型'), type, store.questions.map((q) => q.type).toSet(),
             (v) => type = v),
-        _select('标签', tag, store.questions.expand((q) => q.tags).toSet(),
+        _select(tr('标签'), tag, store.questions.expand((q) => q.tags).toSet(),
             (v) => tag = v),
         _select(
-            '院校',
+            tr('院校'),
             school,
             store.questions
                 .map((q) => q.data['school'])
@@ -146,7 +147,7 @@ class _NotebooksPageState extends State<NotebooksPage> {
                 .toSet(),
             (v) => school = v),
         _select(
-            '年份',
+            tr('年份'),
             year,
             store.questions
                 .map((q) => q.data['year'])
@@ -161,13 +162,13 @@ class _NotebooksPageState extends State<NotebooksPage> {
               ? null
               : () => widget.onStart(
                   PracticeRequest(practice, review: true, label: '$kind巩固')),
-          child: Text('练习 $count 题 · 预计 ${(count * 1.5).ceil()} 分钟')),
+          child: Text(tr('练习 $count 题 · 预计 ${(count * 1.5).ceil()} 分钟'))),
       if (qs.isEmpty) ...[
-        heading(source.isEmpty ? '还没有$kind' : '没有匹配的题目'),
-        Text(source.isEmpty
+        heading(tr(source.isEmpty ? '还没有$kind' : '没有匹配的题目')),
+        Text(tr(source.isEmpty
             ? '学习中的标记会保存在这里。'
-            : '当前筛选条件排除了全部 ${source.length} 道题。'),
-        TextButton(onPressed: _clear, child: const Text('清空筛选'))
+            : '当前筛选条件排除了全部 ${source.length} 道题。')),
+        TextButton(onPressed: _clear, child: Text(tr('清空筛选')))
       ] else
         for (final q in qs.take(shown))
           studyCard(
@@ -177,7 +178,7 @@ class _NotebooksPageState extends State<NotebooksPage> {
                   subtitle: Text(_subtitle(q, metrics)),
                   trailing: kind == '错题'
                       ? IconButton(
-                          tooltip: '移出错题本，保留复习排期',
+                          tooltip: tr('移出错题本，保留复习排期'),
                           icon: const Icon(Icons.remove_circle_outline),
                           onPressed: () => safely(context,
                               () => store.add(q.id, 'removeWrong', null)))
@@ -188,11 +189,11 @@ class _NotebooksPageState extends State<NotebooksPage> {
                           builder: (_) => QuestionPreviewPage(
                               questions: qs,
                               initialQuestionId: q.id,
-                              title: '$kind解析'))))),
+                              title: '${tr(kind)}${tr('解析')}'))))),
       if (qs.length > shown)
         TextButton(
             onPressed: () => setState(() => shown += 20),
-            child: const Text('再显示 20 题'))
+            child: Text(tr('再显示 20 题')))
     ]);
   }
 
@@ -208,7 +209,7 @@ class _NotebooksPageState extends State<NotebooksPage> {
               items: ['全部', ...values]
                   .map((s) => DropdownMenuItem(
                       value: s,
-                      child: Text(s, overflow: TextOverflow.ellipsis)))
+                      child: Text(tr(s), overflow: TextOverflow.ellipsis)))
                   .toList(),
               onChanged: (v) => setState(() {
                     change(v!);
@@ -252,9 +253,9 @@ class _NotebooksPageState extends State<NotebooksPage> {
         padding: const EdgeInsets.only(top: 14),
         child:
             box(Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          const Text('知识点笔记', style: TextStyle(fontWeight: FontWeight.bold)),
+          Text(tr('知识点笔记'), style: TextStyle(fontWeight: FontWeight.bold)),
           const SizedBox(height: 7),
-          Text('共 ${notes.length} 道题留下笔记；下方按题目自带考点聚合，便于考前回看。'),
+          Text(tr('共 ${notes.length} 道题留下笔记；下方按题目自带考点聚合，便于考前回看。')),
           if (topics.isNotEmpty) ...[
             const SizedBox(height: 10),
             Wrap(
@@ -267,8 +268,10 @@ class _NotebooksPageState extends State<NotebooksPage> {
                     .toList())
           ] else ...[
             const SizedBox(height: 7),
-            const Text('这些题暂未配置考点标签，仍可逐题回看笔记。',
-                style: TextStyle(fontSize: 12, color: Colors.blueGrey))
+            Text(tr('这些题暂未配置考点标签，仍可逐题回看笔记。'),
+                style: TextStyle(
+                    fontSize: 12,
+                    color: Theme.of(context).colorScheme.onSurfaceVariant))
           ]
         ])));
   }

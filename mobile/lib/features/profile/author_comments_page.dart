@@ -111,7 +111,7 @@ class _AuthorCommentsPageState extends State<AuthorCommentsPage> {
                   maxLines: 3, overflow: TextOverflow.ellipsis),
               const SizedBox(height: 12),
               if (comment['parentId'] != null)
-                const Text('回复评论',
+                Text('回复评论',
                     style: TextStyle(fontSize: 12, color: Colors.blueGrey)),
               SelectableText(comment['body'] as String,
                   style: const TextStyle(fontWeight: FontWeight.w600)),
@@ -120,13 +120,13 @@ class _AuthorCommentsPageState extends State<AuthorCommentsPage> {
                   child: TextButton.icon(
                       onPressed: () => openQuestion(comment),
                       icon: const Icon(Icons.open_in_new, size: 16),
-                      label: const Text('查看题目与讨论')))
+                      label: Text('查看题目与讨论')))
             ])))),
         if (error != null) ...[
           Text(error!, style: const TextStyle(color: Colors.deepOrange)),
           TextButton(
               onPressed: () => load(more: comments.isNotEmpty),
-              child: const Text('重试'))
+              child: Text('重试'))
         ],
         if (loading)
           const Padding(
@@ -134,6 +134,6 @@ class _AuthorCommentsPageState extends State<AuthorCommentsPage> {
               child: Center(child: CircularProgressIndicator())),
         if (nextOffset != null && !loading && error == null)
           OutlinedButton(
-              onPressed: () => load(more: true), child: const Text('加载更多')),
+              onPressed: () => load(more: true), child: Text('加载更多')),
       ]));
 }

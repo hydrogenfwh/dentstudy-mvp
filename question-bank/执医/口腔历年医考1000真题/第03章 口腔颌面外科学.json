@@ -1,0 +1,5109 @@
+{
+ "version": "2026-10-23",
+ "name": "口腔历年医考1000真题 · 口腔颌面外科学",
+ "isDemo": false,
+ "sourceDocument": "口腔历年医考1000真题.pdf",
+ "sourceNote": "口腔执业（助理）医师资格考试 1000 题；答案与解析取自原文文末。年份与来源待核验。",
+ "questions": [
+  {
+   "id": "YS1000-0301",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "儿童复发性腮腺炎需特别注意鉴别的疾病是：",
+   "options": {
+    "A": "急性化脓性腮腺炎",
+    "B": "流行性腮腺炎",
+    "C": "慢性阻塞性腮腺炎",
+    "D": "慢性淋巴结炎",
+    "E": "舍格伦综合征"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "儿童复发性腮腺炎需与流行性腮腺炎相鉴别。流行性腮腺炎有发热史，双侧发生，肿胀明显，无反复发作史。故选B。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 301,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0302",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "以下关于下颌下腺涎石多见的原因，哪项是错误的：",
+   "options": {
+    "A": "下颌下腺导管弯曲而长，涎液流动缓慢",
+    "B": "导管口大，位于口底",
+    "C": "下颌下腺分泌的涎液含黏液量较腮腺为低",
+    "D": "下颌下腺涎液浓而黏稠",
+    "E": "下颌下腺涎液较腮腺涎液更偏碱性"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "下颌下腺为混合性腺体，涎液比其他唾液腺液浓而黏稠；下颌下腺导管自下而上弯曲走行，导管长，涎液逆重力而向上流动缓慢；同时比其他唾液腺液钙含量高且更偏碱性，钙盐容易沉积，导管口大容易发生逆向的灌注。故选C。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 302,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0303",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "纤维化慢性下颌下腺炎的治疗方法是：",
+   "options": {
+    "A": "硬化剂治疗",
+    "B": "导管结扎术",
+    "C": "药物治疗",
+    "D": "摘除涎石",
+    "E": "下颌下腺摘除"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "下颌下腺涎石病反复发作，使得下颌下腺继发慢性纤维硬化性下颌下腺炎，出现腺体萎缩。失去摄取和分泌功能时，即使摘除涎石，也已经不能使腺体的功能恢复，可摘除下颌下腺。故选E。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 303,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0304",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "涎腺炎最主要的感染途径是：",
+   "options": {
+    "A": "血源性",
+    "B": "淋巴源性",
+    "C": "邻近组织炎症波及",
+    "D": "损伤",
+    "E": "逆行性"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "唾液腺炎最主要的感染途径是逆行性：①涎液滞留、浓缩、化学成分改变，无机盐沉积于导管而形成。②异物如牙刷毛、麦穗芒、脱落上皮细胞、蛋白分解产物或细菌等，可形成钙盐沉积的核心。③全身因素，如与矿物质的新陈代谢和涎液的胶体状态有密切关系。故选E。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 304,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0305",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "急性化脓性腮腺炎的主要病原菌是：",
+   "options": {
+    "A": "大肠杆菌",
+    "B": "肺炎双球菌",
+    "C": "链球菌",
+    "D": "金黄色葡萄球菌",
+    "E": "绿脓杆菌"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "急性化脓性腮腺炎主要的致病菌为葡萄球菌，多见金黄色葡萄球菌。故选D。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 305,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0306",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "急性化脓性腮腺炎的主要病因是：",
+   "options": {
+    "A": "腮腺导管结石",
+    "B": "严重的全身疾病，如脓毒血症、急性传染病、腹部大手术等",
+    "C": "腮腺外伤",
+    "D": "口腔溃疡",
+    "E": "牙槽脓肿"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "急性化脓性腮腺炎较少见，为化脓性致病菌所引起，常见的病原菌是金黄色葡萄球菌、链球菌。多数并发于一些患有严重疾病（如急性传染病）或大手术后的患者。故选B。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 306,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0307",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "急性化脓性腮腺炎多发于：",
+   "options": {
+    "A": "感冒后",
+    "B": "腹痛后",
+    "C": "颌面部外伤后",
+    "D": "劳累后",
+    "E": "腹部大手术后"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "急性化脓性腮腺炎以前常见于腹部大手术以后，称为手术后腮腺炎。故选E。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 307,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0308",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "急性化脓性腮腺炎的切开引流指征不包括：",
+   "options": {
+    "A": "局部有跳痛及压痛",
+    "B": "局部有明显的凹陷性水肿",
+    "C": "腮腺导管口有脓液排出",
+    "D": "穿刺可抽出脓液",
+    "E": "腮腺区红肿发热"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "切开指症：局部有明显凹陷性水肿，局部有跳痛并有局限性压痛点，穿刺出现脓液，导管有脓液排出，全身感染中毒症状明显。故选E。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 308,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0309",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "儿童复发性腮腺炎最常见的发病年龄是：",
+   "options": {
+    "A": "7 岁左右",
+    "B": "5 岁左右",
+    "C": "3 岁左右",
+    "D": "2 岁左右",
+    "E": "1 岁左右"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "儿童复发性腮腺炎发病年龄自婴幼儿到15 岁，以5 岁左右最常见。故选B。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 309,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0310",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "成人慢性复发性腮腺炎的主要病因是：",
+   "options": {
+    "A": "急性化脓性腮腺炎转化而来",
+    "B": "腮腺导管结石",
+    "C": "儿童复发性腮腺炎迁延未愈而来",
+    "D": "腮腺区外伤继发感染而来",
+    "E": "化脓性中耳炎波及"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "所有患者均有儿童期腮腺反复肿胀史，每次肿胀持续1 周左右，随年龄增大，肿胀发作次数减少，持续时间缩短，成年期多在感冒发作或全身疲劳后肿胀发作。故选C。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 310,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0311",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "关于复发性腮腺炎的叙述，错误的是：",
+   "options": {
+    "A": "腮腺反复肿胀",
+    "B": "腮腺造影示主导管葱皮样改变，末梢导管呈点、球状扩张",
+    "C": "随年龄增长，发病间歇期延长",
+    "D": "可有自身免疫异常",
+    "E": "严重时可手术切除腮腺"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "复发性腮腺炎腮腺造影的表现应为末梢导管呈点、球状扩张，排空迟缓，主导管及腺内导管无明显异常。主导管呈葱皮样改变是舍格伦综合征。故选B。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 311,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0312",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "慢性阻塞性腮腺炎最常见的病因是：",
+   "options": {
+    "A": "导管较长导致的唾液滞留",
+    "B": "导管口黏膜损伤致导管口狭窄",
+    "C": "导管异物",
+    "D": "导管结石",
+    "E": "增龄性改变，导致唾液淤滞"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "导管口黏膜损伤致导管口狭窄是慢性阻塞性腮腺炎最常见的病因之一。故选B。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 312,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0313",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "慢性阻塞性腮腺炎挤压腮腺时导管口的分泌情况是：",
+   "options": {
+    "A": "未见明显分泌物",
+    "B": "黄稠脓性分泌物",
+    "C": "分泌物清亮",
+    "D": "雪花样或胶冻样分泌物",
+    "E": "脓血性分泌物"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "慢性阻塞性腮腺炎导管口轻微红肿，挤压腮腺可从导管口流出浑浊的雪花样或黏稠的蛋清样唾液。故选D。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 313,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0314",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "慢性阻塞性腮腺炎腮腺造影的 X 线表现特点是：",
+   "options": {
+    "A": "腮腺腺体有破坏而出现碘油池",
+    "B": "导管系统无明显变化",
+    "C": "分支导管呈抱球状表现",
+    "D": "主导管扩张不整呈腊肠样变",
+    "E": "末梢导管呈点状、球状扩张"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "慢性复发性腮腺炎和慢性阻塞性腮腺炎造影的X 线表现区分是前者主要表现为末梢导管的点球状扩张及排空迟缓，而后者主要表现为主导管的扩张不整，呈腊肠样变。故选D。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 314,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0315",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "以下哪种疾患在青春期后有自愈趋势：",
+   "options": {
+    "A": "急性化脓性腮腺炎",
+    "B": "慢性复发性腮腺炎",
+    "C": "流行性腮腺炎",
+    "D": "舍格伦综合征",
+    "E": "腮腺良性肥大"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "慢性复发性腮腺炎一般间隔数周或数月复发一次，年龄越小，间隔时间越短，越易复发，随年龄的增长，间隔时间越来越长，青春期后可逐渐自愈，少数患者可延期发作。故选B。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 315,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0316",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "下列哪种涎腺疾病以中年女性多见：",
+   "options": {
+    "A": "急性化脓性腮腺炎",
+    "B": "慢性复发性腮腺炎",
+    "C": "慢性阻塞性腮腺炎",
+    "D": "下颌下腺炎",
+    "E": "舍格伦综合征"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "舍格伦综合征多见于中年以上女性，出现症状至就诊时间长短不一。患者的主要症状有：眼干、口干、唾液腺及泪腺肿大、类风湿关节炎等结缔组织疾病。故选E。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 316,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0317",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "舍格伦综合征的症状不包括：",
+   "options": {
+    "A": "多发性关节炎",
+    "B": "唾液腺肿大",
+    "C": "口干",
+    "D": "干燥性结膜炎",
+    "E": "睾丸慢性炎症"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "舍格伦综合征的临床表现：眼干、口干、唾液腺及泪腺肿大、类风湿关节炎等结缔组织病。故选E。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 317,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0318",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "舍格伦综合征伴发的结缔组织病中最常见的是：",
+   "options": {
+    "A": "硬皮病",
+    "B": "多发性肌炎",
+    "C": "红斑狼疮",
+    "D": "类风湿关节炎",
+    "E": "结节性动脉炎"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "舍格伦综合征伴发的结缔组织病中最常见的是类风湿性关节炎。故选D。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 318,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0319",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "涎石病好发于：",
+   "options": {
+    "A": "下颌下腺",
+    "B": "舌下腺",
+    "C": "腮腺",
+    "D": "小涎腺",
+    "E": "唇腺"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "涎石病85%发生于下颌下腺，因为下颌下腺是混合性腺体，腺体分泌物富含黏蛋白，较腮腺分泌液黏滞，钙的含量也高出2 倍，而且钙盐易沉积。另外其开口大，并位于口底而易受损伤，因此牙结石或其他异物易进入导管内，使唾液滞留浓缩，发生钙盐沉积形成涎石。故选A。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 319,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0320",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "涎石病的临床特点：",
+   "options": {
+    "A": "以 20～40 岁中青年多见",
+    "B": "病程长短不一",
+    "C": "进食时腺体肿胀并伴有疼痛",
+    "D": "导管口溢脓",
+    "E": "以上特点均对"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "涎石病患者性别无明显差异，可见于任何年龄，但以20～40 岁的中青年为多见。病期短者数日，长者数年甚至数十年。小的涎石一般不造成唾液腺导管阻塞，无任何症状。导管阻塞时则可出现排唾障碍及继发感染的一系列症状及体征，如：进食时腺体肿大疼痛、导管口黏膜红肿溢脓、触诊可及硬块并有压痛、涎石阻塞可引起腺体继发感染。故选E。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 320,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0321",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "原发性三叉神经痛封闭治疗时选用的局部麻醉药是：",
+   "options": {
+    "A": "普鲁卡因",
+    "B": "甲哌卡因",
+    "C": "丁卡因",
+    "D": "布比卡因",
+    "E": "卡波卡因"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "三叉神经痛若疼痛明显且口服药无效，可以采用药物封闭疗法，普鲁卡因的毒性和副作用小，穿透力和弥散性差，故临床上常用1%～2%的普鲁卡因行疼痛神经支的阻滞麻醉。其他选项的麻药临床上不常用于封闭治疗。故选A",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 321,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0322",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "上牙槽神经阻滞麻醉后，允许拔牙的时机是：",
+   "options": {
+    "A": "腭侧牙龈感觉丧失后",
+    "B": "颊侧牙龈感觉丧失后",
+    "C": "颊黏膜感觉丧失后",
+    "D": "上唇感觉丧失后",
+    "E": "软腭感觉丧失后"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "上牙槽神经阻滞麻醉的区域是上颌牙、牙周膜、牙槽骨、唇颊侧牙龈，而腭侧牙龈、颊黏膜、上唇以及软腭都不是上牙槽神经的支配范围，因此对上牙槽神经阻滞麻醉的效果可通过颊侧牙龈感觉丧失来判断，此时可进行拔牙的操作。故选B。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 322,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0323",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "腭大孔阻滞麻醉主要麻醉的神经：",
+   "options": {
+    "A": "腭前神经",
+    "B": "腭中神经",
+    "C": "腭后神经",
+    "D": "鼻腭神经",
+    "E": "上牙槽后神经"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "三叉神经翼腭窝段发出蝶腭神经，蝶腭神经分为鼻支和腭神经，腭神经在翼内管内下降，分为腭前、中、后神经，腭前神经出腭大孔向前行；腭中、腭后神经出腭小孔分布。鼻腭神经分布于鼻中隔，然后出切牙孔。上牙槽后神经主要在上颌结节的后面走行。因此，腭大孔阻滞麻醉主要麻醉的是腭前神经。故选A。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 323,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0324",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "下牙槽神经阻滞麻醉时，针尖深入组织 3.0cm 未触及骨面，应：",
+   "options": {
+    "A": "拔出注射针，重新注射",
+    "B": "退出 1.0cm，加大进针角度",
+    "C": "退出 1.0cm，减小进针角度",
+    "D": "退至黏膜下，加大进针角度",
+    "E": "退至黏膜下，减小进针角度"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "下牙槽神经阻滞麻醉时针头自注射点刺入约2.5cm 可触及下颌骨升支的内侧骨面，现未触及骨壁，说明针尖位于下颌骨升支的后方。正确的方法应该是将针头退至黏膜下，加大进针角度，再次刺入；不用拔出注射器重新注射，避免增加伤口；也不能只退出1．0cm，此时针尖仍在肌肉组织中，难以改变进针角度。故选D。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 324,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0325",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "局麻过程中，为了预防医源性感染，以下措施中哪项可以除外：",
+   "options": {
+    "A": "注射点擦干后，用 2%碘酊消毒",
+    "B": "用一次性注射器",
+    "C": "避免注射针头被污染",
+    "D": "使用无菌的局麻药液",
+    "E": "术前 3 天大剂量应用抗生素"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "医源性感染的防治原则：注射器械、局麻药及注射区的消毒一定要严格；注射时防止注射针的污染和避免穿过或在炎症区直接注射。故此题选择E。术前3 天大剂量应用抗生素，违反了抗生素的使用原则。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 325,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0326",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "下列关于普鲁卡因局麻药物的描述哪个是错误的：",
+   "options": {
+    "A": "偶能产生过敏反应",
+    "B": "应用时常加入少量肾上腺素",
+    "C": "可做皮内试验检查其过敏反应",
+    "D": "穿透性和弥散性较强，可用作表面麻醉和浸润麻醉",
+    "E": "麻醉效果确切，毒性和副作用小"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "普鲁卡因局麻的穿透性和弥散性差，从而不适用于表面麻醉，故D 错。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 326,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0327",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "拔除上颌第二前磨牙时，颊侧麻醉一般采用：",
+   "options": {
+    "A": "局部浸润麻醉",
+    "B": "上牙槽后神经阻滞麻醉",
+    "C": "翼腭管阻滞麻醉",
+    "D": "眶下管阻滞麻醉",
+    "E": "腭前神经阻滞麻醉"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "上颌第二前磨牙是由上牙槽中神经支配，拔除上颌第二前磨牙时，颊侧麻醉一般采用局部浸润麻醉。故本题答案是A。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 327,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0328",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "利多卡因的一次最大剂量是：",
+   "options": {
+    "A": "800～1000mg",
+    "B": "100～150mg",
+    "C": "300～400mg",
+    "D": "60～100mg",
+    "E": "≥1000mg"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "利多卡因最大剂量为300～400mg，故C 正确。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 328,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0329",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "与 2％普鲁卡因比较，以下哪项不是 2％利多卡因的特点：",
+   "options": {
+    "A": "毒性较大，但可用作表面麻醉",
+    "B": "有较强的组织穿透性和扩散性",
+    "C": "维持时间较短",
+    "D": "有抗室性心律失常作用",
+    "E": "麻效强，起效快"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "普鲁卡因属于酯类局麻药，其特点是通透性和弥散性差，不适用于表面麻醉与利多卡因相比，起效较利多卡因慢麻醉维持时间为45～60 分钟。利多卡因属于酰胺类局麻药，麻醉作用普鲁卡因较强，有较强的组织穿透性和扩散性，可用作表面麻醉，麻醉起效快，维持时间为90～120 分钟，利多卡因还有迅速而安全抗室性心律失常作用。故C 选项不是利多卡因的特点，选C。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 329,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0330",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "普鲁卡因偶能发生过敏反应的原因是：",
+   "options": {
+    "A": "渗透性差",
+    "B": "酰胺类药物",
+    "C": "用量过大",
+    "D": "酯类药物",
+    "E": "与青霉素交叉过敏"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "普鲁卡因是脂类药物，脂类局麻药在血浆内被假胆碱酯酶水解生成对氨基苯甲酸，而药物过敏是与水解物对氨基苯甲酸有关。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 330,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0331",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "布比卡因的麻醉时间可达：",
+   "options": {
+    "A": "1h",
+    "B": "2h",
+    "C": "4h",
+    "D": "5h",
+    "E": "6h"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "布比卡因又名麻卡因，作用快慢与利多卡因相仿，而持续时间为利多卡因的2 倍，一般可达6 小时以上，麻醉强度为利多卡因的3~4 倍。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 331,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0332",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "局麻药中加入肾上腺素的浓度宜为：",
+   "options": {
+    "A": "1∶20000～1∶40000",
+    "B": "1∶2000～1∶4000",
+    "C": "1∶200000～1∶400000",
+    "D": "1∶2000000～1∶4000000",
+    "E": "1∶200～1∶400"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "常用肾上腺素以1：50000~1：200000 的浓度加入局麻药溶液中，用作局部浸润麻醉和阻滞麻醉。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 332,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0333",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "上牙槽后神经阻滞麻醉进针的方向正确的是：",
+   "options": {
+    "A": "向后、向下、向外",
+    "B": "向上、向后、向内",
+    "C": "向前、向外、向下",
+    "D": "向下、向前、向内",
+    "E": "向下、向后、向外"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "上牙槽后神经阻滞麻醉即上颌结节法，将局麻药注射于上颌结节，以麻醉上牙槽后神经。注射麻药时注射针头需要绕过上颌结节，即针尖要沿着上颌结节弧形表面向上后内的方向滑动。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 333,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0334",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A2",
+   "stem": "上牙槽后神经阻滞口内注射法时，患者的最佳体位是：",
+   "options": {
+    "A": "患者取坐位，头直立，大张口，上颌牙面与地平面平行",
+    "B": "患者取坐位，头微仰，半张口，上颌牙面与地平面呈 45°",
+    "C": "患者取坐位，头后仰，大张口，上颌牙面与地平面呈 75°",
+    "D": "患者取坐位，头后仰，大张口，上颌牙面与地平面呈 45°",
+    "E": "患者取坐位，头直立，半张口，上颌牙面与地平面呈 45°"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": ".患者取坐位，头微仰，半张口，上颌牙面与地平面呈45°，注射针与上颌牙的长轴成40 角、向上后内方刺入，进针时针尖沿着上颌结节弧形表面滑动，深约15~16mm，回抽无血，即可注入麻醉药液1.5~2ml。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 334,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0335",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "关于上颌结节麻醉的特点，错误的是：",
+   "options": {
+    "A": "适用于上颌磨牙的拔除",
+    "B": "麻醉的是上牙槽中神经",
+    "C": "进针点一般在上颌第二磨牙远中颊侧前庭沟",
+    "D": "注射针与上颌牙的长轴成 40°",
+    "E": "进针方向为向上后内方刺入"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "上颌结节麻醉的麻醉范围为上牙槽后神经分布的上颌窦黏膜，第二、三磨牙及第一磨牙的远中颊根和腭根，相应的牙周组织、骨膜和牙龈。标志：上颌第二磨牙远中颊侧根部前庭沟作为进针点，成人无牙者为颧牙槽嵴后1cm。方法：针与上颌面45°角，向上、后、内进针15~16mm，回抽无血，即可注入麻醉药液1.5~2ml。故B 不正确。所以此题选B。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 335,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0336",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "为防止注射时针头折断不能取出，注射时针头保留在体外的长度为：",
+   "options": {
+    "A": "0.5cm",
+    "B": "1.0cm",
+    "C": "1.5cm",
+    "D": "2.0cm",
+    "E": "3.0cm"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "注射时，按照注射的深度选用适当的注射针，至少应有1cm 长度保留在组织外，不应使注射针全部刺入，故B 正确",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 336,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0337",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "拔除上颌第二磨牙的最佳麻醉方法是：",
+   "options": {
+    "A": "颊、腭侧局部浸润",
+    "B": "颊侧近中局部浸润加上颌结节麻醉，腭侧行腭大孔麻醉",
+    "C": "颊侧局部浸润，腭侧行腭大孔麻醉",
+    "D": "颊侧行上颌结节阻滞麻醉，腭侧行腭大孔麻醉",
+    "E": "颊侧行眶下孔阻滞麻醉，腭侧行腭大孔麻醉"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "拔除7|7 的最佳麻醉方法是颊侧行上颌结节阻滞麻醉，腭侧行腭大孔麻醉。麻醉的是上牙槽后神经和腭前神经。故本题答案是D。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 337,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0338",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "能用一针法麻醉的三条神经是：",
+   "options": {
+    "A": "下牙槽神经、舌神经、颊长神经",
+    "B": "下牙槽神经、咬肌神经、颊长神经",
+    "C": "上牙槽后神经、上牙槽中神经、上牙槽前神经",
+    "D": "上牙槽后神经、腭前神经、鼻腭神经",
+    "E": "下牙槽神经、咬肌神经、舌神经"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "下牙槽神经、舌神经、颊长神经都属于下颌神经的分支。在下颌孔上方的下颌神经沟行下牙槽神经阻滞麻醉，此处舌神经恰位于下牙槽神经前内方约1cm处，因此，麻醉时只需将注射针退离下颌神经沟约1cm，可麻醉舌神经。由于颊神经分布的区域及颊神经干在接近翼下颌韧带中点外侧2~3mm 处，即下牙槽神经麻醉的针刺点，在注射麻醉药时，将针尖退至肌层、黏膜下时注射麻醉药0.5~1ml，即能麻醉颊神经。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 338,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0339",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "肾上腺素可引起的不适中，不包括：",
+   "options": {
+    "A": "心悸",
+    "B": "恐惧",
+    "C": "颤抖",
+    "D": "头痛",
+    "E": "麻木"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "肾上腺素为血管收缩剂不能引起麻木感觉。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 339,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0340",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "下列描述临床常用局麻方法正确的是：",
+   "options": {
+    "A": "表面麻醉",
+    "B": "表面麻醉、浸润麻醉",
+    "C": "表面麻醉、浸润麻醉、阻滞麻醉",
+    "D": "冷冻麻醉、表面麻醉、浸润麻醉、阻滞麻醉",
+    "E": "针刺麻醉、冷冻麻醉+表面麻醉、浸润麻醉、阻滞麻醉"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "临床常用的局麻方法为表面麻醉、浸润麻醉、阻滞麻醉，故C选项正确。冷冻麻醉因其操作不便很少用于临床，针刺麻醉镇痛效果不确切，因而亦不常用，故D、E 选项均不正确。而A、B 选项均包涵内容不足，不能作为正确答案。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 340,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0341",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "下列有关上颌窦癌的诊治，不正确的是：",
+   "options": {
+    "A": "上颌窦较晚才有明显的骨质破坏",
+    "B": "早期易与牙周病、根尖病、上颌窦炎混淆",
+    "C": "CT 片有助于早期明确诊断",
+    "D": "治疗以放射治疗为主",
+    "E": "肿瘤局限于上颌窦内无骨质破坏者，可施行上颌骨全切除术"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "上颌窦癌的早期诊断常常是治疗能否成功的关键。临床医师应有高度的警惕性，应与牙周病、根尖周病、慢性上颌窦炎等注意鉴别。上颌窦较晚才有明显的骨质破坏，早期如临床鉴别诊断困难时，可借助于曲面体层X 线片、CT 检查等方法明确诊断。治疗最好采用综合疗法，而以外科治疗为主。早期肿瘤局限于上颌窦内无骨质破坏者，可施行上颌骨全切除术。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 341,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0342",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "以下关于上颌窦癌的叙述，哪项是错误的：",
+   "options": {
+    "A": "以鳞癌为最常见",
+    "B": "早期无症状而不易发觉",
+    "C": "肿瘤发生部位不同可出现不同临床症状（如鼻塞、复视、张口受限等）",
+    "D": "早期即有明显的骨质破坏",
+    "E": "远处转移较少见"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "上颌窦癌为鼻旁鳞癌中的最常见者。位于上颌窦内，早期无症状不容易发觉。当肿瘤发展到一定程度，出现各种不同的症状：位于上颌窦内壁-鼻塞、鼻出血、单侧鼻腔分泌物增多、鼻泪管堵塞流泪；位于上颌窦上壁-眼球突出、向上移位，引起复视；位于上颌窦外壁-唇颊沟肿胀，破溃后肿瘤外露，眶下神经受损引起面颊部感觉迟钝；位于上颌窦后壁-侵入翼腭窝造成张口困难；位于上颌窦下壁-牙松动、疼痛、龈颊沟肿胀等症状。晚期转移至上颌窦的任何部位。引起相应的临床症状。远处转移少见。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 342,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0343",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "颞部外伤出血进行压迫止血的有效部位是：",
+   "options": {
+    "A": "耳屏前区",
+    "B": "颈动脉三角区",
+    "C": "颌外动脉走行区",
+    "D": "下颌角区",
+    "E": "咬肌前缘"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "颞浅动脉在耳屏前区可摸到搏动，因此颞部外伤时可以在耳屏前区压迫止血。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 343,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0344",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "口腔颌面部创伤后，活动性的出血时，最可靠的止血方法是：",
+   "options": {
+    "A": "药物止血",
+    "B": "结扎止血",
+    "C": "填塞止血",
+    "D": "包扎止血",
+    "E": "降压止血"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "结扎止血是临床上止血效果最明显、最可靠的方法。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 344,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0345",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "下列哪种情况不是放置引流的适应证：",
+   "options": {
+    "A": "可能发生感染的污染创口",
+    "B": "较浅小的无菌创口",
+    "C": "留有死腔的创口",
+    "D": "止血不全的创口",
+    "E": "脓肿切开的创口"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "外科引流的适应证：感染或污染创口；渗液多的创口；留有无效腔的创口；止血不全的创口。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 345,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0346",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "碘酊用于口腔黏膜消毒常用的浓度为：",
+   "options": {
+    "A": "0.5%",
+    "B": "1.0%",
+    "C": "2.0%",
+    "D": "3.0%",
+    "E": "5%"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "碘酊杀菌力强，但刺激性大，故在不同部位使用浓度不同：消毒颌面颈部为2%，口腔内为1%，头皮部为3%。使用后应予脱碘，碘过敏者禁用。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 346,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0347",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "采用负压引流方法，去除引流物的时间是：",
+   "options": {
+    "A": "手术后 24～48 小时",
+    "B": "手术后 12～24 小时",
+    "C": "24 小时内去除引流物",
+    "D": "一般在 24 小时内引流量少于 20～30ml 时去除",
+    "E": "脓液及渗出液完全消除为止"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "负压引流一般在24 小时内引流量少于20～30ml 时去除。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 347,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0348",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "原发性第二鳃裂瘘外口一般多位于：",
+   "options": {
+    "A": "耳垂周围",
+    "B": "下颌角处",
+    "C": "颈中、下 1/3，胸锁乳突肌前缘处",
+    "D": "颈中、上 1/3，胸锁乳突肌前缘处",
+    "E": "胸锁乳突肌前缘下 1/3 处"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "原发性第二鳃裂瘘外口一般多位于颈中、下1/3，胸锁乳突肌前缘处。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 348,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0349",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "用普通手术刀手术后的创口首先出现：",
+   "options": {
+    "A": "过敏反应",
+    "B": "炎症反应",
+    "C": "水肿",
+    "D": "肉芽组织",
+    "E": "脓液"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "用普通手术刀手术后的创口，在其两缘的缝隙间首先出现炎症反应，充以血液和含有纤维蛋白原的渗出液，并迅速凝集成块。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 349,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0350",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "显露组织的解剖部位、保护正常和重要组织、切除病变组织从而完成手术的重要手段是：",
+   "options": {
+    "A": "打结",
+    "B": "组织分离技术",
+    "C": "电凝止血",
+    "D": "切开",
+    "E": "铺巾"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "分离是显露组织的解剖部位、保护正常和重要组织、切除病变组织从而完成手术的重要手段。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 350,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0351",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "下列关于口腔颌面部淋巴结的检查叙述中，不恰当的是：",
+   "options": {
+    "A": "检查时患者取坐位，头稍低，略偏向非检查侧",
+    "B": "检查应按一定顺序，由浅入深，滑动触诊",
+    "C": "检查时患者取坐位，检查者应站在其右方",
+    "D": "可检查淋巴结所在的部位、大小、数目、硬度等",
+    "E": "检查的一般的顺序为枕部、耳后、耳前、腮腺、颊、颌下、颏下"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "检查颌面、颈部淋巴结，对口腔颌面部炎症及肿瘤患者的诊断和治疗具有重要意义。检查时患者取坐位，检查者应站在其右方（前或后），患者头稍低，略偏向检查侧，以使皮肤、肌肉松弛便于触诊。检查者手指紧贴检查部位，按一定顺序，由浅入深，滑动触诊。一般的顺序为：枕部、耳后、耳前、腮腺、颊、颌下、颏下；顺胸锁乳突肌前后缘、颈前后三角、直至锁骨上凹，仔细检查颈深、浅淋巴结，颈部淋巴结的所在部位和引流方向。触诊检查淋巴结时应注意肿大淋巴结所在的部位、大小、数目、硬度、活动度、有无压痛或波动感及与皮肤或基底部有无粘连等情况。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 351,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0352",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "以下不属于多发性基底细胞痣综合征的临床表现的是：",
+   "options": {
+    "A": "多发性角化囊肿",
+    "B": "皮肤基底细胞痣",
+    "C": "分叉肋",
+    "D": "小脑镰钙化",
+    "E": "骨纤维异常增生"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "多发性角化囊肿同时伴发皮肤基底细胞痣（或基底细胞癌），分叉肋、眶距增宽、颅骨异常、小脑镰钙化等症状时，称为“痣样基底细胞癌综合征”或“多发性基底细胞痣综合征”。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 352,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0353",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "几乎能完全抑制创口收缩的皮片是：",
+   "options": {
+    "A": "表层皮片",
+    "B": "中厚皮片",
+    "C": "薄中厚皮片",
+    "D": "厚中厚皮片",
+    "E": "全厚皮片"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "全厚皮片几乎能完全抑制创口收缩，而在断层皮肤移植中，创口收缩的程度与皮片厚度成反比。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 353,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0354",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "对于外科创口，在引流时的适应证说法正确的是：",
+   "options": {
+    "A": "无论是感染创口还是无菌创口均不需要放置引流",
+    "B": "部位深在的手术术后应该无渗液等，因此无需引流",
+    "C": "凡是留有无效腔的创口，必须放置引流",
+    "D": "止血不彻底的创口只需关闭创口即可",
+    "E": "凝血功能低下的患者只需创口止血即可，不必引流"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "①感染创口如脓肿切开等必须放置引流物，以使腔内脓液得以不断排出；切口有严重感染或手术本身属于污染创口，为防止感染，也应考虑放置引流；无菌创口，特别是单纯整复手术，一般不放置引流。②对范围广泛的大手术及部位深在的中等手术，考虑其术后仍有部分渗血、渗液，应放置引流。③凡术中因组织缺损较大、未能完全消灭无效腔的口内、口外创口，必须放置引流。其引流物需放置于无效腔底部，才能保证彻底引流。④对术中止血不彻底和凝血功能低下的患者，为防止血肿形成，也应放置引流。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 354,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0355",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "如果根尖周肉芽肿在拔牙后未作适当处理仍残留在颌骨内而发生的囊肿，则称为：",
+   "options": {
+    "A": "残余囊肿",
+    "B": "始基囊肿",
+    "C": "含牙囊肿",
+    "D": "皮样囊肿",
+    "E": "滤泡囊肿"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "如果根尖周肉芽肿在拔牙后未作适当处理仍残留在颌骨内而发生的囊肿，则称为残余囊肿。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 355,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0356",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "关于锐性分离的说法错误的是：",
+   "options": {
+    "A": "用于精细的层次解剖或分离粘连坚实的瘢痕组织",
+    "B": "使用的器械为锐性的手术刀和手术剪",
+    "C": "此法对组织损伤小",
+    "D": "动作要求细巧、准确",
+    "E": "可在盲视下进行"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "锐性分离：用于精细的层次解剖或分离粘连坚实的瘢痕组织。使用的器械为锐性的手术刀和手术剪。此法对组织损伤小，动作要求细巧、准确，一般应在直视下进行。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 356,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0357",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "关于打结的方法，下列说法错误的是：",
+   "options": {
+    "A": "打结的方法有单手打结、双手打结和持针钳打结 3 种",
+    "B": "单手打结最好练就左、右手均能打结",
+    "C": "单手打结多用于口腔内及深部缝合",
+    "D": "在缝线过短和缝扎时也常应用持针钳打结",
+    "E": "口腔颌面外科手术以单手打结和持针钳打结最为常用"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "打结的方法有单手打结、双手打结和持针钳打结3 种，口腔颌面外科手术以单手打结和持针钳打结最为常用，前者在结扎和一般缝合时使用，后者则多用于口腔内及深部缝合，在缝线过短和缝扎时也常应用。口腔内打结应打三重结，以防松脱。单手打结最好练就左、右手均能打结。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 357,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0358",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A2",
+   "stem": "口腔颌面外科多个患者换药时，应遵循的顺序是：",
+   "options": {
+    "A": "先无菌创口，后污染创口，再感染创口",
+    "B": "先无菌创口，后感染创口，再污染创口",
+    "C": "先污染创口，后感染创口，再无菌创口",
+    "D": "先感染创口，后污染创口，再无菌创口",
+    "E": "任意一种都可"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "多个患者换药，应遵循先无菌创口，后污染创口，再感染创口的顺序，并每换一人后必须重新洗手，以防交叉感染。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 358,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0359",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "下列各项作检查时，可于病变区触及结石的病变是：",
+   "options": {
+    "A": "蔓状血管瘤",
+    "B": "海绵状血管瘤",
+    "C": "杨梅状血管瘤",
+    "D": "淋巴血管瘤",
+    "E": "毛细血管瘤"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "静脉畸形旧分类称海绵状血管瘤，是由衬有内皮细胞的无数血窦所组成。血窦的大小、形状不，如海绵结构。窦腔内血液凝固而成血栓，并可钙化为静脉石。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 359,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0360",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "中央性颌骨癌最主要的治疗方法是：",
+   "options": {
+    "A": "手术治疗",
+    "B": "放射治疗",
+    "C": "化学治疗",
+    "D": "冷冻治疗",
+    "E": "免疫治疗"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "手术是治疗中央性颌骨癌的主要方法。根据中央性颌骨癌的病变扩散特点，下颌骨的切除范围应更加广泛。限于一侧者一般应行半侧下颌骨切除；如邻近中线或超越中线者，应根据解剖特点于对侧下颌骨颏孔或下颌孔处截骨；或甚至行全下颌骨切除。中央性颌骨癌一般应行选择性颈淋巴清扫术。为了防止远处转移，尚应配合化疗。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 360,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0361",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "主要发生自牙胚成釉上皮的剩余细胞的是：",
+   "options": {
+    "A": "唇癌",
+    "B": "颊黏膜癌",
+    "C": "口底癌",
+    "D": "上颌窦癌",
+    "E": "中央性颌骨癌"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "中央性颌骨癌主要发生自牙胚成釉上皮的剩余细胞。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 361,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0362",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "关于外科打结的形态的要求叙述的不正确的是：",
+   "options": {
+    "A": "根据结的形态，临床可分为单结、方结、三重结或多重结、外科结、假结和滑结等",
+    "B": "口腔颌面外科手术中的打结可以打方结",
+    "C": "口腔颌面外科手术中的打结可以打滑结",
+    "D": "口腔颌面外科手术中的打结可以打外科结",
+    "E": "高质量的打结是防止返工和术后脱结出血的保证"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "根据结的形态，临床上可分为单结、方结、三重结或多重结、外科结、假结和滑结等。口腔颌面外科手术中的打结与其他外科手术打结一样，要求打方结、外科结，防止打滑结，以保证质量，避免返工重打和术后脱结出血。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 362,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0363",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "下列有关大囊型淋巴管瘤的叙述中正确的是：",
+   "options": {
+    "A": "也称为囊性水瘤",
+    "B": "多发生于颈部锁骨上区",
+    "C": "扪诊柔软，有波动感",
+    "D": "表面皮肤色泽正常",
+    "E": "以上均正确"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "淋巴管畸形按其临床特征及组织结构可分为微囊型与大囊型两类。大囊型：老分类中称为囊肿型或囊性水瘤。主要发生于颈部锁骨上区，亦可发生于下颌下区及上颈部。一般为多房性囊腔，彼此间隔，内有透明、淡黄色水样液体。病损大小不一，表面皮肤色泽正常，呈充盈状态，扪诊柔软，有波动感。与深层血管瘤不同的是体位移动试验阴性，但有时透光试验为阳性。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 363,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0364",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "口腔黏膜的淋巴管畸形有时与微静脉畸形同时存在，出现黄、红色小疱状突起，称为：",
+   "options": {
+    "A": "淋巴血管瘤",
+    "B": "囊肿型淋巴管瘤",
+    "C": "海绵型淋巴管瘤",
+    "D": "毛细管型淋巴管瘤",
+    "E": "混合型淋巴管瘤"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "口腔黏膜的淋巴管畸形有时与微静脉畸形同时存在，出现黄、红色小疱状突起，称为淋巴血管瘤。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 364,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0365",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "关于中央性颌骨癌临床特点的叙述中，不正确的是：",
+   "options": {
+    "A": "主要来自牙胚成釉上皮的剩余细胞",
+    "B": "好发于上颌骨",
+    "C": "多伴下唇麻木",
+    "D": "患者早期无自觉症状",
+    "E": "X 线表现有不规则虫蚀状破坏"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "中央性颌骨癌好发于下颌骨，特别是下颌磨牙区。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 365,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0366",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "打结是重要的手术基本功，皮肤、黏膜的缝合，为拆线时牵引方便，应至少余留：",
+   "options": {
+    "A": "1mm 以上",
+    "B": "2mm 以上",
+    "C": "3mm 以上",
+    "D": "4mm 以上",
+    "E": "5mm 以上"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "皮肤、黏膜的缝合，为拆线时牵引方便，应至少余留5mm 以上。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 366,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0367",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "缝合的创口，一般在 7～10 天内全部愈合者，称为：",
+   "options": {
+    "A": "一期愈合",
+    "B": "二期愈合",
+    "C": "感染创口",
+    "D": "无菌创口",
+    "E": "延期愈合"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "缝合的创口，一般在7～10 天内全部愈合者，称为初期或一期愈合。未经缝合的创口，其愈合往往经过肉芽组织增生，再为周围上皮爬行覆盖的过程，在临床上称为二期或延期愈合（拔牙创口的愈合即属此类），这种创口愈合后结缔组织多，在软组织部位，形成明显的瘢痕。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 367,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0368",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "痣样基底细胞癌综合征的临床表现不包括：",
+   "options": {
+    "A": "多发性角化囊性瘤",
+    "B": "皮肤基底细胞痣（癌）",
+    "C": "分叉肋，颅骨异常",
+    "D": "小脑镰钙化",
+    "E": "眶距缩窄"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "多发性角化囊肿同时伴发皮肤基底细胞痣（或基底细胞癌），分叉肋、眶距增宽、颅骨异常、小脑镰钙化等症状时，称为“痣样基底细胞癌综合征”或“多发性基底细胞痣综合征”或“多发性基底细胞痣综合症”。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 368,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0369",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "口腔颌面部因炎症而引起的牙源性囊肿主要是：",
+   "options": {
+    "A": "根尖囊肿",
+    "B": "鼻腭囊肿",
+    "C": "鼻唇囊肿",
+    "D": "始基囊肿",
+    "E": "含牙囊肿"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "根尖囊肿是颌骨内最常见的牙源性囊肿，属于炎症性囊肿。有Malassez 上皮剩余增殖以及增值上皮团块中央液化、囊性病变等一系列病理过程。因此常发生于死髓牙的根尖部。而鼻腭囊肿、鼻唇囊肿、始基囊肿属于非牙源性囊肿。而含牙囊肿也可继发感染，但是属于发育性牙源性囊肿。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 369,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0370",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "不符合海绵型血管瘤症状的是：",
+   "options": {
+    "A": "由大小形状不一的血窦组成",
+    "B": "肿瘤边界不清",
+    "C": "可钙化为静脉石",
+    "D": "呈杨梅样突出于皮肤",
+    "E": "体位移动试验阳性"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "高低不平似杨梅状，可见于血管瘤增生期。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 370,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0371",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "属于真性肿瘤的是：",
+   "options": {
+    "A": "动静脉畸形",
+    "B": "微静脉畸形",
+    "C": "淋巴管畸形",
+    "D": "混合畸形",
+    "E": "血管瘤"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "肿瘤性病变中只有血管瘤为真性肿瘤，其他均属脉管畸形。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 371,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0372",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "下列关于引流物的放置时间的叙述中，正确的是：",
+   "options": {
+    "A": "无效腔的引流物应放置至脓液及渗出液完全消除为止",
+    "B": "污染创口引流物多在 24～48 小时后去除",
+    "C": "负压引流一般在 24 小时内引流量少于 20～30ml 时去除",
+    "D": "脓肿的引流物应放置至脓液及渗出液完全消除为止",
+    "E": "以上均正确"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "引流物的放置时间因手术不同而异。引流物为异物，在达到引流目的后，应尽早拔除。污染创口或为防止积血、积液而放置的引流物，多在24～48 小时后去除；脓肿或无效腔的引流物应放置至脓液及渗出液完全消除为止；负压引流一般在24小时内引流量少于20～30ml 时去除。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 372,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0373",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "下列哪项不是外科引流的适应证：",
+   "options": {
+    "A": "微小创口",
+    "B": "感染或污染创口",
+    "C": "止血不全的创口",
+    "D": "留有无效腔的创口",
+    "E": "渗液多的创口"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "外科引流的适应证：感染或污染创口；渗液多的创口；留有无效腔的创口；止血不全的创口。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 373,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0374",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "下列关于血管瘤增生期表现的叙述中，不正确的是：",
+   "options": {
+    "A": "最初表现为毛细血管扩张",
+    "B": "可出现高低不平似杨梅状",
+    "C": "可出现四周围以晕状白色区域",
+    "D": "病损开始缓慢的消退，皮肤可呈花斑状",
+    "E": "病变红斑可高出皮肤"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "病损开始消退是消退期的表现，其他几项均是增生期的表现。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 374,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0375",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "角化囊肿属于：",
+   "options": {
+    "A": "发育性颌骨囊肿",
+    "B": "血外渗性囊肿",
+    "C": "牙源性颌骨囊肿",
+    "D": "胚胎性颌骨囊肿",
+    "E": "炎症性颌骨囊肿"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "颌骨囊肿可根据组织来源和发病部位而分类。由成牙组织或牙的上皮或上皮剩余演变而来的，称为牙源性颌骨囊肿。牙源性角化囊性瘤（牙源性角化囊肿）系来源于原始的牙胚或牙板残余；有人认为即始基囊肿，但不能解释角化囊肿也可以含牙；其内容角化物质也与始基囊肿多为清亮液体不同。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 375,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0376",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "下列哪一项可不必放置引流物：",
+   "options": {
+    "A": "创口渗液多",
+    "B": "无菌创口",
+    "C": "留有无效腔的创口",
+    "D": "术中止血不彻底的创口",
+    "E": "凝血功能低下的患者"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "无菌创口，特别是单纯整复手术，一般不放置引流。对术中止血不彻底和凝血功能低下的患者，为防止血肿形成，也应放置引流。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 376,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0377",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "污染创口或为防止积血、积液而放置的引流物的去除时间一般是：",
+   "options": {
+    "A": "手术后 6～12 小时",
+    "B": "手术后 12～24 小时",
+    "C": "手术后 24～48 小时",
+    "D": "手术后 36～48 小时",
+    "E": "手术前 24～48 小时"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "污染创口或为防止积血、积液而放置的引流物，多在24～48 小时后去除。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 377,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0378",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "中央性颌骨癌的临床及病理特征中，正确的是：",
+   "options": {
+    "A": "主要发生自牙胚成釉上皮的剩余细胞",
+    "B": "好发于下颌磨牙区",
+    "C": "一般应行选择性颈淋巴清扫术",
+    "D": "应配合化疗，为了防止远处转移",
+    "E": "以上均正确"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "中央性颌骨癌主要发生自牙胚成釉上皮的剩余细胞。好发于下颌骨，特别是下颌磨牙区。患者早期无自觉症状，以后可以出现牙痛、局部疼痛，并相继出现下唇麻木。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 378,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0379",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "利用电热或红外线烤箱高热烘烤进行灭菌的方法属于：",
+   "options": {
+    "A": "煮沸消毒法",
+    "B": "化学消毒法",
+    "C": "干热灭菌法",
+    "D": "医用酒精消毒法",
+    "E": "高压蒸汽灭菌"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "干热灭菌法：利用电热或红外线烤箱高热烘烤进行灭菌。适用于玻璃、陶瓷等器具，以及不宜用高压蒸气灭菌的明胶海绵、凡士林、油脂、液体石蜡和各种粉剂等物品。不耐高热的物品，如棉织品、合成纤维、塑料及橡胶制品等，不可用此法灭菌。干热灭菌的温度和维持时间应根据消毒物品导热快慢、包装大小和安放情况而定。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 379,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0380",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "以下哪一项属于皮脂腺囊肿所特有的表现：",
+   "options": {
+    "A": "常见于面部",
+    "B": "发生缓慢",
+    "C": "囊壁与皮肤粘连，中央可有一色素点",
+    "D": "质地软，无压痛",
+    "E": "边界清楚，可活动"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "常见于面部，小的如豆，大则可至小柑橘样。囊肿位于皮内，并向皮肤表面突出。囊壁与皮肤紧密粘连，中央可有一“色素点”。临床上可以根据这个主要特征与表皮样囊肿作鉴别。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 380,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0381",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "手术室消毒的内容说法错误的是：",
+   "options": {
+    "A": "门诊手术室应与治疗室或拔牙室分开",
+    "B": "门诊手术室在连续手术时应遵循先无菌、次污染、后感染的原则",
+    "C": "手术室常用的方法有紫外线照射、电子灭菌灯消毒等方法",
+    "D": "手术室应定期进行空气消毒，一般每周应进行 1 次",
+    "E": "手术室可使用过氧乙酸（0.75～1g/m3）加热蒸汽消毒"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "门诊手术室应与治疗室或拔牙室分开，在连续手术时应遵循先无菌、次污染、后感染的原则，以免发生交叉感染。手术室应定期进行空气消毒，一般每日应进行1 次，常用的方法有紫外线照射、电子灭菌灯消毒或化学药物加热蒸汽消毒，如过氧乙酸（0.75～1g/m3）、甲醛溶液（甲醛溶液10ml/m3 加高锰酸钾5g/m3）等。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 381,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0382",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "临床创口的初期愈合时间为：",
+   "options": {
+    "A": "6～10 天",
+    "B": "10～15 天",
+    "C": "10～20 天",
+    "D": "15～20 天",
+    "E": "20～30 天"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "一般这种结缔组织的成熟视不同部位和张力大小，6～10 天即达到临床创口的初期愈合。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 382,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0383",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "以下属于口腔颌面部潴留性囊肿的是：",
+   "options": {
+    "A": "皮样囊肿",
+    "B": "甲状舌管囊肿",
+    "C": "皮脂腺囊肿",
+    "D": "鳃裂囊肿",
+    "E": "外渗性囊肿"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "皮脂腺囊肿中医称“粉瘤”。主要为由皮脂腺排泄管阻塞，皮脂腺囊状上皮被逐渐增多的内容物膨胀而形成的潴留性囊肿。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 383,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0384",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "第二鳃裂囊肿常位于：",
+   "options": {
+    "A": "乳突附近",
+    "B": "下颌角附近",
+    "C": "颈前正中",
+    "D": "颈根部",
+    "E": "舌骨水平，胸锁乳突肌上 1/3 前缘附近"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "第二鳃裂囊肿常位于颈上部，大多在舌骨水平，胸锁乳突肌上1/3 前缘附近。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 384,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0385",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "关于唇癌的叙述中，不正确的是：",
+   "options": {
+    "A": "为发生于唇红缘黏膜的癌",
+    "B": "主要为鳞癌，腺癌很少见",
+    "C": "多发生于上唇，下唇很少见",
+    "D": "上唇癌的转移较下唇早",
+    "E": "唇癌的转移一般较其他口腔癌为少见"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "唇癌为发生于唇红缘黏膜的癌。唇癌主要为鳞癌，腺癌很少见。多发生于下唇，常发生于下唇中外1/3 间的唇红缘部黏膜。上唇癌的转移较下唇早，并较多见。唇癌的转移一般较其他口腔癌为少见，且转移时间较迟。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 385,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0386",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "脓肿或无效腔的引流物的去除应在：",
+   "options": {
+    "A": "手术后 24～48 小时",
+    "B": "放置 24 小时后",
+    "C": "24 小时内去除引流物",
+    "D": "一般在 24 小时内引流量少于 20～30ml 时去除",
+    "E": "渗出液完全消除为止"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "脓肿或无效腔的引流物应放置至脓液及渗出液完全消除为止。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 386,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0387",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "以下有关恶性淋巴瘤的临床特征中，不正确的是：",
+   "options": {
+    "A": "霍奇金淋巴瘤较为多见",
+    "B": "以儿童与青壮年多发",
+    "C": "我国的恶性淋巴瘤中大多属结外型",
+    "D": "发生与免疫功能紊乱、长期抗原刺激等因素有关",
+    "E": "以颈部淋巴结最好发"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "恶性淋巴瘤在病理上可分为霍奇金淋巴瘤与非霍奇金淋巴瘤两大类。其中临床以非霍奇金淋巴瘤多见。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 387,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0388",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "血管瘤其病程进入静止消退期一般是在：",
+   "options": {
+    "A": "出生以后",
+    "B": "1 年以后",
+    "C": "2 年以后",
+    "D": "3 年以后",
+    "E": "4 年以后"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "消退期：一般在1 年以后即进入静止消退期。消退是缓慢的，病损由鲜红变为暗紫、棕色，皮肤可呈花斑状。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 388,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0389",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "血管瘤消退完成期一般在：",
+   "options": {
+    "A": "1～3 岁",
+    "B": "3～5 岁",
+    "C": "4～6 岁",
+    "D": "5～8 岁",
+    "E": "10～12 岁"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "血管瘤消退完成期：一般在10～12 岁。大面积的血管瘤完全消退后可以后遗局部色素沉着，浅瘢痕，皮肤萎缩下垂等体征。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 389,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0390",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "下列关于恶性淋巴瘤的叙述中，不正确的是：",
+   "options": {
+    "A": "可发生于任何年龄组",
+    "B": "以颈部淋巴结最好发",
+    "C": "发生于淋巴结者称结内型",
+    "D": "我国的恶性淋巴瘤中大多属结外型",
+    "E": "以外科手术治疗为主"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "恶性淋巴瘤对放射治疗和化学药物治疗都比较敏感。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 390,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0391",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "对于钝性分离和锐性分离的方法的说法，下列说法正确的：",
+   "options": {
+    "A": "此两种分离方法在术中应该单独使用",
+    "B": "使用此两种分离方法时，无需注意手术的快慢节奏",
+    "C": "无论使用哪种方法，均应防止粗暴和意外损伤",
+    "D": "解剖分离过程中经常需要完整暴露创面，无需保护",
+    "E": "在术中如有需要，可以在空气中长时间暴露"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "这两种分离方法，在术中常交替和结合使用。但无论使用哪种方法，均应防止粗暴和意外损伤，注意手术的快慢节奏，解剖分离过程中要经常用盐水纱布覆盖和保护创面，避免在空气中长时间暴露。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 391,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0392",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "下列哪一项属于皮脂腺囊肿的最佳治疗方法：",
+   "options": {
+    "A": "切开引流",
+    "B": "囊内注射硬化剂",
+    "C": "冷冻治疗",
+    "D": "激光治疗",
+    "E": "局麻下手术切除"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "皮脂腺囊肿治疗：在局麻下手术切除。沿颜面部皮纹方向做梭形切口，应切除包括与囊壁粘连的皮肤。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 392,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0393",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "涎腺分泌功能检查常选用的方法是：",
+   "options": {
+    "A": "酸性物刺激定量测定",
+    "B": "碱性物刺激定性测定",
+    "C": "核磁共振检查",
+    "D": "1 天内自然分泌量",
+    "E": "某一时段内自然分泌量测定"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "定量检查：正常人每日唾液总量为1000～1500ml，其中90%为腮腺和下颌下腺所分泌，而舌下腺仅占3%～5%，小涎腺则分泌更少，故涎腺分泌功能的定量检查，是根据在相同程度刺激的条件下（临床上常用2%枸橼酸或1%柠檬酸），腮腺和下颌下腺的涎液分泌多少来协助某些涎腺疾病的诊断。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 393,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0394",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "下列关于引流部位的描述中，正确的是：",
+   "options": {
+    "A": "开放引流的引流物内端应放置在创口内深处",
+    "B": "引流口的大小要适当，太小引流不畅",
+    "C": "开放引流的引流物外端则应依体位放在创口最低处",
+    "D": "负压引流管应避免放在重要血管、神经的附近，其戳创口应封闭",
+    "E": "以上均正确"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "引流部位：开放引流的引流物内端应放置在创口内深处，其外端则应依体位放在创口最低处，以利重力引流。负压引流管应避免放在重要血管、神经的附近，其戳创口也应封闭，才能收到负压效应。引流口的大小要适当，太小引流不畅；太大，将在引流部位形成粗大瘢痕。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 394,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0395",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "中医指的“粉瘤”和“发瘤”分别是：",
+   "options": {
+    "A": "皮脂腺囊肿和皮样囊肿",
+    "B": "皮脂腺囊肿和表皮样囊肿",
+    "C": "表皮样囊肿和皮样囊肿结构",
+    "D": "皮脂腺囊肿和甲状舌管囊肿",
+    "E": "皮样囊肿和甲状舌管囊肿"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "皮脂腺囊肿中医称“粉瘤”。主要为由皮脂腺排泄管阻塞，皮脂腺囊状上皮被逐渐增多的内容物膨胀而形成的潴留性囊肿。囊内为白色凝乳状皮脂腺分泌物。皮样囊肿囊壁较厚，由皮肤和皮肤附件所构成。囊腔内有脱落的上皮细胞、皮脂腺、汗腺和毛发等结构，中医称为“发瘤”。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 395,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0396",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "中央性颌骨癌好发于：",
+   "options": {
+    "A": "上颌前牙区",
+    "B": "上颌磨牙区",
+    "C": "下颌磨牙区",
+    "D": "下颌前牙区",
+    "E": "下颌支"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "中央性颌骨癌好发于下颌骨，特别是下颌磨牙区。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 396,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0397",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "关于牙龈癌的叙述，哪项是错误的：",
+   "options": {
+    "A": "多为鳞癌",
+    "B": "男性多于女性，以溃疡型最多见",
+    "C": "早期向牙槽突及颌骨浸润",
+    "D": "下牙龈发病率高于上牙龈",
+    "E": "上牙龈癌比下牙龈癌转移早"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "牙龈癌在口腔鳞癌构成比中居第二位或第三位，若分开计算，则下牙龈癌居第三位，上牙龈癌居第五位。男性多于女性。多为分化度较高的鳞状细胞癌，生长较慢，以溃疡型为最多见。早期向牙槽突及颌骨浸润，使骨质破坏，引起牙松动和疼痛。下牙龈癌比上牙龈癌淋巴结转移早，同时也较多见。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 397,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0398",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "下列哪些囊肿属于牙源性颌骨囊肿：",
+   "options": {
+    "A": "鼻腭管囊肿",
+    "B": "含牙囊肿",
+    "C": "正中囊肿",
+    "D": "球上颌囊肿",
+    "E": "以上均是"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "含牙囊肿属于牙源性颌骨囊肿。鼻腭管囊肿、正中囊肿、球上颌囊肿属于属发育性囊肿，是非牙源性颌骨囊肿。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 398,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0399",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "保证手术效果的基础是：",
+   "options": {
+    "A": "手术层次清楚、逐层剖入",
+    "B": "主刀与助手要相互配合，作好组织的牵引",
+    "C": "首先应熟悉局部解剖，具有明确的解剖概念",
+    "D": "组织损伤小，动作要求细巧、准确",
+    "E": "避免过度用力，以减少组织撕裂伤"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "分离是显露组织的解剖部位、保护正常和重要组织、切除病变组织从而完成手术的重要手段。解剖分离应在正常组织层次中进行，即做到手术层次清楚、逐层剖入。为此，首先应熟悉局部解剖，具有明确的解剖概念，这是保证手术效果的基础。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 399,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0400",
+   "subject": "口腔颌面外科学",
+   "chapter": "口腔颌面外科学",
+   "type": "A1",
+   "stem": "关于创口愈合的说法，下列说法错误的是：",
+   "options": {
+    "A": "用电刀手术缝合后的切口，早期炎性反应更为明显",
+    "B": "激光刀手术缝合后的切口创缘，早期主要表现为凝固性坏死",
+    "C": "初期或一期愈合一般在 10～20 天",
+    "D": "拔牙创口的愈合在临床属于二期或延期愈合",
+    "E": "二期或延期愈合的创口形成明显的瘢痕"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "用电刀手术缝合后的切口，早期炎性反应更为明显，切口在第7 天出现组织学上的初步愈合，而激光刀手术缝合后的切口创缘，早期主要表现为凝固性坏死，切口在术后第10 天才有组织学上的愈合。缝合的创口，一般在7～10 天内全部愈合者，称为初期或一期愈合。未经缝合的创口，其愈合往往经过肉芽组织增生，再为周围上皮爬行覆盖的过程，在临床上称为二期或延期愈合（拔牙创口的愈合即属此类）。这种创口愈合后结缔组织多，在软组织部位，形成明显的瘢痕。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "口腔颌面外科学",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-03",
+   "paperName": "口腔历年医考1000真题 · 口腔颌面外科学",
+   "durationMinutes": 90,
+   "order": 400,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  }
+ ]
+}

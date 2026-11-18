@@ -54,31 +54,56 @@ void main() {
     app.store.mode = bundled ? '考研' : '执医';
   }
 
-  testWidgets(
-      'runtime bundle exposes the chapter-organized postgraduate banks',
+  testWidgets('runtime bundle exposes the chapter-organized postgraduate banks',
       (tester) async {
     await prepare(tester, bundled: true);
-    expect(questions, hasLength(4210));
+    expect(questions, hasLength(21327));
+    final medical = QuestionCatalog(questions, '执医');
+    final anatomy = medical.material('口腔解剖生理学');
+    final prosthodontics = medical.material('口腔修复学');
+    expect(anatomy.any((q) => q.chapter == q.subject), isFalse);
+    expect(prosthodontics.any((q) => q.chapter == q.subject), isFalse);
+    expect(anatomy.where((q) => q.id.startsWith('YS1000-')), hasLength(123));
+    expect(
+        anatomy
+            .where((q) => q.id.startsWith('YS1000-'))
+            .every((q) => q.chapter == '一、牙体解剖'),
+        isTrue);
+    expect(prosthodontics.where((q) => q.id.startsWith('YS1000-')),
+        hasLength(100));
+    expect(prosthodontics.firstWhere((q) => q.id == 'YS1000-0401').chapter,
+        '第五章 牙列缺损的可摘局部义齿修复');
+    expect(prosthodontics.firstWhere((q) => q.id == 'YS1000-0405').chapter,
+        '第四章 牙列缺损的固定局部义齿修复');
     final catalog = QuestionCatalog(questions, '考研');
-    expect(catalog.learnable, hasLength(4210));
-    expect(catalog.subjects, ['口腔颌面外科学', '口腔修复学']);
-    expect(questions.map((q) => q.chapter).toSet(), hasLength(22));
-    expect(
-        questions
-            .where((q) => q.chapter == '总论（绪论与第一、二、三章）')
-            .length,
+    expect(catalog.learnable, hasLength(18231));
+    final legacyQuestions =
+        questions.where((q) => q.data['collection'] != '人卫练习题').toList();
+    final legacyCatalog = QuestionCatalog(legacyQuestions, '考研');
+    expect(legacyCatalog.learnable, hasLength(4210));
+    expect(legacyCatalog.subjects.toSet(), {
+      '口腔颌面外科学',
+      '口腔修复学',
+      '口腔解剖生理学',
+      '口腔组织病理学',
+      '口腔黏膜病学',
+      '口腔预防医学',
+      '基础医学',
+    });
+    expect(legacyQuestions.map((q) => q.chapter).toSet(), hasLength(59));
+    expect(legacyQuestions.where((q) => q.chapter == '总论（绪论与第一、二、三章）').length,
         260);
-    expect(questions.any((q) => q.chapter == '总论（绪论与基础）'), isFalse);
-    expect(questions.where((q) => q.type == '简答题'), hasLength(17));
+    expect(legacyQuestions.any((q) => q.chapter == '总论（绪论与基础）'), isFalse);
+    expect(legacyQuestions.where((q) => q.type == '简答题'), hasLength(17));
     expect(
-        questions
-            .where((q) =>
-                q.subject == '口腔修复学' && q.chapter == '第三章 牙体缺损的修复')
+        legacyQuestions
+            .where((q) => q.subject == '口腔修复学' && q.chapter == '第三章 牙体缺损的修复')
             .length,
         700);
     expect(
-        questions
-            .where((q) => q.subject == '口腔修复学' && q.data['sourceType'] == 'mock')
+        legacyQuestions
+            .where(
+                (q) => q.subject == '口腔修复学' && q.data['sourceType'] == 'mock')
             .length,
         525);
     expect(ExamYearCatalog(questions, '执医').years, isEmpty);

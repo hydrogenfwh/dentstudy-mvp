@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../../app/shared.dart';
 import 'download_file.dart';
 import 'user_avatar.dart';
+import '../social/social_inbox_page.dart' show ChatThreadPage;
+import '../social/user_profile_sheet.dart';
 
 enum AuthorRecordKind { users, submissions }
 
@@ -90,15 +92,28 @@ class _AuthorRecordsPageState extends State<AuthorRecordsPage> {
     }
   }
 
+  void openProfileChat(Map<String, dynamic> profile) {
+    if (!mounted) return;
+    Navigator.push<void>(context,
+        MaterialPageRoute(builder: (_) => ChatThreadPage(friend: profile)));
+  }
+
   Widget record(Map<String, dynamic> item) => box(isUsers
       ? ListTile(
           contentPadding: EdgeInsets.zero,
-          leading: UserAvatar(value: item['avatar'] as String? ?? 'book'),
+          onTap: (item['id'] as String?)?.isNotEmpty == true
+              ? () => showUserProfileSheet(context, item['id'] as String,
+                  onOpenChat: openProfileChat)
+              : null,
+          leading: UserAvatar(
+              value: item['avatar'] as String? ?? 'book',
+              vip: item['vipBadge'] == true),
           title: Text(item['nickname'] as String? ?? '齿间同学'),
           subtitle: Text(
               '${(item['university'] as String? ?? '').isEmpty ? '未填写院校' : item['university']}\n${item['email']}',
               style: const TextStyle(height: 1.6)),
-          isThreeLine: true)
+          isThreeLine: true,
+          trailing: const Icon(Icons.chevron_right))
       : Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
           Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
             Icon(Icons.description_outlined, color: teal),
@@ -170,8 +185,7 @@ class _AuthorRecordsPageState extends State<AuthorRecordsPage> {
                                 Text(error!,
                                     style: const TextStyle(
                                         color: Colors.blueGrey)),
-                                TextButton(
-                                    onPressed: load, child: const Text('重试'))
+                                TextButton(onPressed: load, child: Text('重试'))
                               ]);
                             if (records.isEmpty)
                               return Padding(

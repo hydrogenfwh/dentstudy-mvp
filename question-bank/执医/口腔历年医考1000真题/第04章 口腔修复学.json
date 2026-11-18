@@ -1,0 +1,5509 @@
+{
+  "version": "2026-10-23",
+  "name": "口腔历年医考1000真题 · 口腔修复学",
+  "isDemo": false,
+  "sourceDocument": "口腔历年医考1000真题.pdf",
+  "sourceNote": "口腔执业（助理）医师资格考试 1000 题；答案与解析取自原文文末。年份与来源待核验。",
+  "questions": [
+    {
+      "id": "YS1000-0401",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "上颌左 1234 右 123456 缺失属于 Kennedy 分类哪一类：",
+      "options": {
+        "A": "第三类第二亚类",
+        "B": "第三类第三亚类",
+        "C": "第三类",
+        "D": "第四类第一亚类",
+        "E": "第四类"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "第一类牙弓两侧后部牙缺失，远中为游离端、无天然牙存在。第二类牙弓一侧后部牙缺失，远中为游离端、无天然牙存在。第三类牙弓的一侧牙齿缺失，且缺隙两端均有天然牙存在。第四类牙弓前部牙齿连续缺失并跨过中线，天然牙在缺隙的远中。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 401,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0402",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "义齿初戴时要检查以下内容，除了：",
+      "options": {
+        "A": "基牙松动、龋坏",
+        "B": "卡环与（牙合）支托就位、密合",
+        "C": "基托与黏膜密贴，边缘伸展适度，无翘动、压痛",
+        "D": "连接体与黏膜密贴，无压迫",
+        "E": "咬合接触均匀，无早接触点或低（牙合）"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "义齿初戴时检查的主要内容是卡环与牙（牙合）支托就位、密合；基托与黏膜密贴，边缘伸展适度，无翘动、压痛；连接体与黏膜密贴，无压迫；咬合接触均匀，无早接触点或低牙合。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 402,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0403",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "缺牙间隙龈（牙合）距离短，对颌为天然牙时，人工牙最好选：",
+      "options": {
+        "A": "塑料牙",
+        "B": "瓷牙",
+        "C": "烤瓷牙",
+        "D": "金属（牙合）面牙",
+        "E": "无尖牙"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "非解剖式牙：其面无牙尖或牙尖斜面，也即牙尖斜度为零度，故又称无尖牙、平尖牙或零度牙。其颊舌轴面形态与解剖式牙类似，其（牙合）面具有溢出沟。正中时，上下颌牙齿面不发生尖凹扣锁关系，咀嚼运动时，侧向力小，对牙槽骨的损害小。适用于义齿固位差、对颌天然牙已显著磨损或为人工牙者。对颌牙无磨损或磨损不显著者，因咬合接触过少，影响功能，不宜选用。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 403,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0404",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "造成义齿摘戴困难的原因有：",
+      "options": {
+        "A": "基托与黏膜组织不密合",
+        "B": "基托进入组织倒凹",
+        "C": "卡环不贴合",
+        "D": "支托不就位",
+        "E": "以上都不是"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "基托进入组织倒凹区是造成义齿摘戴困难的主要原因。卡环过紧，基托紧贴牙面，倒凹区基托缓冲的不够，患者没有掌握正确的义齿摘戴方向和方法都可造成义齿摘戴困难。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 404,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0405",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "完全固定桥是指：",
+      "options": {
+        "A": "双端固定桥",
+        "B": "连接体均为固定连接的固定桥",
+        "C": "复合固定桥",
+        "D": "粘接固定桥",
+        "E": "以上都不是"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "双端固定桥即双端固定局部义齿又称完全固定桥，以缺牙间隙两端的天然牙作为基牙（类似桥基），在基牙上制作义齿的固位体，并与人工牙连成一个整体，通过粘固剂将义齿粘固于基牙上，患者不能自行取下。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 405,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0406",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "粘接固定桥的固位是依靠：",
+      "options": {
+        "A": "摩擦力",
+        "B": "酸蚀，粘接技术",
+        "C": "卡环",
+        "D": "吸附力",
+        "E": "粘接和卡环"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "粘接固定桥的固位是依靠酸蚀，粘结技术。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 406,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0407",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "以下关于半固定桥的说法哪项是错误的：",
+      "options": {
+        "A": "倾斜基牙为获得共同就位道",
+        "B": "保护缺隙一侧支持力较弱的基牙",
+        "C": "含中间基牙的多单位固定桥，保护中间基牙",
+        "D": "可动连接体的栓道位于固位体上",
+        "E": "可动连接体一般用栓道式附着体"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "半固定桥一般适用于一侧基牙倾斜度大，或者两侧基牙倾斜方向差异较大，设计双端固定桥很难取得共同就位道时。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 407,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0408",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "以下哪种情况一般有可能设计单端固定桥：",
+      "options": {
+        "A": "上颌侧切牙缺失",
+        "B": "上颌尖牙缺失",
+        "C": "第二、三磨牙缺失",
+        "D": "第一、二磨牙缺失",
+        "E": "间隔缺失"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "单端固定桥又称为悬臂固定桥。单端固定桥仅一端有固位体和基牙，桥体与固位体之间由固定连接体连接，另一端是完全游离的悬臂，无基牙支持。上颌侧切牙缺失可采用单端固定桥。上颌尖牙缺失常以侧切牙与第一前磨牙作为基牙制作双端固定桥。第二、三磨牙缺失，或第一、二磨牙缺失需要代偿的牙周面积过大，不适宜选择单端固定桥，一般选择局部可摘义齿或行种植修复。间隔缺失选择固定桥的形式应视具体缺牙区的部位和数目而定。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 408,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0409",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "以下哪项是固定桥最重要的支持基础：",
+      "options": {
+        "A": "牙周膜",
+        "B": "牙槽骨",
+        "C": "牙龈",
+        "D": "结合上皮",
+        "E": "黏膜"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "基牙的牙周潜力主要由基牙的牙周组织和颌骨的健康状况决定，牙周膜起着重要的作用。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 409,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0410",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "与固定桥基牙牙周潜力有关的因素除了：",
+      "options": {
+        "A": "牙周膜",
+        "B": "牙龈",
+        "C": "牙槽骨",
+        "D": "咀嚼肌",
+        "E": "结合上皮"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "牙周潜力是指在正常咀嚼运动中，咀嚼食物的牙（牙合）力大约只是牙周组织所能支持的力量的一半，而在牙周组织中尚储存了另一半的支持能力。基牙的牙周潜力主要由基牙的牙周组织和合股的健康状况决定。故选C。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 410,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0411",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "上颌牙列中牙周膜面积最小的是：",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "牙列中牙周膜面积最大的是上颌第一磨牙，占总牙列牙周膜面积的11.86%，牙周膜面积最小的是下颌为中切牙，上颌为侧切牙，故答案为B 选项。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 411,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0412",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "上颌牙列中牙周膜面积最大的是：",
+      "options": {
+        "A": "8",
+        "B": "7",
+        "C": "6",
+        "D": "5",
+        "E": "3"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "牙列中牙周膜面积最大的是上颌第一磨牙，占总牙列牙周膜面积的11.86%，牙周膜面积最小的是下颌为中切牙，上颌为侧切牙。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 412,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0413",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "下颌牙列中牙周膜面积最小的是：",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "牙列中牙周膜面积最大的是上颌第一磨牙，占总牙列牙周膜面积的11.86%，牙周膜面积最小的是下颌为中切牙，上颌为侧切牙。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 413,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0414",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "下颌牙列牙周膜面积的排列顺序哪项是正确的：",
+      "options": {
+        "A": "76543",
+        "B": "67543",
+        "C": "67354",
+        "D": "76534",
+        "E": "67534"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "下颌牙列牙周膜面积的排列顺序是6735421",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 414,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0415",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "上颌牙列中牙周膜面积的排列顺序哪项是正确的：",
+      "options": {
+        "A": "76543",
+        "B": "67345",
+        "C": "67453",
+        "D": "76345",
+        "E": "67543"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "上颌牙列中牙周膜面积的排列顺序是6734512",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 415,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0416",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "选择固定桥基牙时不必考虑的因素：",
+      "options": {
+        "A": "牙周膜",
+        "B": "牙槽骨",
+        "C": "根长",
+        "D": "根形态",
+        "E": "对侧牙的情况"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "对侧牙的情况不是选择固定桥基牙时应考虑的因素。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 416,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0417",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "倾斜基牙固定桥取得共同就位道的方法，错误的是：",
+      "options": {
+        "A": "正畸",
+        "B": "备牙",
+        "C": "改变固位体设计",
+        "D": "双套冠",
+        "E": "拔除倾斜牙"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "倾斜牙作基牙可先正畸，若正畸不能到达效果可通过预备获得就位道。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 417,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0418",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "选择固定桥基牙的最低限度是：",
+      "options": {
+        "A": "冠根比为 1 比 2",
+        "B": "冠根比为 2 比 3",
+        "C": "冠根比为 1 比 1",
+        "D": "冠根比为 2 比 1",
+        "E": "冠根比为 3 比 2"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "选择固定桥基牙时，临床冠根比的最低限度是1：1。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 418,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0419",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A2",
+      "stem": "固定桥倾斜牙作基牙，如患者年轻，首选的方法是：",
+      "options": {
+        "A": "失活倾斜牙，大量磨改",
+        "B": "作单端固定桥",
+        "C": "用正畸方法矫正倾斜牙，再进行修复",
+        "D": "作半固定桥",
+        "E": "以上都不是"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "倾斜牙首选做矫正之后再做基牙。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 419,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0420",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "一般情况下固定桥最理想的固位体是：",
+      "options": {
+        "A": "全冠",
+        "B": "部分冠",
+        "C": "多面嵌体",
+        "D": "桩冠",
+        "E": "以上都不是"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "全冠是最理想的固位体。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 420,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0421",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "以下关于双端固定桥固位体的说法哪项是错误的：",
+      "options": {
+        "A": "要有共同就位道",
+        "B": "两端的固位体固位力基本相等",
+        "C": "固位体固位力应与（牙合）力大小相适应",
+        "D": "共同就位道应与牙长轴平行",
+        "E": "固位体固位力应与桥体跨度相适应"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "共同就位道可不与牙长轴平行。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 421,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0422",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "减轻固定桥桥体所受（牙合）力的方法，除了：",
+      "options": {
+        "A": "减少（牙合）面颊舌径",
+        "B": "扩大（牙合）面舌外展隙",
+        "C": "加深（牙合）面颊舌沟",
+        "D": "增加（牙合）面副沟",
+        "E": "脱离（牙合）接触"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "脱离合接触不是减轻固定桥桥体所受（牙合）力的方法。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 422,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0423",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "最适宜作桥体龈面的材料是：",
+      "options": {
+        "A": "金合金",
+        "B": "镍铬合金",
+        "C": "烤瓷",
+        "D": "复合树脂",
+        "E": "塑料"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "为了避免刺激牙槽嵴黏膜，对于固定桥桥体龈面材料的要求是应尽量光洁，不易附着菌斑和软垢。此题选项所列的5 种材料中，烤瓷的最光洁，是制作桥体龈面最适合的材料，其次是金属材料（金合金、镍铬合金），树脂的光洁度稍差。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 423,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0424",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "在相同条件下，如果固定桥桥体的厚度减半，则其挠曲变形量变为：",
+      "options": {
+        "A": "增加至原来的 2 倍",
+        "B": "增加至原来的 4 倍",
+        "C": "增加至原来的 6 倍",
+        "D": "增加至原来的 8 倍",
+        "E": "增加至原来的 9 倍"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "桥体的挠曲变形量与桥体的厚度立方成反比，若固定桥桥体的厚度减半，其挠曲变形量可增加至原来的8 倍。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 424,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0425",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "固定桥桥体应具备的条件，除了：",
+      "options": {
+        "A": "桥体龈端必须与牙槽嵴黏膜接触",
+        "B": "恢复缺失牙功能",
+        "C": "符合口腔卫生条件",
+        "D": "有足够的机械强度",
+        "E": "使用材料应不损伤口腔组织"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "1）恢复缺失牙功能：桥体应能够恢复缺牙的形态和功能。如恢复缺失前牙的切割功能和语言发音清晰度；恢复后牙捣碎食物，引导咀嚼时的侧方运动的方向等功能。2）自洁作用：桥体应有良好自洁作用，符合口腔卫生要求，有利于口腔硬软组织健康。3）形态和色泽：桥体应符合美观和舒适的要求，使外形近似缺失天然牙的形态与色泽。4）减轻（牙合）力：后牙桥体的宽度和（牙合）面解剖形态等的恢复应能减轻基牙的负荷，有利于基牙牙周组织的健康。5）材料性能：桥体所用材料应有足够的机械强度，化学性能稳定和有良好的生物相容性。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 425,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0426",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "卫生桥桥体龈面与牙槽嵴黏膜之间的间隙至少为：",
+      "options": {
+        "A": "1mm",
+        "B": "1.5mm",
+        "C": "2mm",
+        "D": "2.5mm",
+        "E": "3mm"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "卫生桥：又称悬空式桥体，主要用于后牙缺失，在保证一定的金属桥面的前提下，桥体龈面（组织面）与牙槽嵴黏膜间留有至少3 毫米以上的间隙，以便于食物碎屑通过面而不积聚，从而使其有较好的自洁作用，保证了黏膜的健康。该题选E。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 426,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0427",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "以下关于固定桥龈端的描述哪项是错误的：",
+      "options": {
+        "A": "与牙槽嵴黏膜接触面要尽量小",
+        "B": "与牙槽嵴黏膜紧密接触，轻度加压",
+        "C": "高度光滑",
+        "D": "最好为凸形",
+        "E": "扩大舌侧邻间隙"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "正确的桥体与黏膜接触关系是桥体龈端与黏膜密合，但不要压迫，唇颊面与邻牙形态协调，保证美观，舌、腭侧龈端减小接触面积，以利于清洁。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 427,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0428",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "下列哪种材料不能用作桥体的龈端：",
+      "options": {
+        "A": "陶瓷",
+        "B": "合金",
+        "C": "复合树脂",
+        "D": "热凝塑料",
+        "E": "自凝塑料"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "自凝塑料不能用作桥体的龈端。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 428,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0429",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "以下关于固定桥连接体的说法哪个是错误的：",
+      "options": {
+        "A": "是固定桥结构中的应力集中区",
+        "B": "为增加强度连接体应向龈端延伸至龈缘处",
+        "C": "分为固定连接体和活动连接体",
+        "D": "连接体的外形应圆钝",
+        "E": "增加连接体的（牙合）龈厚度可增加强度"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "连接体不能延伸至龈缘处。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 429,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0430",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "固定桥粘固后短时间内出现咬合时疼痛，首先要检查的是：",
+      "options": {
+        "A": "根尖状况",
+        "B": "牙槽骨状况",
+        "C": "牙龈状况",
+        "D": "咬合状况",
+        "E": "固位体边缘"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "固定桥粘固后短时间内出现的咬合疼痛多为早接触点引起的创伤性牙周膜炎引起。所以应首先检查咬合情况。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 430,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0431",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "固定桥粘固后短时间内出现咬合时疼痛，最可能的原因是：",
+      "options": {
+        "A": "牙龈炎",
+        "B": "根尖炎",
+        "C": "咬合早接触",
+        "D": "固位体边缘长",
+        "E": "牙髓充血"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "固定桥粘固后短时间内出现的咬合疼痛多为早接触点引起的创伤性牙周膜炎引起。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 431,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0432",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "右上侧切牙缺失，间隙小，尖牙根长大，但牙冠切角少量缺损，下颌对颌牙为局部义齿，最好的设计是：",
+      "options": {
+        "A": "双端固定桥",
+        "B": "单端固定桥",
+        "C": "局部义齿",
+        "D": "种植义齿",
+        "E": "以上都不是"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "单端固定桥又称为悬臂固定桥。单端固定桥仅一端有固位体和基牙，桥体与固位体之间由固定连接体连接，另一端是完全游离的悬臂，无基牙支持。上颌侧切牙缺失可采用单端固定桥。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 432,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第四章 牙列缺损的固定局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0433",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "可摘局部义齿修复适用于下列情况，除了：",
+      "options": {
+        "A": "各种牙列缺损，包括游离端缺失者",
+        "B": "缺牙伴牙槽骨、颌骨和软组织缺损者",
+        "C": "基牙Ⅰ°松动、牙槽骨吸收 1/3",
+        "D": "基牙的固位形态过差者",
+        "E": "牙列缺损的过渡性修复"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "可摘局部义齿的适应证广泛，从缺失一个牙到只剩余一个牙的情况均可采用可摘局部义齿。尤其适合缺牙数目多，游离缺失，有组织缺损，以及余留牙牙周健康情况较差的牙列缺损者;对于腭裂患者，可以修复缺失牙的同时利用义齿基托封闭腭裂隙;对于过度磨耗等造成的面下1/3 高度降低者，可利用可摘局部义齿合垫升高垂直距离;生长发育期的缺牙儿童也适合采用可摘局部义齿修复，修复缺失牙的同时不影响颌骨的生长发育;可摘局部义齿还常在治疗过程中作为一种短期的过渡性修复（即刻义齿、暂时义齿）;满足某些特殊美观要求（美容义齿、化妆义齿）;因身体健康原因不能耐受固定义齿修复，不接受大量磨除牙体组织，或因经济条件等原因不愿采用固定义齿修复的牙列缺损者。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 433,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0434",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "可摘局部义齿修复不适用于：",
+      "options": {
+        "A": "双侧游离端缺失",
+        "B": "单侧游离端缺失",
+        "C": "缺隙牙槽嵴低平",
+        "D": "基牙Ⅲ°松动",
+        "E": "拔牙创未愈合"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "禁忌症：无正常行为能力，生活不能自理。义齿不便摘戴、保管、清洁，有误吞义齿危险的患者，如患有偏瘫、痴呆症、肢手残缺、癫痫、严重精神障碍者;患猛性龋未治愈者;修复间隙过小，影响义齿强度;有口腔黏膜溃疡、肿瘤等疾病未治愈者;对义齿材料过敏又无其它材料可取代，或个别患者对义齿异物感明显又无法克服者。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 434,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0435",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A2",
+      "stem": "患有以下哪种疾病的患者不适合作可摘局部义齿修复：",
+      "options": {
+        "A": "咽炎",
+        "B": "牙周病",
+        "C": "肝炎",
+        "D": "癫痫",
+        "E": "偏头痛"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "可摘局部义齿禁忌症：无正常行为能力，生活不能自理。义齿不便摘戴、保管、清洁，有误吞义齿危险的患者，如患有偏瘫、痴呆症、肢手残缺、癫痫、严重精神障碍者;患猛性龋未治愈者;修复间隙过小，影响义齿强度;有口腔黏膜溃疡、肿瘤等疾病未治愈者;对义齿材料过敏又无其它材料可取代，或个别患者对义齿异物感明显又无法克服者。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 435,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0436",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "可摘局部义齿中有传导（牙合）力作用的包括以下部件，除了：",
+      "options": {
+        "A": "人工牙",
+        "B": "基托",
+        "C": "大、小连接体",
+        "D": "卡环体",
+        "E": "卡臂尖"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "卡臂尖起固位作用，防止义齿牙合向脱位。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 436,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0437",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "可摘局部义齿上起稳定作用的部分是：",
+      "options": {
+        "A": "基托",
+        "B": "人工牙",
+        "C": "固位体",
+        "D": "连接体",
+        "E": "以上都是"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "可摘局部义齿各组成部分均有稳定作用。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 437,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0438",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "可摘局部义齿解剖式人工牙的牙尖斜度是：",
+      "options": {
+        "A": "0°",
+        "B": "10°",
+        "C": "20°",
+        "D": "30°",
+        "E": "40°"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "解剖式牙：人工牙的（牙合）面形态与初萌出的天然牙（牙合）面相似，牙尖斜度为33°或30°。正中（牙合）时，上、下颌牙齿的尖凹锁结关系好，咀嚼效率高，但侧向（牙合）力大。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 438,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0439",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "可摘局部义齿半解剖式人工牙的牙尖斜度是：",
+      "options": {
+        "A": "0°",
+        "B": "10°",
+        "C": "20°",
+        "D": "30°",
+        "E": "40°"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "半解剖式牙：人工牙的牙尖斜度约为20°，上、下颌牙间有一定的锁结关系。侧向（牙合）力较解剖式牙小。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 439,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0440",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "可摘局部义齿非解剖式人工牙的牙尖斜度是：",
+      "options": {
+        "A": "0°",
+        "B": "10°",
+        "C": "20°",
+        "D": "30°",
+        "E": "40°"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "非解剖式牙：人工牙的颊、舌轴面与解剖式牙类似，但（牙合）面仅有溢出沟，而没有牙尖，或者说牙尖斜度为0°，又称无尖牙。无尖牙咀嚼效率较低，但侧向（牙合）力小，有利于义齿稳定，对牙槽骨的损害小。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 440,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0441",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "治疗无牙颌牙槽嵴严重吸收、萎缩的方法是：",
+      "options": {
+        "A": "系带矫正术",
+        "B": "牙槽嵴重建术",
+        "C": "前庭沟加深术",
+        "D": "消除有碍的骨突",
+        "E": "骨性隆突修整术"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "牙槽嵴重建术：该手术是治疗无牙颌骨牙槽嵴严重吸收、萎缩的一种方法。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 441,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第二章 临床接诊"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0442",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "对半卡环中代替舌侧卡环臂常用：",
+      "options": {
+        "A": "颊侧基托",
+        "B": "舌侧基托",
+        "C": "近中邻面板",
+        "D": "远中邻面板",
+        "E": "以上均可以"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "对半卡环：由颊、舌侧两个相对的卡环臂和近、远中支托组成，用于前后有缺隙、孤立的前磨牙或磨牙上。临床上常用舌侧基托代替舌侧卡环臂，起到对抗臂的作用。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 442,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0443",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "残根的拔除或保留应根据：",
+      "options": {
+        "A": "牙根缺损破坏的范围",
+        "B": "根尖周组织的健康情况",
+        "C": "治疗效果",
+        "D": "与修复的关系",
+        "E": "以上都对"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "口腔中预留残根的拔除或保留应根据牙根的缺损破坏范围、根尖周组织的健康状况，并结合治疗效果与修复的关系综合考虑。如果残根破坏较大，缺损达龈下，根尖周组织病变范围较广泛，治疗效果不佳者，可考虑拔除；如果残根较稳固，根尖周组织无明显病变或病变范围较小，同时对义齿的支持和固定有作用者，则应进行根管治疗后保留。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 443,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第二章 临床接诊"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0444",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "关于舌板的适应证，下列说法不正确的是：",
+      "options": {
+        "A": "前牙松动需用夹板固定",
+        "B": "舌系带附着过高或舌面间隙不能容纳舌杆",
+        "C": "舌体经常出现阿弗他溃疡",
+        "D": "口底浅，舌侧软组织附着高",
+        "E": "舌侧倒凹过大不宜用舌杆"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "舌板：用于口底浅，舌侧软组织附着高（口底到龈缘的距离在7mm 以下）。特别适用于以下情况：前牙松动需用夹板固定者；舌系带附着过高或舌面间隙不能容纳舌杆者；舌侧倒凹过大不宜用舌杆者。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 444,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0445",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "与卡环臂固位力大小关系不密切的因素是：",
+      "options": {
+        "A": "卡环的形态、长短和粗细",
+        "B": "卡环材料的物理特性",
+        "C": "基牙倒凹的深度和坡度",
+        "D": "卡环的类型",
+        "E": "卡环的磨光度"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "卡环固位臂与固位力的关系：卡环臂的形态、长短和粗细与固位力有密切关系。卡环的形态关系到其可达到的正压力，不同的卡环满足不同固位力的需要。在倒凹深度和坡度相同时，卡环臂与基牙摩擦作用点越远离卡环体肩部，对牙面产生的正压力越小，故通常认为卡环臂越长则固位力下降。卡环臂的粗细对正压力有影响，在相同的位移下，卡环臂越粗可达副的正压力越大，固位力越大。同时，卡环臂的断面形态也对固位力有影响，铸造的半圆形卡环臂纵向距离大于横向距离，在同样的位移下，纵向固位力强，而弯制的锻丝卡环则横向固位力强，与卡环的磨光度关系不大。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 445,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0446",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "以下表述错误的是：",
+      "options": {
+        "A": "联合卡环有防止食物嵌塞的作用",
+        "B": "延伸卡环的卡臂在邻近缺隙的基牙上，位于非倒凹区，起固位作用",
+        "C": "RPI 卡环可减少基牙扭力",
+        "D": "远中孤立磨牙上的铸造圈卡的卡臂尖向近中",
+        "E": "对半卡环有两个（牙合）支托"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "延伸卡环：用于松动或牙冠外形差的基牙，将卡环臂延伸到邻近牙齿的倒凹区以获得固位和夹板固定作用。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 446,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0447",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "下列哪种不是锻丝卡环的种类：",
+      "options": {
+        "A": "单臂卡环",
+        "B": "双臂卡环",
+        "C": "三臂卡环",
+        "D": "圈形卡环",
+        "E": "杆型卡环"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "锻丝卡环的种类：单臂卡环、双臂卡环、三臂卡环、圈形卡环、连续卡环。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 447,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0448",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "可摘局部义齿不稳定的表现不包括以下哪一项：",
+      "options": {
+        "A": "咀嚼效率低",
+        "B": "义齿摆动",
+        "C": "游离端基托翘起",
+        "D": "义齿旋转",
+        "E": "义齿下沉"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "可摘局部义齿固位不稳定现象有：①翘起；②摆动；③旋转；④下沉。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 448,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0449",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "三臂卡环的组成是由：",
+      "options": {
+        "A": "颊卡环臂",
+        "B": "舌卡环臂",
+        "C": "（牙合）支托",
+        "D": "A+B",
+        "E": "A+B+C"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "三臂卡环：多用于牙冠外形好，无明显倾斜的基牙。卡环由颊、舌两个卡环臂和（牙合）支托组成。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 449,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0450",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "卡环臂的起始部分位于观测线上：",
+      "options": {
+        "A": "起稳定作用，防止义齿侧向移位",
+        "B": "起固位稳定作用，防止义齿（牙合）向脱位",
+        "C": "起固位作用，防止义齿龈向移位",
+        "D": "起稳定支持作用，防止义齿龈向移位",
+        "E": "起支持作用，防止义齿龈向移位"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "卡环臂：为卡环的游离部分，富有弹性，环绕基牙。卡环臂尖位于倒凹区，是卡环产生固位作用的部分，可防止义齿（牙合）向脱位。卡环臂起始部分较坚硬，放置在观测线上或非倒凹区，起稳定作用，防止义齿侧向移位。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 450,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0451",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "口腔黏膜有溃疡修复前首先应：",
+      "options": {
+        "A": "观察",
+        "B": "不予处理",
+        "C": "对症治疗",
+        "D": "可进行修复",
+        "E": "先取模型后治疗"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "治疗口腔黏膜疾病：如口腔黏膜有溃疡、白色损害等黏膜病，必须先做治疗，以免造成对黏膜的刺激，致使疾病加剧。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 451,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第二章 临床接诊"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0452",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "圆环形卡环通常包绕基牙的：",
+      "options": {
+        "A": "2 个面和 2 个轴角",
+        "B": "2 个面和 3 个轴角",
+        "C": "3 个面和 2 个轴角",
+        "D": "3 个面和 3 个轴角",
+        "E": "3 个面和 4 个轴角"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "圆环卡环常包绕基牙的3 个轴面和4 个轴面角，即包绕基牙牙冠的3/4 以上，好似圆圈，故名圆环卡环，这种卡环为Aker（1936）首先应用，故又称Aker卡环。此类卡环适用于健康的、牙冠外形好的基牙上，牙支持式可摘局部义齿最常用，固位、支持和稳定作用均好。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 452,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0453",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "延伸卡环又称：",
+      "options": {
+        "A": "单臂卡环",
+        "B": "双臂卡环",
+        "C": "长臂卡环",
+        "D": "三臂卡环",
+        "E": "多臂卡环"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "长臂卡环：又称延伸卡环，用于近缺隙基牙松动或外形无倒凹无法获得足够固位力者。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 453,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0454",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "卡环还可用于防止食物嵌塞的是：",
+      "options": {
+        "A": "联合卡环",
+        "B": "延伸卡环",
+        "C": "圈形卡环",
+        "D": "三臂卡环",
+        "E": "对半卡环"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "联合卡环：由两个卡环通过共同的卡环体连接而成。卡环体位于相邻两基牙的（牙合）外展隙，并与伸向（牙合）面的（牙合）支托相连接。适用于非缺隙侧，基牙牙冠短而稳固，或相邻两牙之间有间隙者，联合卡环还可用于防止食物嵌塞。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 454,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0455",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "回力卡环具有应力中断作用的原因是：",
+      "options": {
+        "A": "远中（牙合）支托与基托相连，（牙合）力通过支托传导到基牙，减轻了牙槽嵴的负担",
+        "B": "远中（牙合）支托与基托相连，（牙合）力通过人工牙和基托传导到牙槽嵴，减轻了基牙的负担",
+        "C": "远中（牙合）支托不与基托相连，（牙合）力通过支托传导到基牙，减轻了牙槽嵴的负担",
+        "D": "远中（牙合）支托不与基托相连，（牙合）力通过人工牙和基托传导到牙槽嵴，减轻了基牙的负担",
+        "E": "远中（牙合）支托不与基托相连，（牙合）力通过人工牙和基托传导到牙槽嵴，减轻了牙槽嵴的负担"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "回力卡环：常用于后牙游离端缺失，基牙为前磨牙或尖牙，牙冠较短或为锥形牙。卡环臂尖端位于基牙的唇（颊）面倒凹区，绕过基牙的远中面与支托相连接，再转向舌面的非倒凹区，在基牙近中舌侧通过连接体与腭（舌）杆相连：卡环臂尖端位于基牙舌面倒凹区时，与远中支托相连，转向近中颊侧通过连接体与基托相连者称反回力卡。两者均为铸造卡环，由于远中支托不与基托相连接，（牙合）力则通过人工牙和基托传到黏膜和颌骨上，减轻基牙的负荷，起应力中断的作用。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 455,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0456",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "下颌的基本位置正确的是：",
+      "options": {
+        "A": "牙尖交错位",
+        "B": "正中关系",
+        "C": "息止颌位",
+        "D": "以上都不对",
+        "E": "选项 ABC 均正确"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "颌位即为下颌骨的位置。比较稳定和常见的有三个：牙尖交错位，后退接触位（正中关系）、下颌姿势位（息止颌位）。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 456,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第六章 牙列缺失的全口义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0457",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "大连接体舌杆边缘圆滑，上缘厚约为：",
+      "options": {
+        "A": "0.5mm",
+        "B": "1mm",
+        "C": "1.5mm",
+        "D": "2mm",
+        "E": "3mm"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "舌杆：位于下颌舌侧龈缘与舌系带或口底黏膜皱襞之间。舌杆纵剖面呈半梨形，边缘圆滑，上缘薄（1mm）而下缘厚（2mm），上缘离开牙龈缘至少3～4mm。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 457,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0458",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "回力卡环适用于：",
+      "options": {
+        "A": "前牙缺失",
+        "B": "后牙游离缺失",
+        "C": "后牙非游离缺失",
+        "D": "间隔缺失",
+        "E": "个别牙缺失"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "回力卡环：常用于后牙游离端缺失，基牙为前磨牙或尖牙，牙冠较短或为锥形牙。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 458,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0459",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "倒钩卡环常用于：",
+      "options": {
+        "A": "支托的同侧下方的一型观测线基牙",
+        "B": "支托的同侧下方的二型观测线基牙",
+        "C": "支托的同侧下方的三型观测线基牙",
+        "D": "支托的对侧下方的二型观测线基牙",
+        "E": "支托的对侧下方的三型观测线基牙"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "倒钩卡环：常用于倒凹区在支托的同侧下方的二型观测线基牙。当有组织倒凹区无法使用杆形卡环时，更为常用。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 459,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0460",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "卡环臂尖端位于基牙舌面倒凹区时，与远中支托相连，转向近中颊侧通过连接体与基托相连者称：",
+      "options": {
+        "A": "三臂力卡",
+        "B": "对半力卡",
+        "C": "回力力卡",
+        "D": "反回力卡",
+        "E": "RPA 卡环"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "卡环臂尖端位于基牙舌面倒凹区时，与远中支托相连，转向近中颊侧通过连接体与基托相连者称反回力卡。两者均为铸造卡环，由于远中支托不与基托相连接，（牙合）力则通过人工牙和基托传到黏膜和颌骨上，减轻基牙的负荷，起应力中断的作用。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 460,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0461",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "基托可以加强义齿的固位和稳定作用，其原因描述中错误的是：",
+      "options": {
+        "A": "基托与黏膜之间存在唾液，三者间有吸附力",
+        "B": "基托与基牙及邻近牙接触可以形成抵抗义齿移位的力量",
+        "C": "基托有防止义齿翘动的间接固位作用",
+        "D": "基托进入制锁区",
+        "E": "基托进入组织倒凹区"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "基托进入倒凹区，致使义齿不能戴入。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 461,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0462",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "圈形卡环卡环臂的尖端在上颌磨牙的：",
+      "options": {
+        "A": "颊侧",
+        "B": "舌侧",
+        "C": "近中面",
+        "D": "远中面",
+        "E": "邻间隙"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "圈形卡环：多用于远中孤立的磨牙上，上颌磨牙向近中颊侧倾斜、下颌磨牙向近中舌侧倾斜者。卡环臂的尖端在上颌磨牙的颊侧和下颌磨牙的舌侧。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 462,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0463",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "后腭杆的两端弯向前至：",
+      "options": {
+        "A": "第二双尖牙",
+        "B": "第二双尖牙与第一磨牙之间",
+        "C": "第一磨牙",
+        "D": "第一磨牙与第二磨牙之间",
+        "E": "第二磨牙"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "后腭杆：位于上颌硬区之后，颤动线之前，两端微弯向前至第一、第二磨牙之间。也可根据患者的敏感程度，适当调整其位置。因舌体不接触后腭杆，可做得稍厚些，中间较两端稍厚。与黏膜轻轻接触，在杆和黏膜之间可留有一定间隙，以免义齿下沉时，压迫黏膜而造成创伤和疼痛。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 463,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0464",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "下列有关三臂卡环的叙述，说法正确的是：",
+      "options": {
+        "A": "属于标准的圈形卡环",
+        "B": "卡环的稳定作用较差",
+        "C": "多用于牙冠外形倾斜的基牙",
+        "D": "卡环包绕基牙的 3 个或 4 个轴面角",
+        "E": "卡环由颊、舌两个卡环臂组成"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "三臂卡环：多用于牙冠外形好，无明显倾斜的基牙。卡环由颊、舌两个卡环臂和（牙合）支托组成。包绕基牙的3 个或4 个轴面角，小连接体和（牙合）支托连接，属于标准的圆环卡环，应用最为广泛，卡环的固位、支持和稳定作用均好。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 464,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0465",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "下列哪项不是修复前准备与处理的内容：",
+      "options": {
+        "A": "修复前口腔的一般处理",
+        "B": "余留牙的保留与拔除",
+        "C": "口腔软组织及牙槽骨的处理",
+        "D": "X 线检查",
+        "E": "修复前正畸治疗"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "修复前准备：口腔的一般处理；余留牙的保留与拔除；口腔软组织处理；牙槽骨的处理；修复前的正畸治疗。而X 线检查属于修复步骤中“临床检查”的项目。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 465,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第二章 临床接诊"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0466",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "下列有关尖牙卡环，说法正确的：",
+      "options": {
+        "A": "支持、固位作用较好",
+        "B": "固位、稳定作用较好",
+        "C": "支持、稳定作用较好",
+        "D": "固位作用较差",
+        "E": "支持作用较差"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "尖牙卡环：专门用于尖牙上。设近中切支托，卡环由切支托顺舌面近中切缘嵴向下，至舌隆突，方向上转，沿舌面远中边缘嵴至远中切角，反折至唇面，卡环臂在唇面进入近中倒凹区。此卡环的支持、固位作用较好。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 466,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0467",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "对大连接体的要求，哪项不正确：",
+      "options": {
+        "A": "扁平形或板条形",
+        "B": "不压迫骨性突起",
+        "C": "边缘圆钝",
+        "D": "不妨碍唇颊舌活动",
+        "E": "尽量增加宽度，可保证足够强度"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "对大连接体的要求：①有一定的强度、质地坚韧、不变形、不断裂；②不能妨碍唇、颊、舌的运动；③根据不同的位置、受力情况和组织情况，可呈不同的大小、外形和厚度，一般呈扁平形或板条形。连接杆的弹性随长度而增加。因此，若杆的长度增加，应相应地增加厚度。杆的边缘应圆钝；④不能进入软组织倒凹，以免影响义齿就位和压伤软组织。不能压迫上颌腭隆突、下颌舌隆突及其他骨性突起。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 467,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0468",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "骨隆突常发生的位置不包括：",
+      "options": {
+        "A": "腭隆突",
+        "B": "下颌隆突",
+        "C": "上颌结节",
+        "D": "腭中缝处",
+        "E": "腭小凹处"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "骨隆突常发生在：①下颌前磨牙舌侧，一般双侧对称，也可为单侧，其大小不一，也称为下颌隆突；②腭中缝处，呈嵴状隆起，也称为腭隆突；③上颌结节，结节过度增生形成较大的骨性倒凹。对双侧上颌结节肥大的情况，常常只需修整一侧上颌结节，解决妨碍义齿就位的问题即可。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 468,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第二章 临床接诊"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0469",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "下列有关可摘局部义齿小连接体说法正确的是：",
+      "options": {
+        "A": "它与大连接体应呈锐角",
+        "B": "小连接体平行越过龈缘并缓冲",
+        "C": "位于牙齿邻间隙内的倒凹区",
+        "D": "将卡环、支托、基托等与大连接体相连接",
+        "E": "小连接体要有足够的柔软度"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "小连接体：小连接体的作用是把金属支架上的各部件，如卡环、支托、基托等与大连接体相连接。它与大连接体应呈直角、圆钝相连。小连接体垂直越过龈缘并缓冲。小连接体要有足够的硬度，位于牙齿邻间隙内的非倒凹区，避免影响义齿就位。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 469,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0470",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "可摘局部义齿大连接体的种类包括：",
+      "options": {
+        "A": "舌板",
+        "B": "腭板",
+        "C": "舌杆",
+        "D": "腭杆",
+        "E": "以上说法均正确"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "大连接体的种类：①腭杆；②腭板；③舌杆；④舌板。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 470,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0471",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "修复前对多根牙根分叉病变较轻时的患牙应：",
+      "options": {
+        "A": "观察",
+        "B": "拔除患者",
+        "C": "不做处理",
+        "D": "根管治疗术",
+        "E": "采取相应措施"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "多根牙根分叉病变较轻时，通过龈上洁治、龈下刮治、牙龈切除术或牙龈成形术以及保持良好的口腔卫生等措施，能够有效地控制其病变且预后较好。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 471,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第二章 临床接诊"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0472",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "采用舌杆时，下前牙舌杆距牙龈缘距离为：",
+      "options": {
+        "A": "2mm",
+        "B": "3～4mm",
+        "C": "5mm",
+        "D": "5～6mm",
+        "E": "7mm"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "舌杆：位于下颌舌侧龈缘与舌系带或黏膜皱襞之间。舌杆纵剖面呈半梨形，边缘薄而圆滑，距牙龈缘3～4mm。舌杆除口底浅，前牙向舌侧倾斜，或有明显舌隆突但外科手术不能去除者外，应用范围较广。舌杆与黏膜的接触关系，根据下颌舌侧牙槽骨形态而定。一般有三型：垂直型者舌杆与黏膜平行接触；倒凹型者舌杆在倒凹区之上，或在倒凹区，但要留出空隙；斜坡型者舌杆与黏膜离开0.3～0.4mm，与牙槽嵴平行。舌杆的位置要适宜，既不影响舌的运动，也不妨碍口底的功能活动。如在前牙舌隆突上放置连续舌支托则称隆突杆，与舌杆合并使用则称双舌杆，对前牙可起支持作用，亦有增加游离端基托稳定的作用。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 472,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0473",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "下列有关联合卡环叙述，不正确的是：",
+      "options": {
+        "A": "适用于非缺隙侧",
+        "B": "基牙牙冠长而稳固",
+        "C": "相邻两牙之间有间隙者",
+        "D": "可用于防止食物嵌塞",
+        "E": "两个卡环通过共同的卡环体连接"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "联合卡环：由两个卡环通过共同的卡环体连接而成。卡环体位于相邻两基牙的（牙合）外展隙，并与伸向（牙合）面的（牙合）支托相连接。适用于非缺隙侧，基牙牙冠短而稳固，或相邻两牙之间有间隙者，联合卡环还可用于防止食物嵌塞。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 473,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0474",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "模型观测时，调整义齿就位道的方向可以：",
+      "options": {
+        "A": "改变基牙倒凹的位置，加大制锁角度",
+        "B": "改变基牙倒凹的位置，减小制锁角度",
+        "C": "改变基牙倒凹的深度、坡度，加大制锁角度",
+        "D": "改变基牙倒凹的深度、坡度，改变制锁角度",
+        "E": "改变基牙倒凹的深度、坡度，改变倒凹的位置"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "调整就位道：改变就位道将导致基牙的倒凹深度、坡度以及制锁角的变化，从而达到增减固位力的目的。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 474,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0475",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "倒钩卡环又称为：",
+      "options": {
+        "A": "单臂卡环",
+        "B": "双臂卡环",
+        "C": "下返卡环",
+        "D": "三臂卡环",
+        "E": "多臂卡环"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "倒钩卡环：用于倒凹区在支托的同侧下方的基牙，又称下返卡环。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 475,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0476",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A2",
+      "stem": "开口度是指患者最大开口时：",
+      "options": {
+        "A": "上下唇之间的距离",
+        "B": "上下中切牙切缘之间的距离",
+        "C": "上下中切牙龈缘之间的距离",
+        "D": "上中切牙切缘至颏底的距离",
+        "E": "鼻底至颏底的距离"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "开口度：开口度是指患者大张口时，上下中切牙切缘之间的距离。可用双脚规或游标尺测量。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 476,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第二章 临床接诊"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0477",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "修复前口腔的一般处理不包括：",
+      "options": {
+        "A": "保证良好的口腔卫生",
+        "B": "牙齿选磨",
+        "C": "拆除不良修复体",
+        "D": "治疗和控制龋病及牙周病",
+        "E": "处理急性症状"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "修复前准备口腔的一般处理是指经过全面检查、诊断之后，按照拟定的口腔修复设计，对口腔组织的病理情况或影响修复效果的情况进行适当的处理，以保证预期效果。其具体包括以下四项：①处理急性症状（牙外伤、急性牙髓炎及慢性牙髓炎急性发作、牙槽脓肿，以及颞下颌关节紊乱病等引起的不适）；②保证良好的口腔卫生；③拆除不良修复体；④治疗和控制龋病及牙周病。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 477,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第二章 临床接诊"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0478",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "三臂卡环包绕基牙的轴面角：",
+      "options": {
+        "A": "1 个",
+        "B": "2 个",
+        "C": "4 个",
+        "D": "5 个",
+        "E": "7 个"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "三臂卡环：多用于牙冠外形好，无明显倾斜的基牙。卡环由颊、舌两个卡环臂和（牙合）支托组成。包绕基牙的3 个轴面，4 个轴面角，小连接体和（牙合）支托连接，属于标准的圆环卡环，应用最为广泛，卡环的固位、支持和稳定作用均好。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 478,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0479",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "在修复前，用牙少量移动的矫治技术简称：",
+      "options": {
+        "A": "MTM",
+        "B": "ATM",
+        "C": "TMM",
+        "D": "MAM",
+        "E": "TMT"
+      },
+      "answer": "A",
+      "rubric": null,
+      "explanation": "在修复前，用牙少量移动的矫治技术（简称MTM）将有关牙矫治到正常位置后进行修复，能扩大修复治疗的范围，尽量保存牙体组织，明显改善修复预后。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 479,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第二章 临床接诊"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0480",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "后腭杆位于：",
+      "options": {
+        "A": "上颌硬区之前",
+        "B": "上颌硬区",
+        "C": "上颌硬区之后，颤动线之前",
+        "D": "颤动线",
+        "E": "颤动线之后"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "后腭杆：位于上颌硬区之后，颤动线之前，两端微弯向前至第一、第二磨牙之间。也可根据患者的敏感程度，适当调整其位置。因舌体不接触后腭杆，可做得稍厚些，中间较两端稍厚。游离端义齿应根据游离端鞍基下沉幅度确定后腭杆与黏膜轻轻接触，或在杆和黏膜之间可留少许间隙，以免义齿下沉时，压迫黏膜而造成创伤和疼痛。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 480,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0481",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "因口腔内瘢痕组织对义齿修复的固位和稳定有影响时，应考虑：",
+      "options": {
+        "A": "观察",
+        "B": "不予处理",
+        "C": "义齿缓冲",
+        "D": "进行修整",
+        "E": "重新制作义齿"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "瘢痕组织的修整：口腔内如有瘢痕组织，当对义齿的固位稳定有影响时，可考虑予以修整。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 481,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第二章 临床接诊"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0482",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "在义齿修复前口腔软组织的处理措施中，不应包括：",
+      "options": {
+        "A": "黏膜病的治疗",
+        "B": "黏膜瘢痕组织的修整",
+        "C": "松软牙槽嵴的修整",
+        "D": "咀嚼肌功能训练",
+        "E": "唇、舌系带的修整"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "义齿修复前口腔软组织处理：①治疗口腔黏膜疾患：如口腔黏膜有溃疡、白色损害等黏膜病，必须先做治疗，以免造成对黏膜的刺激，致使疾患加剧。②舌系带的修整：如唇舌系带附着点接近牙槽嵴顶，系带过短，影响义齿的固位和功能，则应进行外科修整。③瘢痕组织的修整：口腔内如有瘢痕组织，当对义齿的固位稳定有影响时，可考虑予以修整。④对松动软组织的修整：有时由于戴用不良修复体过久，以致骨质大量吸收，牙槽嵴表面被一种松软可移动的软组织所覆盖。对于对支持义齿没有帮助的松软组织，可以在修复前给予切除。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 482,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第二章 临床接诊"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0483",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "对于余留牙的保留，下列情况中哪项应该考虑拔除：",
+      "options": {
+        "A": "牙槽骨吸收达到根 1/5",
+        "B": "牙槽骨吸收达到根 2/5",
+        "C": "牙槽骨吸收达到根 1/3",
+        "D": "牙槽骨吸收达到根 2/3",
+        "E": "牙槽骨吸收达到根 1/2"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "一般来说，对于牙槽骨吸收达到根2/3 以上，牙松动达三度者应拔除。所以对于吸收达到根2/3 的余留牙要考虑拔除不是保留。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 483,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第二章 临床接诊"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0484",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "基牙倒凹的深度和倒凹的坡度一般为：",
+      "options": {
+        "A": "倒凹的深度应大于 1mm，倒凹的坡度应小于 10°",
+        "B": "倒凹的深度应大于 1mm，倒凹的坡度应小于 20°",
+        "C": "倒凹的深度应小于 1mm，倒凹的坡度应小于 10°",
+        "D": "倒凹的深度应小于 1mm，倒凹的坡度应小于 20°",
+        "E": "倒凹的深度应小于 1mm，倒凹的坡度应大于 20°"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "基牙一般倒凹的深度应小于1mm，铸造卡环臂要求的倒凹深度偏小，不宜超过0.5mm，倒凹的坡度应大于20°。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 484,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0485",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "牙槽嵴重建术 20 世纪 70 年代较好的骨组织替代材料为：",
+      "options": {
+        "A": "磷灰石颗粒",
+        "B": "碳酸钙颗粒",
+        "C": "石灰石颗粒",
+        "D": "羟基磷灰石颗粒",
+        "E": "锶羟基磷灰石颗粒"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "牙槽嵴重建术20 世纪60～70 年代主要的重建方法为自体骨移植加高术，但由于移植骨不断地吸收及重建牙槽嵴形态不理想而逐渐被弃用。20 世纪70 年代以来生物材料羟基磷灰石颗粒增高或重建牙槽骨成为较好的骨组织替代材料。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 485,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第二章 临床接诊"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0486",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "对半卡环适用于：",
+      "options": {
+        "A": "牙冠外形差的基牙",
+        "B": "游离缺失的末端基牙",
+        "C": "远中孤立的磨牙",
+        "D": "孤立的前磨牙或磨牙",
+        "E": "松动的基牙"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "对半卡环：由颊、舌侧两个相对的卡环臂和近、远中支托组成，用于前后有缺隙、孤立的前磨牙或磨牙上。临床上常用舌侧基托代替舌侧卡环臂，起到对抗臂的作用。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 486,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0487",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "大连接体舌杆边缘圆滑，下缘厚约为：",
+      "options": {
+        "A": "0.5mm",
+        "B": "1mm",
+        "C": "1.5mm",
+        "D": "2mm",
+        "E": "3mm"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "舌杆：位于下颌舌侧龈缘与舌系带或口底黏膜皱襞之间。舌杆纵剖面呈半梨形，边缘圆滑，上缘薄（1mm）而下缘厚（2mm），上缘离开牙龈缘至少3～4mm。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 487,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0488",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "口腔软组织的处理有：",
+      "options": {
+        "A": "唇舌系带的矫正术",
+        "B": "瘢痕切除修整术",
+        "C": "松动软组织切除修整术",
+        "D": "口腔黏膜疾患的治疗",
+        "E": "以上都对"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "口腔软组织处理：①治疗口腔黏膜疾患：如口腔黏膜有溃疡、白色损害等黏膜病，必须先做治疗，以免造成对黏膜的刺激，致使疾患加剧；②系带的修整：如唇舌系带附着点接近牙槽嵴顶，系带过短，影响义齿的固位和功能，则应进行外科修整；③瘢痕组织的修整：口腔内如有瘢痕组织，当对义齿的固位稳定有影响时，可考虑予以修整；④对松动软组织的修整：有时由于戴用不良修复体过久，以致骨质大量吸收，牙槽嵴表面被一种松软可移动的软组织所覆盖。对于对支持义齿没有帮助的松软组织，可以在修复前给予切除。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 488,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第二章 临床接诊"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0489",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "侧腭杆离开龈缘的距离至少是：",
+      "options": {
+        "A": "1～2mm",
+        "B": "2～4mm",
+        "C": "4～6mm",
+        "D": "6～8mm",
+        "E": "8～10mm"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "侧腭杆：位于上颌硬区的两侧，离开龈缘应有4～6mm，并且与牙弓平行，用于连接前、后腭杆，一侧或两侧（双杆）均可。其强度好，不易变形，戴用舒适。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 489,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0490",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "有关可摘局部义齿的大连接体作用，说法错误的是：",
+      "options": {
+        "A": "连接义齿各部分成一整体",
+        "B": "传递和分散（牙合）力至基牙",
+        "C": "防止义齿翘起、摆动、旋转、下沉",
+        "D": "减少基牙在功能状态时所承受的扭力",
+        "E": "可减小基托面积，并可增加义齿的强度"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "大连接体的作用：连接义齿各部分成一整体，传递和分散（牙合）力至基牙和邻近的支持组织，以减少基牙在功能状态时所承受的扭力和负荷；可减小基托面积，并可增加义齿的强度。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 490,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0491",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "下列有关尖牙卡环的描述，不正确的是：",
+      "options": {
+        "A": "用于尖牙",
+        "B": "丝材的弹性好，固位力较强",
+        "C": "向下向前进入唇面近中倒凹",
+        "D": "由近中切支托顺舌面近中边缘嵴向下",
+        "E": "经舌隆突、舌面远中边缘嵴向上至远中切角"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "尖牙卡环：用于尖牙，尤其是下颌尖牙。卡环由近中切支托顺舌面近中边缘嵴向下，经舌隆突、舌面远中边缘嵴向上至远中切角，向下向前进入唇面近中倒凹。小连接体在远中邻面与卡环臂相连。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 491,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0492",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "侧腭杆与龈缘的关系是：",
+      "options": {
+        "A": "与龈缘接触",
+        "B": "离开 1～3mm",
+        "C": "离开 4～6mm",
+        "D": "离开 6～10mm",
+        "E": "离开 11～15mm"
+      },
+      "answer": "C",
+      "rubric": null,
+      "explanation": "侧腭杆：位于上颌硬区的两侧，离开龈缘应有4～6mm，并且与牙弓平行，用于连接前、后腭杆，一侧或两侧（双杆）均可。其强度好，不易变形，戴用舒适。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 492,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0493",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "（牙合）支托是卡环伸向基牙（牙合）面的部分，防止义齿移位的方向为：",
+      "options": {
+        "A": "（牙合）向",
+        "B": "近中向",
+        "C": "远中向",
+        "D": "龈向",
+        "E": "颊向"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "（牙合）支托：是卡环伸向基牙（牙合）面而产生支持作用的部分，防止义齿龈向移位，可保持卡环在基牙上的位置。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 493,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0494",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "可摘局部义齿恢复功能、避免组织损伤的基础是：",
+      "options": {
+        "A": "义齿的坚固耐用",
+        "B": "义齿的摘戴方便",
+        "C": "义齿的外形美观",
+        "D": "义齿的固位和稳定",
+        "E": "义齿的保健作用"
+      },
+      "answer": "D",
+      "rubric": null,
+      "explanation": "义齿只有在固位和稳定良好的基础上才能发挥最大功能，避免组织损伤。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 494,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0495",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "（牙合）支托作用不包括：",
+      "options": {
+        "A": "支持作用",
+        "B": "加大（牙合）支托以恢复咬合关系",
+        "C": "防止义齿龈向移位",
+        "D": "防止食物嵌塞",
+        "E": "稳定作用"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "（牙合）支托：是卡环伸向基牙（牙合）面而产生支持作用的部分，防止义齿龈向移位，可保持卡环在基牙上的位置。如果余留牙间有间隙，（牙合）支托安放其间可以防止食物嵌塞。如果基牙倾斜移位，与对颌牙接触不良或无（牙合）接触，还可加大（牙合）支托以恢复咬合关系。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 495,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0496",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "下列有关可摘局部义齿基牙的选择说法不正确的是：",
+      "options": {
+        "A": "选择健康牙作基牙",
+        "B": "切牙一般可以选作基牙",
+        "C": "牙槽突吸收到根长的 1/2 不宜单独作基牙",
+        "D": "越近缺隙的牙作基牙，固位、支持效果越好",
+        "E": "牙周治疗后可用联冠、连续卡环等方式加强后作基牙"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "选择基牙的原则：①选择健康牙作基牙。牙周健康，牙周膜面积大的牙齿为首选的基牙。切牙牙周膜面积小，又与美观有关，故一般不选作基牙。②虽有牙体疾病但已经治疗或修复者。③虽有牙周疾病但已经治疗并得到控制者。如牙槽突吸收到根长的1/2。④越近缺隙的牙作基牙，固位、支持效果越好。⑤选用多个基牙时，彼此愈分散愈好。这可使每个基牙和就位道所成的交角较大，有利于增强固位。松动达二度的牙齿不宜单独作基牙；经牙周治疗后，病情得到控制，可用联冠、连续卡环等方式加强后作基牙或作覆盖基牙。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 496,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0497",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "长臂卡环不应进入：",
+      "options": {
+        "A": "近缺隙基牙的倒凹区",
+        "B": "近缺隙松动基牙的倒凹区",
+        "C": "松动基牙颊侧的倒凹区",
+        "D": "松动基牙舌侧的倒凹区",
+        "E": "近缺隙基牙的相邻牙的倒凹区"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "长臂卡环：又称延伸卡环。该卡环任何部件不应进入近缺隙松动基牙的倒凹区。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 497,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0498",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "下列有关铸造的圈形卡环描述，说法不正确的是：",
+      "options": {
+        "A": "多用于远中孤立的磨牙",
+        "B": "有颊、舌侧两个支托",
+        "C": "远中支托有增加支持的作用",
+        "D": "远中支托有防止基牙进一步倾斜移位作用",
+        "E": "非倒凹一侧卡环臂有辅助臂与支架相连，可增加卡环臂的强度"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "铸造的圈形卡多用于远中孤立的磨牙上，有近、远中两个支托。远中支托有增加支持，防止基牙进一步倾斜移位作用。非倒凹一侧卡环臂有辅助臂与支架相连，可增加卡环臂的强度。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 498,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0499",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "前腭杆应位于：",
+      "options": {
+        "A": "腭皱襞处",
+        "B": "腭皱襞之后，上腭硬区之前",
+        "C": "上腭硬区",
+        "D": "上腭硬区之后",
+        "E": "颤动线之前"
+      },
+      "answer": "B",
+      "rubric": null,
+      "explanation": "前腭杆：位于上颌硬区之前，腭皱襞之后，薄而宽，与黏膜组织密合但无压力，应离开龈缘至少6mm。为了不妨碍舌的功能和发音，应该尽量避免覆盖腭前区组织。前部边缘设计于腭皱襞之间。常用铸造法制成，有时也可用成品杆弯制而成。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 499,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第五章 牙列缺损的可摘局部义齿修复"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    },
+    {
+      "id": "YS1000-0500",
+      "subject": "口腔修复学",
+      "chapter": "口腔修复学",
+      "type": "A1",
+      "stem": "病史采集包括：",
+      "options": {
+        "A": "主诉",
+        "B": "患者系统疾病史",
+        "C": "患者传染性疾病史",
+        "D": "患者的修复治疗情况",
+        "E": "以上都对"
+      },
+      "answer": "E",
+      "rubric": null,
+      "explanation": "病史采集的内容包括：①主诉；②现病史；③既往史：全身系统病史（与口腔修复治疗计划相关的全身系统疾病、影响口腔支持组织固位能力的疾病或身体状态、了解患者传染性疾病史、心理卫生状况以及精神疾病史）和口腔专科病史（修复治疗史、牙体牙髓治疗史、牙周病史、正畸治疗史、口腔外科治疗史、放射影像资料、颞下颌关节病史）；④相关疾病的家族病史。",
+      "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+      "reference": "《口腔历年医考1000真题》",
+      "citation": {
+        "verified": false,
+        "publisher": null,
+        "title": "《口腔历年医考1000真题》",
+        "edition": null,
+        "chapter": "口腔修复学",
+        "page": null
+      },
+      "tags": [
+        "执医",
+        "历年真题",
+        "待医学审核"
+      ],
+      "topics": [],
+      "modes": [
+        "执医"
+      ],
+      "school": null,
+      "year": null,
+      "paperId": "zhiyi-1000-04",
+      "paperName": "口腔历年医考1000真题 · 口腔修复学",
+      "durationMinutes": 90,
+      "order": 500,
+      "points": 1,
+      "isDemo": false,
+      "reviewStatus": "draft",
+      "sourceType": "past_paper",
+      "examProvenance": {
+        "yearVerified": false,
+        "sourceVerified": false
+      },
+      "license": "仅限个人学习使用；请遵循原资料授权。",
+      "chapterByMode": {
+        "执医": "第二章 临床接诊"
+      },
+      "chapterAssignment": "reviewed_legacy_topics_v1"
+    }
+  ]
+}

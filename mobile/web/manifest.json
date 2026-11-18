@@ -1,6 +1,6 @@
 {
-    "name": "dentstudy",
-    "short_name": "dentstudy",
+    "name": "齿间Dentstudy",
+    "short_name": "齿间Dentstudy",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

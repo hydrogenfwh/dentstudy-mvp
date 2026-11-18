@@ -152,6 +152,8 @@ void main() {
     }
     await tester.tap(find.text('我的'));
     await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey('profile-settings-entry')));
+    await tester.pumpAndSettle();
     await tester.ensureVisible(find.text('自定义'));
     await tester.tap(find.text('自定义'));
     await tester.pumpAndSettle();
@@ -181,6 +183,9 @@ void main() {
         isTrue,
         reason: 'the local background settings panel must refract too');
     expect(find.byType(BackdropFilter), findsWidgets);
+    expect(find.byType(BackButton), findsOneWidget);
+    await tester.tap(find.byType(BackButton));
+    await tester.pumpAndSettle();
     expect(find.byType(FrostedChrome), findsNWidgets(2));
     expect(
         tester
@@ -280,11 +285,23 @@ void main() {
     tester.view.physicalSize = const Size(1280, 900);
     await tester.pumpAndSettle();
     expect(tester.getSize(find.byType(NavigationBar)).width, 720);
+    final offsetBeforeToggle = tester
+        .state<ScrollableState>(find.byType(Scrollable).first)
+        .position
+        .pixels;
     await app.store.setGlassEnabled(false);
     await tester.pumpAndSettle();
     expect(find.byType(FrostedChrome), findsNothing);
     expect(tester.widget<Scaffold>(find.byType(Scaffold).first).extendBody,
         isFalse);
+    expect(
+        tester
+            .state<ScrollableState>(find.byType(Scrollable).first)
+            .position
+            .pixels,
+        closeTo(offsetBeforeToggle, 1),
+        reason:
+            'changing glass must not recreate the current page at offset 0');
     expect(tester.takeException(), isNull);
     await tester.pumpWidget(const SizedBox());
   });
@@ -299,7 +316,7 @@ void main() {
                 borderColor: Colors.grey,
                 child: const Text('今日计划'))));
     await tester.pumpWidget(surface(true));
-    expect(find.byType(BackdropFilter), findsNWidgets(3));
+    expect(find.byType(BackdropFilter), findsOneWidget);
     expect(find.byType(ClipRRect), findsOneWidget);
     await tester.pumpWidget(surface(false));
     expect(find.byType(BackdropFilter), findsNothing);
@@ -309,7 +326,7 @@ void main() {
   testWidgets(
       'clear glass has full-pane refraction without blur or color overlays',
       (tester) async {
-    expect(GlassRefraction.refractionScale, 1.8);
+    expect(GlassRefraction.refractionScale, .82);
     await tester.pumpWidget(const MaterialApp(
         home: Scaffold(
             body: FrostedChrome(
@@ -318,7 +335,7 @@ void main() {
                 child: SizedBox(height: 72, child: Text('透明导航'))))));
     final filters =
         tester.widgetList<BackdropFilter>(find.byType(BackdropFilter));
-    expect(filters, hasLength(3));
+    expect(filters, hasLength(1));
     for (final filter in filters) {
       expect(filter.filter.toString(), contains('matrix'));
       expect(filter.filter.toString(), isNot(contains('blur')));

@@ -8,19 +8,48 @@ import 'catalog.dart';
 import 'question_search_page.dart';
 import 'exam_year_catalog.dart';
 import 'exam_year_page.dart';
+import 'material_collection_page.dart';
+import 'school_library_page.dart';
 
 class LibraryPage extends StatefulWidget {
   final StartPractice onStart;
-  const LibraryPage({super.key, required this.onStart});
+  final ValueChanged<bool>? onSubpageChanged;
+  const LibraryPage({super.key, required this.onStart, this.onSubpageChanged});
   @override
-  State<LibraryPage> createState() => _LibraryPageState();
+  State<LibraryPage> createState() => LibraryPageState();
 }
 
-class _LibraryPageState extends State<LibraryPage> {
+class LibraryPageState extends State<LibraryPage> {
   String? subject, chapter;
   int shown = 20;
   String previousMode = '';
   bool choosingTrack = true;
+
+  void returnToTracks() {
+    setState(() {
+      choosingTrack = true;
+      subject = chapter = null;
+      shown = 20;
+    });
+    widget.onSubpageChanged?.call(false);
+  }
+
+  bool back() {
+    if (choosingTrack) return false;
+    setState(() {
+      if (chapter != null) {
+        chapter = null;
+      } else if (subject != null) {
+        subject = null;
+      } else {
+        choosingTrack = true;
+        widget.onSubpageChanged?.call(false);
+      }
+      shown = 20;
+    });
+    return true;
+  }
+
   @override
   Widget build(BuildContext context) {
     if (previousMode != store.mode) {
@@ -32,58 +61,76 @@ class _LibraryPageState extends State<LibraryPage> {
     final metrics = LearningMetrics(store.learning, store.questions);
     if (choosingTrack) {
       return PageBody(children: [
-        heading('题库', sub: '选择学习方向'),
+        heading(tr('题库'), sub: tr('选择学习方向')),
         for (final mode in ['考研', '本科期末', '执医']) _trackCard(mode),
       ]);
     }
     if (subject == null) {
       final available = catalog.subjects.where(catalog.available).toList();
-      final building =
-          catalog.subjects.where((s) => !catalog.available(s)).toList();
+      final building = catalog.subjects
+          .where((s) => !catalog.available(s) && catalog.material(s).isNotEmpty)
+          .toList();
       return PageBody(
           key: PageStorageKey('library:${store.mode}:subjects'),
           children: [
             Align(
                 alignment: Alignment.centerLeft,
                 child: TextButton.icon(
-                    onPressed: () => setState(() => choosingTrack = true),
+                    onPressed: back,
                     icon: const Icon(Icons.arrow_back),
-                    label: const Text('全部分类'))),
+                    label: Text(tr('全部分类')))),
             heading('${store.mode}题库', sub: catalog.countLabel),
+            if (store.mode == '考研')
+              renweiCollectionEntry(context,
+                  mode: store.mode, onStart: widget.onStart),
+            if (store.mode == '考研')
+              studyCard(
+                  child: ListTile(
+                      key: const ValueKey('library-school-entry'),
+                      leading: Icon(Icons.school_outlined,
+                          color: Theme.of(context).colorScheme.primary),
+                      title: Text(tr('按学校分类')),
+                      subtitle: Text(tr('查看各院校历年回忆题与资料包')),
+                      trailing: const Icon(Icons.chevron_right),
+                      onTap: () => Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (_) => const SchoolLibraryPage())))),
             _searchEntry(),
             const SizedBox(height: 12),
             if (catalog.all.isEmpty)
-              box(const Row(children: [
+              box(Row(children: [
                 Icon(Icons.inventory_2_outlined),
                 SizedBox(width: 12),
                 Expanded(
-                    child:
-                        Text('当前未收录内置题目。你仍可在“我的”导入自己的 JSON、Word 或 TXT 题库后练习。')),
+                    child: Text(
+                        tr('当前未收录内置题目。你仍可在“我的”导入自己的 JSON、Word 或 TXT 题库后练习。'))),
               ])),
             if (catalog.all.isEmpty) const SizedBox(height: 12),
             if (store.mode == '执医') ...[
               _yearsEntry(),
-              heading('按学科练习'),
+              heading(tr('按学科练习')),
             ],
             for (final name in available) ...[
               studyCard(
                   child: ListTile(
                       contentPadding: const EdgeInsets.all(18),
-                      title: Text(name,
+                      title: Text(tr(name),
                           style: const TextStyle(fontWeight: FontWeight.bold)),
-                      subtitle: Text(
-                          '${catalog.material(name).length} 题 · ${catalog.material(name).map((q) => q.chapter).toSet().length} 章\n'
-                          '${metrics.masteryLabel(catalog.material(name))} · 已学 ${metrics.learned(catalog.material(name))} · 正确率 ${LearningMetrics.percent(metrics.accuracy(catalog.material(name)))} · 待复习 ${metrics.due(catalog.material(name))}\n${QuestionCatalog.statusSummary(catalog.material(name))}'),
+                      subtitle: Text(usesEnglish
+                          ? '${catalog.material(name).length} questions · ${catalog.material(name).map((q) => q.chapter).toSet().length} chapters\n${tr(metrics.masteryLabel(catalog.material(name)))} · studied ${metrics.learned(catalog.material(name))} · accuracy ${tr(LearningMetrics.percent(metrics.accuracy(catalog.material(name))))} · due ${metrics.due(catalog.material(name))}'
+                          : '${catalog.material(name).length} 题 · ${catalog.material(name).map((q) => q.chapter).toSet().length} 章\n'
+                              '${metrics.masteryLabel(catalog.material(name))} · 已学 ${metrics.learned(catalog.material(name))} · 正确率 ${LearningMetrics.percent(metrics.accuracy(catalog.material(name)))} · 待复习 ${metrics.due(catalog.material(name))}'),
                       trailing: const Icon(Icons.chevron_right),
                       onTap: () => setState(() => subject = name))),
               const SizedBox(height: 8)
             ],
             if (building.isNotEmpty)
-              heading('题库建设中', sub: '当前方向资料题不足 50 道，暂未开放常规练习'),
+              heading(tr('题库建设中'), sub: tr('当前方向资料题不足 50 道，暂未开放常规练习')),
             for (final name in building)
               ListTile(
                   leading: const Icon(Icons.hourglass_empty),
-                  title: Text(name),
+                  title: Text(tr(name)),
                   subtitle:
                       Text('${catalog.material(name).length} 道资料题 · 题库建设中'),
                   trailing: catalog.material(name).isEmpty
@@ -96,43 +143,37 @@ class _LibraryPageState extends State<LibraryPage> {
                                   builder: (_) => QuestionPreviewPage(
                                       questions: catalog.material(name),
                                       title: '$name · 已收录题目'))),
-                          child: const Text('查看已收录'))),
+                          child: Text(tr('查看已收录')))),
             const SizedBox(height: 16),
             OutlinedButton.icon(
                 onPressed: catalog.learnable.isEmpty ? null : _papers,
                 icon: const Icon(Icons.timer_outlined),
-                label: const Text('套卷练习'))
+                label: Text(tr('套卷练习')))
           ]);
     }
     final qs = catalog.material(subject!);
-    final chapters = qs.map((q) => q.chapter).toSet();
+    final chapters =
+        QuestionCatalog.sortedChapters(qs.map((q) => q.chapter).toSet());
     return PageBody(
         key: PageStorageKey('library:${store.mode}:$subject:$chapter'),
         children: [
-          Row(children: [
-            TextButton.icon(
-                onPressed: () => setState(() {
-                      if (chapter != null) {
-                        chapter = null;
-                      } else {
-                        subject = null;
-                      }
-                      shown = 20;
-                    }),
-                icon: const Icon(Icons.arrow_back),
-                label: Text(chapter == null ? '全部学科' : '章节目录')),
-            const Spacer(),
-            TextButton.icon(
-                onPressed: () => _chooseMode(chapter == null
-                    ? qs
-                    : qs.where((q) => q.chapter == chapter).toList()),
-                icon: const Icon(Icons.play_arrow),
-                label: const Text('开始练习'))
-          ]),
-          heading(chapter ?? subject!,
-              sub: chapter == null
-                  ? '${metrics.masteryDetail(qs)} · ${QuestionCatalog.statusSummary(qs)}'
-                  : subject),
+          OverflowBar(
+              alignment: MainAxisAlignment.spaceBetween,
+              overflowAlignment: OverflowBarAlignment.start,
+              children: [
+                TextButton.icon(
+                    onPressed: back,
+                    icon: const Icon(Icons.arrow_back),
+                    label: Text(tr(chapter == null ? '全部学科' : '章节目录'))),
+                TextButton.icon(
+                    onPressed: () => _chooseMode(chapter == null
+                        ? qs
+                        : qs.where((q) => q.chapter == chapter).toList()),
+                    icon: const Icon(Icons.play_arrow),
+                    label: Text(tr('开始练习')))
+              ]),
+          heading(chapter ?? tr(subject!),
+              sub: chapter == null ? metrics.masteryDetail(qs) : tr(subject!)),
           _searchEntry(),
           const SizedBox(height: 12),
           if (chapter == null)
@@ -155,13 +196,13 @@ class _LibraryPageState extends State<LibraryPage> {
             if (qs.where((q) => q.chapter == chapter).length > shown)
               TextButton(
                   onPressed: () => setState(() => shown += 20),
-                  child: const Text('再显示 20 题')),
+                  child: Text('再显示 20 题')),
           ]
         ]);
   }
 
   Widget _trackCard(String mode) {
-    final catalog = QuestionCatalog(store.questions, mode);
+    final catalog = store.catalogFor(mode);
     final count = catalog.learnable.length;
     final subjects = catalog.subjects.where(catalog.available).length;
     return Padding(
@@ -176,12 +217,12 @@ class _LibraryPageState extends State<LibraryPage> {
                       '本科期末' => Icons.menu_book_outlined,
                       _ => Icons.medical_services_outlined,
                     },
-                    color: teal),
-                title: Text(mode,
+                    color: Theme.of(context).colorScheme.primary),
+                title: Text(tr(mode),
                     style: const TextStyle(
                         fontSize: 22, fontWeight: FontWeight.bold)),
-                subtitle:
-                    Text(count == 0 ? '题库建设中' : '$count 道可练 · $subjects 个学科'),
+                subtitle: Text(
+                    tr(count == 0 ? '题库建设中' : '$count 道可练 · $subjects 个学科')),
                 trailing: const Icon(Icons.chevron_right),
                 onTap: () => safely(context, () async {
                       await store.setMode(mode);
@@ -191,6 +232,7 @@ class _LibraryPageState extends State<LibraryPage> {
                           shown = 20;
                           choosingTrack = false;
                         });
+                      if (mounted) widget.onSubpageChanged?.call(true);
                     }))));
   }
 
@@ -199,10 +241,12 @@ class _LibraryPageState extends State<LibraryPage> {
     return studyCard(
         child: ListTile(
             leading: const Icon(Icons.calendar_month_outlined),
-            title: const Text('历年试题'),
-            subtitle: Text(archive.years.isEmpty
-                ? '整理中 · 按年份浏览'
-                : '${archive.years.length} 个年份 · 按年份浏览'),
+            title: Text(tr('真题/模拟题')),
+            subtitle: Text(tr(archive.years.isEmpty
+                ? (archive.pendingCount > 0
+                    ? '${archive.pendingCount} 题 · 按资料浏览'
+                    : '整理中 · 按年份浏览')
+                : '${archive.years.length} 个年份 · 按年份浏览')),
             trailing: const Icon(Icons.chevron_right),
             onTap: () => Navigator.push(
                 context,
@@ -215,7 +259,8 @@ class _LibraryPageState extends State<LibraryPage> {
     final mode = await showModalBottomSheet<String>(
         context: context,
         builder: (c) => SafeArea(
-                child: Column(mainAxisSize: MainAxisSize.min, children: [
+                child: SingleChildScrollView(
+                    child: Column(mainAxisSize: MainAxisSize.min, children: [
               const Padding(padding: EdgeInsets.all(20), child: Text('选择练习模式')),
               for (final entry
                   in {'deep': '逐题深度', 'batch': '批量练习', 'speed': '速刷'}.entries)
@@ -223,7 +268,7 @@ class _LibraryPageState extends State<LibraryPage> {
                     title: Text(entry.value),
                     trailing: const Icon(Icons.chevron_right),
                     onTap: () => Navigator.pop(c, entry.key))
-            ])));
+            ]))));
     if (mode != null && mounted)
       widget.onStart(PracticeRequest(qs,
           mode: mode,
@@ -265,7 +310,7 @@ class _LibraryPageState extends State<LibraryPage> {
       TextButton(
           onPressed: () => widget.onStart(
               PracticeRequest(qs, label: '${subject!} · ${qs.first.chapter}')),
-          child: const Text('顺序练习')),
+          child: Text('顺序练习')),
       TextButton(
           onPressed: due.isEmpty
               ? null
@@ -288,11 +333,11 @@ class _LibraryPageState extends State<LibraryPage> {
                   subject: subject,
                   chapter: chapter))),
       icon: const Icon(Icons.search),
-      label: Text(chapter != null
+      label: Text(tr(chapter != null
           ? '搜索本章题目'
           : subject != null
               ? '搜索本学科题目'
-              : '搜索题目关键词'));
+              : '搜索题目关键词')));
 
   Future<void> _preview(List<Question> qs, {String? initialQuestionId}) async {
     if (qs.isEmpty) return;

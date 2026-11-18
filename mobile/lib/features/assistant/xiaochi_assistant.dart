@@ -2,6 +2,12 @@ import 'dart:async';
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import '../../app/shared.dart';
+import 'dafeiyu_avatar.dart';
+import 'dafeiyu_dialogue.dart';
+import 'dafeiyu_comic_bubble.dart';
+import 'dafeiyu_voice.dart';
+import 'guga_avatar.dart';
+import 'guga_dialogue.dart';
 
 /// A request-only chat companion. The conversation exists in this widget for
 /// the current visit and is intentionally never written to StudyStore.
@@ -22,11 +28,10 @@ class _ChatLine {
 }
 
 class _XiaochiAssistantState extends State<XiaochiAssistant>
-    with TickerProviderStateMixin {
+    with TickerProviderStateMixin, WidgetsBindingObserver {
   // Keep the client affordance aligned with the server-side author check.
   // The server remains the authority, so editing a Web build cannot unlock
   // the chat endpoint for another account.
-  static const _authorEmail = 'dentstudy1126@aka.yeah.net';
   static const _avatarWidth = 86.0;
   static const _avatarHeight = 129.0;
   final _composer = TextEditingController();
@@ -39,6 +44,23 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
   Timer? _moodTimer;
   Timer? _careTimer;
   Timer? _holdTimer;
+  Timer? _idleTimer;
+  Timer? _interactionTimer;
+  Timer? _thinkingTimer;
+  bool _localThinking = false;
+  final _interactionRandom = math.Random();
+  late String _observedPreference;
+  late String _observedVoiceMode;
+  String _observedAccount = '';
+  bool _showDafeiyuSpeech = false;
+  bool _speechIsAi = false;
+  final _dialogue = DafeiyuDialogueDeck();
+  final _gugaDialogue = GugaDialogueDeck();
+  final _voice = DafeiyuVoicePlayer();
+  String? _voiceAsset;
+  String _dafeiyuMessage = '大肥鱼来啦～今天也陪你一起学！';
+  DafeiyuPose _dafeiyuPose = DafeiyuPose.wave;
+  DafeiyuPose? _readyPose;
   Offset? _position;
   bool _open = false;
   bool _holding = false;
@@ -47,7 +69,38 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
   bool _deepThinking = false;
   _AvatarMood _mood = _AvatarMood.idle;
 
-  bool get _isAuthor => store.email.trim().toLowerCase() == _authorEmail;
+  bool get _isAuthor => !store.usesGuga && store.canChatWithCompanion;
+  String get _name => store.companionName;
+  String get _preferenceKey =>
+      '${store.userId}:${store.token}:${store.canChatWithCompanion}:${store.companionAppearance}:${store.xiaochiEnabled}';
+  DafeiyuPose get _activePose {
+    if (_holding) return DafeiyuPose.pout;
+    switch (_mood) {
+      case _AvatarMood.thinking:
+        return DafeiyuPose.thinking;
+      case _AvatarMood.speaking:
+        return DafeiyuPose.happy;
+      case _AvatarMood.thanks:
+        return DafeiyuPose.praise;
+      case _AvatarMood.interact:
+        return DafeiyuPose.wave;
+      case _AvatarMood.idle:
+        return _dafeiyuPose;
+    }
+  }
+  GugaPose get _gugaPose {
+    if (_holding) return GugaPose.drag;
+    if (_mood == _AvatarMood.speaking) return GugaPose.answer;
+    return switch (_dafeiyuPose) {
+      DafeiyuPose.happy => GugaPose.pet,
+      DafeiyuPose.praise => GugaPose.praise,
+      DafeiyuPose.sleep => GugaPose.sleep,
+      DafeiyuPose.thinking => GugaPose.thinking,
+      _ => GugaPose.idle,
+    };
+  }
+  String _nextDialogue(DafeiyuInteraction action) =>
+      store.usesGuga ? _gugaDialogue.next(action) : _dialogue.next(action);
 
   bool get _isWidgetTest => WidgetsBinding.instance.runtimeType
       .toString()
@@ -56,6 +109,11 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
   @override
   void initState() {
     super.initState();
+    _observedPreference = _preferenceKey;
+    _observedVoiceMode = store.dafeiyuVoiceMode;
+    _observedAccount = store.userId;
+    store.addListener(_preferencesChanged);
+    WidgetsBinding.instance.addObserver(this);
     _motion = AnimationController(
         vsync: this, duration: const Duration(milliseconds: 2200));
     // A perpetually ticking avatar is desirable in the app, but it prevents
@@ -66,13 +124,216 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
       _motion.repeat();
       WidgetsBinding.instance.addPostFrameCallback((_) => _scheduleCare());
     }
+    _scheduleSleep();
+  }
+
+  void _preferencesChanged() {
+    if (!mounted) return;
+    if (_observedVoiceMode != store.dafeiyuVoiceMode) {
+      _observedVoiceMode = store.dafeiyuVoiceMode;
+      _voice.stop();
+      setState(() {});
+    }
+    if (_observedPreference == _preferenceKey) return;
+    _voice.stop();
+    _voiceAsset = null;
+    _observedPreference = _preferenceKey;
+    _idleTimer?.cancel();
+    _thinkingTimer?.cancel();
+    _interactionTimer?.cancel();
+    _careTimer?.cancel();
+    _moodTimer?.cancel();
+    setState(() {
+      _showDafeiyuSpeech = false;
+      _localThinking = false;
+      _speechIsAi = false;
+      _showCare = false;
+      _dafeiyuPose = DafeiyuPose.wave;
+      _readyPose = null;
+      _mood = _AvatarMood.idle;
+      if (_observedAccount != store.userId || !store.canChatWithCompanion || store.usesGuga) {
+        _observedAccount = store.userId;
+        _open = false;
+        _lines.removeRange(1, _lines.length);
+      }
+    });
+    if (!_isWidgetTest) {
+      if (store.xiaochiEnabled) {
+        _motion.repeat();
+      } else {
+        _motion.stop();
+      }
+    }
+    _scheduleSleep();
+  }
+
+  void _scheduleSleep() {
+    _idleTimer?.cancel();
+    if (!store.usesInteractiveCompanion || !store.xiaochiEnabled || _open || _sending)
+      return;
+    _idleTimer = Timer(const Duration(seconds: 60), () {
+      if (!mounted ||
+          !store.usesInteractiveCompanion ||
+          !store.xiaochiEnabled ||
+          _open ||
+          _holding ||
+          _sending) return;
+      setState(() {
+        _dafeiyuPose = DafeiyuPose.sleep;
+        _mood = _AvatarMood.idle;
+        _showDafeiyuSpeech = false;
+      });
+    });
+  }
+
+  void _interact(DafeiyuPose pose, String text,
+      {DafeiyuInteraction? interaction}) {
+    _thinkingTimer?.cancel();
+    _idleTimer?.cancel();
+    _moodTimer?.cancel();
+    _interactionTimer?.cancel();
+    _voice.stop();
+    _voiceAsset =
+        interaction == null || store.usesGuga ? null : dafeiyuVoiceAsset(interaction, text);
+    setState(() {
+      _localThinking = false;
+      _mood = _AvatarMood.idle;
+      _dafeiyuPose = pose;
+      _dafeiyuMessage = text;
+      _showDafeiyuSpeech = true;
+      _speechIsAi = false;
+    });
+    if (_readyPose == pose) _startInteractionTimeout();
+    if (_voiceAsset != null && store.dafeiyuVoiceMode == 'auto') {
+      unawaited(_playVoice(manual: false));
+    }
+  }
+
+  Future<void> _playVoice({required bool manual}) async {
+    final asset = _voiceAsset;
+    if (asset == null || store.dafeiyuVoiceMode == 'off') return;
+    final played = await _voice.play(asset);
+    if (!played && mounted && manual) {
+      message(context, '语音暂时无法播放，请检查设备静音或浏览器设置。');
+    }
+  }
+
+  void _poseReady(DafeiyuPose pose) {
+    _readyPose = pose;
+    if (!_open &&
+        !_localThinking &&
+        !_speechIsAi &&
+        _showDafeiyuSpeech &&
+        pose == _dafeiyuPose) {
+      _startInteractionTimeout();
+    }
+  }
+
+  void _startInteractionTimeout() {
+    if (_dafeiyuPose != DafeiyuPose.sleep) _scheduleSleep();
+    _interactionTimer?.cancel();
+    _interactionTimer = Timer(const Duration(seconds: 8), () {
+      if (!mounted) return;
+      setState(() {
+        _showDafeiyuSpeech = false;
+        if (_dafeiyuPose != DafeiyuPose.sleep) _dafeiyuPose = DafeiyuPose.wave;
+      });
+    });
+  }
+
+  void _thinkThen(VoidCallback response) {
+    if (!store.usesInteractiveCompanion || !store.xiaochiEnabled || _open || _holding)
+      return;
+    _voice.stop();
+    _voiceAsset = null;
+    _thinkingTimer?.cancel();
+    _interactionTimer?.cancel();
+    _idleTimer?.cancel();
+    final scope = _preferenceKey;
+    setState(() {
+      _localThinking = true;
+      _showDafeiyuSpeech = true;
+      _speechIsAi = false;
+    });
+    _thinkingTimer = Timer(
+        Duration(milliseconds: 200 + _interactionRandom.nextInt(301)), () {
+      if (!mounted) return;
+      if (scope != _preferenceKey || _holding || _open) {
+        setState(() {
+          _localThinking = false;
+          _showDafeiyuSpeech = false;
+        });
+        return;
+      }
+      setState(() => _localThinking = false);
+      response();
+    });
+  }
+
+  void _closeDafeiyuBubble() {
+    _voice.stop();
+    _voiceAsset = null;
+    _thinkingTimer?.cancel();
+    _interactionTimer?.cancel();
+    setState(() {
+      _localThinking = false;
+      _showDafeiyuSpeech = false;
+    });
+    _scheduleSleep();
+  }
+
+  void _greetDafeiyu() {
+    final waking = _dafeiyuPose == DafeiyuPose.sleep;
+    if (waking) {
+      _interact(DafeiyuPose.wave, _nextDialogue(DafeiyuInteraction.wake),
+          interaction: DafeiyuInteraction.wake);
+    } else {
+      _interact(DafeiyuPose.wave, store.usesGuga
+          ? '咕嘎来啦～摸摸头，或者让我夸夸你？(｡•ᴗ•｡) 🐧'
+          : '大肥鱼来啦～摸摸头，或者让我夸夸你？(｡•ᴗ•｡)');
+    }
+  }
+
+  void _avatarTapped() {
+    _holdTimer?.cancel();
+    if (_holding) return;
+    if (!store.usesInteractiveCompanion) {
+      _openChat();
+      return;
+    }
+    _thinkThen(_greetDafeiyu);
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.resumed) {
+      if (!_isWidgetTest && store.xiaochiEnabled) _motion.repeat();
+      _scheduleSleep();
+    } else {
+      _voice.stop();
+      _motion.stop();
+      _idleTimer?.cancel();
+      _thinkingTimer?.cancel();
+      if (_localThinking) {
+        setState(() {
+          _localThinking = false;
+          _showDafeiyuSpeech = false;
+        });
+      }
+    }
   }
 
   @override
   void dispose() {
+    _voice.dispose();
+    _thinkingTimer?.cancel();
     _moodTimer?.cancel();
     _careTimer?.cancel();
     _holdTimer?.cancel();
+    _idleTimer?.cancel();
+    _interactionTimer?.cancel();
+    store.removeListener(_preferencesChanged);
+    WidgetsBinding.instance.removeObserver(this);
     _motion.dispose();
     _composer.dispose();
     _scroll.dispose();
@@ -84,6 +345,7 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
     // to feel companionable without constantly interrupting study.
     await Future<void>.delayed(const Duration(seconds: 16));
     if (!mounted ||
+        store.usesInteractiveCompanion ||
         !store.xiaochiEnabled ||
         !_isAuthor ||
         store.token.isEmpty ||
@@ -110,20 +372,27 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
   }
 
   void _openChat() {
+    _voice.stop();
+    _voiceAsset = null;
+    _thinkingTimer?.cancel();
     _holdTimer?.cancel();
     if (_holding) return;
     if (!_isAuthor) {
-      message(context, '小齿正在升级中···');
+      message(context, '${_name}正在升级中···');
       return;
     }
     if (store.token.isEmpty) {
-      message(context, '登录后才能和小齿聊天，请前往「我的」登录或注册。');
+      message(context, '登录后才能和${_name}聊天，请前往「我的」登录或注册。');
       return;
     }
     _careTimer?.cancel();
+    _idleTimer?.cancel();
+    _interactionTimer?.cancel();
     setState(() {
       _open = true;
+      _localThinking = false;
       _showCare = false;
+      _showDafeiyuSpeech = false;
     });
     _setMood(_AvatarMood.interact,
         resetAfter: const Duration(milliseconds: 1300));
@@ -132,8 +401,19 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
 
   void _closeChat() {
     FocusScope.of(context).unfocus();
-    setState(() => _open = false);
+    _interactionTimer?.cancel();
+    setState(() {
+      _open = false;
+      if (store.usesDafeiyu &&
+          _lines.length > 1 &&
+          _lines.last.role == 'assistant') {
+        _dafeiyuMessage = _lines.last.text;
+        _speechIsAi = true;
+        _showDafeiyuSpeech = true;
+      }
+    });
     _setMood(_AvatarMood.idle);
+    _scheduleSleep();
   }
 
   void _scrollToBottom() {
@@ -147,6 +427,8 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
 
   Future<void> _send() async {
     if (_sending) return;
+    final requestAccount = store.userId;
+    final requestCompanion = store.companionAppearance;
     final text = _composer.text.trim();
     if (text.isEmpty) return;
     if (text.length > 1000) {
@@ -170,10 +452,18 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
               .map((line) => {'role': line.role, 'content': line.text})
               .toList(),
           deep: _deepThinking);
-      if (!mounted) return;
+      if (!mounted ||
+          !store.canChatWithCompanion ||
+          store.userId != requestAccount ||
+          store.companionAppearance != requestCompanion) return;
       setState(() {
         _lines.add(_ChatLine('assistant', reply.text,
             thinkingSummary: reply.thinkingSummary));
+        if (store.usesDafeiyu) {
+          _dafeiyuMessage = reply.text;
+          _showDafeiyuSpeech = true;
+          _speechIsAi = true;
+        }
         _mood = _AvatarMood.speaking;
       });
       _moodTimer?.cancel();
@@ -184,12 +474,15 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
         });
       });
     } catch (error) {
-      if (!mounted) return;
+      if (!mounted ||
+          !store.canChatWithCompanion ||
+          store.userId != requestAccount ||
+          store.companionAppearance != requestCompanion) return;
       final detail =
           error.toString().replaceFirst(RegExp(r'^Exception:\s*'), '');
       setState(() {
         _lines.add(_ChatLine(
-            'assistant', detail.isEmpty ? '小齿暂时没能回复，请稍后再试。' : detail));
+            'assistant', detail.isEmpty ? '${_name}暂时没能回复，请稍后再试。' : detail));
         _mood = _AvatarMood.idle;
       });
     } finally {
@@ -216,12 +509,18 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
 
   void _startHolding() {
     if (_holding) return;
+    _voice.stop();
+    _voiceAsset = null;
     _holdTimer?.cancel();
     _careTimer?.cancel();
+    _thinkingTimer?.cancel();
     setState(() {
+      _localThinking = false;
       _holding = true;
       _showCare = false;
+      _showDafeiyuSpeech = false;
     });
+    _idleTimer?.cancel();
   }
 
   void _moveHolding(DragUpdateDetails details, Size size, EdgeInsets padding) {
@@ -248,12 +547,18 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
     // Keep the drag state through this event turn so the tap recognizer cannot
     // also open the chat when someone simply holds the avatar in place.
     await Future<void>.delayed(Duration.zero);
-    if (mounted) setState(() => _holding = false);
+    if (mounted) {
+      setState(() => _holding = false);
+      _scheduleSleep();
+    }
   }
 
   void _cancelHolding() {
     _holdTimer?.cancel();
-    if (mounted && _holding) setState(() => _holding = false);
+    if (mounted && _holding) {
+      setState(() => _holding = false);
+      _scheduleSleep();
+    }
   }
 
   @override
@@ -296,38 +601,93 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
                   setState(() => _deepThinking = value),
               onClose: _closeChat,
               onSend: _send)),
-      Positioned(
-          left: position.dx,
-          top: position.dy,
-          child: GestureDetector(
-              behavior: HitTestBehavior.translucent,
-              onTap: _openChat,
-              onTapDown: (_) => _armDrag(),
-              onTapUp: (_) {
-                if (_holding) {
-                  unawaited(_endHolding(size, padding));
-                } else {
-                  _holdTimer?.cancel();
-                }
-              },
-              onTapCancel: _cancelHolding,
-              onPanStart: (_) => _startHolding(),
-              onPanUpdate: (details) => _moveHolding(details, size, padding),
-              onPanEnd: (_) => unawaited(_endHolding(size, padding)),
-              onPanCancel: _cancelHolding,
-              child: SizedBox(
-                  width: _avatarWidth,
-                  height: _avatarHeight,
-                  child: Stack(clipBehavior: Clip.none, children: [
-                    if (_showCare)
-                      Positioned(
-                          right: 20,
-                          bottom: 103,
-                          child: _CareBubble(onTap: _openChat)),
-                    Positioned.fill(
-                        child: _AvatarArt(
-                            mood: _mood, motion: _motion, holding: _holding)),
-                  ]))))
+      if (!_open || !store.usesInteractiveCompanion)
+        Positioned(
+            left: position.dx,
+            top: position.dy,
+            child: GestureDetector(
+                behavior: HitTestBehavior.translucent,
+                key: const ValueKey('floating-companion'),
+                onTap: _avatarTapped,
+                onTapDown: (_) => _armDrag(),
+                onTapUp: (_) {
+                  if (_holding) {
+                    unawaited(_endHolding(size, padding));
+                  } else {
+                    _holdTimer?.cancel();
+                  }
+                },
+                onTapCancel: _cancelHolding,
+                onPanStart: (_) => _startHolding(),
+                onPanUpdate: (details) => _moveHolding(details, size, padding),
+                onPanEnd: (_) => unawaited(_endHolding(size, padding)),
+                onPanCancel: _cancelHolding,
+                child: SizedBox(
+                    width: _avatarWidth,
+                    height: _avatarHeight,
+                    child: Stack(clipBehavior: Clip.none, children: [
+                      if (_showCare)
+                        Positioned(
+                            right: 20,
+                            bottom: 103,
+                            child: _CareBubble(onTap: _openChat)),
+                      Positioned.fill(
+                          child: store.usesGuga
+                              ? GugaAvatar(
+                                  key: const ValueKey('guga-avatar'),
+                                  pose: _gugaPose,
+                                  onPoseReady: () => _poseReady(_dafeiyuPose),
+                                  motion: _motion,
+                                  sleepNudge: math.max(0.0, (_avatarHeight - _avatarWidth) / 2 - position.dx) -
+                                      math.max(0.0, (_avatarHeight - _avatarWidth) / 2 - (size.width - position.dx - _avatarWidth)),
+                                  reducedMotion: MediaQuery.disableAnimationsOf(context))
+                              : store.usesDafeiyu
+                              ? DafeiyuAvatar(
+                                  key: const ValueKey('dafeiyu-avatar'),
+                                  pose: _activePose,
+                                  onPoseReady: _poseReady,
+                                  motion: _motion,
+                                  reducedMotion:
+                                      MediaQuery.disableAnimationsOf(context))
+                              : _AvatarArt(
+                                  mood: _mood,
+                                  motion: _motion,
+                                  holding: _holding)),
+                    ])))),
+      if (store.usesInteractiveCompanion && !_open && _showDafeiyuSpeech)
+        Positioned.fill(
+            child: DafeiyuComicPanels(
+                anchor: Rect.fromLTWH(
+                    position.dx, position.dy, _avatarWidth, _avatarHeight),
+                safeInsets: EdgeInsets.fromLTRB(
+                    padding.left,
+                    padding.top,
+                    padding.right,
+                    math.max(
+                        (store.glassEnabled ? 104.0 : 94.0) + padding.bottom,
+                        media.viewInsets.bottom)),
+                text: _dafeiyuMessage,
+                companionName: store.companionName,
+                isGuga: store.usesGuga,
+                portraitAsset: store.usesGuga ? 'assets/guga/guga-idle-body.png' : DafeiyuPose.wave.asset,
+                showChat: !store.usesGuga,
+                isThinking: _localThinking,
+                isAi: _speechIsAi,
+                sleeping: _dafeiyuPose == DafeiyuPose.sleep,
+                canChat: _isAuthor,
+                onPlayVoice: _voice.available &&
+                        _voiceAsset != null &&
+                        store.dafeiyuVoiceMode != 'off'
+                    ? () => unawaited(_playVoice(manual: true))
+                    : null,
+                onClose: _closeDafeiyuBubble,
+                onPet: () => _thinkThen(() => _interact(
+                    DafeiyuPose.happy, _nextDialogue(DafeiyuInteraction.pet),
+                    interaction: DafeiyuInteraction.pet)),
+                onPraise: () => _thinkThen(
+                    () => _interact(DafeiyuPose.praise, _nextDialogue(DafeiyuInteraction.praise), interaction: DafeiyuInteraction.praise)),
+                onSleep: () => _thinkThen(() => _dafeiyuPose == DafeiyuPose.sleep ? _greetDafeiyu() : _interact(DafeiyuPose.sleep, _nextDialogue(DafeiyuInteraction.sleep), interaction: DafeiyuInteraction.sleep)),
+                onChat: () => _thinkThen(_openChat)))
     ]);
   }
 }
@@ -557,8 +917,8 @@ class _CareBubble extends StatelessWidget {
                         blurRadius: 16,
                         offset: const Offset(0, 5))
                   ]),
-              child: const Text('今天也辛苦啦，刷几道就很好～',
-                  style: TextStyle(fontSize: 12.5)))));
+              child:
+                  Text('今天也辛苦啦，刷几道就很好～', style: TextStyle(fontSize: 12.5)))));
 }
 
 class _ChatPanel extends StatelessWidget {
@@ -627,16 +987,18 @@ class _ChatPanel extends StatelessWidget {
                                       radius: 17,
                                       backgroundColor: teal.withAlpha(30),
                                       child: Image.asset(
-                                          'assets/xiaochi/avatar.png',
+                                          store.usesDafeiyu
+                                              ? DafeiyuPose.wave.asset
+                                              : 'assets/xiaochi/avatar.png',
                                           fit: BoxFit.contain)),
                                   const SizedBox(width: 9),
-                                  const Expanded(
+                                  Expanded(
                                       child: Column(
                                           crossAxisAlignment:
                                               CrossAxisAlignment.start,
                                           children: [
-                                        Text('小齿',
-                                            style: TextStyle(
+                                        Text(store.companionName,
+                                            style: const TextStyle(
                                                 fontWeight: FontWeight.w800,
                                                 fontSize: 16)),
                                         Text('口腔医学/备考不限 · 闲聊每日 10 句',
@@ -645,7 +1007,7 @@ class _ChatPanel extends StatelessWidget {
                                                 fontSize: 11))
                                       ])),
                                   IconButton(
-                                      tooltip: '关闭小齿聊天',
+                                      tooltip: '关闭${store.companionName}聊天',
                                       onPressed: onClose,
                                       icon: const Icon(Icons.close_rounded))
                                 ])),
@@ -661,7 +1023,7 @@ class _ChatPanel extends StatelessWidget {
                                             color: deepThinking
                                                 ? Colors.white
                                                 : teal),
-                                        label: const Text('深度思考',
+                                        label: Text('深度思考',
                                             style: TextStyle(fontSize: 11.5)),
                                         selected: deepThinking,
                                         selectedColor: teal,
@@ -686,6 +1048,13 @@ class _ChatPanel extends StatelessWidget {
                                     itemBuilder: (context, index) {
                                       if (index == lines.length) {
                                         return const _TypingLine();
+                                      }
+                                      if (index == 0 && store.usesDafeiyu) {
+                                        return _ChatBubble(
+                                            line: _ChatLine(
+                                                'assistant',
+                                                lines[index].text.replaceFirst(
+                                                    '我是小齿', '我是大肥鱼')));
                                       }
                                       return _ChatBubble(line: lines[index]);
                                     })),
@@ -722,7 +1091,7 @@ class _ChatPanel extends StatelessWidget {
                                                           vertical: 11)))),
                                       const SizedBox(width: 5),
                                       IconButton.filled(
-                                          tooltip: '发送给小齿',
+                                          tooltip: '发送给${store.companionName}',
                                           onPressed: sending ? null : onSend,
                                           icon: sending
                                               ? const SizedBox(
@@ -744,6 +1113,7 @@ class _ChatBubble extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final mine = line.role == 'user';
+    final comic = !mine && store.usesDafeiyu;
     return Align(
         alignment: mine ? Alignment.centerRight : Alignment.centerLeft,
         child: Container(
@@ -751,7 +1121,20 @@ class _ChatBubble extends StatelessWidget {
             margin: const EdgeInsets.only(bottom: 9),
             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 9),
             decoration: BoxDecoration(
-                color: mine ? teal : teal.withAlpha(17),
+                color: mine
+                    ? teal
+                    : comic
+                        ? const Color(0xFFF8FCFF)
+                        : teal.withAlpha(17),
+                border: comic
+                    ? Border.all(color: const Color(0xFF34558A), width: 1.4)
+                    : null,
+                boxShadow: comic
+                    ? const [
+                        BoxShadow(
+                            color: Color(0x2234558A), offset: Offset(2, 3))
+                      ]
+                    : null,
                 borderRadius: BorderRadius.only(
                     topLeft: const Radius.circular(15),
                     topRight: const Radius.circular(15),
@@ -835,6 +1218,7 @@ class _TypingLine extends StatelessWidget {
                 height: 14,
                 child: CircularProgressIndicator(strokeWidth: 2, color: teal)),
             const SizedBox(width: 8),
-            const Text('小齿正在想…', style: TextStyle(fontSize: 12.5))
+            Text('${store.companionName}正在想…',
+                style: const TextStyle(fontSize: 12.5))
           ])));
 }

@@ -6,7 +6,8 @@ import 'glass_refraction.dart';
 class StudySurface extends StatelessWidget {
   final Widget child;
   final bool glass;
-  final Color tint, borderColor, color;
+  final Color tint, borderColor;
+  final Color? color;
   final double radius;
   final bool navigation;
   final EdgeInsetsGeometry padding;
@@ -16,13 +17,14 @@ class StudySurface extends StatelessWidget {
       required this.glass,
       required this.tint,
       required this.borderColor,
-      this.color = Colors.white,
+      this.color,
       this.radius = 22,
       this.navigation = false,
       this.padding = const EdgeInsets.all(20)});
 
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
     final content = Padding(
         padding: padding,
         child: Material(type: MaterialType.transparency, child: child));
@@ -30,7 +32,7 @@ class StudySurface extends StatelessWidget {
       return Container(
           width: double.infinity,
           decoration: BoxDecoration(
-              color: color,
+              color: color ?? colors.surface,
               borderRadius: BorderRadius.circular(radius),
               border: Border.all(color: borderColor)),
           child: content);
@@ -38,15 +40,17 @@ class StudySurface extends StatelessWidget {
     return SizedBox(
         width: double.infinity,
         child: CustomPaint(
-            painter:
-                _GlassElevation(radius, Theme.of(context).colorScheme.primary),
+            painter: _GlassElevation(radius, colors.primary),
             child: ClipRRect(
                 borderRadius: BorderRadius.circular(radius),
                 child: CustomPaint(
-                    foregroundPainter: _GlassRim(
-                        radius, Theme.of(context).colorScheme.primary),
+                    foregroundPainter: _GlassRim(radius, colors.primary),
                     child: Stack(children: [
                       Positioned.fill(child: GlassRefraction(radius: radius)),
+                      if (colors.brightness == Brightness.dark)
+                        Positioned.fill(
+                            child: ColoredBox(
+                                color: colors.surface.withAlpha(82))),
                       content
                     ])))));
   }
@@ -177,35 +181,39 @@ class StudyBackdrop extends StatelessWidget {
       this.imageScale = 1,
       this.imageOpacity = 0});
   @override
-  Widget build(BuildContext context) => Stack(children: [
-        Positioned.fill(child: ColoredBox(color: background)),
-        if (image != null && imageOpacity > 0)
-          Positioned.fill(
-              child: IgnorePointer(
-                  child: Opacity(
-                      opacity: imageOpacity.clamp(0, 1),
-                      child: ClipRect(
-                          child: Transform.scale(
-                              scale: imageScale.clamp(.8, 2.4),
-                              child: SizedBox.expand(
-                                  child: Image(
-                                      image: image!, fit: BoxFit.cover))))))),
-        if (glass)
-          Positioned.fill(
-              // Soften only the distant wallpaper. Glass panes remain clear:
-              // GlassRefraction still applies matrix displacement without blur.
-              child: ImageFiltered(
-                  imageFilter: ui.ImageFilter.blur(sigmaX: 1.5, sigmaY: 1.5),
-                  child: CustomPaint(painter: _GlassBackdrop(tint)))),
-        child
-      ]);
+  Widget build(BuildContext context) {
+    final dark = Theme.of(context).brightness == Brightness.dark;
+    return Stack(children: [
+      Positioned.fill(child: ColoredBox(color: background)),
+      if (image != null && imageOpacity > 0)
+        Positioned.fill(
+            child: IgnorePointer(
+                child: Opacity(
+                    opacity: imageOpacity.clamp(0, dark ? .26 : 1),
+                    child: ClipRect(
+                        child: Transform.scale(
+                            scale: imageScale.clamp(.8, 2.4),
+                            child: SizedBox.expand(
+                                child: Image(
+                                    image: image!, fit: BoxFit.cover))))))),
+      if (glass)
+        Positioned.fill(
+            // Soften only the distant wallpaper. Glass panes remain clear:
+            // GlassRefraction still applies matrix displacement without blur.
+            child: ImageFiltered(
+                imageFilter: ui.ImageFilter.blur(sigmaX: 1.5, sigmaY: 1.5),
+                child: CustomPaint(painter: _GlassBackdrop(tint, dark)))),
+      child
+    ]);
+  }
 }
 
 /// Static, soft ribbons make transmission visible without an animated wallpaper
 /// or a full-screen blur. Only the independently selected background hue is used.
 class _GlassBackdrop extends CustomPainter {
   final Color tint;
-  const _GlassBackdrop(this.tint);
+  final bool dark;
+  const _GlassBackdrop(this.tint, this.dark);
   @override
   void paint(Canvas canvas, Size size) {
     final rect = Offset.zero & size;
@@ -239,10 +247,10 @@ class _GlassBackdrop extends CustomPainter {
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
               colors: [
-                Colors.white.withAlpha(110),
-                Colors.white.withAlpha(30),
+                Colors.white.withAlpha(dark ? 42 : 110),
+                Colors.white.withAlpha(dark ? 12 : 30),
                 tint.withAlpha(8),
-                Colors.white.withAlpha(95)
+                Colors.white.withAlpha(dark ? 36 : 95)
               ],
               stops: const [
                 0,
@@ -262,14 +270,15 @@ class _GlassBackdrop extends CustomPainter {
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
               colors: [
-                Colors.white.withAlpha(100),
+                Colors.white.withAlpha(dark ? 40 : 100),
                 Colors.white.withAlpha(0),
-                Colors.white.withAlpha(75)
+                Colors.white.withAlpha(dark ? 30 : 75)
               ]).createShader(rect));
   }
 
   @override
-  bool shouldRepaint(_GlassBackdrop oldDelegate) => oldDelegate.tint != tint;
+  bool shouldRepaint(_GlassBackdrop oldDelegate) =>
+      oldDelegate.tint != tint || oldDelegate.dark != dark;
 }
 
 class FrostedChrome extends StatelessWidget {

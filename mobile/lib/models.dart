@@ -7,7 +7,17 @@ const subjects = [
   '口腔黏膜病学',
   '口腔颌面外科学',
   '口腔修复学',
-  '口腔正畸学'
+  '口腔正畸学',
+  '口腔预防医学',
+  '基础医学',
+  '口腔内科学',
+  '儿童口腔医学',
+  '口腔临床药物学',
+  '口腔材料学',
+  '口腔生物学',
+  '口腔科学综合试卷',
+  '口腔颌面医学影像诊断学',
+  '𬌗学',
 ];
 String dayOf(DateTime time) => time
     .toUtc()
@@ -22,8 +32,20 @@ class Question {
   String get stem => data['stem'];
   String get subject => data['subject'];
   String get chapter => data['chapter'];
+  String chapterFor(String mode) =>
+      (data['chapterByMode'] as Map?)?[mode] as String? ?? chapter;
   String get type => data['type'];
   String? get answer => data['answer'];
+  bool get isMultipleChoice => type == '多选题';
+  bool hasChoice(String? selection, String key) =>
+      isMultipleChoice ? (selection ?? '').contains(key) : selection == key;
+  String choose(String? selection, String key) {
+    if (!isMultipleChoice) return key;
+    final choices = (selection ?? '').split('').toSet();
+    choices.contains(key) ? choices.remove(key) : choices.add(key);
+    return (choices.toList()..sort()).join();
+  }
+
   String get explanation => data['explanation'];
   String get reference => data['reference'];
   String get warning => data['warning'];

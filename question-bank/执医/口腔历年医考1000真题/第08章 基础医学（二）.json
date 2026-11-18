@@ -1,0 +1,5109 @@
+{
+ "version": "2026-10-23",
+ "name": "口腔历年医考1000真题 · 基础医学（二）",
+ "isDemo": false,
+ "sourceDocument": "口腔历年医考1000真题.pdf",
+ "sourceNote": "口腔执业（助理）医师资格考试 1000 题；答案与解析取自原文文末。年份与来源待核验。",
+ "questions": [
+  {
+   "id": "YS1000-0901",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者，男性，5 岁，突发持续性高热（40～41℃）1 周，查体：皮肤出现玫瑰疹，肝脾肿大，相对缓脉。实验室检查：白细胞总数低下，嗜酸性粒细胞消失。肥达试验“O”抗体凝集效价≥1∶80，“H”抗体凝集效价≥1∶160。下列属于该患者的诊断是：",
+   "options": {
+    "A": "伤寒",
+    "B": "甲型副伤寒",
+    "C": "乙型副伤寒",
+    "D": "丙型副伤寒",
+    "E": "非特异性回忆反应"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "题干中提及患者“突发持续性高热（40～41℃）1 周，查体：皮肤出现玫瑰疹，肝脾肿大，相对缓脉。实验室检查：白细胞总数低下，嗜酸性粒细胞消失。肥达试验“O”抗体凝集效价≥1：80，“H”抗体凝集效价≥1：160。”可初步判断患者为伤寒。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 901,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0902",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "原发性 T 细胞缺陷病为：",
+   "options": {
+    "A": "X-性连锁低丙球血症",
+    "B": "选择性 lgA 缺陷",
+    "C": "X-性连锁高 IgM 综合征",
+    "D": "DiGeorge 综合征",
+    "E": "毛细血管扩张性共济失调综合症"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "X-性连锁低丙球血症、选择性lgA 缺陷、X-性连锁高IgM 综合征为原发性B 细胞缺陷，毛细血管扩张性共济失调综合症为原发性联合免疫缺陷",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 902,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0903",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者女 25 岁，既往不洁性史，数周以来不明原因的发热，体重快速下降，伴乏力，频繁腹泻，出现气促、干咳等症状，查体：持续广泛淋巴结肿大，淋巴结肿大直径 1 厘米左右，坚硬、不痛、可移动。实验室检查抗体呈阳性，CD4 细胞小于每立方毫米 500 个。关于该病的分期说法正确的是：",
+   "options": {
+    "A": "感染急性期：多数患者无明显症状或仅表现为流感症状。体内不可检测出特异性抗体，呈假阴性",
+    "B": "潜伏期：持续 6 个月至 10 年，伴有轻症临床表现，CD4+细胞逐步减少，免疫功能进行性下降",
+    "C": "症状期：出现相关症状群，表现为发热、盗汗、消瘦、腹泻和恶性肿瘤等",
+    "D": "发病期：机会感染、恶性肿瘤、神经系统异常",
+    "E": "都不正确"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "HIV 感染急性期：多数患者无明显症状或仅表现为流感症状。体内可检测出特异性抗体；潜伏期：持续6 个月至10 年，无任何临床表现，CD4+细胞逐步减少，免疫功能进行性下降；症状期：出现艾滋病相关症状群，表现为发热、盗汗、消瘦、腹泻和全身淋巴结肿大等；典型AIDS 发病期：机会感染、恶性肿瘤、神经系统异常。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 903,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0904",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "产生 IL-2 的细胞是：",
+   "options": {
+    "A": "Mφ细胞",
+    "B": "T 细胞",
+    "C": "B 细胞",
+    "D": "NK 细胞",
+    "E": "中性粒细胞"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "IL-2 主要由T 细胞(CD4+)受抗原或丝裂原刺激后合成。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 904,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0905",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "以下不属于固有免疫效应分子的是：",
+   "options": {
+    "A": "补体系统",
+    "B": "溶菌酶",
+    "C": "IFN-α/β",
+    "D": "防御素",
+    "E": "NK"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "固有免疫由固有免疫细胞、固有免疫效应分子与组织屏障构成。其中固有免疫效应分子包括：补体系统、细胞因子、防御素、溶菌酶、乙型溶素等。其中IFN 为干扰素，是免疫效应分子中的一种。NK 是自然杀伤细胞，属于免疫细胞。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 905,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0906",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者，男，60 岁，反复多处关节疼痛 3 年，加重一月，以双膝、双肘关节明显，活动时症状加剧，偶有发热，伴晨僵，近日患者关节疼痛不能忍受，夜间尤甚，生活不能自理，今入院就诊，门诊以“类风湿性关节炎”收入院。可以首选以下哪种药物治疗：",
+   "options": {
+    "A": "吲哚美辛",
+    "B": "阿司匹林",
+    "C": "普萘洛尔",
+    "D": "硝苯地平",
+    "E": "美托洛尔"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "阿司匹林具有解热、镇痛及抗风湿作用，作用强、疗效迅速可靠。常用于：（1）解热和缓解各种钝痛，如感冒发热、头痛、牙痛、神经痛、肌肉痛以及痛经等风湿性、类风湿性关节炎等的对症治疗，可作为首选药。吲哚美辛也有显著解热、镇痛、抗炎作用。可用于风湿、类风湿性关节炎、骨关节炎等；但因毒性大，不作一线药，不长期使用。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 906,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0907",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "由立克次体引起的疾病是：",
+   "options": {
+    "A": "非典型性肺炎",
+    "B": "沙眼",
+    "C": "梅毒",
+    "D": "性病淋巴肉肿",
+    "E": "恙虫病"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "羌虫病又称丛林型斑疹伤寒，或称红虫病。其致病主要为被带有恙虫病立克次体的恙虫幼虫叮咬而感染的急性热病。一般而言老鼠是恙虫最常见的宿主。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 907,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0908",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者，男，56 岁，高脂饮食多年，近 2 月，患者自觉心前区压迫感，多于劳累、饭后疼痛发作，每次持续 3～5 分钟，休息后减轻。入院前 1 周，痛渐频繁，且休息时也发作，入院前 10 小时，于睡眠中突感心前区剧痛，并向左肩部、臂部放射，且伴大汗、呼吸困难，咳出少量粉红色泡沫状痰液，急诊入院，经各项检查，诊断为“动脉粥样硬化伴冠状动脉粥样硬化性心脏病”，经过几个月的住院治疗，患者病情好转，出院时遵医嘱服用调血脂的药，以下哪种药合适：",
+   "options": {
+    "A": "可乐定",
+    "B": "氯沙坦",
+    "C": "阿托伐他汀",
+    "D": "二甲双胍",
+    "E": "胰岛素"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "可乐定和氯沙坦是降压药，二甲双胍和胰岛素是调节血糖的药，调血脂性抗动脉粥样硬化药中，他汀类主要降低总胆固醇和低密度脂蛋白，抑制羟甲基戊二酸甲酰辅酶还原酶，适用于动脉粥样硬化、高脂蛋白血症。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 908,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0909",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "以下属于 I 型超敏反应特点的是：",
+   "options": {
+    "A": "超敏反应发生快，消退慢",
+    "B": "发生严重组织细胞损伤",
+    "C": "具有明显个体差异和遗传倾向",
+    "D": "超敏反应发生慢，消退慢",
+    "E": "一般不引起生理功能紊乱"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "I 型超敏反应：超敏反应发生快，消退快；常引起生理功能紊乱，几乎不发生严重组织细胞损伤；具有明显个体差异和遗传倾向。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 909,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0910",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者，17 岁，学生，因近两天发热、头痛、全身肌肉酸痛、食欲减退来门诊检查，以“发热待查”收入院，体检：体温 39.3℃，脉搏 100 次/min，呼吸 20 次/min，血压 100/70mmHg，患者遵医嘱服用扑热息痛，以下关于扑热息痛的说法正确的是：",
+   "options": {
+    "A": "肝损害较大",
+    "B": "抗炎作用极强",
+    "C": "过量中毒肝损害较小",
+    "D": "胃肠道反应很大",
+    "E": "甾体抗炎药"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "对乙酰氨基酚（扑热息痛）是最常用的非抗炎解热镇痛药，抗炎作用极弱。过量中毒可引起肝损害、胃肠道反应最小的非甾体抗炎药。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 910,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0911",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "羌虫病的传播媒介：",
+   "options": {
+    "A": "人蚤",
+    "B": "鼠蚤",
+    "C": "螨",
+    "D": "蜱",
+    "E": "蚊"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "羌虫病又称丛林型斑疹伤寒，或称红虫病。其致病主要为被带有恙虫病立克次体的恙虫幼虫叮咬而感染的急性热病。一般而言老鼠是恙虫最常见的宿主。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 911,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0912",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "与发热和恶液质形成有关的细胞因子是：",
+   "options": {
+    "A": "IL-1",
+    "B": "IL-2",
+    "C": "IL-4",
+    "D": "IFN",
+    "E": "TNF-a"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "肿瘤坏死因子(TNF)是一种内源性致热源，可引起发热；TNF-α促进蛋白质，脂肪分解，引起代谢紊乱，可形成恶液质。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 912,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0913",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "某男性 28 岁，近日午后发热、盗汗、乏力、纳差、消瘦；伴有咳嗽、咳痰、咯血、胸痛等症状，体格检查：叩诊呈浊音，语颤增强，肺泡呼吸音低和湿啰音。请问该病和哪种抗体有关：",
+   "options": {
+    "A": "IgA",
+    "B": "IgM",
+    "C": "IgE",
+    "D": "IgG",
+    "E": "和抗体无关"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "患者午后低热、盗汗、乏力、消瘦且叩诊浊音，听诊湿啰音可诊断为肺结核。结核病的改变属于IV 类超敏反应。与抗体和补体无关，与效应T 细胞和吞噬细胞及其产生的细胞因子或细胞毒性介质有关。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 913,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0914",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "树突状细胞产生的细胞因子是：",
+   "options": {
+    "A": "IL-1",
+    "B": "IL-2",
+    "C": "IL-3",
+    "D": "IL-4",
+    "E": "IL-5"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "树突状细胞产生的细胞因子是IL-1，其余均是由T 淋巴细胞产生。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 914,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0915",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "小刘，50 岁，因糖尿病入院，在住院期间，由于病房住的患者较多，其次，护士在夜间总会隔一段时间去查房，导致患者总是休息不好，使患者精神状态不好，于是患者找到医生，随后医生给他开医嘱：巴比妥药物口服，问该药物服用过度，导致死亡的直接死因是：",
+   "options": {
+    "A": "引起的极低血压",
+    "B": "休克",
+    "C": "肾衰竭",
+    "D": "高度昏迷",
+    "E": "深度呼吸抑制"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "巴比妥类对中枢神经系统有普遍性抑制作用，随着剂量的增加，作用依次为镇静、催眠、抗惊厥、及抗癫痫、麻醉。剂量过多会引起急性中毒，主要表现为深度昏迷、高度呼吸抑制、血压下降、体温降低、休克及肾衰竭等，其中深度呼吸抑制是急性中毒的急性死因。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 915,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0916",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "流行性斑疹伤寒的传播媒介是：",
+   "options": {
+    "A": "人蚤",
+    "B": "鼠蚤",
+    "C": "螨",
+    "D": "蜱",
+    "E": "蚊"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "本病的病原体为普氏立克次体，寄生于人和动物的血管内皮细胞胞质内及人虱肠壁上皮细胞内，在立克次体血症时也附着于红细胞和血小板上，其基本形态为微小球杆状，沿长轴排列成链状。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 916,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0917",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "T 细胞活化第一信号为：",
+   "options": {
+    "A": "巨噬细胞吞噬抗原物质并发挥抗原提呈作用",
+    "B": "表面刺激信号 B7 和 ICAM 的表达",
+    "C": "结合 T 细胞表面的 CD28 和 LFA-1",
+    "D": "固有免疫细胞通过表面的 PRR 对不同类病原体的识别",
+    "E": "NK 细胞核吞噬细胞发挥特异性的清除、吞噬作用"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "固有免疫有4 个作用：①执行迅速而非特异性的抗感染、抗肿瘤作用，是机体防御的第一道防线；②启动适应性免疫应答：巨噬细胞吞噬抗原物质并发挥抗原提呈作用，为T 细胞活化提供第一信号，同时可促进表面协同刺激信号B7 和ICAM 的表达，结合T 细胞表面的CD28 和LFA-1，为T 细胞活化提供第二信号；③影响特异性免疫应答：固有免疫细胞通过表面的PRR 对不同类病原体的识别，可启动不同类型的适应性免疫应答；④协助适应性免疫应答发挥免疫效应：NK 细胞核吞噬细胞发挥特异性的清除、吞噬作用。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 917,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0918",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "TNF-a 主要由哪种细胞产生：",
+   "options": {
+    "A": "B 细胞",
+    "B": "巨噬细胞",
+    "C": "NK 细胞",
+    "D": "中性粒细胞",
+    "E": "T 细胞"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "肿瘤坏死因子主要由活化的单核/巨噬细胞产生，能杀伤和抑制肿瘤细胞，促进中性粒细胞吞噬，抗感染。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 918,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0919",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "T 细胞产生的细胞因子不包括：",
+   "options": {
+    "A": "IL-1",
+    "B": "IL-2",
+    "C": "IL-3",
+    "D": "IL-4",
+    "E": "IL-6"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "辅助T 细胞里，Th1 型辅助T 细胞能够分泌IFN-γ和IL-2 等；Th2 型辅助T 细胞能够分泌IL-4 和IL-10 等，而杀伤T 细胞则能够分泌IFN-γ、TNF-α等等。IL-1 的主要产生细胞是巨噬细胞。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 919,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0920",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "治疗立克次体应选用：",
+   "options": {
+    "A": "四环素",
+    "B": "青霉素",
+    "C": "磺胺类药",
+    "D": "干扰素",
+    "E": "制霉菌素"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "对热、光照、干燥及化学药剂抵抗力差，30min 即可杀死，100℃很快死亡，对一般消毒剂及四环素、氯霉素、红霉素、青霉素等抗生素敏感，首选四环素类。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 920,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0921",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "患儿 15 岁，口渴、多饮、多尿、多食，体重急剧下降，乏力消瘦，因头痛、头晕、嗜睡入院，查体：心率 120 次/分，脉搏细弱，血压 115/75mmHg，呼吸伴有烂苹果气味，诊断为 I 型糖尿病。以下哪种疾病和该病不属于同一种免疫学类型疾病：",
+   "options": {
+    "A": "多发性硬化症",
+    "B": "重症肌无力",
+    "C": "系统性红斑狼疮",
+    "D": "以上都是",
+    "E": "以上都不是"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "I 型糖尿病又称为胰岛素依赖性糖尿病，属于自身反应性T 细胞介导的自身免疫性疾病，属于该类型的疾病还有多发性硬化症、重症肌无力。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 921,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0922",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "女，16 岁。先天性卵巢发育不全综合征，最可能的诊断是：",
+   "options": {
+    "A": "性染色体 X 的数目异常",
+    "B": "性染色体 Y 的数目异常",
+    "C": "性染色体 X 的结构异常",
+    "D": "性染色体 Y 的结构异常",
+    "E": "性染色体 X、Y 的数目异常"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "先天性卵巢发育不全综合征：典型核型：45，X。其主要病因是由于其父亲在形成精子过程中，X、Y 染色体发生不分离而形成无性染色体的精子，受精后所导致的。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 922,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0923",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者，男，60 岁，今晨在路上散步时，不小心被车撞到，头部受伤，立即送往医院。患者出现头痛、呕吐症状，表现为喷射性呕吐，经各项检查后，诊断为“轻度脑震荡伴颅内压增高”为了降低颅内压，首选药是：",
+   "options": {
+    "A": "螺内酯",
+    "B": "卡托普利",
+    "C": "甘露醇",
+    "D": "氯沙坦",
+    "E": "硝酸甘油"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "静脉注射甘露醇，产生脱水和渗透性利尿作用，甘露醇是治疗脑水肿、降低颅内压安全而有效的首选药物。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 923,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0924",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "患儿 12 岁，近半年发热、进行性贫血、显著的出血倾向或骨关节疼痛等。入院自述肢体和背部弥漫性疼痛，病情逐渐加重。实验室检查确诊为白血病，需要进行骨髓移植。该治疗方法与以下哪项免疫学知识有关：",
+   "options": {
+    "A": "抗免疫抑制分子及调节性 T 细胞",
+    "B": "细胞因子及其抗体的应用",
+    "C": "防止病原体产生抗原拮抗分子",
+    "D": "打破免疫耐受",
+    "E": "建立免疫耐受"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "建立免疫耐受：口服免疫原，建立全身免疫耐受；静脉注射抗原，建立全身免疫耐受；移植骨髓及胸腺，诱导免疫耐受，延长移植物存活时间；可部分建立正常免疫系统的网络调节功能，减轻或缓解自身免疫病；转染基因：将供者同种异型基因转入受者骨髓肝细胞内，避免排斥反应发生；脱敏治疗，抑制IgE 型抗体的产生；防止感染。减少或缓解自身免疫病；诱导产生具有特异拮抗作用的调节性T 细胞；自身抗原肽拮抗药的使用。打破免疫耐受：免疫原及免疫相关分子用于肿瘤免疫治疗；抗免疫抑制分子及调节性T 细胞用于肿瘤免疫；细胞因子及其抗体的应用；多重抗感染的措施，防止病原体产生抗原拮抗分子。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 924,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0925",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "女，52 岁。其父母亲患有亨廷顿舞蹈症，该女未患亨廷顿舞蹈症，与一正常男性结婚后，其子患亨廷顿舞蹈症，对于其子，最可能的诊断是：",
+   "options": {
+    "A": "DNA 基因突变",
+    "B": "RNA 基因突变",
+    "C": "Y 染色体基因突变",
+    "D": "X 染色体基因突变",
+    "E": "病毒感染"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "亨廷顿舞蹈症是常染色体显性遗传病（AD），致病基因位于1~22 号常染色体上，显性基因存在时（AA 或 Aa）即表现为患病。该女不患病，说明不存在致病基因，与正常男性结婚，正常男性不含致病基因，确生出患儿，只能是患儿基因突变。人类的遗传物质是DNA，因此为DNA 基因突变导致。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 925,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0926",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "以下为 HIV 感染急性期免疫学特征的为：",
+   "options": {
+    "A": "表现为流感症状",
+    "B": "CD4+细胞逐步减少",
+    "C": "表现为发热、盗汗、消瘦、腹泻",
+    "D": "全身淋巴结肿大",
+    "E": "机会感染"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "HIV 感染急性期：多数患者无明显症状或仅表现为流感症状。体内可检测出特异性抗体；潜伏期：持续6 个月至10 年，无任何临床表现，CD4+细胞逐步减少，免疫功能进行性下降；症状期：出现艾滋病相关症状群，表现为发热、盗汗、消瘦、腹泻和全身淋巴结肿大等；典型AIDS 发病期：机会感染、恶性肿瘤、神经系统异常。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 926,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0927",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "关于解热镇痛抗炎药药理作用的叙述，正确的是：",
+   "options": {
+    "A": "只降低发热者的体温，对体温正常者几乎无影响",
+    "B": "主要对剧痛及内脏绞痛有效",
+    "C": "既降低发热者的体温，对体温正常者也能降低",
+    "D": "能根治炎症的红、肿、热、痛症状",
+    "E": "对慢性钝痛无效"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "解热镇痛抗炎药只降低发热者的体温，对体温正常者几乎无影响；主要对慢性钝痛，特别是炎性疼痛有效；对剧痛及内脏绞痛无效；可缓解炎症的红、肿、热、痛症状，但不能根治。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 927,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0928",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "40 岁男性患者恶心，呕吐 2 天。l 天前上腹部开始疼痛，食物的气味可诱发恶心，尿颜色变深。血清学检查结果：抗 HAVIgM（-），HBSAg(+)，抗 HBcIgM（-），抗-HBS（-），初步诊断患者为乙肝，问乙型肝炎的主要传播方式为：",
+   "options": {
+    "A": "粪口传播",
+    "B": "消化道传播",
+    "C": "血液传播",
+    "D": "母婴传播",
+    "E": "垂直传播"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "乙型肝炎的主要传播途径是血液传播，甲型和戊型时消化道传播。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 928,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0929",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "普氏立克次体的主要传播途径是：",
+   "options": {
+    "A": "呼吸道",
+    "B": "消化道",
+    "C": "泌尿道",
+    "D": "虱叮咬后入血",
+    "E": "性接触"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "立克次氏体主要经鼠蚤传播的急性传染病。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 929,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0930",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "关于肿瘤的被动免疫治疗说法正确的是：",
+   "options": {
+    "A": "此法对术后清除微小转移瘤灶和隐匿瘤、预防肿瘤转移和复发有一定的效果",
+    "B": "给机体输入免疫效应物质，使其在体内发挥治疗肿瘤的作用",
+    "C": "常用制剂有卡介苗、短小棒状杆菌、酵母多糖、香菇多糖以及 IL-2 等",
+    "D": "输入具有抗原性的瘤苗或疫苗，刺激机体产生抗肿瘤免疫应答",
+    "E": "包括灭活瘤苗、肿瘤抗原疫苗、病毒性肿瘤疫苗和转基因瘤苗等"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "非特异性免疫治疗是指采用非特异性免疫增强剂，增强机体抗肿瘤免疫应答的疗法。常用制剂有卡介苗、短小棒状杆菌、酵母多糖、香菇多糖以及IL-2等；主动免疫治疗是指输入具有抗原性的瘤苗或疫苗，刺激机体产生抗肿瘤免疫应答。此法对术后清除微小转移瘤灶和隐匿瘤、预防肿瘤转移和复发有一定的效果。目前研究中的疫苗包括灭活瘤苗、肿瘤抗原疫苗、病毒性肿瘤疫苗和转基因瘤苗等。被动免疫治疗是指给机体输入免疫效应物质，使其在体内发挥治疗肿瘤的作用。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 930,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0931",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "女，1 岁。因口腔黏膜表面形成白色斑膜入院就诊。经诊断为鹅口疮，本病是白色念珠菌感染所引起，白色念珠菌为真菌，其遗传物质是：",
+   "options": {
+    "A": "双链 DNA",
+    "B": "单链 DNA",
+    "C": "单链 RNA",
+    "D": "双链 RNA",
+    "E": "DNA 病毒"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "真菌属于真核生物，其遗传物质是DNA。DNA 为双链。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 931,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0932",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者，男性，35 岁，自述淋雨受寒后，突发寒战、高热、咳嗽、胸痛，并咳铁锈色痰。查体：患者急性病容，呼吸急促，鼻翼煽动。X 线显示：肺内有大片炎症浸润阴影或实变影，在实变阴影中可见支气管充气征，肋膈角可有少量胸腔积液。下列属于该患者感染的病原体正确的是：",
+   "options": {
+    "A": "肺炎链球菌",
+    "B": "金黄色葡萄球菌",
+    "C": "伤寒杆菌",
+    "D": "脑膜炎奈瑟菌",
+    "E": "流感嗜血杆菌"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "题干中提及“自述淋雨受寒后，突发寒战、高热、咳嗽、胸痛，并咳铁锈色痰。查体：患者急性病容，呼吸急促，鼻翼煽动。X 线显示：肺内有大片炎症浸润阴影或实变影，在实变阴影中可见支气管充气征，肋膈角可有少量胸腔积液。”，可判断患者为大叶性肺炎。大叶性肺炎，又名肺炎球菌肺炎，是由肺炎链球菌等细菌感染引起的呈大叶性分布的肺部急性炎症。常见诱因有受凉、劳累或淋雨等。是由肺炎双球菌引起的急性肺实质炎症。好发于青壮年男性和冬春季节。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 932,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0933",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "刺激造血干细胞增生分化的细胞因子是：",
+   "options": {
+    "A": "SCF",
+    "B": "IFN",
+    "C": "TNF",
+    "D": "IL-8",
+    "E": "IL-12"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "干细胞因子(SCF)促进造血干细胞和组细胞增生分化，促进肥大细胞存活、增殖和活化。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 933,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0934",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "细胞溶解型超敏反应为哪型超敏反应：",
+   "options": {
+    "A": "I 型超敏反应",
+    "B": "Ⅱ型超敏反应",
+    "C": "Ⅲ型超敏反应",
+    "D": "IV 型超敏反应",
+    "E": "以上都不属于"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "I 型超敏反应又称速发型超敏反应，即过敏反应；Ⅱ型超敏反应又称细胞毒型或细胞溶解型超敏反应；Ⅲ型超敏反应又称免疫复合物型或血管炎型超敏反应；IV 型超敏反应又称迟发型超敏反应。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 934,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0935",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "属于适度阻滞钠通道的药物是：",
+   "options": {
+    "A": "奎尼丁",
+    "B": "利多卡因",
+    "C": "苯妥英钠",
+    "D": "普罗帕酮",
+    "E": "维拉帕米"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "适度阻滞钠通道（奎尼丁、普鲁卡因胺），轻度阻滞钠通道（利多卡因，苯妥英钠），明显阻滞钠通道（普罗帕酮），维拉帕米属于钙通道阻滞药。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 935,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0936",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "下列临床疾病属于 II 型超敏反应的为：",
+   "options": {
+    "A": "输血反应",
+    "B": "过敏性鼻炎",
+    "C": "荨麻疹",
+    "D": "特应性皮炎",
+    "E": "药物过敏性休克"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "过敏性鼻炎、荨麻疹、特应性皮炎、药物过敏性休克都属于I型超敏反应。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 936,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0937",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "小李，女，20 岁，因急性腹痛来入院，医生诊断为急性阑尾炎，立即实施手术治疗，手术后，需要给患者输消炎药，其中某药物的半衰期为 3 小时，每隔一个半衰期给药一次，达到稳态血药浓度的时间是：",
+   "options": {
+    "A": "6 小时",
+    "B": "10 小时",
+    "C": "15 小时",
+    "D": "20 小时",
+    "E": "25 小时"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "药物达到稳态血药浓度的时间一般为4-5 个半衰期。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 937,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0938",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "下列超敏反应有 IgE 抗体参与的是：",
+   "options": {
+    "A": "I 型超敏反应",
+    "B": "Ⅱ型超敏反应",
+    "C": "Ⅲ型超敏反应",
+    "D": "IV 型超敏反应",
+    "E": "都含有"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "I 型超敏反应的抗体为IgE；Ⅱ型超敏反应的抗体为IgG、IgM；Ⅲ型超敏反应的抗体为IgG、IgM；IV 型超敏反应是T 细胞介导的免疫应答，与抗体和补体无关。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 938,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0939",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "流行性斑疹伤寒的传染源是：",
+   "options": {
+    "A": "病人",
+    "B": "鼠",
+    "C": "兔",
+    "D": "狗",
+    "E": "牛羊"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "本病的病原体为普氏立克次体，寄生于人和动物的血管内皮细胞胞质内及人虱肠壁上皮细胞内，病人经鼠蚤传播，因此最重要的传染源是病人。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 939,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0940",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "以下属于强心苷类的药理作用的是：",
+   "options": {
+    "A": "增强心肌收缩力",
+    "B": "正性频率作用",
+    "C": "正性传导作用",
+    "D": "减弱心肌收缩力",
+    "E": "增强窦性心率"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "强心苷的药理作用包括正性肌力作用（增强心肌收缩力）、负性频率作用（减慢窦性心率）、负性传导作用（减慢房室结传导）等。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 940,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0941",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "引起急性上呼吸道感染的主要病原体是：",
+   "options": {
+    "A": "细菌",
+    "B": "真菌",
+    "C": "病毒",
+    "D": "衣原体",
+    "E": "螺旋体"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "急性上呼吸道感染简称上感，又称感冒。是包括鼻腔、咽或喉部急性炎症的总称。以病毒感染最常见。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 941,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0942",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者男，40 岁，因过敏严重急性入院，医生下医嘱给予糖皮质激素治疗，为了快速达到药效，应通过哪种途径给药：",
+   "options": {
+    "A": "静脉给药",
+    "B": "吸入给药",
+    "C": "口服给药",
+    "D": "舌下给药",
+    "E": "皮下给药"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "为快速达到药效，最快的给药途径是静脉给药。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 942,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0943",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者，黄某，46 岁，因急性阑尾炎入院，需要立刻行手术治疗，在手术前麻醉师给患者打麻醉，问目前应用最多的局麻药，具有“万能麻醉”之称的药物是：",
+   "options": {
+    "A": "丁卡因",
+    "B": "普鲁卡因",
+    "C": "利多卡因",
+    "D": "布比卡因",
+    "E": "罗哌卡因"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "利多卡因是目前应用最多的局麻药，和普鲁卡因相比，具有起效快，作用强而持久、黏膜穿透力强、安全范围较大，同时无扩张血管作用，对组织几乎没有刺激性。适用于各种局部麻醉，有“全能麻醉药”之称，主要用于传导麻醉和硬膜外麻醉，同时利多卡因也是治疗室性快速型心律失常的首选药。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 943,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0944",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "协助检查立克次体病的交叉凝集实验是：",
+   "options": {
+    "A": "反向间接凝集实验",
+    "B": "正向间接凝结实验",
+    "C": "肥达反应",
+    "D": "外斐反应",
+    "E": "冷凝集实验"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "斑疹伤寒等立克次体具有与变形杆菌某些x 株的菌体抗原(O)共同抗原，因而临床上常用以代替相应的立克次体抗原进行非特异性凝集反应，作为人或动物血清中相关抗体的检查。这种交叉凝集试验称为外斐反应，作为立克次体病的辅助诊断。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 944,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0945",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "与立克次体有共同抗原的成分的细菌是：",
+   "options": {
+    "A": "肉毒杆菌",
+    "B": "大肠杆菌",
+    "C": "绿脓杆菌",
+    "D": "变形杆菌",
+    "E": "痢疾杆菌"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "立克次体与变形杆菌OX 株抗原有交叉反应性。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 945,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0946",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者，男性，26 岁，发热一周，食欲不振、乏力、腹胀、腹泻、脾肿大。外周血白细胞偏低，起病后曾服用退热药及磺胺药，发烧仍不退，临床怀疑为伤寒病。为进一步确诊，首选应该做的检查是：",
+   "options": {
+    "A": "血培养",
+    "B": "肥达反应",
+    "C": "尿培养",
+    "D": "粪便培养",
+    "E": "骨髓培养"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "肠热症（伤寒和副伤寒）的标本采集：发病1 周内取静脉血，1～3 周取骨髓穿刺标本，2～4 周时可取粪便和尿液标本。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 946,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0947",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "CTL 的细胞毒效应中致死性攻击：",
+   "options": {
+    "A": "效应性 CTL 高表达黏附分子，可有效结合表达相应配体的靶细胞",
+    "B": "CTL 的 TCR 识别靶细胞表面抗原肽 MHCI 类分子",
+    "C": "CTL 分泌的效应分子有效作用于所接触的靶细胞",
+    "D": "Fas／FasL 途径",
+    "E": "直接接触抑制靶细胞活化"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "CTL 细胞毒性作用的致死性攻击：①穿孔素／颗粒酶途径；②Fas／FasL 途径。Treg 细胞的效应可以直接接触抑制靶细胞活化。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 947,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0948",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "Q 热的传播媒介是：",
+   "options": {
+    "A": "人蚤",
+    "B": "鼠蚤",
+    "C": "螨",
+    "D": "蜱",
+    "E": "蚊"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "Q 热亦称问号热，由伯氏考克斯体引起，在牛、羊等家畜中经蜱媒传播，通过家畜排泄物和乳汁，可经呼吸道和消化道等途径传染给人。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 948,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0949",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "地方性斑疹伤寒的储存宿主是：",
+   "options": {
+    "A": "病人",
+    "B": "鼠类",
+    "C": "狗",
+    "D": "牛",
+    "E": "羊"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "斑疹伤寒立克次体是地方性斑疹伤寒（或称鼠型斑疹伤寒）的病原体。鼠是主要储存宿主，媒介主要是鼠蚤和鼠虱。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 949,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0950",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "立克次体与细菌的主要区别：",
+   "options": {
+    "A": "以二分裂的方式繁殖",
+    "B": "对抗生素敏感",
+    "C": "严格的细胞内寄生",
+    "D": "有细胞壁和核糖体",
+    "E": "含有 DNA 和 RNA 两种核酸"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "克次氏体（Rickettsia）为革兰氏阴性菌，是一类专性寄生于真核细胞内的G-原核生物。是介于细菌与病毒之间，而接近于细菌的一类原核生物。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 950,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0951",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者，女，60 岁，有心脏病史，今日突然出现严重的呼吸困难，端坐呼吸，伴咳嗽，常咳出粉红色泡沫样痰。病人烦躁不安，口唇发绀，大汗淋漓，心率加快，查体：两肺布满湿罗音及哮鸣音，经过各项检查，诊断为“急性肺水肿”，遵医嘱使用利尿药，一段时间后出现了低钾血症，可能与哪种利尿药有关：",
+   "options": {
+    "A": "螺内酯",
+    "B": "氨苯蝶啶",
+    "C": "阿米洛利",
+    "D": "依普利酮",
+    "E": "呋塞米"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "呋塞米是排钾利尿药，久用会引起低血钾。保钾利尿药包括：螺内酯、依普利酮、氨苯蝶啶、阿米洛利。久用可引起高血钾。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 951,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0952",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "以下不属于阿司匹林的不良反应的是：",
+   "options": {
+    "A": "胃肠道反应",
+    "B": "加重出血倾向",
+    "C": "瑞夷综合征",
+    "D": "过敏反应",
+    "E": "骨质疏松症"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "阿司匹林的不良反应包括水杨酸反应、过敏反应、瑞夷综合征、胃肠道反应、加重出血倾向。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 952,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0953",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "40 岁男性患者恶心，呕吐 2 天。1 天前上腹部开始疼痛，食物的气味可诱发恶心，尿颜色变深。血清学检查结果：抗 HAVIgM（-），HBSAg(+)，抗 HBcIgM（-），抗-HBS（-）问该患者为下述哪种情况：",
+   "options": {
+    "A": "甲肝",
+    "B": "乙肝",
+    "C": "丙肝",
+    "D": "戊肝",
+    "E": "丁肝"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "患者的血清检查乙肝表面抗原阳性，所以判断是乙肝。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 953,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0954",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "男，12 岁，患外耳道多毛症，查家族史，发现有家族遗传史，其父亲、爷爷都患有外耳道多毛症，患者全部为男性，所有女性均正常，只能由父传子，子传孙。导致其发病的遗传物质是：",
+   "options": {
+    "A": "DNA",
+    "B": "RNA",
+    "C": "mRNA",
+    "D": "tRNA",
+    "E": "rRNA"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "外耳道多毛症属于Y 连锁遗传病，遗传信息蕴藏在DNA 分子的核苷酸序列中，DNA 是遗传信息的储存者，真核细胞的基因大部分存在于细胞核内的染色体上，染色体是遗传物质的载体。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 954,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0955",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "下列属于外周免疫耐受的说法正确的是：",
+   "options": {
+    "A": "在胚胎期及出生后形成",
+    "B": "在尚未成熟的 T 与 B 细胞发育的过程中",
+    "C": "T 细胞不能活化",
+    "D": "接受自身抗原刺激",
+    "E": "是指未成熟的 T 及 B 细胞"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "中枢免疫耐受是指是指在胚胎期及出生后，尚未成熟的T 与B细胞发育的过程中，接受自身抗原刺激后所形成的对自身抗原的免疫耐受。外周免疫耐受是指是指成熟的T 及B 细胞，遇内源性或外源性抗原，不产生正免疫应答，而显示免疫耐受。细胞吞噬处理，不能通过APC 提呈，T 细胞不能活化。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 955,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0956",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者，男性，5 岁，日前 5 岁生日时得到一只宠物龟，之后出现低热、寒颤、头痛、恶心、呕吐、腹泻，粪便培养查到革兰阴性杆菌，该菌有动力，不发酵乳糖，硫化氢试验阳性。下列属于该患者感染的病原体正确的是：",
+   "options": {
+    "A": "肠致病型大肠杆菌",
+    "B": "肠出血型大肠杆菌",
+    "C": "鼠伤寒沙门菌",
+    "D": "轮状病毒",
+    "E": "肠产毒型大肠杆菌"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "题干中提及“日前5 岁生日时得到一只宠物龟，之后出现低热、寒颤、头痛、恶心、呕吐、腹泻，粪便培养查到革兰阴性杆菌，该菌有动力，不发酵乳糖，硫化氢试验阳性。”可判断患者感染了鼠伤寒沙门菌。鼠伤寒沙门菌是引起肠炎的常见病原体，常由摄入未经煮熟的家禽或污染的奶制品而感染，也可经抚弄宠物龟而感染。沙门菌为有鞭毛的G-杆菌，不发酵乳糖，硫化氢生成试验阳性。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 956,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0957",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "流行性感冒的病原体是：",
+   "options": {
+    "A": "流感病毒",
+    "B": "流感杆菌",
+    "C": "鼻病毒",
+    "D": "呼吸道合胞病毒",
+    "E": "脑膜炎病毒"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "流行性感冒（简称流感）是流感病毒引起的急性呼吸道感染，也是一种传染性强、传播速度快的疾病。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 957,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0958",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "40 岁男性患者恶心，呕吐 2 天。l 天前上腹部开始疼痛，食物的气味可诱发恶心，尿颜色变深。血清学检查结果：抗 HAVIgM（-），HBSAg(+)，抗 HBcIgM（-），抗-HBS（-），初步诊断患者为乙肝，乙肝属于哪一类病毒：",
+   "options": {
+    "A": "DNA 病毒",
+    "B": "RNA 病毒",
+    "C": "反转类病毒",
+    "D": "DNA 和 RNA 病毒都有",
+    "E": "类病毒"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "乙肝属DNA 病毒，其他类型的肝炎都属于RNA 病毒。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 958,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0959",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "以下不属于钙通道阻滞药对心肌的药理作用的是：",
+   "options": {
+    "A": "增强心肌收缩力",
+    "B": "减慢心肌收缩力",
+    "C": "负性肌力",
+    "D": "负性频率",
+    "E": "负性传导作用"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "钙通道阻滞药对心肌的作用：表现为负性肌力、负性频率、负性传导作用。维拉帕米抑制作用最强，其次为地尔硫卓。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 959,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0960",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者，女，53 岁，每于劳累后引起胸骨后心前区阵发性压榨样疼痛，持续 3～5 分后缓解，舌下含服硝酸甘油后可迅速缓解。今日又出现上述症状，患者平素有支气管哮喘病史，下列药物中应禁用的是：",
+   "options": {
+    "A": "美托洛尔",
+    "B": "硝酸异山梨酯",
+    "C": "维拉帕米",
+    "D": "曲美他嗪",
+    "E": "氨氯地平"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "哮喘是一种以气管痉挛导致的呼吸障碍的疾病，而心绞痛是冠脉痉挛导致心肌缺血发作的疾病，对于同时合并这两种情况的患者来说，选择药物治疗一定要慎重，不能使用β受体阻滞剂，如：倍他乐克、心得安这一类的药物。β受体阻滞剂禁用或慎用于下列情况：支气管痉挛性哮喘、症状性低血压、心动过缓或二度Ⅱ型以上房室传导阻滞、心力衰竭伴显著性钠滞留需要大量利尿，以及血液动力学不稳定需要静脉应用正性肌力药等。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 960,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0961",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "患儿，1 岁，表现为哭声像猫叫，智力低下，生长发育迟缓，肌张力低，小头，满月形脸，眼距宽，外眼角下斜，内眦赘皮，斜视，耳位低，下颌小，腭弓高，第 5 指短且内弯。最可能的诊断是：",
+   "options": {
+    "A": "21 三体综合征",
+    "B": "5p-综合征",
+    "C": "先天性卵巢发育不全综合征",
+    "D": "亨廷顿舞蹈症",
+    "E": "先天性睾丸发育不全综合征"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "5p-综合征，因患儿哭声似猫叫，又称为猫叫综合征。主要发病原因是5 号染色体短臂部分缺失。临床特征：哭声像猫叫，智力低下，生长发育迟缓，肌张力低，小头，满月形脸，眼距宽，外眼角下斜，内眦赘皮，斜视，耳位低，下领小，腭弓高，第5 指短且内弯，常伴发有先天性心脏病，主要是室间隔缺损和动脉导管未闭等。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 961,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0962",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "Ⅲ型超敏反应的发生机制不包括：",
+   "options": {
+    "A": "可溶性免疫复合物形成并沉积于毛细血管基底膜",
+    "B": "激活补体引起组织损伤",
+    "C": "以充血水肿、局部坏死和中性粒细胞浸润为主要特征的炎症反应",
+    "D": "抗原诱导的 T 细胞免疫应答",
+    "E": "激活中性粒细胞、血小板和嗜碱性粒细胞等引起组织损伤"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "Ⅲ型超敏反应的发生机制包括：可溶性免疫复合物形成并沉积于毛细血管基底膜；激活补体、中性粒细胞、血小板和嗜碱性粒细胞、等引起组织损伤；以充血水肿、局部坏死和中性粒细胞浸润为主要特征的炎症反应和组织损伤。抗原诱导的T细胞免疫应答为Ⅳ型超敏反应的发生机制。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 962,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0963",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "解热镇痛抗炎药通过抑制中枢神经系统内 PG 的生物合成而产生的作用是：",
+   "options": {
+    "A": "镇痛作用",
+    "B": "镇静作用",
+    "C": "解热作用",
+    "D": "镇咳作用",
+    "E": "抗炎作用"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "解热镇痛抗炎药是一类具有解热、镇痛，而且大多数还有抗炎、抗风湿作用的药物，作用机制：抑制环氧化酶（COX），减少前列腺素（PG）的合成。解热作用是通过抑制中枢神经系统内PG 的生物合成而产生的。镇痛作用则是作用于外周神经系统，抑制炎症局部的PG 合成而产生的。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 963,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0964",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者小夏，女，25 岁，怀孕 25 周，BP≥160/110，尿蛋白≥5.0g/24h，血肌酐＞106umol/L，时不时还会发生抽搐，医生经确诊为子痫，该病首选的药物是：",
+   "options": {
+    "A": "葡萄糖酸钙",
+    "B": "苯妥英钠",
+    "C": "卡马西平",
+    "D": "地西泮",
+    "E": "硫酸镁"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "硫酸镁口服有泄下和利胆作用，外用消炎去肿，注射给药首选用于治疗子痫。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 964,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0965",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "立克次体与病毒的共同特点是：",
+   "options": {
+    "A": "专性细胞内寄生",
+    "B": "以二分裂的方式繁殖",
+    "C": "无细胞壁及细胞膜",
+    "D": "对抗生素不敏感",
+    "E": "必须依靠节肢动物传播"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "立克次氏体（Rickettsia）为革兰氏阴性菌，同病毒一样是一类专性寄生于真核细胞内的G-原核生物。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 965,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0966",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "以下哪项不属于 B 细胞体液免疫应答的一般规律：",
+   "options": {
+    "A": "潜伏期长，最长可达数周",
+    "B": "抗体滴度较高",
+    "C": "抗体存在时间短",
+    "D": "抗体亲和力较低",
+    "E": "主要是 IgM 类抗体"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "初次接受抗原刺激时，机体发生初次应答。此时有五个规律：①潜伏期长，最长可达数周；②抗体滴度较低；③抗体存在时间短；④抗体亲和力较低；⑥主要是IgM 类抗体。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 966,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0967",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "卡托普利最重要的不良反应是：",
+   "options": {
+    "A": "过敏",
+    "B": "出血",
+    "C": "血管神经性水肿",
+    "D": "哮喘",
+    "E": "干咳"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "干咳是卡托普利最重要的不良反应，也是被迫停药的主要原因。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 967,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0968",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "关于整合素家族，下列叙述错误的是：",
+   "options": {
+    "A": "整合素家族的黏附分子都是由α、β两条链(或称亚单位)经非共价键连接组成的异源二聚体",
+    "B": "整合素家族至少有 14 种α亚单位和 8 种β亚单位",
+    "C": "同一个组不同成员中，α链均相同，β链不同",
+    "D": "一种整合素可分布于多种细胞",
+    "E": "同一种细胞也可有多种整合素的表达"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "以β亚单位可将整合素家族分为8 个组，同一个组由不同成员组成，β链均相同，α链不同。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 968,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0969",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "下列关于 CD2 分子的描述，正确的有：",
+   "options": {
+    "A": "CD2 分子表达于胸腺细胞、B 细胞和 NK 细胞",
+    "B": "增强 T 细胞与 APC 或靶细胞之间的粘附",
+    "C": "与信号介导无关",
+    "D": "促进 B 细胞对抗原的识别",
+    "E": "其配体主要是 CD28"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "A 选项，CD2 分子表达于T 细胞、胸腺和NK 细胞。C 选项，CD2 分子与信号介导有关。D 选项SmIg 促进B 细胞对抗原的识别。E 选项，CD2 分子其配体主要是CD58。正确答案是B。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 969,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0970",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "以下不能引起自身免疫反应的为：",
+   "options": {
+    "A": "晶状体蛋白",
+    "B": "精子",
+    "C": "红细胞",
+    "D": "脑组织",
+    "E": "构象发生改变的自身组织"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "自身抗原指能引起自身免疫应答的自身组织成分。包括①隐蔽的自身抗原：在胚胎期从未与自身淋巴细胞接触过，机体不能识别为自身物质，如晶状体蛋白、脑组织、精子等；②修饰的自身抗原：在感染、药物、烧伤、电离辐射等因素影响下，自身组织的构象发生改变，成为自身抗原。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 970,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0971",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "以下不属于建立免疫耐受的临床应用为：",
+   "options": {
+    "A": "移植骨髓及胸腺",
+    "B": "防止感染",
+    "C": "自身抗原肽拮抗药的使用",
+    "D": "诱导产生具有特异拮抗作用的调节性 T 细胞",
+    "E": "多重抗感染的措施"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "建立免疫耐受的临床应用包括：口服免疫原，建立全身免疫耐受；静脉注射抗原，建立全身免疫耐受；移植骨髓及胸腺，诱导免疫耐受，延长移植物存活时间；可部分建立正常免疫系统的网络调节功能，减轻或缓解自身免疫病；转染基因：将供者同种异型基因转入受者骨髓肝细胞内，避免排斥反应发生；脱敏治疗，抑制IgE 型抗体的产生；防止感染。减少或缓解自身免疫病；诱导产生具有特异拮抗作用的调节性T 细胞；自身抗原肽拮抗药的使用。打破免疫耐受的临床应用包括：免疫原及免疫相关分子用于肿瘤免疫治疗；抗免疫抑制分子及调节性T 细胞用于肿瘤免疫；细胞因子及其抗体的应用；多重抗感染的措施，防止病原体产生抗原拮抗分子。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 971,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0972",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者，女，66 岁，因“头昏、乏力半年、加重，伴词不达意 1 月”，于今日上午到门诊就诊，以“高血压 2 型糖尿病、脑梗塞”收治入院。患者诉半年前无明显诱因开始头昏、乏力、伴嗜睡、神志恍惚，曾多次在门诊行扩管、活血化瘀等治疗，症状稍有缓解，于一周前患者头昏、乏力、嗜睡等症状明显加重，四肢活动障碍伴视物模糊，该患者应该首选哪种降压药：",
+   "options": {
+    "A": "硝苯地平",
+    "B": "可乐定",
+    "C": "卡托普利",
+    "D": "氯沙坦",
+    "E": "尼莫地平"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "高血压兼有冠心病的患者，选用硝苯地平为宜。伴有脑血管病的，选用尼莫地平。可乐定是中枢降压药，卡托普利、氯沙坦是肾素-血管紧张系统抑制药",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 972,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0973",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "以下属于选择性钙通道阻滞药的是：",
+   "options": {
+    "A": "硝苯地平",
+    "B": "氟桂利嗪",
+    "C": "普尼拉明",
+    "D": "哌克昔林",
+    "E": "利多卡因"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "选择性钙通道阻滞药包括硝苯地平、尼群地平、氨氯地平等，氟桂利嗪、普尼拉明、哌克昔林属于非选择性钙通道阻滞药，利多卡因是钠通道阻滞药。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 973,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0974",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "阵发性室上性心动过速的首选药是：",
+   "options": {
+    "A": "维拉帕米",
+    "B": "地尔硫卓",
+    "C": "奎尼丁",
+    "D": "普鲁卡因胺",
+    "E": "苯妥英钠"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "维拉帕米治疗室上性和房室结折返性心律失常效果好，是阵发性室上性心动过速的首选药。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 974,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0975",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患儿，女，1 岁。因体重轻，生长发育障碍；严重畸形，如小头，前额低斜，眼球小，指畸形，多指，足内翻，入院诊断为 13 三体综合征。该病发病原因是：",
+   "options": {
+    "A": "13 号染色体缺失",
+    "B": "多出一条 13 号染色体",
+    "C": "18 号染色体基因突变",
+    "D": "18 号染色体缺失",
+    "E": "多出一条 18 号染色体"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "13 三体综合征是多一条13 号染色体，女性发病率高于男性，患者常见核型为47,XX(XY)，+13。13 三体综合征患者的畸形和临床症状比 21 三体综合征患者严重。出生时体重轻，生长发育障碍；严重畸形，如小头，前额低斜，前脑发育缺陷(无嗅脑)，眼球小，或无眼球；2/3 唇裂、腭裂；耳位低，耳廓畸形，常有耳聋；80%以上伴有先天性心脏病；常有多囊肾、无脾；男性患者多为隐睾，女性患者有阴蒂肥大、卵巢发育不全、双阴道、双角子宫等；指(趾)畸形，多指(趾)，足内翻，有与 18 三体综合征相同的握拳姿势和摇椅样足、通贯掌；智力发育严重障碍，存活较久的患儿还有癫痫样发作等。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 975,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0976",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者男 32 岁，因扁桃体炎入院就诊，医嘱青霉素静脉输液，皮试阴性。输注 20 分钟，患者皮肤潮红、瘙痒，继而广泛的荨麻疹，立刻停止注射，进而出现胸闷、气急、喘鸣、憋气、发绀等表现。请问该反应属于以下哪种反应：",
+   "options": {
+    "A": "细胞溶解型超敏反应",
+    "B": "免疫复合物型超敏反应",
+    "C": "IV 型超敏反应",
+    "D": "I 型超敏反应",
+    "E": "以上都不属于"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "I 型超敏反应变应原包括药物或化学物质（如青霉素、磺胺、普鲁卡因、有机碘化合物等）、吸入性变应原（如花粉颗粒、尘螨排泄物、真菌菌丝及孢子、昆虫毒液、动物皮毛等）、食物变应原（如牛奶、鸡蛋、鱼虾、蟹贝等）、某些酶类物质（尘螨中的半胱氨酸蛋白导致呼吸道过敏反应，枯草菌溶素引发支气管哮喘）、IgE 型抗体和变应细胞（肥大细胞和嗜碱性粒细胞、嗜酸性粒细胞）",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 976,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0977",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "下列哪种细胞因子不是由淋巴细胞产生的：",
+   "options": {
+    "A": "IL-2",
+    "B": "IFN-γ",
+    "C": "IL-4",
+    "D": "EPO",
+    "E": "IL-10"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "EPO 是促红细胞生成素，是由肾脏产生的。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 977,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0978",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者，男，70 岁，高血压病史 5 年，近期血压升高，BP：170/100mmHg，今以“高血压”入院，遵医嘱服用降压药后，出现无痰干咳，可能与哪种药物有关：",
+   "options": {
+    "A": "卡托普利",
+    "B": "普鲁卡因胺",
+    "C": "苯妥英钠",
+    "D": "奎尼丁",
+    "E": "氯沙坦"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "卡托普利是血管紧张素转化酶抑制剂。适用于各型高血压，是目前抗高血压治疗的一线药物之一，无痰干咳是卡托普利最重要的不良反应，也是被迫停药的主要原因。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 978,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0979",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "γ-干扰素的功能不包括：",
+   "options": {
+    "A": "刺激肝细胞合成急性期蛋白",
+    "B": "是巨噬细胞激活因子",
+    "C": "能刺激 MHC-I 类分子的表达",
+    "D": "具有抗病毒作用",
+    "E": "能抑制细胞增殖"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "γ-干扰素的功能包括：抗病毒作用、抗菌作用、抗寄生虫作用、参与免疫调节、抗肿瘤作用。刺激肝细胞合成急性期蛋白，参与炎症反应的是白细胞介素-6。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 979,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0980",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "男性，62 岁，近 3 年出现咳嗽、咳痰、胸痛。体重持续性下降，因声音嘶哑来院就诊，现在通过免疫方法进行治疗。以下属于治疗该病的免疫学方法为：",
+   "options": {
+    "A": "抗免疫抑制分子及调节性 T 细胞",
+    "B": "静脉注射抗原",
+    "C": "诱导产生具有特异拮抗作用的调节性 T 细胞",
+    "D": "自身抗原肽拮抗药的使用",
+    "E": "以上都不正确"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "62 岁男性出现体重持续下降和咳嗽、咳痰，首先考虑肺癌。关于癌症的免疫治疗方法，应该选用抗免疫抑制分子及调节性T 细胞进行肿瘤免疫治疗，属于打破免疫耐受。其他选项皆为建立免疫耐受。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 980,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0981",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "患儿，1 岁。因患儿智力低下；生长发育迟缓；特殊面容，小头、耳位低、眼距宽、外眼角上斜、鼻梁低平、口常张开、舌大且常伸出口外；入院就诊，经诊断为 21 三体综合征。为常染色体疾病，该病发病原因是：",
+   "options": {
+    "A": "多出 5 号染色体",
+    "B": "多出 21 号染色体长",
+    "C": "5 号染色体短臂缺失",
+    "D": "21 号染色体短臂缺失",
+    "E": "5 号染色体缺失"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "）21 三体综合征，又称唐氏综合征，是人类最常见的一种染色体病。患者有三种不同的核型：三体、易位型和嵌合型。其中最常见的是三体，其核型为：47，XX，+21 或47，XY，+21。这种核型主。主要是由于：患者母亲在卵子发生过程中，在减数分裂时，21 号染色体不分离所致，这种不分离的概率随母亲年龄增高而增大。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 981,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0982",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "关于细胞因子下列哪项是错误的：",
+   "options": {
+    "A": "一种细胞因子可以作用于多种不同的靶细胞",
+    "B": "每种细胞因子都与其特异的细胞因子受体相结合",
+    "C": "所有细胞因子都可由 T 细胞产生",
+    "D": "T 细胞的细胞因子基因在受到刺激后的数小时内活化",
+    "E": "细胞因子受体的表达可以受细胞因子自身控制"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "细胞因子的产生不是特异的一种因子，可由多种细胞产生，只是产生时间与量不同，IL-1 主要由单核-巨噬细胞产生。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 982,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0983",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者，男性，4 岁，因高热、意识模糊而入院，查体发现患儿面色苍白，昏迷，有时有惊厥，两瞳孔不等大，呼吸微弱，粪检有脓细胞 4 个，白细胞数 16×109/L，脑脊液正常。常规粪便培养发现有革兰阴性杆菌，无动力。该患儿最有可能感染下列哪种病原体：",
+   "options": {
+    "A": "伤寒沙门菌",
+    "B": "痢疾志贺菌",
+    "C": "大肠埃希菌",
+    "D": "空肠弯曲菌",
+    "E": "霍乱弧菌"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "题干中提及“粪检有脓细胞4 个，白细胞数16×109/L，脑脊液正常。常规粪便培养发现有革兰阴性杆菌，无动力。”可初步判断患者为细菌性痢疾。细菌性痢疾亦称为志贺菌病，是志贺菌属（痢疾杆菌）引起的肠道传染病。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 983,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0984",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "关于白细胞分化抗原，下列错误的是：",
+   "options": {
+    "A": "白细胞分化抗原大都是跨膜的蛋白或糖蛋白",
+    "B": "白细胞分化抗原可以以 GPI 连接方式锚定在细胞膜上",
+    "C": "大多数白细胞分化抗原是碳水化合物",
+    "D": "白细胞分化抗原不只表达在白细胞上",
+    "E": "以上都不是"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "大多数白细胞分化抗原是跨膜蛋白或糖蛋白。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 984,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0985",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者，女性，8 岁，因突然高热（40.5℃）来看急诊。查体：发现患儿颈项强直，嗜睡，胸膜部出现红疹，逐渐融合成一片片瘀斑，出现喷射状呕吐。腰椎穿刺检查显示脑脊液浑浊，有大量中性粒细胞和革兰阴性菌。下列符合该患儿最可能感染的病原菌是：",
+   "options": {
+    "A": "破伤风梭菌",
+    "B": "伤寒沙门菌",
+    "C": "肺炎链球菌",
+    "D": "流感嗜血杆菌",
+    "E": "脑膜炎奈瑟球菌"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "题干中提及“查体：发现患儿颈项强直，嗜睡，胸膜部出现红疹，逐渐融合成一片片瘀斑，出现喷射状呕吐。腰椎穿刺检查显示脑脊液浑浊，有大量中性粒细胞和革兰阴性菌。”可初步判断患者为脑脊髓膜炎，脑膜炎奈瑟菌简称脑膜炎球菌，是引起流行性脑脊髓膜炎的病原体。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 985,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0986",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "地方性斑疹伤寒的媒介是：",
+   "options": {
+    "A": "螨",
+    "B": "蚊子",
+    "C": "鼠蚤",
+    "D": "蜱",
+    "E": "鼠蚤"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "地方性斑疹伤寒又称蚤型斑疹伤寒或鼠型斑疹伤寒，由莫氏立克次氏体引起，经鼠蚤传播的急性传染病。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 986,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0987",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "以下哪个是奎尼丁的不良反应：",
+   "options": {
+    "A": "出血倾向",
+    "B": "过敏反应",
+    "C": "骨质疏松症",
+    "D": "低血糖",
+    "E": "金鸡纳反应"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "奎尼丁的不良反应有腹泻（最常见），金鸡纳反应：表现为头痛、头晕、耳鸣、腹泻、恶心、视力模糊等症状。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 987,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0988",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "攻击肿瘤细胞最有效的活性物质是：",
+   "options": {
+    "A": "补体",
+    "B": "乙型溶素",
+    "C": "细胞因子",
+    "D": "IgG",
+    "E": "溶菌酶"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "能杀伤肿瘤细胞的的细胞因子是TNF，TNF 属于细胞因子。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 988,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0989",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者男，60 岁，因高血压入院，在住院期间，医生给他开了很多药，但他发现有的药物需要他 3小时吃一次，有的需要他 6 小时吃一次，请问医生为什么这么下医嘱：",
+   "options": {
+    "A": "根据药物的效应大小",
+    "B": "根据药物的半衰期",
+    "C": "根据药物的作用",
+    "D": "根据药物药理",
+    "E": "根据药物的毒性"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "临床确定给药时间间隔，是通过药物消除半衰期来确定的。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 989,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0990",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "袢利尿药主要作用部位是：",
+   "options": {
+    "A": "近曲小管",
+    "B": "远曲小管",
+    "C": "髓袢升支粗段",
+    "D": "集合管",
+    "E": "髓袢细段"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "袢利尿药主要作用部位在髓袢升支粗段，选择性地抑制 NaCl的重吸收。由于本类药物对NaCl 重吸收具有强大的抑制能力，而且不易导致酸中毒，因此是目前最有效的利尿药。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 990,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0991",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "属于对乙酰氨基酚的药理特点是：",
+   "options": {
+    "A": "不良反应会出现休克",
+    "B": "胃肠道反应明显",
+    "C": "过量中毒可引起肝损害、胃肠道反应最小",
+    "D": "严重的出血倾向",
+    "E": "严重呕吐"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "对乙酰氨基酚是最常用的非抗炎解热镇痛药，抗炎作用极弱。过量中毒可引起肝损害、胃肠道反应最小的非甾体抗炎药。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 991,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0992",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者，高某，80 岁，患有神经系统变性疾病，最近肢体在安静的时候也一直在不停地颤抖，其不可与下列哪种药物合用：",
+   "options": {
+    "A": "维生素 B6",
+    "B": "维生素 K",
+    "C": "维生素 A",
+    "D": "维生素 C",
+    "E": "维生素 B1"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "维生素B6 可加速左旋多巴在外周组织转化成多巴胺，增加副作用，降低疗效，不可同服。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 992,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0993",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "下列物质中哪种不属于分泌型分子：",
+   "options": {
+    "A": "C3",
+    "B": "SIgA",
+    "C": "Smlg",
+    "D": "IL-2",
+    "E": "TNF-a"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "分泌型分子有免疫球蛋白，补体、细胞因子、CD 分子、黏附分子、MHC 分子。C3 属于补体；SIgA 属于分泌型免疫球蛋白；IL-2 和TNF-a 属于细胞因子；Smlg 是B 细胞的抗原识别受体，也是B 细胞特异的表面标志。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 993,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0994",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "高血压伴有脑血管病的首选药是：",
+   "options": {
+    "A": "硝苯地平",
+    "B": "维拉帕米",
+    "C": "苯妥英钠",
+    "D": "尼莫地平",
+    "E": "地尔硫卓"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "高血压伴有脑血管病的，选用尼莫地平。兼有冠心病的患者，选用硝苯地平为宜。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 994,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0995",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者，黄某，40 岁，因金黄色葡萄球菌感染在后背起了痈，医生下医嘱给予青霉素治疗，在给患者做青霉素皮试的时候引起了过敏，首选药物是：",
+   "options": {
+    "A": "肾上腺素",
+    "B": "多巴胺",
+    "C": "去甲肾上腺素",
+    "D": "葡萄糖酸钙",
+    "E": "异丙肾上腺素"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "肾上腺素激动β受体，使心肌兴奋，支气管痉挛快速舒张，激动ɑ受体，使外周小血管收缩而升高血压；还能对抗部分过敏介质释放。因此可作为过敏抢救的首选药。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 995,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0996",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者，男性，28 个月，近从墨西哥返回，恶心、腹部绞痛、低热、大量水样泻。粪便标本查到可发酵乳糖的革兰阴性杆菌，此菌在伊红-美蓝琼脂上呈绿色。下列属于该患者感染的病原体正确的是：",
+   "options": {
+    "A": "肠致病型大肠杆菌",
+    "B": "肠出血型大肠杆菌",
+    "C": "鼠伤寒沙门菌",
+    "D": "轮状病毒",
+    "E": "肠产毒型大肠杆菌"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "题干中提及“近从墨西哥返回，恶心、腹部绞痛、低热、大量水样泻。粪便标本查到可发酵乳糖的革兰阴性杆菌，此菌在伊红-美蓝琼脂上呈绿色。”可判断患者为肠产毒型大肠杆菌（ETEC），常引起婴幼儿和旅行者腹泻，由摄入污染的水或食物所致，ETEC 在小肠中繁殖，产生耐热及不耐热肠毒素，导致水样泻，ETEC 为G 杆菌，发酵乳糖，在伊红-美蓝琼脂上呈现蓝绿色或紫黑色。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 996,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0997",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "变异型心绞痛的首选药是：",
+   "options": {
+    "A": "尼卡地平",
+    "B": "硝苯地平",
+    "C": "尼莫地平",
+    "D": "氟桂利嗪",
+    "E": "地尔硫卓"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "变异型心绞痛，硝苯地平疗效最佳；稳定型心绞痛三代钙通道阻滞药均可使用；不稳定型心绞痛维拉帕米和地尔硫卓疗效较好，硝苯地平宜与β受体阻断药合用。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 997,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0998",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "关于细胞因子的作用特点哪项是错误的：",
+   "options": {
+    "A": "MHC 限制性",
+    "B": "高效性",
+    "C": "多效性",
+    "D": "重叠性",
+    "E": "分泌性"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "细胞因子的作用特点包括：（1）高效性：细胞表面存在相应的高亲和性受体；（2）非特异性：细胞因子对靶细胞的作用为非抗原特异性，不受MHC 限制；（3）多效性：一种细胞因子作用于多种靶细胞，产生多种生物学效应。（4）重叠性：几种不同的细胞因子作用于同一种靶细胞，产生相同或相似的生物学效应。（5）拮抗性：一种细胞因子抑制其他细胞因子的功能。（6）协同性：一种细胞因子强化另一种细胞因子的功能。（7）网络性：众多的细胞因子在机体内相互促进或相互抑制，细胞因子受体表达相互调控，形成十分复杂的细胞因子调节网络。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 998,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-0999",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A2",
+   "stem": "患者，男，16 岁。典型核型：47，XXY。主要病因是亲代配子发生时减数分裂或受精卵有丝分裂早期，X 染色体不分离所致最可能的诊断是：",
+   "options": {
+    "A": "先天性睾丸发育不全综合征",
+    "B": "先天性卵巢发育不全综合征",
+    "C": "血友病",
+    "D": "白化病",
+    "E": "红绿色盲"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "先天性睾丸发育不全综合征：典型核型：47，XXY。主要病因是亲代配子发生时减数分裂或受精卵有丝分裂早期，X 染色体不分离所致。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 999,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  },
+  {
+   "id": "YS1000-1000",
+   "subject": "基础医学",
+   "chapter": "基础医学（二）",
+   "type": "A1",
+   "stem": "以下属于中枢性交感神经抑制药的抗高血压药物是：",
+   "options": {
+    "A": "可乐定",
+    "B": "美卡拉明",
+    "C": "利血平",
+    "D": "樟磺咪芬",
+    "E": "胍乙啶"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "可乐定是中枢性交感神经抑制药，美卡拉明、樟磺咪芬是神经节阻断药，利血平、胍乙啶是去甲肾上腺素能神经末梢阻滞药。",
+   "warning": "题目与答案整理自《口腔历年医考1000真题》；年份与来源待核验，当前未完成平台医学审核。",
+   "reference": "《口腔历年医考1000真题》",
+   "citation": {
+    "verified": false,
+    "publisher": null,
+    "title": "《口腔历年医考1000真题》",
+    "edition": null,
+    "chapter": "基础医学（二）",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "历年真题",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "zhiyi-1000-08",
+   "paperName": "口腔历年医考1000真题 · 基础医学（二）",
+   "durationMinutes": 90,
+   "order": 1000,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "past_paper",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。"
+  }
+ ]
+}

@@ -9,6 +9,12 @@ import 'package:dentstudy/store.dart';
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
+  Future<void> authorize(StudyStore store) async {
+    store.userId = 'author-fixture';
+    await http.runWithClient(() => store.refreshCompanionAccess(),
+        () => MockClient((_) async => http.Response('{"isAdmin":true}', 200)));
+  }
+
   setUp(() {
     SharedPreferences.setMockInitialValues({});
     TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
@@ -60,6 +66,8 @@ void main() {
     await store.init();
     store.baseUrl = 'https://xiaochi-test.invalid';
     store.token = 'xiaochi-test-token';
+    await authorize(store);
+    await store.setCompanionAppearance('xiaochi');
     final history = List.generate(
         8,
         (index) => {
@@ -78,6 +86,7 @@ void main() {
                   'Bearer xiaochi-test-token');
               final payload = jsonDecode(request.body) as Map<String, dynamic>;
               expect(payload['message'], '我该怎么复习？');
+              expect(payload['companion'], 'xiaochi');
               expect((payload['history'] as List).length, 6);
               return http.Response(
                   jsonEncode({'reply': '先完成今天的复习，再做 5 道新题。'}), 200,
@@ -90,6 +99,7 @@ void main() {
     await store.init();
     store.baseUrl = 'https://xiaochi-test.invalid';
     store.token = 'xiaochi-test-token';
+    await authorize(store);
     await http.runWithClient(() async {
       final reply = await store.chatWithXiaochi(
           message: '牙周炎复习先抓什么？', history: const [], deep: true);
@@ -105,6 +115,31 @@ void main() {
                     'thinkingSummary': '定义 → 危险因素 → 两题巩固'
                   }),
                   200,
+                  headers: {'content-type': 'application/json; charset=utf-8'});
+            }));
+  });
+
+  test('大肥鱼请求携带固定形象枚举且不发送客户端系统提示', () async {
+    final store = StudyStore();
+    await store.init();
+    store.baseUrl = 'https://xiaochi-test.invalid';
+    store.token = 'offline-test-token';
+    store.userId = 'author-fixture';
+    await http.runWithClient(() => store.refreshCompanionAccess(),
+        () => MockClient((_) async => http.Response('{"isAdmin":true}', 200)));
+    await store.setCompanionAppearance('dafeiyu');
+    await http.runWithClient(() async {
+      final reply =
+          await store.chatWithXiaochi(message: '你叫什么？', history: const []);
+      expect(reply.text, '我叫大肥鱼。');
+      expect(store.events, isEmpty);
+    },
+        () => MockClient((request) async {
+              final payload = jsonDecode(request.body) as Map<String, dynamic>;
+              expect(payload['companion'], 'dafeiyu');
+              expect(payload.containsKey('system'), isFalse);
+              expect(payload.containsKey('systemPrompt'), isFalse);
+              return http.Response(jsonEncode({'reply': '我叫大肥鱼。'}), 200,
                   headers: {'content-type': 'application/json; charset=utf-8'});
             }));
   });

@@ -5,8 +5,8 @@ import os
 import tempfile
 from pathlib import Path
 
-SUBJECTS = ['口腔解剖生理学', '口腔组织病理学', '牙体牙髓病学', '牙周病学', '口腔黏膜病学', '口腔颌面外科学', '口腔修复学', '口腔正畸学']
-TYPES = ['A1', 'A2', 'A3', 'A4', 'B', '简答题', '案例分析']
+SUBJECTS = ['口腔解剖生理学', '口腔组织病理学', '牙体牙髓病学', '牙周病学', '口腔黏膜病学', '口腔颌面外科学', '口腔修复学', '口腔正畸学', '口腔预防医学', '基础医学', '口腔内科学', '儿童口腔医学', '口腔临床药物学', '口腔材料学', '口腔生物学', '口腔科学综合试卷', '口腔颌面医学影像诊断学', '𬌗学']
+TYPES = ['A1', 'A2', 'A3', 'A4', 'B', '多选题', '简答题', '案例分析']
 
 
 def validate(bank, production=False):
@@ -44,6 +44,11 @@ def validate(bank, production=False):
         opts = q['options']
         if not isinstance(opts, dict) or not all(isinstance(k,str) and isinstance(v,str) for k,v in opts.items()):
             errors.append(prefix + ': options 必须为字符串映射')
+        elif q['type'] == '多选题':
+            answer = q['answer']
+            if (len(opts) < 2 or not isinstance(answer, str) or len(answer) < 2
+                    or answer != ''.join(sorted(set(answer))) or any(k not in opts for k in answer)):
+                errors.append(prefix + ': 多选题答案须为属于选项的有序且不重复字母组合')
         elif q['type'] not in ['简答题','案例分析']:
             if len(opts)<2 or q['answer'] not in opts:
                 errors.append(prefix + ': 客观题至少两个选项，答案须属于选项')

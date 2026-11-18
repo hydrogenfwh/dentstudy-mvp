@@ -11,7 +11,8 @@ class ExamYearCatalog {
 
   static bool isHistorical(Question q) =>
       q.data['isDemo'] == false &&
-      const ['past_paper', 'recalled_paper'].contains(q.data['sourceType']);
+      const ['past_paper', 'recalled_paper', 'mock']
+          .contains(q.data['sourceType']);
 
   static Map getProvenance(Question q) => q.data['examProvenance'] is Map
       ? q.data['examProvenance'] as Map

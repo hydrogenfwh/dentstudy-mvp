@@ -4,10 +4,33 @@ import 'exam_year_catalog.dart';
 /// A catalogue is a view of the loaded bank, never another copy of its content.
 class QuestionCatalog {
   static const minimumQuestions = 50;
+  static const _chapterNumbers = {
+    '一': 1,
+    '二': 2,
+    '三': 3,
+    '四': 4,
+    '五': 5,
+    '六': 6,
+    '七': 7,
+    '八': 8,
+    '九': 9,
+    '十': 10,
+    '十一': 11,
+    '十二': 12,
+    '十三': 13,
+    '十四': 14,
+    '十五': 15,
+    '十六': 16,
+    '十七': 17,
+  };
   final List<Question> all;
   final String mode;
-  late final List<Question> _inMode =
-      all.where((q) => q.modes.contains(mode)).toList();
+  late final List<Question> _inMode = all
+      .where((q) => q.modes.contains(mode))
+      .map((q) => q.chapterFor(mode) == q.chapter
+          ? q
+          : Question({...q.data, 'chapter': q.chapterFor(mode)}))
+      .toList();
   late final Map<String, List<Question>> _materials = _groupMaterials();
   Map<String, List<Question>> _groupMaterials() {
     final groups = <String, List<Question>>{};
@@ -31,6 +54,26 @@ class QuestionCatalog {
       .where((q) => q.data['isDemo'] == false && available(q.subject))
       .toList();
   String get countLabel => '本机 ${all.length} 题 · $mode可练 ${learnable.length} 题';
+
+  /// Keep numbered Chinese chapters in textbook order rather than source-file
+  /// insertion order.  Unnumbered chapter names retain a predictable order.
+  static int chapterOrder(String chapter) {
+    if (chapter.startsWith('总论')) return 0;
+    final match = RegExp(r'^\s*第?([一二三四五六七八九十]+)[、章]').firstMatch(chapter);
+    return match == null
+        ? 1 << 20
+        : (_chapterNumbers[match.group(1)] ?? 1 << 20);
+  }
+
+  static List<String> sortedChapters(Iterable<String> chapters) {
+    final values = chapters.toList();
+    values.sort((a, b) {
+      final order = chapterOrder(a).compareTo(chapterOrder(b));
+      return order != 0 ? order : a.compareTo(b);
+    });
+    return values;
+  }
+
   static String sourceLabel(Question q) {
     if (q.data['isDemo'] == true) return '演示题';
     if (q.data['sourceType'] == 'past_paper')

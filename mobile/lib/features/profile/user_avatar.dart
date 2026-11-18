@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import '../../app/shared.dart' show teal;
+import 'vip_emblem.dart';
 
 class UserAvatar extends StatelessWidget {
   final String value;
@@ -17,28 +18,11 @@ class UserAvatar extends StatelessWidget {
         Positioned.fill(child: _avatar()),
         if (vip)
           Positioned(
-              right: -2,
-              bottom: -2,
-              child: Semantics(
-                  label: 'VIP 金牙标识',
-                  child: Container(
-                      width: radius.clamp(15, 23).toDouble(),
-                      height: radius.clamp(15, 23).toDouble(),
-                      alignment: Alignment.center,
-                      decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          color: const Color(0xFFFFC94C),
-                          border: Border.all(color: Colors.white, width: 1.5),
-                          boxShadow: const [
-                            BoxShadow(
-                                color: Color(0x667A5813),
-                                blurRadius: 4,
-                                offset: Offset(0, 1))
-                          ]),
-                      child: Text('🦷',
-                          style: TextStyle(
-                              fontSize: radius.clamp(10, 15).toDouble(),
-                              height: 1)))))
+              right: -1,
+              bottom: -1,
+              child: VipEmblem(
+                  size: radius.clamp(14, 22).toDouble(),
+                  semanticLabel: 'VIP 会员标识'))
       ]));
 
   Widget _avatar() {

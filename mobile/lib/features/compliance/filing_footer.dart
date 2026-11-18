@@ -18,7 +18,7 @@ class FilingFooter extends StatelessWidget {
             foregroundColor: Theme.of(context).colorScheme.onSurfaceVariant,
             textStyle: const TextStyle(fontSize: 12),
           ),
-          child: const Text('浙ICP备2026084344号-1'),
+          child: Text('浙ICP备2026084344号-1'),
         ),
       ),
     );

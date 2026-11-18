@@ -2,14 +2,17 @@ import 'dart:typed_data';
 import 'dart:ui' as ui;
 import 'package:flutter/material.dart';
 
-/// Clear thick glass: a full-pane lens with a little more visible curvature.
-/// All regions sample the actual backdrop, with no tint, blur or dark bands.
-/// Matrix backdrop filters work in CanvasKit without Impeller-only shaders.
+/// Clear glass with one lightweight full-pane refraction pass.
+///
+/// A previous version used three high-quality backdrop filters for every
+/// scrolling card. On mobile web each filter has to re-sample the page during
+/// a drag, so a long list could turn one gesture into dozens of offscreen
+/// renders. One medium-quality pass keeps the transparent lens effect while
+/// leaving substantially more frame budget for scrolling and input.
 class GlassRefraction extends StatelessWidget {
-  /// The current optical displacement is deliberately 80% stronger than the
-  /// first clear-glass pass. This only moves backdrop pixels; it does not add
-  /// a tint, absorption layer or colored edge.
-  static const refractionScale = 1.8;
+  /// This only moves backdrop pixels; it does not add tint, absorption or a
+  /// blur layer. Kept modest so the single pass remains smooth on mobile web.
+  static const refractionScale = .82;
   final double radius;
   const GlassRefraction({super.key, required this.radius});
 
@@ -23,65 +26,33 @@ class GlassRefraction extends StatelessWidget {
         if (!w.isFinite || !h.isFinite || w < 12 || h < 12) {
           return const SizedBox.shrink();
         }
-        final shoulder = (w < h ? w : h).clamp(0.0, 80.0) / 8;
-        Widget region(double inset, double? width, double displacement) {
-          final matrix = Float64List.fromList([
-            1 + displacement * 2 / w,
-            0,
-            0,
-            0,
-            0,
-            1 + displacement * 2 / h,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            -displacement,
-            -displacement,
-            0,
-            1,
-          ]);
-          return Positioned.fill(
-              child: ClipPath(
-                  clipper: GlassLensRegion(radius, inset: inset, width: width),
-                  child: BackdropFilter(
-                      filter: ui.ImageFilter.matrix(matrix,
-                          filterQuality: FilterQuality.high),
-                      child: const SizedBox.expand())));
-        }
-
-        // Non-overlapping regions avoid repeatedly filtering the same pixels.
-        // Curvature is approximated with stepped magnification, not dark strokes.
-        return Stack(children: [
-          region(0, shoulder * .4, shoulder * 1.6 * refractionScale),
-          region(
-              shoulder * .4, shoulder * .6, shoulder * 1.08 * refractionScale),
-          region(shoulder, null, shoulder * .52 * refractionScale),
+        final displacement =
+            (w < h ? w : h).clamp(0.0, 80.0) / 8 * refractionScale;
+        final matrix = Float64List.fromList([
+          1 + displacement * 2 / w,
+          0,
+          0,
+          0,
+          0,
+          1 + displacement * 2 / h,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -displacement,
+          -displacement,
+          0,
+          1,
         ]);
+        // The parent StudySurface already clips this layer to the same rounded
+        // rectangle. Avoiding a second clip saves another compositing step.
+        return BackdropFilter(
+            filter: ui.ImageFilter.matrix(matrix,
+                filterQuality: FilterQuality.medium),
+            child: const SizedBox.expand());
       })));
-}
-
-class GlassLensRegion extends CustomClipper<Path> {
-  final double radius, inset;
-  final double? width;
-  const GlassLensRegion(this.radius, {required this.inset, this.width});
-  @override
-  Path getClip(Size size) {
-    RRect shape(double d) => RRect.fromRectAndRadius(
-        (Offset.zero & size).deflate(d),
-        Radius.circular((radius - d).clamp(0, radius)));
-    final path = Path()
-      ..fillType = PathFillType.evenOdd
-      ..addRRect(shape(inset));
-    if (width != null) path.addRRect(shape(inset + width!));
-    return path;
-  }
-
-  @override
-  bool shouldReclip(GlassLensRegion old) =>
-      old.radius != radius || old.inset != inset || old.width != width;
 }
 
 /// Keeps scrolling text from colliding with transparent navigation labels.
@@ -94,9 +65,12 @@ class GlassContentViewport extends StatelessWidget {
       {super.key, required this.enabled, required this.child});
   @override
   Widget build(BuildContext context) {
-    if (!enabled) return child;
-    final padding = MediaQuery.paddingOf(context);
-    return ClipRect(clipper: _ContentInsets(padding), child: child);
+    // Keep this wrapper in the element tree in both modes.  Returning `child`
+    // directly when glass was disabled re-parented every tab and disposed its
+    // ListView, which sent a reader back to the top of a long page.
+    final clipper =
+        enabled ? _ContentInsets(MediaQuery.paddingOf(context)) : null;
+    return ClipRect(clipper: clipper, child: child);
   }
 }
 

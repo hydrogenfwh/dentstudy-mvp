@@ -43,7 +43,7 @@ class StatisticsPage extends StatelessWidget {
         .toList();
     final maximum = counts.fold<int>(0, max);
     return PageBody(children: [
-      heading('学习看得见', sub: '本周按北京时间周一开始 · 跨学习方向统计'),
+      heading(tr('学习看得见'), sub: tr('本周按北京时间周一开始 · 跨学习方向统计')),
       box(Wrap(spacing: 24, runSpacing: 18, children: [
         _metric(
             '${weekly.map((a) => a['questionId']).toSet().length}', '本周题数（去重）'),
@@ -58,15 +58,15 @@ class StatisticsPage extends StatelessWidget {
         _metric('${metrics.streak} 天', '连续学习'),
       ])),
       const SizedBox(height: 8),
-      const Text('用时从新版开始记录，按会话开始日期归属；旧记录与其他设备用时未计入。',
+      Text(tr('用时从新版开始记录，按会话开始日期归属；旧记录与其他设备用时未计入。'),
           style: TextStyle(fontSize: 12, color: Colors.blueGrey)),
-      heading('近 7 天'),
+      heading(tr('近 7 天')),
       if (maximum == 0)
-        box(const Column(children: [
+        box(Column(children: [
           Icon(Icons.bar_chart_rounded, size: 40),
           SizedBox(height: 12),
-          Text('近 7 天还没有作答记录'),
-          Text('完成一次练习后，这里会显示每天学过的题数。')
+          Text(tr('近 7 天还没有作答记录')),
+          Text(tr('完成一次练习后，这里会显示每天学过的题数。'))
         ]))
       else
         box(SizedBox(
@@ -90,25 +90,25 @@ class StatisticsPage extends StatelessWidget {
                           style: const TextStyle(fontSize: 10))
                     ]))
             ]))),
-      heading('下一步复盘', sub: '根据错题、到期复习和正确率排序；从最需要补的章节开始'),
+      heading(tr('下一步复盘'), sub: tr('根据错题、到期复习和正确率排序；从最需要补的章节开始')),
       if (metrics.priorityChapters.isEmpty)
-        const Text('还没有需要优先复盘的章节。完成练习后会按你的真实作答生成建议。')
+        Text(tr('还没有需要优先复盘的章节。完成练习后会按你的真实作答生成建议。'))
       else
         for (final qs in metrics.priorityChapters.take(3))
           studyCard(
               child: ListTile(
-                  title: Text('${qs.first.subject} · ${qs.first.chapter}'),
+                  title: Text('${tr(qs.first.subject)} · ${qs.first.chapter}'),
                   subtitle: Text(metrics.recommendation(qs)),
                   trailing: const Icon(Icons.chevron_right),
                   onTap: () => _chapter(context, qs, metrics))),
-      heading('薄弱章节', sub: '已作答客观题正确率低于 80% · 小样本仅供参考'),
+      heading(tr('薄弱章节'), sub: tr('已作答客观题正确率低于 80%')),
       if (metrics.weakChapters.isEmpty)
-        const Text('暂无薄弱章节，完成练习后会生成建议。')
+        Text(tr('暂无薄弱章节，完成练习后会生成建议。'))
       else
         for (final qs in metrics.weakChapters)
           studyCard(
               child: ListTile(
-                  title: Text('${qs.first.subject} · ${qs.first.chapter}'),
+                  title: Text('${tr(qs.first.subject)} · ${qs.first.chapter}'),
                   subtitle: Text(
                       '正确率 ${LearningMetrics.percent(metrics.accuracy(qs))} · ${metrics.attemptsFor(qs).length} 次作答\n'
                       '${metrics.unresolvedWrong(qs) > 0 ? '建议先完成 ${metrics.unresolvedWrong(qs)} 道错题巩固' : '建议复习本章已学题目'}'),
@@ -120,10 +120,10 @@ class StatisticsPage extends StatelessWidget {
   Widget _metric(String value, String label) => SizedBox(
       width: 150,
       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-        Text(value,
+        Text(tr(value),
             style: TextStyle(
                 fontSize: 24, fontWeight: FontWeight.bold, color: teal)),
-        Text(label, style: const TextStyle(fontSize: 12))
+        Text(tr(label), style: const TextStyle(fontSize: 12))
       ]));
   void _chapter(
       BuildContext context, List<Question> qs, LearningMetrics metrics) {
@@ -140,7 +140,7 @@ class StatisticsPage extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      heading(qs.first.chapter, sub: qs.first.subject),
+                      heading(qs.first.chapter, sub: tr(qs.first.subject)),
                       Text(
                           '已学 ${metrics.learned(qs)} / ${qs.length} · 错题 ${wrong.length} · 待复习 ${metrics.due(qs)}'),
                       Text('最近学习：${metrics.lastDay(qs)}'),

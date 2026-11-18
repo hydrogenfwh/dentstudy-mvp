@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '../../app/shared.dart';
+import 'account_deletion_page.dart';
 
 enum PolicyTopic { agreement, privacy, copyright, submission, deletion }
 
@@ -15,7 +16,7 @@ class PolicyPage extends StatelessWidget {
       return PolicyDetailPage(topic: initialTopic!);
     }
     return Scaffold(
-        appBar: AppBar(title: const Text('服务与规则')),
+        appBar: AppBar(title: Text('服务与规则')),
         body: PageBody(children: [
           const SizedBox(height: 12),
           Text('把需要知道的事放在这里，不打扰刷题。',
@@ -23,7 +24,7 @@ class PolicyPage extends StatelessWidget {
           const SizedBox(height: 14),
           box(Column(children: [
             _topicTile(context, PolicyTopic.agreement, Icons.article_outlined,
-                '用户协议', '免费学习项目的使用范围'),
+                '用户协议', 'DentStudy 学习服务的使用范围'),
             const Divider(height: 1),
             _topicTile(context, PolicyTopic.privacy,
                 Icons.admin_panel_settings_outlined, '隐私说明', '账号、学习记录与评论如何使用'),
@@ -35,10 +36,10 @@ class PolicyPage extends StatelessWidget {
                 Icons.upload_file_outlined, '题库投稿规则', '投稿前请先确认你拥有分享权限'),
             const Divider(height: 1),
             _topicTile(context, PolicyTopic.deletion,
-                Icons.delete_outline_rounded, '数据删除申请', '复制申请模板后发送给作者'),
+                Icons.delete_outline_rounded, '数据删除申请', '应用内删除账号，或申请删除指定资料'),
           ])),
           const SizedBox(height: 18),
-          const Text('本说明用于帮助你安全使用 DentStudy，不替代适用法律规定。',
+          Text('本说明用于帮助你安全使用 DentStudy，不替代适用法律规定。',
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 12, color: Colors.blueGrey)),
         ]));
@@ -81,6 +82,37 @@ class PolicyDetailPage extends StatelessWidget {
                   style: const TextStyle(height: 1.65, color: Colors.blueGrey)),
               const SizedBox(height: 18),
             ],
+            if (topic == PolicyTopic.agreement) ...[
+              OutlinedButton.icon(
+                onPressed: () => Navigator.of(context).push(MaterialPageRoute(
+                  builder: (_) => Scaffold(
+                    appBar: AppBar(title: const Text('营业执照')),
+                    body: Center(
+                        child: InteractiveViewer(
+                      minScale: 0.8,
+                      maxScale: 4,
+                      child: const RotatedBox(
+                        quarterTurns: 3,
+                        child: Image(
+                            image: AssetImage('assets/business-license.jpg'),
+                            semanticLabel: '杭州临安智者企业服务工作室营业执照'),
+                      ),
+                    )),
+                  ),
+                )),
+                icon: const Icon(Icons.badge_outlined),
+                label: const Text('查看营业执照'),
+              ),
+              const SizedBox(height: 18),
+            ],
+            if (topic == PolicyTopic.deletion) ...[
+              FilledButton.icon(
+                  onPressed: () => Navigator.of(context).push(MaterialPageRoute(
+                      builder: (_) => const AccountDeletionPage())),
+                  icon: const Icon(Icons.person_remove_outlined),
+                  label: Text('删除账号')),
+              const SizedBox(height: 18),
+            ],
             if (content.template != null) ...[
               Container(
                   width: double.infinity,
@@ -102,7 +134,7 @@ class PolicyDetailPage extends StatelessWidget {
             ]
           ])),
           const SizedBox(height: 22),
-          const Text('联系邮箱：dentstudy1126@aka.yeah.net',
+          Text('联系邮箱：dentstudy1126@aka.yeah.net',
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 12, color: Colors.blueGrey)),
         ]));
@@ -129,22 +161,39 @@ _PolicyContent _contentFor(PolicyTopic topic) {
   const email = 'dentstudy1126@aka.yeah.net';
   switch (topic) {
     case PolicyTopic.agreement:
-      return const _PolicyContent('用户协议', 'DentStudy 是一个个人维护的免费学习工具。', [
+      return const _PolicyContent(
+          '用户协议', '请在使用齿间（DentStudy）前阅读以下说明；有疑问可联系我们。', [
+        _PolicySection('服务与联系',
+            '齿间目前由网站负责人以个人名义运营，提供口腔医学学习与复习工具。负责人亦持有“杭州临安智者企业服务工作室（个体工商户）”营业执照；这不表示网站当前以该工作室名义运营。服务问题、订单争议或投诉请联系 dentstudy1126@aka.yeah.net。'),
         _PolicySection('使用范围',
-            '网站仅用于个人学习与复习，不提供诊疗、处方或考试通过承诺。题目解析和学习建议应结合正规教材、课程及专业人士意见核对。'),
+            '网站和 App 用于个人学习与复习，题库仍在建设，题目、解析和 AI 回答可能不准确或不完整。它们不提供诊疗、处方或考试通过承诺；请结合权威教材、课程及专业人士意见核对，不要据此独立作出临床决定。'),
+        _PolicySection('账号与记录',
+            '注册后请保管好密码，不要将账号转借他人。访客数据主要保存在当前设备，清除浏览器数据、卸载或更换设备可能导致记录丢失；登录账号后的同步情况以页面和实际网络状态为准。'),
+        _PolicySection('会员、价格与续费',
+            '题库还在搭建，请勿充值。页面展示的方案及价格仅以实际下单页面为准。月卡为手动续费，不会自动扣款；其他方案的有效期与费用请在下单前查看。会员权益与账号关联，请确认登录了正确账号。'),
+        _PolicySection('订单与退款',
+            '如发生重复扣款、未到账或对退款有疑问，请联系邮箱，提供订单号、支付时间和问题说明，请勿发送密码或验证码。我们会核对订单与支付状态，按照实际服务情况、双方约定和适用法律处理，不以本说明排除法律规定的消费者权利。删除账号不会自动发起退款。'),
         _PolicySection('你的责任',
-            '请使用合法账号并妥善保管密码；不要发布侵犯他人著作权、肖像权、隐私权或其他权益的内容，也不要上传含个人病历、联系方式等敏感信息的材料。'),
+            '请合法使用服务，不要发布违法、骚扰、侵权内容，也不要上传个人病历、他人联系方式等敏感信息，或未经授权的教材、试卷及资料。聊天时请尊重他人，不要泄露隐私。'),
         _PolicySection('内容处理',
             '对涉嫌违法、侵权或明显不适合公开的内容，DentStudy 可先行隐藏、限制使用或删除；必要时会配合处理合法有效的投诉。'),
+        _PolicySection('服务变更与问题反馈',
+            '功能可能因维护、网络、设备或服务调整而变化或暂时不可用；重大变化将通过适当方式说明。遇到故障时请提供设备、发生时间和问题描述；请勿发送密码、验证码或敏感病历。'),
       ]);
     case PolicyTopic.privacy:
       return const _PolicyContent('隐私说明', '只收集让学习、同步和交流正常运作所需的信息。', [
         _PolicySection('可能处理的信息',
-            '注册邮箱、密码的安全校验信息、昵称、头像、院校、学习记录、评论，以及你主动提交的题库文件。访客的学习数据主要保留在当前设备。'),
+            '注册邮箱、密码的安全校验信息、昵称、头像、院校、学习记录、每日签到日期、评论，以及你主动提交的题库文件。签到日期按北京时间记录并用于显示日历和连续签到；访客的学习数据主要保留在当前设备。'),
         _PolicySection('用途与保存',
             '这些信息用于登录、跨设备同步、展示评论身份、处理反馈和维护服务。数据保存在中国大陆的服务环境及合理的备份中；不会出售个人信息，也不会用于广告画像。'),
+        _PolicySection('交流、AI 与支付',
+            '好友关系、私聊和通知用于向相关用户展示并同步交流内容。主动使用 AI 功能时，输入可能发送给相应 AI 服务提供方处理，请勿输入病历、身份证件或未经授权的资料。发起付款时，支付机构按其规则处理交易；请勿向我们提供支付密码或验证码。'),
+        _PolicySection('羟基磷灰石奖励',
+            '记录奖励来源、领取日期、石头增减和兑换订单，用于显示余额、限制每日重复领取和核对交易。系统分享仅发送你主动确认的公开网站介绍，不包含邮箱或学习记录；我们不收集分享对象或通讯录。删除账号时清理余额和奖励流水，仅保留解除账号关联的必要兑换与交易记录。'),
         _PolicySection('你的选择',
-            '你可以在“我的”修改昵称、头像和院校，并删除自己的评论。需要删除账号相关资料、评论、题库投稿或学习记录时，可使用本页的数据删除申请。'),
+            '你可以在“我的”修改昵称、头像和院校，并删除自己的评论；也可联系邮箱申请查阅、更正或删除信息，或者询问如何撤回同意。“我的 → 设置 → 删除账号”可在输入当前密码并确认后删除整个账号。仅删除指定资料时，也可以使用数据删除申请模板。'),
+        _PolicySection('账号删除后的信息',
+            '账号、学习及交流数据会被清理；必要交易记录解除账号关联后保留用于对账和争议处理。受限备份不属于即时清理范围，其他设备的离线缓存需在相应设备清除。删除重试用的会话摘要保留 24 小时；删除管理员时保留地址摘要以防重新注册者继承管理权限。'),
       ]);
     case PolicyTopic.copyright:
       return _PolicyContent(
@@ -174,7 +223,7 @@ _PolicyContent _contentFor(PolicyTopic topic) {
       final account = store.email.isEmpty ? '（请填写注册邮箱）' : store.email;
       return _PolicyContent(
           '数据删除申请',
-          '需要删除服务器侧资料时，发邮件申请即可。',
+          '删除整个账号可在应用内完成；仅删除指定资料时，也可发送邮件申请。',
           const [
             _PolicySection('可以申请删除',
                 '账号资料、头像、昵称、院校、评论、题库投稿和学习记录。为避免误删，会先通过注册邮箱或其他合理方式核验身份。'),

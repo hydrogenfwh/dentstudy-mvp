@@ -24,13 +24,13 @@
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="dentstudy">
+  <meta name="apple-mobile-web-app-title" content="齿间Dentstudy">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>齿间 · DentStudy</title>
+  <title>齿间Dentstudy</title>
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
@@ -43,12 +43,28 @@
     .arrival-mark { font-size: 30px; font-weight: 700; letter-spacing: 5px; }
     .arrival-name { margin-top: 8px; font-size: 10px; letter-spacing: 4px; }
     .arrival-caption { margin-top: 22px; font-size: 12px; opacity: .65; }
+    #web-startup-error { position: fixed; inset: auto 20px 20px; z-index: 9999;
+      display: none; padding: 12px 14px; border: 1px solid #d87b6d;
+      border-radius: 12px; background: #fff7f5; color: #74352b;
+      font: 13px/1.5 -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif; }
   </style>
   <div id="arrival" role="status" aria-label="齿间正在加载">
     <div class="arrival-mark">齿间</div><div class="arrival-name">DENTSTUDY</div>
-    <div class="arrival-caption">正在打开学习空间…</div>
+    <div class="arrival-caption" id="arrival-caption">正在打开学习空间…</div>
   </div>
+  <div id="web-startup-error" role="alert"></div>
   <script>
+    // Keep a compact, user-visible diagnostic if the browser fails before the
+    // Flutter error surface is available. It stays hidden during normal use.
+    const showStartupError = (detail) => {
+      const panel = document.getElementById('web-startup-error');
+      if (!document.getElementById('arrival') || !panel || panel.dataset.shown) return;
+      panel.dataset.shown = 'true';
+      panel.style.display = 'block';
+      panel.textContent = `网页启动异常，请刷新后重试。${detail ? `（${String(detail).slice(0, 120)}）` : ''}`;
+    };
+    window.addEventListener('error', (event) => showStartupError(event.message), true);
+    window.addEventListener('unhandledrejection', (event) => showStartupError(event.reason?.message || event.reason), true);
     try {
       const palette = {teal:'#087f78', blue:'#2764a8', purple:'#7652a8', orange:'#b46824', rose:'#b54e6e'};
       const selected = JSON.parse(localStorage.getItem('flutter.themeColorKey') || '"teal"');
@@ -57,7 +73,17 @@
       const rgb = [1,3,5].map(i => Math.round(255 * .955 + parseInt(color.slice(i,i+2),16) * .045));
       document.documentElement.style.setProperty('--paper', `rgb(${rgb.join(',')})`);
     } catch (_) { /* Default brand colour when storage is unavailable. */ }
-    window.addEventListener('flutter-first-frame', () => document.getElementById('arrival')?.remove(), {once:true});
+    window.addEventListener('flutter-first-frame', () => {
+      document.getElementById('arrival')?.remove();
+      document.getElementById('web-startup-error')?.remove();
+    }, {once:true});
+    // The bundled question bank is intentionally loaded before Flutter renders
+    // its first frame.  On a cold Safari start this can take a few seconds;
+    // keep the native loading view informative instead of looking blank.
+    window.setTimeout(() => {
+      const caption = document.getElementById('arrival-caption');
+      if (caption) caption.textContent = '首次加载约需几秒；超过 20 秒请刷新页面';
+    }, 20000);
   </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>

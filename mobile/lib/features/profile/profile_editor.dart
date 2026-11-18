@@ -41,6 +41,10 @@ Future<Map<String, dynamic>?> showProfileEditor(BuildContext context,
                   title: Text(onboarding ? '完善个人资料' : '编辑个人资料'),
                   content: SingleChildScrollView(
                       child: Column(mainAxisSize: MainAxisSize.min, children: [
+                    if (onboarding && initialProfile['vipTrial'] == true) ...[
+                      const Text('已为你开通 7 天 VIP 体验，可在个人页面查看有效期。'),
+                      const SizedBox(height: 12),
+                    ],
                     UserAvatar(value: avatar, radius: 40),
                     TextButton.icon(
                         onPressed: picking
@@ -69,7 +73,7 @@ Future<Map<String, dynamic>?> showProfileEditor(BuildContext context,
                           style: const TextStyle(
                               fontSize: 12, color: Colors.deepOrange)),
                     if (avatar.startsWith('data:image/'))
-                      const Text('已选择裁剪后的照片',
+                      Text('已选择裁剪后的照片',
                           style:
                               TextStyle(fontSize: 12, color: Colors.blueGrey)),
                     TextField(
@@ -119,7 +123,7 @@ Future<Map<String, dynamic>?> showProfileEditor(BuildContext context,
                                     child: UserAvatar(value: item))))
                             .toList()),
                     const SizedBox(height: 12),
-                    const Text('昵称、头像和院校会显示在题目讨论中；邮箱不会公开。',
+                    Text('昵称、头像和院校会显示在题目讨论中；邮箱不会公开。',
                         style: TextStyle(fontSize: 12, color: Colors.blueGrey))
                   ])),
                   actions: [

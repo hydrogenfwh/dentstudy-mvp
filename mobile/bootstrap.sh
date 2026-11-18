@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 cd "$(dirname "$0")"
+if [[ -x ../tools/flutter/bin/flutter ]]; then
+  export PATH="$(cd ../tools/flutter/bin && pwd):$PATH"
+fi
 command -v flutter >/dev/null || { echo '请先安装 Flutter 3.35+，见 README.md'; exit 1; }
 PYTHON_BIN="${PYTHON_BIN:-python3}"
 # Generate vendor-owned platform wrappers without replacing application sources.
@@ -9,7 +12,7 @@ trap 'rm -rf "$bootstrap_backup"' EXIT
 cp pubspec.yaml "$bootstrap_backup/pubspec.yaml"
 cp -R lib "$bootstrap_backup/lib"
 cp -R test "$bootstrap_backup/test"
-flutter create --no-pub --platforms=android,ios --org com.example --project-name dentstudy .
+flutter create --no-pub --platforms=android,ios --org uno --project-name dentstudy .
 cp "$bootstrap_backup/pubspec.yaml" pubspec.yaml
 cp -R "$bootstrap_backup/lib/." lib/
 cp -R "$bootstrap_backup/test/." test/

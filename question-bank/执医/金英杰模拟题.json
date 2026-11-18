@@ -1,0 +1,5309 @@
+{
+ "version": "2026-10-24",
+ "name": "金英杰模拟题",
+ "isDemo": false,
+ "sourceDocument": "口外习题100.pdf + 口外习题解析杰.pdf",
+ "sourceNote": "金英杰口腔直播教研组《口外 100 测试题》；题目与解析一一对应整理。",
+ "questions": [
+  {
+   "id": "JYJ100-0001",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "利用电热或红外线烤箱高热烘烤进行灭菌的方法属于",
+   "options": {
+    "A": "煮沸消毒法",
+    "B": "化学消毒法",
+    "C": "干热灭菌法",
+    "D": "医用酒精消毒法",
+    "E": "高压蒸汽灭菌"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "干热灭菌法：利用电热或红外线烤箱高热烘烤进行灭菌。适用于玻璃、陶瓷等器具，以及不宜用高压蒸气灭菌的明胶海绵、凡士林、油脂、液体石蜡和各种粉剂等物品。不耐高热的物品，如棉织品、合成纤维、塑料及橡胶制品等，不可用此法灭菌。干热灭菌的温度和维持时间应根据消毒物品导热快慢、包装大小和安放情况而定。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 1,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0002",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "关于锐性分离的说法错误的是",
+   "options": {
+    "A": "用于精细的层次解剖或分离粘连坚实的瘢痕组织",
+    "B": "使用的器械为锐性的手术刀和手术剪",
+    "C": "此法对组织损伤小",
+    "D": "动作要求细巧、准确",
+    "E": "可在盲视下进行"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "锐性分离：用于精细的层次解剖或分离粘连坚实的瘢痕组织。使用的器械为锐性的手术刀和手术剪。此法对组织损伤小，动作要求细巧、准确，一般应在直视下进行。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 2,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0003",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "脓肿或无效腔的引流物的去除应在",
+   "options": {
+    "A": "手术后 24～48 小时",
+    "B": "放置 24 小时后",
+    "C": "24 小时内去除引流物",
+    "D": "一般在 24小时内引流量少于 20～30ml时去除",
+    "E": "渗出液完全消除为止"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "脓肿或无效腔的引流物应放置至脓液及渗出液完全消除为止。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 3,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0004",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "换药时应用棉球清洁的正确动作是",
+   "options": {
+    "A": "揩",
+    "B": "擦",
+    "C": "蘸",
+    "D": "涂",
+    "E": "蹭"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "换药的动作要准确、轻巧、细致，切忌粗暴。应用棉球清洁暴露创面时是“蘸”而不是“揩”、“擦”的动作。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 4,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0005",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "缝合的创口，一般在 7～10 天内全部愈合者，称为",
+   "options": {
+    "A": "一期愈合",
+    "B": "二期愈合",
+    "C": "感染创口",
+    "D": "无菌创口",
+    "E": "延期愈合"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "缝合的创口，一般在 7～10天内全部愈合者，称为初期或一期愈合。未经缝合的创口，其愈合往往经过肉芽组织增生，再为周围上皮爬行覆盖的过程，在临床上称为二期或延期愈合（拔牙创口的愈合即属此类），这种创口愈合后结缔组织多，在软组织部位，形成明显的瘢痕。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 5,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0006",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "淋巴结检查的正确顺序应是",
+   "options": {
+    "A": "枕部、耳后、耳前、腮腺、颊、颌下、颏下",
+    "B": "腮腺、颊、颌下、颏下、枕部、耳后、耳前",
+    "C": "颌下、颏下、枕部、耳后、耳前、腮腺、颊",
+    "D": "耳后、耳前、腮腺、颊、颌下、颏下、枕部",
+    "E": "颊、颌下、颏下、枕部、耳后、耳前、腮腺"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "检查者手指紧贴检查部位，按一定顺序，由浅入深，滑动触诊。一般的顺序为：枕部、耳后、耳前、腮腺、颊、颌下、颏下；顺胸锁乳突肌前后缘、颈前后三角、直至锁骨上凹，仔细检查颈深、浅淋巴结，颈部淋巴结的所在部位和引流方向。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 6,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0007",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "正常人每日唾液总量为 1000～1500ml，其中腮腺和下颌下腺的分泌量占",
+   "options": {
+    "A": "50%",
+    "B": "60%",
+    "C": "70%",
+    "D": "80%",
+    "E": "90%"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "正常人每日唾液总量为 1000～1500ml，其中 90%为腮腺和下颌下腺所分泌，而舌下腺仅占 3%～5%，小涎腺则分泌更少。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 7,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0008",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "舌下腺囊肿穿刺可抽出",
+   "options": {
+    "A": "血液",
+    "B": "蛋清样黏液",
+    "C": "乳白色豆渣样分泌物",
+    "D": "黄绿色清亮物质",
+    "E": "黄绿色脓性物质"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "穿刺检查：通过穿刺抽吸肿块内容物，了解内容物的颜色、透明度、黏稠度等性质，可以进一步协助诊断，例如：静脉畸形可有血液抽出；舌下腺囊肿有蛋清样黏液抽出；脓肿可以抽出脓液。必要时抽出物还应送病理或涂片检查，以进一步确定其性质。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 8,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0009",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "四头带临床上常用一段绷带，将其两端剪开一定长度，形成四个带头即可。带的长度一般为",
+   "options": {
+    "A": "35cm",
+    "B": "50cm",
+    "C": "70cm",
+    "D": "80cm",
+    "E": "100cm"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "四头带应用技术：四头带亦称四尾带，其制作方法简便，临床上常用一段绷带，将其两端剪开一定长度，形成四个带头即可。绷带的长度一般为 70cm 左右，剪开的长度视需要而定。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 9,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0010",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "涎腺分泌功能检查常选用的方法是",
+   "options": {
+    "A": "酸性物刺激测定",
+    "B": "碱性物刺激测定",
+    "C": "核磁共振检查",
+    "D": "1 天内自然分泌量",
+    "E": "某一时段内自然分泌量测定"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "正常人每日唾液总量为 1000～1500ml，其中 90%为腮腺和下颌下腺所分泌，而舌下腺仅占 3%～5%，小涎腺则分泌更少，故涎腺分泌功能的定量检查，是根据在相同程度刺激的条件下（临床上常用 2%枸橼酸或 1%柠檬酸），腮腺和下颌下腺的涎液分泌多少来协助某些涎腺疾病的诊断。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 10,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0011",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "常用的局麻药物中，属于酯类的是",
+   "options": {
+    "A": "丁卡因",
+    "B": "利多卡因",
+    "C": "布比卡因",
+    "D": "阿替卡因",
+    "E": "甲哌卡因"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "局麻药物的种类很多，按其化学结构可分为酯类和酰胺类。国内常用的酯类局麻药物有普鲁卡因、丁卡因，酰胺类的有利多卡因、布比卡因等。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 11,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0012",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "临床上常用利多卡因进行表面麻醉的浓度是",
+   "options": {
+    "A": "0.25%～1%",
+    "B": "0.5～1%",
+    "C": "0.5%",
+    "D": "1%",
+    "E": "2%～5%"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "表面麻醉临床应用较多的是 2%～5%利多卡因和 0.25%～0.5%的盐酸丁卡因。也可采用 6%～20%的苯佐卡因或 1%的盐酸达克罗宁行表面麻醉，但其麻醉作用不及丁卡因。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 12,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0013",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "表浅的黏膜下脓肿切开引流，拔除松动的乳牙或恒牙，最常用的局麻方法是",
+   "options": {
+    "A": "涂布麻醉",
+    "B": "阻滞麻醉",
+    "C": "冷冻麻醉",
+    "D": "吸入麻醉",
+    "E": "低温麻醉"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "表面麻醉亦称涂布麻醉，适用于表浅的黏膜下脓肿切开引流，拔除松动的乳牙或恒牙，以及行气管内插管前的黏膜表面麻醉。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 13,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0014",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "下列各选项中分布于上颌 87654|45678 腭侧牙龈及黏骨膜的神经是",
+   "options": {
+    "A": "腭前神经",
+    "B": "眶下神经",
+    "C": "上牙槽后神经",
+    "D": "上牙槽中神经",
+    "E": "鼻腭神经"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "腭前神经阻滞麻醉区域及效果：同侧磨牙、前磨牙腭侧的黏骨膜，牙龈及牙槽骨。注意行腭大孔注射时，注射麻药不可过多，注射点不可偏后，以免同时麻醉腭中、腭后神经，引起软腭、悬雍垂麻痹而致恶心或呕吐。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 14,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0015",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "局麻药中加入血管收缩剂的作用中，除外的是",
+   "options": {
+    "A": "加快局麻药吸收",
+    "B": "降低毒性反应",
+    "C": "延长局麻时间",
+    "D": "减少术区出血",
+    "E": "清晰术野"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "临床应用局麻时常在麻药溶液中加入血管收缩剂，这是由于口腔颌面部血运丰富，对局部麻醉药吸收快。为延缓吸收，加强镇痛效果，延长局麻时间，降低毒性反应，以及减少术区出血，使术野清晰，在局麻药溶液中加入血管收缩剂是完全必要的。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 15,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0016",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A2",
+   "stem": "拔除上颌牙时，患者体位应是",
+   "options": {
+    "A": "头部应稍后仰，张口时上颌（牙合）平面与地面平行",
+    "B": "头部应稍后仰，张口时上颌（牙合）平面与地面成 45°",
+    "C": "头部应稍后仰，张口时上颌（牙合）平面与地面成 90°",
+    "D": "头部应稍后仰，张口时上颌（牙合）平面与地面成 60°",
+    "E": "头部应稍后仰，张口时上颌（牙合）平面与地面成 30"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "患者体位：患者头部应稍后仰，使上颌（牙合）平面约与地面成45°角，应使张口时下颌（牙合）平面与地面平行，下颌与术者的肘关节在同一高度或稍低。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 16,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0017",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "不属于牙拔除术术中并发症的一项是",
+   "options": {
+    "A": "干槽症",
+    "B": "牙折断",
+    "C": "软组织损伤",
+    "D": "牙槽突骨折",
+    "E": "邻近软组织损伤"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "干槽症属于术后并发症，其他几项均是术中并发症。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 17,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0018",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "不属于拔牙的禁忌证的是",
+   "options": {
+    "A": "不稳定的心绞痛",
+    "B": "充血性心力衰竭",
+    "C": "未控制的心律不齐",
+    "D": "未控制的高血压",
+    "E": "2 年内发生过心肌梗死"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "下列情况应视为拔牙的禁忌证：①6 个月内发生过心肌梗死；②不稳定的或最近才开始的心绞痛；③充血性心力衰竭；④未控制的心律不齐；⑤未控制的高血压。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 18,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0019",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "牙拔除后至少多长时间，拔牙创内形成凝血块而将创口封闭",
+   "options": {
+    "A": "5 分钟",
+    "B": "10 分钟",
+    "C": "15 分钟",
+    "D": "30 分钟",
+    "E": "45 分钟"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "拔牙创出血及血凝块形成，拔牙后，拔牙创内充满的血液约于 15～30 分钟即可形成血凝块而将创口封闭。此血块的存在有保护创口、防止感染、促进创口正常愈合的功能，最佳的为 30 分钟。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 19,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0020",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "以下哪种情况需行系带矫正术",
+   "options": {
+    "A": "系带位置影响牙齿萌出排列",
+    "B": "舌系带过短影响发音",
+    "C": "唇系带过短影响唇的运动",
+    "D": "系带影响义齿的就位和稳定",
+    "E": "以上均需要"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "唇、颊及舌系带如发生形态、位置及数目异常，影响唇、舌的运动，以致发生哺乳、咀嚼、发音等功能障碍；影响牙齿萌出排列；影响义齿的就位和稳定，常需手术矫正。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 20,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0021",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "可影响种植体骨结合的因素是",
+   "options": {
+    "A": "患者全身及局部的健康状况",
+    "B": "患者的牙槽突的质量",
+    "C": "口腔卫生习惯",
+    "D": "种植体的应力分布",
+    "E": "以上均是"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "影响种植体骨结合的因素①手术创伤种植手术时，由下钻孔时产热，可使周围已分化和未分化的间叶细胞坏死。因此，手术中对骨组织的活力的保护十分重要，手术者应操作精巧，使用锐利的切削工具，严格控制产热和散热。②患者自身条件包括患者全身及局部的健康状况、牙槽突的质量和形态以及口腔卫生习惯等。③种植体材料的生物相容性此点对骨结合的形成十分重要。④种植体外形设计包括种植体的自身强度、与骨组织最大的结合面积、应力的合理分布、缓冲装置以及其表面不应有锐角等。⑤种植体的应力分布：种植体植入的部位、数量和方向，骨结合后义齿的修复处理，直接影响应力的分布。⑥种植体的早期负载：种植体植入后，应保证足够的骨愈合过程，待骨结合完成以后再作修复治疗。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 21,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0022",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "手术创伤对种植体的骨结合有一定的影响，由于钻孔产热过高，严格控制产热和散热，用骨钻钻孔时，速度不能超过",
+   "options": {
+    "A": "500r/min",
+    "B": "1000r/min",
+    "C": "1500r/min",
+    "D": "2000r/min",
+    "E": "2500r/min"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "手术创伤种植手术时，由于钻孔产热过高，可使周围已分化和未分化的间叶细胞坏死。因此，手术中对骨组织活力的保护十分重要，即要求手术者操作精巧，严格控制产热和散热，用骨钻钻孔时，速度不能超过 2000r/min，并以生理盐水注水降温。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 22,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0023",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "急性冠周炎早期局部治疗应首先采用",
+   "options": {
+    "A": "拔除患牙",
+    "B": "龈袋烧灼",
+    "C": "龈袋冲洗上药",
+    "D": "切开引流",
+    "E": "开髓引流"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "智牙冠周炎的治疗以局部冲洗、上药为主。智牙冠周炎的治疗原则：在急性期应以消炎、镇痛、切开引流、增强全身抵抗力的治疗为主。当炎症转入慢性期后，若为不可能萌出的阻生牙则应尽早拔除，以防感染再发。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 23,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0024",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "下列哪个间隙感染扩散不会引起颞间隙感染（助理不考）",
+   "options": {
+    "A": "咬肌间隙",
+    "B": "下颌下间隙感染",
+    "C": "颊间隙感染",
+    "D": "颞下间隙",
+    "E": "翼下颌间隙"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "颞间隙的感染来源：常由咬肌间隙、翼下颌间隙、颞下间隙和颊间隙感染扩散引起。耳源性感染（化脓性中耳炎、颞乳突炎）、颞部疖痈以及颞部损伤继发感染均可波及颞间隙。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 24,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0025",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "广泛的颊间隙感染引流切口应该在下颌骨下缘（助理不考）",
+   "options": {
+    "A": "0.5～1cm",
+    "B": "0.3～0.5cm",
+    "C": "1～2cm",
+    "D": "2～3cm",
+    "E": "2.5～3.5cm"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "广泛的颊间隙感染则应该从下颌骨下缘以下 1～2cm 处做平行于下颌骨下缘的切口，从切开的皮下向上潜行钝分离进入颊部脓腔。应注意避免损伤面神经的下颌缘支及面动静脉等。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 25,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0026",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "慢性中央性颌骨骨髓炎病变比较局限者，死骨与周围组织分离的时间在发病后",
+   "options": {
+    "A": "1～2 周",
+    "B": "3～4 周",
+    "C": "4～8 周",
+    "D": "2 个月以上",
+    "E": "半年以上"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "慢性中央性颌骨骨髓炎病变比较局限者，死骨与周围组织分离的时间在发病后 3～4 周；如病变呈广泛弥漫者，则需 5～6 周或更长一段时间。一般应在死骨与周围骨质分离后，施行手术最好。死骨未分离，过早手术，有时不易确定死骨摘除的范围。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 26,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0027",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "感染形成脓肿时面部肿胀明显，但脓肿难以自行溃破，不易发现波动感的间隙为",
+   "options": {
+    "A": "咬肌间隙",
+    "B": "眶下间隙",
+    "C": "口底多间隙",
+    "D": "下颌下间隙",
+    "E": "颞间隙感染"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "咬肌间隙感染的典型症状是以下颌支及下颌角为中心的咬肌区肿胀、充血、压痛，伴明显开口受限。由于咬肌肥厚坚实，脓肿难以自行溃破，也不易触到波动感。若炎症在一周以下，压痛点局限或有凹陷性水肿，经穿刺有脓液时，应行切开引流，否则由于长期脓液蓄积，易形成下颌骨升支部的边缘性骨髓炎。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 27,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0028",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "新生儿颌骨骨髓炎的感染来源多为（助理不考）",
+   "options": {
+    "A": "腺源性",
+    "B": "血源性",
+    "C": "损伤性",
+    "D": "牙源性",
+    "E": "医源性"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "新生儿颌骨骨髓炎的感染来源多为血源性，但亦可因牙龈损伤或母亲患化脓性乳腺炎，哺乳时病原菌直接侵入而引起。患泪囊炎或鼻泪管炎时也可伴发上颌骨骨髓炎。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 28,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0029",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "以下哪一项最可能是引起颞间隙感染的来源（助理不考）",
+   "options": {
+    "A": "下颌磨牙的根尖周脓肿",
+    "B": "化脓性扁桃体炎",
+    "C": "下牙槽神经阻滞麻醉消毒不严",
+    "D": "颞乳突炎",
+    "E": "第一前磨牙的根尖化脓性炎症"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "颞间隙感染来源：常由咬肌间隙、翼下颌间隙、颞下间隙和颊间隙感染扩散引起。耳源性感染（化脓性中耳炎、颞乳突炎）、颞部疖痈以及颞部损伤继发感染均可波及颞间隙。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 29,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0030",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "颌面部疖痈最常见的致病菌是",
+   "options": {
+    "A": "白色念珠菌",
+    "B": "溶血性链球菌",
+    "C": "厌氧性链球菌",
+    "D": "铜绿假单胞菌",
+    "E": "金黄色葡萄球菌"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "面部疖痈是一种急性化脓性炎症，最常见的致病菌是金黄色葡萄球菌。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 30,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0031",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "下颌骨骨折的临床愈合所需时间",
+   "options": {
+    "A": "4～6 周",
+    "B": "5～7 周",
+    "C": "6～8 周",
+    "D": "7～9 周",
+    "E": "3 个月"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "在骨内、外骨痂和桥梁骨痂完全骨化、愈合后，其强度已能承受因肌收缩或外力引起的应变力量时，即达到骨折的临床愈合，下颌骨骨折的临床愈合所需时间通常为 6～8 周。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 31,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0032",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "出血性休克的早期表现除外的是",
+   "options": {
+    "A": "轻度烦躁",
+    "B": "口渴",
+    "C": "呼吸浅快",
+    "D": "皮肤苍白",
+    "E": "心率减慢"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "出血性休克的早期表现为：轻度烦躁，口渴，呼吸浅快，心率加快，皮肤苍白。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 32,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0033",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "出现机体失代偿的表现是一般丢失的血容量已达到",
+   "options": {
+    "A": "15%以下",
+    "B": "15%以上",
+    "C": "20%以上",
+    "D": "30%以上",
+    "E": "50%以上"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "随着休克的发展，患者常常意识淡漠，脉搏细速，脉压变小，四肢湿冷，尿少等症状，一旦出现收缩压下降，表明血容量丢失达到 20%以上，是机体失代偿的表现。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 33,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0034",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "LeFortⅢ型骨折是指",
+   "options": {
+    "A": "锥形骨折",
+    "B": "下颌骨骨折",
+    "C": "上颌骨低位骨折",
+    "D": "上颌骨中位骨折",
+    "E": "上颌骨高位骨折"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "Le FortⅢ型骨折：又称上颌骨高位骨折或颧弓上骨折。骨折线自鼻额缝向两侧横过鼻梁、眶部，经颧额缝向后达翼突，形成颅面分离，常使面中部凹陷、变长。此型骨折多伴有颅底骨折或颅脑损伤，出现耳、鼻出血或脑脊液漏。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 34,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0035",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "颌骨骨折的复位标准是",
+   "options": {
+    "A": "骨性愈合",
+    "B": "纤维性愈合",
+    "C": "骨折线上的牙齿不松动",
+    "D": "恢复原有咬合关系",
+    "E": "无感染发生"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "颌骨骨折的复位标准是恢复患者原有的咬合关系。根据不同的骨折情况，可选用不同的复位方法。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 35,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0036",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "脑挫裂伤意识障碍取决于",
+   "options": {
+    "A": "损伤的部位",
+    "B": "损伤的程度",
+    "C": "损伤的时间",
+    "D": "周围的环境",
+    "E": "损伤的原因"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "脑挫裂伤是脑组织的实质性损伤，意识障碍取决于脑损伤的程度，神经系统体征取决于损伤部位。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 36,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0037",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A2",
+   "stem": "运送昏迷患者可采用的体位是",
+   "options": {
+    "A": "俯卧位",
+    "B": "仰卧位",
+    "C": "侧卧位",
+    "D": "头侧向一侧",
+    "E": "以上体位均可"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "运送患者时应注意保持呼吸道通畅。昏迷患者可采用俯卧位，额部垫高，使口鼻悬空，有利于唾液外流和防止舌后坠。一般患者可采取侧卧位或头侧向一侧，避免血凝块及分泌物堆积在口咽部。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 37,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0038",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "X 线表现呈“M”或“V”形，是哪一类型骨折的特征性表现",
+   "options": {
+    "A": "上颌骨骨折",
+    "B": "下颌骨骨折",
+    "C": "眶底骨折",
+    "D": "颧弓骨折",
+    "E": "颅底骨折"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "颧弓骨折 X 线特征性表现呈“M”或“V”形。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 38,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0039",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "颌面部创口初期缝合最宽时间为",
+   "options": {
+    "A": "6h",
+    "B": "12h",
+    "C": "24h",
+    "D": "48h",
+    "E": "大于 48h 的创口，只要没有明显的化脓，清创后仍可作初期缝合"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "缝合：由于口腔颌面部血运丰富，组织再生力强，在伤后 24～48h之内，均可在清创后行严密缝合；甚至超过 48h，只要创口无明显化脓感染或组织坏死，在充分清创后，仍可行严密缝合。对估计有可能发生感染者，可在创口内放置引流物；已发生明显感染的创口不应作初期缝合，可采用局部湿敷，待感染控制后，再作处理。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 39,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0040",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "牙槽突骨折后用牙弓夹板、金属丝等方法固定后，注意应至少跨过骨折线几个正常牙位",
+   "options": {
+    "A": "2 个",
+    "B": "3 个",
+    "C": "4 个",
+    "D": "5 个",
+    "E": "6 个"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "治疗应在局麻下将牙槽突及牙复位到正常解剖位置，与对颌建立正常的咬合关系，然后选用两侧稳固的邻牙作固位体，用牙弓夹板、金属丝和正畸托槽方丝弓等方法固定。注意应至少跨过骨折线 3 个正常牙位，才能使固定稳固可靠。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 40,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0041",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "牙龈瘤来源于",
+   "options": {
+    "A": "牙周膜",
+    "B": "牙槽骨",
+    "C": "颌骨骨皮质",
+    "D": "牙龈上皮",
+    "E": "牙周膜及颌骨牙槽突的结缔组织"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "牙龈瘤来源于牙周膜及颌骨牙槽突的结缔组织。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 41,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0042",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "最易发生恶变的色素痣是（助理不考）",
+   "options": {
+    "A": "皮内痣",
+    "B": "复合痣",
+    "C": "交界痣",
+    "D": "雀斑样色素痣",
+    "E": "毛痣"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "交界痣：痣细胞在表皮和真皮交界处，呈多个巢团状，边界清楚，分布距离均匀；每一巢团的上一半在表皮的底层内，下一半则在真皮浅层内。这些痣细胞为大痣细胞，色素较深。突起于皮肤表面的交界痣容易受到洗脸、刮须、摩擦与损伤的刺激，并由此可能发生恶性症状恶性黑色索瘤多来自交界痣。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 42,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0043",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "关于甲状舌管囊肿，哪一项是不正确的",
+   "options": {
+    "A": "可发生于颈正中线上任何部位",
+    "B": "多见于 1～10岁的儿童",
+    "C": "若囊肿发生于舌盲孔下面或前后部，可随吞咽上下移动",
+    "D": "不会发生癌变",
+    "E": "多无自觉症状"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "甲状舌管瘘如长期不治，还可以发生癌变。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 43,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0044",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "第二鳃裂囊肿常位于",
+   "options": {
+    "A": "乳突附近",
+    "B": "下颌角附近",
+    "C": "颈前正中",
+    "D": "颈根部",
+    "E": "舌骨水平，胸锁乳突肌上 1/3 前缘附近"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "第二鳃裂囊肿常位于颈上部，大多在舌骨水平，胸锁乳突肌上 1/3前缘附近。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 44,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0045",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "临床上最多见的鳃裂囊肿来源于",
+   "options": {
+    "A": "第一鳃裂",
+    "B": "第二鳃裂",
+    "C": "第三鳃裂",
+    "D": "第四鳃裂",
+    "E": "胸腺咽管"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "鳃裂囊肿的起源尚有不同观点，多数认为系由胚胎鳃裂残余组织所形成。临床上最多见的是第二鳃裂来源的鳃裂囊肿；其次为第一鳃裂来源；第三、四鳃裂来源比较少见。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 45,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0046",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "单纯行刮除术后易复发的颌骨囊肿是",
+   "options": {
+    "A": "根端囊肿",
+    "B": "角化囊肿",
+    "C": "始基囊肿",
+    "D": "含牙囊肿",
+    "E": "血管外渗性囊肿"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "角化囊肿容易复发（文献报道其复发率为 3%～60%）；角化囊肿也可发生恶变，因此手术刮除要求更彻底；在刮除囊壁后用苯酚或硝酸银等腐蚀剂涂抹骨创，或加用冷冻疗法，以消灭子囊，防止复发。必要时还可考虑在囊肿外围切除部分骨质。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 46,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0047",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "颈淋巴转移率最高，且早期转移的肿瘤是",
+   "options": {
+    "A": "舌癌",
+    "B": "唇癌",
+    "C": "颊癌",
+    "D": "牙龈癌",
+    "E": "上颌窦癌"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "舌癌常发生早期颈淋巴结转移，且转移率很高。因舌体组织具有丰富的淋巴和血液循环，舌体活动频繁等，均成为促使舌癌发生转移的因素。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 47,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0048",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "来源于间叶组织的恶性肿瘤通常称为",
+   "options": {
+    "A": "良性肿瘤",
+    "B": "恶性肿瘤",
+    "C": "肉瘤",
+    "D": "临界瘤",
+    "E": "瘤样病变"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "肉瘤：来源于间叶组织的恶性肿瘤通常称为肉瘤。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 48,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0049",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "下列关于含牙囊肿的描述中，正确的是",
+   "options": {
+    "A": "发生于牙冠或牙根形成之后",
+    "B": "可来自一个牙胚，含一个牙",
+    "C": "可来自多个牙胚，含多个牙",
+    "D": "含牙囊肿就是滤泡囊肿",
+    "E": "以上说法均正确"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "含牙囊肿又称滤泡囊肿。发生于牙冠或牙根形成之后，在缩余釉上皮与牙冠面之间出现液体渗出而形成含牙囊肿。可来自一个牙胚（含一个牙）；也有来自多个牙胚（含多个牙）者。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 49,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0050",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "血管瘤其病程进入静止消退期一般是在",
+   "options": {
+    "A": "出生以后",
+    "B": "1 年以后",
+    "C": "2 年以后",
+    "D": "3 年以后",
+    "E": "4 年以后"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "消退期：一般在 1 年以后即进入静止消退期。消退是缓慢的，病损由鲜红变为暗紫、棕色，皮肤可呈花斑状。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 50,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0051",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "腺样囊性癌常沿什么扩散（助理不考）",
+   "options": {
+    "A": "神经",
+    "B": "淋巴结",
+    "C": "血液",
+    "D": "骨膜",
+    "E": "筋膜"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "腺样囊性癌的肿瘤易沿神经扩散，肿瘤浸润性极强。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 51,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0052",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "外伤后涎瘘的诊断主要通过",
+   "options": {
+    "A": "CT",
+    "B": "MRI",
+    "C": "ECT",
+    "D": "B 超",
+    "E": "造影"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "腮腺造影有助于涎瘘的诊断，如腮腺导管口未萎缩，可从导管口注入造影剂。涎瘘形成较久者，腮腺导管口常萎缩，则可从瘘口注入造影剂。腮腺瘘者可见腺体某处有造影剂外溢，而导管系统显示良好。导管瘘则可见主导管上瘘口处有造影剂外溢，在其后方可见导管扩张，系瘘口处狭窄或继发感染所致。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 52,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0053",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "下颌下腺炎常见的原因是",
+   "options": {
+    "A": "淋巴结炎",
+    "B": "冠周炎",
+    "C": "牙槽脓肿",
+    "D": "结石阻塞导管",
+    "E": "血源性感染"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "下颌下腺炎病因：①下颌下腺为混合性腺体，分泌的唾液富含黏蛋白，较腮腺分泌液黏滞，钙的含量也高出 2 倍，钙盐容易沉积。②下颌下腺导管自下向上走行，腺体分泌液逆重力方向流动，导管长，在口底后部有一弯曲部，导管全程较曲折，这些解剖结构均使唾液易于淤滞，导致涎石形成。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 53,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0054",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "较大的囊肿可将舌抬起，状似“重舌”，是哪种囊肿的特征性表现",
+   "options": {
+    "A": "舌下腺囊肿单纯型",
+    "B": "舌下腺囊肿口外型",
+    "C": "皮样囊肿",
+    "D": "表皮样囊肿",
+    "E": "囊性水瘤"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "单纯型为典型的舌下腺囊肿表现，占舌下腺囊肿的大多数。囊肿位于下颌舌骨肌以上的舌下区，由于囊壁菲薄并紧贴口底黏膜，囊肿呈浅紫蓝色，扪之柔软有波动感。囊肿常位于口底的一侧，有时可扩展至对侧，较大的囊肿可将舌抬起，状似“重舌”。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 54,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0055",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "唾液腺恶性肿瘤中最常见的是（助理不考）",
+   "options": {
+    "A": "沃辛瘤",
+    "B": "多形性腺瘤",
+    "C": "腺样囊性癌",
+    "D": "黏液表皮样癌",
+    "E": "以上说法均正确"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "黏液表皮样癌是唾液腺恶性肿瘤中最常见者。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 55,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0056",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "慢性复发性腮腺炎腮腺造影 X 线表现为",
+   "options": {
+    "A": "导管移位，腺体内有充盈缺损",
+    "B": "造影剂外溢呈团块状",
+    "C": "导管中断，或圆形、卵圆形充盈缺损，其远心端导管扩张",
+    "D": "导管系统无异常改变或轻微扩张，末梢导管扩张呈点状、球状",
+    "E": "只有主导管分层状改变，没有末梢导管扩张"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "慢性复发性腮腺炎：可发生于儿童或成人，多自儿童期发病，到青春期后仍未痊愈，则成为成人复发性腮腺炎。腮腺造影表现为主导管无异常改变或表现为轻度扩张；分支导管稀少；末梢导管呈点状、球状、腔状扩张；排空功能迟缓。病变可累及副腺体。随着年龄增长，临床发作次数减少，末梢导管扩张数目也逐渐减少，直至完全消失。下颌下腺未见明显影像学异常。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 56,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0057",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "颞下颌关节急性脱位后限制下颌运动的固定方法可采用",
+   "options": {
+    "A": "十字绷带包扎",
+    "B": "颅颌绷带包扎",
+    "C": "三角绷带包扎",
+    "D": "单眼绷带包扎",
+    "E": "四头绷带包扎"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "颞下颌关节急性脱位后限制下颌运动的固定方法可采用颅颌绷带，且开口度不能超过 1cm。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 57,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0058",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "临床上最常见的颞下颌关节脱位是",
+   "options": {
+    "A": "陈旧性脱位",
+    "B": "复发性脱位",
+    "C": "急性前脱位",
+    "D": "颞下颌关节强直",
+    "E": "不可复性关节盘前移位"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "急性前脱位是临床最常见的颞下颌关节脱位。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 58,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0059",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "关于不可复性关节盘前移位临床特点的叙述，哪项是错误的",
+   "options": {
+    "A": "开口时下颌偏向健侧",
+    "B": "典型的关节弹响病史",
+    "C": "X 线片显示关节前间隙增宽",
+    "D": "被动开口检查，开口度不能增大",
+    "E": "间断性关节绞锁史"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "不可复性关节盘移位：有典型的关节弹响病史，继之有间断性关节绞锁史，进而弹响消失，开口受限。临床检查开口受限，开口时下颌偏向患侧，关节区疼痛；被动开口检查，开口度不能增大。X 线片（许勒位）可见关节后间隙变窄，关节造影片或 MRI 检查可证实关节盘前移位。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 59,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0060",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "颞下颌关节紊乱病是口腔颌面部常见病之一，以下列哪一年龄组患病率、就诊率最高",
+   "options": {
+    "A": "15 岁以内",
+    "B": "20 岁以内",
+    "C": "20～30岁",
+    "D": "40～50岁",
+    "E": "50 岁以上"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "颞下颌关节紊乱病好发于青壮年，以 20～30 岁患病率、就诊率最高。颞下颌关节紊乱病并非指单一疾病，它是一类病因尚未完全清楚而又有相同或相似临床症状的一组疾病的总称。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 60,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0061",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "下列属于三叉神经功能检查的是",
+   "options": {
+    "A": "感觉功能",
+    "B": "角膜反射",
+    "C": "腭反射",
+    "D": "运动功能",
+    "E": "以上均是"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "三叉神经功能检查：①感觉功能；②角膜反射；③腭反射；④运动功能。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 61,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0062",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "哪项检查目的在于观察膝状神经节是否受损",
+   "options": {
+    "A": "味觉检查",
+    "B": "听觉检查",
+    "C": "泪液检查",
+    "D": "有无面瘫",
+    "E": "唾液分泌功能"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "泪液检查：亦称 Schirmer 试验。目的在于观察膝状神经节是否受损。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 62,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0063",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "贝尔面瘫与中枢性面瘫相鉴别的重要临床表现是",
+   "options": {
+    "A": "眼睑闭合不全",
+    "B": "额纹消失，不能皱眉",
+    "C": "口角偏斜",
+    "D": "鼓腮不能",
+    "E": "鼻唇沟消失"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "贝尔面瘫为周围性面神经麻痹，其表现为病变侧前额纹消失，不能蹙眉。而中枢性面神经麻痹的表现为病变对侧睑裂以下的颜面部表情肌瘫痪。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 63,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0064",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "对于原发性三叉神经痛有效的药物是",
+   "options": {
+    "A": "卡马西平",
+    "B": "苯妥英钠",
+    "C": "氯硝西泮",
+    "D": "山莨菪碱",
+    "E": "以上均是"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "对原发性三叉神经痛可采取的药物治疗有：①卡马西平；②苯妥英钠；③氯硝西泮；④山莨菪碱；⑤七叶莲。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 64,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0065",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "关于原发性三叉神经痛，下列哪项是错误的",
+   "options": {
+    "A": "多为单侧发病",
+    "B": "可有“扳机点”存在",
+    "C": "疼痛呈阵发性、刀割样剧痛",
+    "D": "神经系统检查往往有阳性体征",
+    "E": "疼痛分布于三叉神经分布区域内"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "原发性三叉神经痛患者无论病程长短，神经系统检查无阳性体征发现，仍保持罹患分支区域内的痛觉、触觉和温觉的感觉功能和运动支的咀嚼肌功能。只有在个别病例中有某个部位皮肤的敏感性增加。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 65,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0066",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "单侧唇裂形成的胚胎基础为",
+   "options": {
+    "A": "一侧内侧鼻突与上颌突未联合",
+    "B": "两侧内侧鼻突未融合",
+    "C": "上颌突和下颌突未融合",
+    "D": "上颌突与外侧鼻突未融合",
+    "E": "下颌突与下颌突未融合"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "一侧上颌突未能在一侧与内侧鼻突融合，则在上唇一侧产生单侧唇裂。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 66,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0067",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "根据流行病学调查，新生儿唇腭裂的患病率大约为",
+   "options": {
+    "A": "0.6:1000",
+    "B": "1.6:1000",
+    "C": "2.6:1000",
+    "D": "1.0:1000",
+    "E": "2.0:1000"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "唇裂是口腔颌面部最常见的先天性畸形，常与腭裂伴发。根据流行病学调查，新生儿唇腭裂的患病率大约为 1:1000。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 67,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0068",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "目前，腭裂整复术多选择在",
+   "options": {
+    "A": "3～6 个月",
+    "B": "12～18个月",
+    "C": "6～12 个月",
+    "D": "5～6 岁",
+    "E": "8～12 岁"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "腭裂修复多选择在患儿 12～18个月时进行。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 68,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0069",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "以下有关腭裂临床表现中，不恰当的是",
+   "options": {
+    "A": "吸吮功能障碍",
+    "B": "鼻腔内的分泌物可很自然地流入口腔",
+    "C": "易引起咽鼓管感染",
+    "D": "易发生中耳炎",
+    "E": "牙列正常"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "腭裂患儿常出现牙列错乱，完全性腭裂患儿常常可伴发完全性或不完全性唇裂，牙槽突裂隙的宽窄不一，有的患者牙槽突裂端口可不在同一平面上。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 69,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0070",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "唇腭裂患儿要达到较满意的形态和功能效果，需进行序列治疗，一般包括（助理不考）",
+   "options": {
+    "A": "心理治疗",
+    "B": "耳科治疗",
+    "C": "语音治疗",
+    "D": "唇、腭裂二期整复术",
+    "E": "以上均包括"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "选项中均是序列治疗的步骤。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 70,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0071",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "目前唾液腺造影术可用于",
+   "options": {
+    "A": "舌下腺及下颌下腺",
+    "B": "舌下腺及腮腺",
+    "C": "舌下腺",
+    "D": "腮腺及腭腺",
+    "E": "腮腺及下颌下腺"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "目前唾液腺造影术只限于腮腺及下颌下腺。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 71,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0072",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "唾液腺造影的禁忌证是",
+   "options": {
+    "A": "肿瘤",
+    "B": "慢性炎症",
+    "C": "涎瘘",
+    "D": "急性化脓性腮腺炎",
+    "E": "口干"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "唾液腺造影术禁忌证：对碘过敏者；唾液腺急性炎症期间；唾液腺导管阳性结石，以避免注射造影剂时将结石向后推移。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 72,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0073",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "颞下颌关节紊乱病关节盘诊断一般使用",
+   "options": {
+    "A": "许勒位片",
+    "B": "关节造影",
+    "C": "开口位片",
+    "D": "锥形束 CT片",
+    "E": "下颌横断（牙合）片"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "关节盘及其他软组织改变：主要根据关节造影及磁共振检查进行诊断。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 73,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0074",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "采用根尖片分角线投照技术显示被检查牙齿邻面影像重叠的原因",
+   "options": {
+    "A": "投照垂直角度过大",
+    "B": "投照垂直角度过小",
+    "C": "X 线与被检查牙齿的邻面不平行",
+    "D": "X 线与被检查牙齿的邻面不垂直",
+    "E": "X 线中心线位置不正确"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "使用根尖片分角线技术投照时，X 线中心线需要倾斜一定角度。X线中心线与被检查牙长轴和胶片之间的假想分角线之问的角度为垂直角度，应尽量呈直角投照。X 线中心线向牙近、远中方向所倾斜的角度称为水平角度，应与被检查牙的邻面平行，以避免牙影像重叠。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 74,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0075",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "根尖片可显示下列哪种牙髓病变",
+   "options": {
+    "A": "急性牙髓炎",
+    "B": "牙髓充血",
+    "C": "牙髓坏死",
+    "D": "牙内吸收",
+    "E": "以上都不是"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "牙髓在根尖片上显示的是低密度影，当牙髓坏死的时候，仍表现为低密度影，此时只能进行电活力测等进行判断，根尖片上没有显示。随着病情发展，当有牙内吸收或根尖炎时，才可以通过根尖片加以诊断。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 75,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0076",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "华特位片用于协助诊断",
+   "options": {
+    "A": "髁突骨瘤",
+    "B": "下颌骨肿瘤",
+    "C": "下颌骨颏孔",
+    "D": "颞下颌关节",
+    "E": "牙源性上颌窦炎"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "华特位片在上颌骨肿瘤、炎症及颌面部外伤时，常用此片检查。怀疑牙源性上颌窦炎时，可用此片协助诊断。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 76,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0077",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "以下哪种病变 X 线片表现为根尖周圆形低密度透射区，边缘有一薄层密质白线",
+   "options": {
+    "A": "急性根尖周炎",
+    "B": "慢性根尖脓肿",
+    "C": "根尖肉芽肿",
+    "D": "根尖囊肿",
+    "E": "牙骨质增生"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "根尖周囊肿：①无自觉症状，叩诊可有异样感。②囊肿发展较大时，根尖部相应的组织膨隆，扪有乒乓球感。③X 线检查:根尖周圆形透射区（豌豆大至鸡蛋大），有阻射的白线围绕。④根管治疗时根管内流出淡黄色清亮囊液，其涂片镜下见胆固醇结晶。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 77,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0078",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "可复性关节盘前移位时弹响杂音的特点",
+   "options": {
+    "A": "开口初期或开口初闭口末清脆单声弹响",
+    "B": "开口末闭口初清脆单声弹响",
+    "C": "多声破碎音",
+    "D": "连续摩擦音",
+    "E": "一般无弹响"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "可复性盘前移位:主要临床表现为开闭口弹响，是由于关节盘前移位，在作开口运动时，髁突横嵴撞击关节盘后带的后缘并迅速向前下继而向前上运动，同时关节盘向后反跳，从而恢复正常的髁-关节盘的结构关系，在此极为短暂的过程中，出现开口初期弹响。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 78,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0079",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "牙颌面畸形的治疗包括（助理不考）",
+   "options": {
+    "A": "术前正畸治疗",
+    "B": "确认手术计划",
+    "C": "正确施术",
+    "D": "完成术前准备",
+    "E": "以上都是"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "牙颌面畸形的治疗包括：（一）术前正畸治疗；（二）确认手术计划；（三）完成术前准备；（四）正确施术；（五）术后正畸治疗；（六）追踪观察。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 79,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0080",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "皮瓣移植后首先恢复的感觉是（助理不考）",
+   "options": {
+    "A": "冷",
+    "B": "热",
+    "C": "痒",
+    "D": "痛",
+    "E": "以上都是"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "无论哪种皮瓣移植后，皮肤的感觉在短期内都是缺失的。感觉的恢复首先为痛觉，最后是温度觉。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 80,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0081",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "眶下神经阻滞麻醉口外注射法，注射针进入眶下孔内，注射麻药",
+   "options": {
+    "A": "0.3～0.5ml",
+    "B": "0.5～1ml",
+    "C": "1ml",
+    "D": "1.5～2ml",
+    "E": "2～3ml"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "眶下神经阻滞麻醉口外注射法：注射针进入眶下孔内，随即注射麻药 1ml。注意注射针进入眶下管不可过深，以免伤及眼球。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 81,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0082",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "在行下牙槽神经麻醉口内注射后，将注射针退出多少可行舌神经阻滞麻醉",
+   "options": {
+    "A": "退出 0.1cm",
+    "B": "退出 0.5cm",
+    "C": "退出 1.0cm",
+    "D": "退出 1.5cm",
+    "E": "退出 2.0cm"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "舌神经阻滞麻醉注射方法：在行下牙槽神经麻醉口内注射后，将注射针退出 1cm，此时注射麻药 0.5～1ml，即可麻醉舌神经，或在退针时，边退边注射麻醉药，直到针尖退至黏膜下为止。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 82,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0083",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "麻醉同侧下颌舌侧牙龈、黏骨膜、口底黏膜及舌前 2/3 部分，可行的阻滞麻醉方法是",
+   "options": {
+    "A": "眶下神经阻滞麻醉",
+    "B": "颊神经阻滞麻醉",
+    "C": "鼻腭神经阻滞麻醉",
+    "D": "舌神经阻滞麻醉",
+    "E": "腭前神经阻滞麻醉"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "舌神经阻滞麻醉区域：同侧下颌舌侧牙龈、黏骨膜、口底黏膜及舌前 2/3 部分。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 83,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0084",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "颊长神经阻滞麻醉一般注射麻药量是",
+   "options": {
+    "A": "0.1ml",
+    "B": "0.5～1ml",
+    "C": "1.5～2ml",
+    "D": "2.5ml",
+    "E": "2～3ml"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "由于行下牙槽神经麻醉的针刺点在翼下颌韧带中点外侧 2～3mm处，此进针点周围正是颊神经分布的区域并接近颊神经干，所以可在下牙槽神经阻滞麻醉过程中，针尖退至肌层、黏膜下时注射麻醉药 0.5～1ml，即能麻醉颊神经。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 84,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0085",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "行口内注射行下牙槽神经阻滞麻醉后，针尖退至肌层、黏膜下时注射麻醉药可同时麻醉",
+   "options": {
+    "A": "颊神经",
+    "B": "咬肌神经",
+    "C": "下颌神经",
+    "D": "鼻腭神经",
+    "E": "腭前神经"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "由于行下牙槽神经麻醉的针刺点在翼下颌韧带中点外侧 2～3mm处，此进针点周围正是颊神经分布的区域并接近颊神经干，所以可在下牙槽神经阻滞麻醉过程中，针尖退至肌层、黏膜下时注射麻醉药 0.5～1ml，即能麻醉颊神经。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 85,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0086",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "下列再植牙成功的判断标准，除外的是",
+   "options": {
+    "A": "疼痛消失，无感染",
+    "B": "X 线片示牙根无异常透射影",
+    "C": "牙龈附着正常",
+    "D": "行使功能达 7 年以上",
+    "E": "牙齿无松动"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "再植牙成功的判断标准，一般认为是：疼痛消失，无感染，不松动，牙功能正常，牙龈附着正常。X 线片示牙根无异常透射影。行使功能达 5 年以上，即为成功。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 86,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0087",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "安放拔牙钳放置时注意事项中，除外",
+   "options": {
+    "A": "手掌勿太接近关节部",
+    "B": "钳喙的长轴必须与牙长轴垂直",
+    "C": "钳喙的位置必须在牙根部",
+    "D": "钳喙应紧贴牙面滑入牙颈部",
+    "E": "握钳时应握钳柄接近末端处"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "安放拔牙钳放置时应注意：①必须正确选用拔牙钳；②握钳时，手掌勿太接近关节部，应握钳柄接近末端处；③钳喙的长轴必须与牙长轴平行。安放时，钳喙应紧贴牙面滑入牙颈部；④钳喙的位置必须在牙根部，并尽可能插向根方，而不是置于牙冠釉质上；⑤夹紧患牙，使在用力时，钳喙不会在牙骨质上滑动，否则易断根；⑥肯定钳喙未侵犯邻牙，预防邻牙损伤；⑦再次核对牙位，以免发生错误。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 87,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0088",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "下列牙根拔除基本操作步骤，恰当的是",
+   "options": {
+    "A": "根钳拔除法适用于高位残根",
+    "B": "如牙根断面是斜面，根挺应从斜面较高的一侧插入",
+    "C": "牙挺取根法适用于根的折断部位比较低，根钳无法夹住时",
+    "D": "牙挺取根法支点应为牙槽间隔，或腭侧骨板",
+    "E": "以上说法均正确"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "根钳拔除法适用于高位残根，颈部折断的断根或虽折断部位低于牙槽嵴，但在去除少许牙槽骨壁后，仍能用根钳夹住的断根。牙挺取根法适应于根的折断部位比较低，根钳无法夹住时，应使用牙挺将其挺出。应选用能进入牙槽窝并能达一定深度的牙挺，挺刃的大小、宽窄应与牙根相适应。其支点应为牙槽间隔，或腭侧骨板。如牙根断面是斜面，根挺应从斜面较高的一侧插入。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 88,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0089",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "下列有关干槽症的治疗方法中，除外",
+   "options": {
+    "A": "清创",
+    "B": "隔离外界刺激",
+    "C": "促进肉芽组织生长",
+    "D": "局部止血药物",
+    "E": "抗炎、止痛"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "干槽症治疗原则：清创，隔离外界刺激，促进肉芽组织生长。干槽症患者拔牙窝空虚，血液供应不良，所以局部止血是不正确的。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 89,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0090",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "下列不属于下颌第三磨牙阻生分类方法的是",
+   "options": {
+    "A": "根据牙与下颌升支及第二磨牙的关系",
+    "B": "根据牙在骨内的深度",
+    "C": "根据牙龈覆盖阻生齿的程度",
+    "D": "根据阻生第三磨牙的长轴与第二磨牙的长轴关系",
+    "E": "可根据牙在正常牙列中线的位置"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "下颌阻生牙（第三磨牙）的临床分类：根据牙与下颌升支及第二磨牙的关系、根据牙在骨内的深度、根据阻生第三磨牙的长轴与第二磨牙的长轴关系，此外，还可根据牙在正常牙列中线的位置分为颊侧移位、舌侧移位及正中位三种。对于一个阻生的下颌第三磨牙的正确诊断描述，应包括以上各项。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 90,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0091",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "唾液腺黏液囊肿最常见的好发部位是",
+   "options": {
+    "A": "上唇",
+    "B": "下唇",
+    "C": "腮腺",
+    "D": "舌下腺",
+    "E": "颌下腺"
+   },
+   "answer": "B",
+   "rubric": null,
+   "explanation": "黏液囊肿是最常见的小唾液腺瘤样病变，好发于下唇及舌尖腹侧，这是因为舌体运动常受下前牙摩擦以及自觉或不自觉地咬下唇动作使黏膜下腺体受伤。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 91,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0092",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "以下符合慢性阻塞性腮腺炎临床表现的是",
+   "options": {
+    "A": "导管口流出混浊液体",
+    "B": "导管口流出黄色凝胶状液体",
+    "C": "导管口流出草黄色或草绿色液体流出",
+    "D": "导管口可有脓性或黏液脓性唾液流出",
+    "E": "导管口流出混浊的“雪花样”或黏稠的蛋清样唾液"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "慢性阻塞性腮腺炎临床检查腮腺稍增大，能扪到肿大的腮腺轮廓，中等硬度，轻微压痛。导管口轻微红肿，挤压腮腺可从导管口流出混浊的“雪花样”或黏稠的蛋清样唾液，有时可见黏液栓子。病程较久者，可在颊黏膜下扪及粗硬、呈索条状的腮腺导管。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 92,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0093",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "有关急性化脓性腮腺炎治疗的说法中，错误的是",
+   "options": {
+    "A": "可进行放射治疗",
+    "B": "可进行热敷",
+    "C": "可行切开引流",
+    "D": "可选用有效抗生素",
+    "E": "加强口腔卫生护理"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "急性化脓性腮腺炎治疗：①维持正确出入量及体液平衡，纠正机体脱水和电解质紊乱。②选用有效抗生素及早用广谱、抗革兰阳性球菌抗生素，同时从导管口取脓性分泌物作细菌培养，根据药物敏感试验结果再予以调整。③加强口腔卫生护理。④切开引流。⑤其他保守治疗包括热敷、理疗及增进唾液分泌等。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 93,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0094",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "关于急性化脓性腮腺炎病因的说法不包括",
+   "options": {
+    "A": "主要致病菌是链球菌",
+    "B": "常见于腹部大手术后",
+    "C": "常见于高热或禁食的病员",
+    "D": "常见于体质虚弱、长期卧床的病员",
+    "E": "常见于急性传染病或脓毒血症的病员"
+   },
+   "answer": "A",
+   "rubric": null,
+   "explanation": "急性化脓性腮腺炎的病原菌主要是金黄色葡萄球菌，链球菌及肺炎双球菌较少见。发生急性化脓性腮腺炎的基本因素是机体严重脱水致唾液分泌减少或停止。腮腺区的创伤和邻近组织急性炎症的扩展，也可继发腮腺的急性炎症。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 94,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0095",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "下列不是“扳机点”在上颌支的部位的是",
+   "options": {
+    "A": "眶下孔",
+    "B": "下眼睑",
+    "C": "鼻唇沟",
+    "D": "耳屏部",
+    "E": "鼻翼"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "“扳机点”在上颌支的部位：眶下孔、下眼睑、鼻唇沟、鼻翼、上唇、鼻孔下方或口角区、上颌结节或腭大孔等部位。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 95,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0096",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "三叉神经功能检查项目中不包括",
+   "options": {
+    "A": "三叉神经分布区皮肤与黏膜的触、温、痛觉",
+    "B": "角膜反射",
+    "C": "腭反射",
+    "D": "希尔默试验",
+    "E": "咀嚼肌运动功能检查"
+   },
+   "answer": "D",
+   "rubric": null,
+   "explanation": "希尔默试验：亦称 Schirmer 试验。目的在于观察面神经膝状神经节是否受损。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 96,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0097",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "下列关于“单侧完全性腭裂”的叙述，不恰当的是",
+   "options": {
+    "A": "单侧完全性腭裂的裂隙自腭垂至切牙孔完全裂开",
+    "B": "裂隙斜向外侧直抵牙槽突",
+    "C": "裂隙与牙槽裂相连",
+    "D": "健侧裂隙缘与鼻中隔相连",
+    "E": "不会伴发同侧唇裂"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "单侧完全性腭裂：单侧完全性腭裂的裂隙自腭垂至切牙孔完全裂开，并斜向外侧直抵牙槽突，与牙槽裂相连；健侧裂隙缘与鼻中隔相连；牙槽突裂有时裂隙消失仅存裂缝，有时裂隙很宽；常伴发同侧唇裂。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 97,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0098",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "进行单侧唇裂整复术最适合的年龄为",
+   "options": {
+    "A": "出生后即刻",
+    "B": "1～2 个月",
+    "C": "3～6 个月",
+    "D": "7～12 个月",
+    "E": "1～2 岁"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "一般认为，单侧唇裂整复术最合适的年龄为 3～6 个月，体重达 5～6kg 以上。早期进行手术，可以尽早地恢复上唇的正常功能和外形，并可使瘢痕组织减少到最小程度。对伴有牙槽突裂或腭裂的患儿，唇裂整复后，由于唇肌生理运动，可以产生压迫作用，促使牙槽突裂隙逐渐靠拢，为以后的腭裂整复创造条件。双侧唇裂整复术比单侧整复术复杂，术中出血相对较多，手术时间也较长，一般宜 6～12 个月时施行手术。此外，手术年龄还应该依据患儿全身健康状况及生长发育情况而定。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 98,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0099",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "钝性分离最常使用的分离器械是",
+   "options": {
+    "A": "锐性的手术刀",
+    "B": "手术剪",
+    "C": "血管钳",
+    "D": "刀柄",
+    "E": "手指"
+   },
+   "answer": "C",
+   "rubric": null,
+   "explanation": "钝性分离用于正常肌肉和疏松结缔组织的分离以及有包膜的良性肿瘤的摘除。主要以血管钳进行，也可使用刀柄、手指、纱布等，可在非直视下进行。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 99,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  },
+  {
+   "id": "JYJ100-0100",
+   "subject": "口腔颌面外科学",
+   "chapter": "金英杰模拟题",
+   "type": "A1",
+   "stem": "下列关于引流物的放置时间的叙述中，正确的是",
+   "options": {
+    "A": "无效腔的引流物应放置至脓液及渗出液完全消除为止",
+    "B": "污染创口引流物多在 24～48 小时后去除",
+    "C": "负压引流一般在 24 小时内引流量少于 20～30ml 时去除",
+    "D": "脓肿的引流物应放置至脓液及渗出液完全消除为止",
+    "E": "以上均正确"
+   },
+   "answer": "E",
+   "rubric": null,
+   "explanation": "引流物的放置时间因手术不同而异。引流物为异物，在达到引流目的后，应尽早拔除。污染创口或为防止积血、积液而放置的引流物，多在 24～48 小时后去除；脓肿或无效腔的引流物应放置至脓液及渗出液完全消除为止；负压引流一般在 24小时内引流量少于 20～30ml 时去除。",
+   "warning": "题目与答案整理自金英杰口腔直播教研组《口外 100 测试题》；当前未完成平台医学审核。",
+   "reference": "金英杰口腔直播教研组《口外 100 测试题》",
+   "citation": {
+    "verified": false,
+    "publisher": "金英杰",
+    "title": "口外 100 测试题",
+    "edition": null,
+    "chapter": "金英杰模拟题",
+    "page": null
+   },
+   "tags": [
+    "执医",
+    "模拟题",
+    "金英杰",
+    "待医学审核"
+   ],
+   "topics": [],
+   "modes": [
+    "执医"
+   ],
+   "school": null,
+   "year": null,
+   "paperId": "jyj-100",
+   "paperName": "金英杰模拟题",
+   "durationMinutes": 60,
+   "order": 100,
+   "points": 1,
+   "isDemo": false,
+   "reviewStatus": "draft",
+   "sourceType": "mock",
+   "examProvenance": {
+    "yearVerified": false,
+    "sourceVerified": false
+   },
+   "license": "仅限个人学习使用；请遵循原资料授权。",
+   "collection": "金英杰模拟题"
+  }
+ ]
+}

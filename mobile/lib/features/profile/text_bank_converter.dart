@@ -49,8 +49,8 @@ class TextBankSourceRequirements extends StatelessWidget {
           childrenPadding: const EdgeInsets.only(bottom: 6),
           initiallyExpanded: initiallyExpanded,
           leading: const Icon(Icons.rule_folder_outlined),
-          title: const Text('Word / TXT 文件要求'),
-          subtitle: const Text('每题须有题干、选项与明确答案；仅支持客观单选题'),
+          title: Text('Word / TXT 文件要求'),
+          subtitle: Text('每题须有题干、选项与明确答案；仅支持客观单选题'),
           children: const [
             Padding(
                 padding: EdgeInsets.only(left: 4, right: 4),
@@ -251,7 +251,7 @@ Future<TextBankConversion?> showTextBankConverter(BuildContext context,
       context: context,
       builder: (dialogContext) => StatefulBuilder(
           builder: (dialogContext, set) => AlertDialog(
-                  title: const Text('从 Word / 纯文字生成 JSON'),
+                  title: Text('从 Word / 纯文字生成 JSON'),
                   content: ConstrainedBox(
                       constraints: const BoxConstraints(maxWidth: 620),
                       child: SingleChildScrollView(
@@ -325,7 +325,7 @@ Future<TextBankConversion?> showTextBankConverter(BuildContext context,
                         onPressed: aiWorking
                             ? null
                             : () => Navigator.pop(dialogContext),
-                        child: const Text('取消')),
+                        child: Text('取消')),
                     if (aiConvert != null)
                       OutlinedButton.icon(
                           onPressed: aiWorking
@@ -394,7 +394,7 @@ Future<TextBankConversion?> showTextBankConverter(BuildContext context,
                                   set(() => error = exception.toString());
                                 }
                               },
-                        child: const Text('按格式生成'))
+                        child: Text('按格式生成'))
                   ])));
   name.dispose();
   chapter.dispose();

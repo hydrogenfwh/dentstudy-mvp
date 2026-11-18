@@ -33,8 +33,8 @@ class QuestionBankImportHelp extends StatelessWidget {
           tilePadding: EdgeInsets.zero,
           childrenPadding: const EdgeInsets.only(bottom: 4),
           leading: Icon(Icons.code_rounded, color: teal),
-          title: const Text('没有 JSON？从模板开始'),
-          subtitle: const Text('只填题干、选项、答案即可，系统会补齐内部字段'),
+          title: Text('没有 JSON？从模板开始'),
+          subtitle: Text('只填题干、选项、答案即可，系统会补齐内部字段'),
           children: [
             const Padding(
                 padding: EdgeInsets.only(bottom: 12),
@@ -59,6 +59,6 @@ class QuestionBankImportHelp extends StatelessWidget {
                       if (context.mounted) message(context, 'JSON 模板已复制');
                     },
                     icon: const Icon(Icons.copy_outlined),
-                    label: const Text('复制 JSON 模板'))),
+                    label: Text('复制 JSON 模板'))),
           ]);
 }

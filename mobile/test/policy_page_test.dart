@@ -20,6 +20,10 @@ void main() {
     expect(find.text('隐私说明'), findsOneWidget);
     expect(find.text('版权投诉'), findsOneWidget);
     expect(find.text('数据删除申请'), findsOneWidget);
+    // Payment terms live exclusively behind the server-authorized payment
+    // entry. The generally available rules hub must never leak plans/prices.
+    expect(find.text('会员服务说明'), findsNothing);
+    expect(find.textContaining('¥1'), findsNothing);
 
     await tester.tap(find.text('版权投诉'));
     await tester.pumpAndSettle();

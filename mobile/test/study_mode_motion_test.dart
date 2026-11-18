@@ -83,6 +83,9 @@ void main() {
     await tester.tap(find.text('开始学习'));
     await tester.pumpAndSettle();
     expect(find.byType(ImageFiltered), findsNothing);
+    expect(
+        find.byKey(const ValueKey('study-mode-stone-reward')), findsOneWidget);
+    expect(find.text('每日首次学习、复习均可获得'), findsOneWidget);
     if (const bool.fromEnvironment('MODE_PREVIEW')) {
       await expectLater(find.byKey(preview),
           matchesGoldenFile('/tmp/dentstudy-mode-picker.png'));

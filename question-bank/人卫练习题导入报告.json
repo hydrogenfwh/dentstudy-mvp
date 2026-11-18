@@ -1,0 +1,1157 @@
+{
+  "files": [
+    {
+      "file": "口腔一类/口腔修复学.doc",
+      "sha256": "3110524d9d53a52fe825baaba789457f00b57aecc48d4f5503fc1689b0ff7a16",
+      "sourceQuestions": 1479,
+      "parsed": 1479,
+      "rejected": 0
+    },
+    {
+      "file": "口腔一类/口腔内科学.doc",
+      "sha256": "f21bd6f9e3ac1cc78df4bbad09699f2b0af83ddb33d874741667d615c9886c53",
+      "sourceQuestions": 2798,
+      "parsed": 2795,
+      "rejected": 3
+    },
+    {
+      "file": "口腔一类/口腔组织病理学.48页.doc",
+      "sha256": "18b53428af323291a78884f90800ac750598fa97bc321481e2490ec9cec69731",
+      "sourceQuestions": 1080,
+      "parsed": 1080,
+      "rejected": 0
+    },
+    {
+      "file": "口腔一类/口腔解剖生理学.38页.doc",
+      "sha256": "6f0773e264131a03767ac9ec7e96170eceb4d6d4acbdb6d6922a8e3ba4630426",
+      "sourceQuestions": 844,
+      "parsed": 844,
+      "rejected": 0
+    },
+    {
+      "file": "口腔一类/口腔预防医学.45页.doc",
+      "sha256": "0735a65a9dae4ff411db5d56ed5655ba15a9a22526419cc50e6daae0fb177361",
+      "sourceQuestions": 999,
+      "parsed": 999,
+      "rejected": 0
+    },
+    {
+      "file": "口腔一类/口腔颌面外科学.doc",
+      "sha256": "619a86fdc4d7c9cdf0e1c4fc1601ccde143a02e145297080d22c3d4a013f71bf",
+      "sourceQuestions": 2192,
+      "parsed": 2192,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/儿童口腔医学/儿童口腔医学001.docx",
+      "sha256": "6fdedec5f8167468e7f4f93b844be75a62b91a49f36e8be1650895a96c0fa196",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/儿童口腔医学/儿童口腔医学002.docx",
+      "sha256": "f16ff2e07aaca367047713fd4d2c9ce363d84885a3e4d075370f5b39335bd1af",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/儿童口腔医学/儿童口腔医学003.docx",
+      "sha256": "0cec1f7397236a8700e99f30c4c79cb97ea6243f5e191623e2fde024f307409c",
+      "sourceQuestions": 100,
+      "parsed": 94,
+      "rejected": 6
+    },
+    {
+      "file": "口腔二类/口组病/口腔组织病理学...docx",
+      "sha256": "0528d5505490cb6c03133626800866a3bd8db8b9c3e0f844e08868984672c2e6",
+      "sourceQuestions": 100,
+      "parsed": 96,
+      "rejected": 4
+    },
+    {
+      "file": "口腔二类/口组病/口腔组织病理学..docx",
+      "sha256": "0b1a0c0ee3b160768c58557cecfdf9958032e159e91fb44bea52cd8d511dafe1",
+      "sourceQuestions": 100,
+      "parsed": 97,
+      "rejected": 3
+    },
+    {
+      "file": "口腔二类/口组病/口腔组织病理学.docx",
+      "sha256": "1c6685f59b0e25340ec8181a323e6cbfb960277429e9c77509ec3b840764f005",
+      "sourceQuestions": 100,
+      "parsed": 99,
+      "rejected": 1
+    },
+    {
+      "file": "口腔二类/口腔临床药物学/口腔临床药物学001.docx",
+      "sha256": "5ce4cfee79b8bbe5108f62040fbe9486959e55a54eabfdb5fe7695e626ba3d04",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔临床药物学/口腔临床药物学002.docx",
+      "sha256": "f7da5ebe190e29c2ed9d33551e23d4f7a20d3b3e93dbc9ca412f2bb54c226d0f",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔临床药物学/口腔临床药物学003.docx",
+      "sha256": "ad22de9a5574d5924f6c77afeca408a75f641269e99a1b855605fa6c95e9d6b0",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔修复学/口腔修复学001.docx",
+      "sha256": "b48ed14756cc1b4fa6e225c59b744fd96d0aceeaf65ddb6fc620f40576d781f2",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔修复学/口腔修复学002.docx",
+      "sha256": "7b74ce9def6fc1326f4f547a61a1b7cfc27ff58b3672cc8c4c2c00c090809afd",
+      "sourceQuestions": 100,
+      "parsed": 97,
+      "rejected": 3
+    },
+    {
+      "file": "口腔二类/口腔修复学/口腔修复学003.docx",
+      "sha256": "9bf0e187fdfe2825c9bc7dbea25a08fab5d50a97d6095280ceff27393db6de1b",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔材料学/口腔材料学/諳У第蹋悝001.docx",
+      "sha256": "d2a5b762c1e92843d650eca4347ac45066d5ad599b5c67f6fb52a2111c1bd187",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔材料学/口腔材料学/諳У第蹋悝002.docx",
+      "sha256": "1ff368bdbbc454e843e18cbb95b4acf3303599a358be0cc0a2455b15ad468720",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔材料学/口腔材料学/諳У第蹋悝003.docx",
+      "sha256": "65635ac5264caeee7e2d95c092ad824dfd44644477be08a2107dee1387dfee85",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔正畸学/口腔正畸学001.docx",
+      "sha256": "e96a0f6a0cc7f0b766495278563f4a203d308a841aff7a8835ca18ce8c8f6094",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔正畸学/口腔正畸学002.docx",
+      "sha256": "a5f20fc68f83601ed7fcfe031a0df19e8b8a4b3d62cf64eb93bee9636a4c881c",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔正畸学/口腔正畸学003.docx",
+      "sha256": "8c50b9f1e4c5dba68e6055d60b8f503bf863cf87c0c64b518ed2be0f973908f3",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔生物学/口腔生物学001.docx",
+      "sha256": "d08aa93b32ff27b46d5a0b9ccc2ce7363d5155e8ed1ce54f3e64a86425740a4d",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔生物学/口腔生物学002.docx",
+      "sha256": "a3f070080779a2df454fcab2abb2788828fbf1924ea0f7ae15664e82df6fe89c",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔生物学/口腔生物学003.docx",
+      "sha256": "8f72b2813c3750b5b4712cde3a3f82f1fb0638e826d0277619357f46bca4a657",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔科学综合试卷/口腔科学综合试卷001.docx",
+      "sha256": "eaca02e4d6eb80cbddc73281f345eaa5d5574980bbe7b5668bf6de84cee35be5",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔科学综合试卷/口腔科学综合试卷002.docx",
+      "sha256": "7e0870a9a592cbd43f39c2c0693523544a2c93d966f383702ee4e983c0afe221",
+      "sourceQuestions": 100,
+      "parsed": 99,
+      "rejected": 1
+    },
+    {
+      "file": "口腔二类/口腔科学综合试卷/口腔科学综合试卷003.docx",
+      "sha256": "d205b1bc557efbcd5482d1d5befc93347445b8b740fa6ae0907d7d945c73c4fe",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔解剖生理学/口腔解剖生理学001.docx",
+      "sha256": "13ff05f8e1cf3b23c302b9e6cb6d7e28a435b2994d4beda36383b0f91808dd71",
+      "sourceQuestions": 100,
+      "parsed": 99,
+      "rejected": 1
+    },
+    {
+      "file": "口腔二类/口腔解剖生理学/口腔解剖生理学002.docx",
+      "sha256": "44254db0bdeaee2fd86f310830a99860db3e8d56bdc450d57872e6e1f3f5da0c",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔解剖生理学/口腔解剖生理学003.docx",
+      "sha256": "f1712542734a78043aeabd2e5932364f0bc5c5994c2dbf1d1116b29c048ed66e",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔预防医学/口腔预防医学001.docx",
+      "sha256": "288fedc3298e6513142d144df0dab76eec1a034f6e01692229d929110003846b",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔预防医学/口腔预防医学002.docx",
+      "sha256": "3cc659586c91ee6aa42285f36ce50e69aeb90b3024ee899141f44b7d6f934e38",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔预防医学/口腔预防医学003.docx",
+      "sha256": "d4a0130f376f49a27c31b9e955117a5f9b815797e0a68f81190008907a83f4ef",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学001.docx",
+      "sha256": "233f341dd2c2625368cf8929142c8b2e82ceb96e44f174cbdf687687c60b891d",
+      "sourceQuestions": 100,
+      "parsed": 89,
+      "rejected": 11
+    },
+    {
+      "file": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学002.docx",
+      "sha256": "d7c0253629b4ccf6f1d3dae948c1379eb0df62e0303fbf6aa9c1bc72a3649c36",
+      "sourceQuestions": 100,
+      "parsed": 93,
+      "rejected": 7
+    },
+    {
+      "file": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学003.docx",
+      "sha256": "315a021e92e2062b31408ced1adf8d2718048df532c027acd67b62ae409168ff",
+      "sourceQuestions": 100,
+      "parsed": 85,
+      "rejected": 15
+    },
+    {
+      "file": "口腔二类/口腔颌面外科学/口腔颌面外科学001.docx",
+      "sha256": "9f07f3c7f2949c5b48005f05a7583eedf98516d35adc683c38fb9de365a24f5d",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔颌面外科学/口腔颌面外科学002.docx",
+      "sha256": "5fbb1942bfea4a3c934f9de5e098a0dc6877cc8ee4e6d4e975871335de020838",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔颌面外科学/口腔颌面外科学003.docx",
+      "sha256": "f099e57c96dfe09966cba85d2f7e357032b525270f12a873a1a43e4d397d432d",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/口腔黏膜病学/口腔黏膜病学001.docx",
+      "sha256": "2f31764eb3db2c393f963daac5cebca0c414227fb6e6b001dce1730d89b63074",
+      "sourceQuestions": 100,
+      "parsed": 94,
+      "rejected": 6
+    },
+    {
+      "file": "口腔二类/口腔黏膜病学/口腔黏膜病学002.docx",
+      "sha256": "a8f5965335b7d8c9b59d285c8929941a4f2adb9763870c7b2fe2095f0a7e1beb",
+      "sourceQuestions": 100,
+      "parsed": 96,
+      "rejected": 4
+    },
+    {
+      "file": "口腔二类/口腔黏膜病学/口腔黏膜病学003.docx",
+      "sha256": "ed892eee5b5ae988ea38149c189b3103385f673b87958f5047737cef1fa4384f",
+      "sourceQuestions": 100,
+      "parsed": 91,
+      "rejected": 9
+    },
+    {
+      "file": "口腔二类/牙体牙髓病学/牙体牙髓病学001/牙体牙髓病学001.docx",
+      "sha256": "490ce248a523931db89f3f0e645fd3b0b79b1c5cf2dacb5cf5fd00829158332e",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/牙体牙髓病学/牙体牙髓病学001/牙体牙髓病学002.docx",
+      "sha256": "4ad95d44444136b0eb88368a3be4c634e61ce3a3e1ed6d98a39ae53c1b9d5b94",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/牙体牙髓病学/牙体牙髓病学001/牙体牙髓病学003.docx",
+      "sha256": "5bad2bf9c88ec491089c46da78dae5cee483d51aa9a14b67081d794c86785b35",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/牙合学/牙合学题库1.docx",
+      "sha256": "33fa264acfb21041792c656a22e1bc712f5943e9c9a4e0ff788c713421401375",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/牙合学/牙合学题库2.docx",
+      "sha256": "85f8f55619ae8f748cfdbaa4a03cdca4ceff48d374124a7825536f2558cbe327",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/牙合学/牙合学题库3.docx",
+      "sha256": "5343b2582a05ac1225e6e7496c6580edba91b8133230005f6063fd083780f401",
+      "sourceQuestions": 100,
+      "parsed": 99,
+      "rejected": 1
+    },
+    {
+      "file": "口腔二类/牙周病学/牙周病学001.docx",
+      "sha256": "df7d70764a36ccfbd5232f3c79913040040e0ae93725c3eaf873855899c0aab6",
+      "sourceQuestions": 100,
+      "parsed": 96,
+      "rejected": 4
+    },
+    {
+      "file": "口腔二类/牙周病学/牙周病学002.docx",
+      "sha256": "c755cdd97bfa19b1ab71996912f492d041f84160757e9083859bd1c95a48d910",
+      "sourceQuestions": 100,
+      "parsed": 100,
+      "rejected": 0
+    },
+    {
+      "file": "口腔二类/牙周病学/牙周病学003.docx",
+      "sha256": "d63ec3ef049dbcdd39e279dfb3ef5d6a6f868601073c55c5aa11c82ff5abd278",
+      "sourceQuestions": 100,
+      "parsed": 98,
+      "rejected": 2
+    }
+  ],
+  "sourceQuestions": 14192,
+  "parsedQuestions": 14111,
+  "exactDuplicates": 90,
+  "importedQuestions": 14021,
+  "rejected": [
+    {
+      "sourceFile": "口腔一类/口腔内科学.doc",
+      "sourceSection": "口腔内科学(A3型题1)",
+      "answer": "61．C；62．A；63．D",
+      "reason": "原文题组缺少共用题干",
+      "content": "（61-63题共用题干）\n\n61．假如患牙X线片示：根尖区有透射影像，根尖孔尚未形成。最佳治疗方法是\nA．干髓术\nB．牙髓切断术\nC．根尖诱导形成术\nD．根管治疗\nE．拔除\n62．若成功处理4年后X线片见根尖孔已封闭，但牙体变色，应做\nA．根管治疗\nB．塑化治疗\nC．不做处理\nD．根尖搔刮术\nE．拔除\n63．最佳美容修复方法是\nA．外脱色\nB．内脱色\nC．复合树脂遮盖\nD．烤瓷全冠修复\nE．拔除后义齿修复",
+      "questionCount": 3
+    },
+    {
+      "sourceFile": "口腔二类/儿童口腔医学/儿童口腔医学003.docx",
+      "sourceSection": "儿童口腔医学003",
+      "sourceNumber": 55,
+      "answer": "A",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "为了确诊，需要进行的辅助检查有患儿，男，8岁，因上前牙区双排牙前来就诊。口内情况如图所示。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/儿童口腔医学/儿童口腔医学003.docx",
+      "sourceSection": "儿童口腔医学003",
+      "sourceNumber": 56,
+      "answer": "E",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "该患儿的诊断为患儿，男，8岁，因上前牙区双排牙前来就诊。口内情况如图所示。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/儿童口腔医学/儿童口腔医学003.docx",
+      "sourceSection": "儿童口腔医学003",
+      "sourceNumber": 57,
+      "answer": "E",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "明确诊断后，下一步的治疗方案是患儿，男，8岁，因上前牙区双排牙前来就诊。口内情况如图所示。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/儿童口腔医学/儿童口腔医学003.docx",
+      "sourceSection": "儿童口腔医学003",
+      "sourceNumber": 58,
+      "answer": "B",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "84的诊断是患儿，男，5岁，右下后牙牙龈脓疱一周，无牙痛史。临床检查显示85近中邻牙合面、84远中邻牙合面深龋，84颊侧牙龈脓疱，轻叩痛，无明显松动；85无松动、无叩痛、牙龈无红肿，远中牙髓暴露，露髓孔处软组织增生。X线检查如图所示。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/儿童口腔医学/儿童口腔医学003.docx",
+      "sourceSection": "儿童口腔医学003",
+      "sourceNumber": 59,
+      "answer": "E",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "84的治疗方案是患儿，男，5岁，右下后牙牙龈脓疱一周，无牙痛史。临床检查显示85近中邻牙合面、84远中邻牙合面深龋，84颊侧牙龈脓疱，轻叩痛，无明显松动；85无松动、无叩痛、牙龈无红肿，远中牙髓暴露，露髓孔处软组织增生。X线检查如图所示。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/儿童口腔医学/儿童口腔医学003.docx",
+      "sourceSection": "儿童口腔医学003",
+      "sourceNumber": 60,
+      "answer": "D",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "85的治疗方案是患儿，男，5岁，右下后牙牙龈脓疱一周，无牙痛史。临床检查显示85近中邻牙合面、84远中邻牙合面深龋，84颊侧牙龈脓疱，轻叩痛，无明显松动；85无松动、无叩痛、牙龈无红肿，远中牙髓暴露，露髓孔处软组织增生。X线检查如图所示。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口组病/口腔组织病理学...docx",
+      "sourceSection": "口腔组织病理学..",
+      "sourceNumber": 31,
+      "answer": "E",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "患者女，67岁，牙体治疗时发现左磨牙后区灰黑色斑块，形状不规则，最大径约5mm，切除活检，高倍镜下组织学表现如图，最可能的诊断是",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口组病/口腔组织病理学...docx",
+      "sourceSection": "口腔组织病理学..",
+      "sourceNumber": 37,
+      "answer": "C",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "患者女，23岁，发现左颊部黑色斑块7天，椭圆形，最大径约3mm。活检切片局部高倍镜下表现见图，在黑色虚线标示的方框区A～E中，对诊断最有提示意义的是",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口组病/口腔组织病理学...docx",
+      "sourceSection": "口腔组织病理学..",
+      "sourceNumber": 40,
+      "answer": "B",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "患者女，27岁，上唇肿胀4个月，有消长史，无破溃，取活检，镜下表现如图A、图B，图B中黑色箭头所指示的细胞为",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口组病/口腔组织病理学...docx",
+      "sourceSection": "口腔组织病理学..",
+      "sourceNumber": 56,
+      "answer": "D",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "患者男，72岁，发现舌体弥漫性肿大2年，逐渐影响语言和进食，舌背部取活检，HE、PAS及刚果红染色镜下所见如图，病理诊断应为",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口组病/口腔组织病理学..docx",
+      "sourceSection": "口腔组织病理学.",
+      "sourceNumber": 33,
+      "answer": "A",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "患者男，36岁，发现舌背白色突起7年，临床检查可疑为念珠菌白斑，活检标本HE切片镜下表现如图，进一步行PAS染色，最有可能观察到念珠菌入侵的部位是",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口组病/口腔组织病理学..docx",
+      "sourceSection": "口腔组织病理学.",
+      "sourceNumber": 55,
+      "answer": "B",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "患者男，32岁，下唇黏膜黑色斑1年，直径约3mm，类圆形，平坦，界清。切除活检，高倍镜下表现如图，红色箭头指示的是",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口组病/口腔组织病理学..docx",
+      "sourceSection": "口腔组织病理学.",
+      "sourceNumber": 61,
+      "answer": "E",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "患者女，68岁，左颊反复肿胀糜烂5个月，临床检查见左侧口角及颊部肿胀明显，口角处可见糜烂面及深裂，覆盖黄色伪膜，渗出明显。活检低倍镜下表现见图A。图B为高倍镜下表现，白色箭头指示的是共用备选答案",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口组病/口腔组织病理学.docx",
+      "sourceSection": "口腔组织病理学",
+      "sourceNumber": 26,
+      "answer": "D",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "图中所示为患牙切片，本例应诊断为",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔修复学/口腔修复学002.docx",
+      "sourceSection": "口腔修复学002",
+      "sourceNumber": 38,
+      "answer": "E",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "下列桥体基底面形态会造成桥体下方黏膜组织红肿情况发生的是患者，女，40岁，下颌34～37烤瓷固定桥基牙疼痛加剧1周余为主诉就诊。固定桥拆除后，桥体下方的黏膜组织红肿（如下图所示）。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔修复学/口腔修复学002.docx",
+      "sourceSection": "口腔修复学002",
+      "sourceNumber": 39,
+      "answer": "D",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "患者要求更换修复体，为了解决患者主诉问题，不建议患者选择的修复方式为患者，女，40岁，下颌34～37烤瓷固定桥基牙疼痛加剧1周余为主诉就诊。固定桥拆除后，桥体下方的黏膜组织红肿（如下图所示）。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔修复学/口腔修复学002.docx",
+      "sourceSection": "口腔修复学002",
+      "sourceNumber": 40,
+      "answer": "D",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "原修复体导致牙齿龋坏，想要重新更换修复体，拟采用CAD/CAM修复。要获取口腔三维数据，可采用的技术是患者，女，40岁，下颌34～37烤瓷固定桥基牙疼痛加剧1周余为主诉就诊。固定桥拆除后，桥体下方的黏膜组织红肿（如下图所示）。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔科学综合试卷/口腔科学综合试卷002.docx",
+      "sourceSection": "口腔科学综合试卷002",
+      "sourceNumber": 52,
+      "answer": "D",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "图示是鳃裂囊肿患者的CT检查结果，关于此病的描述错误的是",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔解剖生理学/口腔解剖生理学001.docx",
+      "sourceSection": "口腔解剖生理学001",
+      "answer": "A",
+      "reason": "选项缺失或为空",
+      "content": "10.国际牙科联合会系统记录恒牙弓各区的数字是\nA、\nB、\nC、\nD、\nE、",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学001.docx",
+      "sourceSection": "口腔颌面医学影像诊断学001",
+      "answer": "B",
+      "reason": "缺少题干",
+      "content": "A、高密度团块影，边界清楚\nB、高低混合密度，边界清楚\nC、X线透射影，边界清楚\nD、X线阻摄影，边界不清\nE、混合密度病变，边界不清\n61.",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学001.docx",
+      "sourceSection": "口腔颌面医学影像诊断学001",
+      "answer": "A",
+      "reason": "缺少题干",
+      "content": "A、高密度团块影，边界清楚\nB、高低混合密度，边界清楚\nC、X线透射影，边界清楚\nD、X线阻摄影，边界不清\nE、混合密度病变，边界不清\n62.",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学001.docx",
+      "sourceSection": "口腔颌面医学影像诊断学001",
+      "answer": "C",
+      "reason": "缺少题干",
+      "content": "A、高密度团块影，边界清楚\nB、高低混合密度，边界清楚\nC、X线透射影，边界清楚\nD、X线阻摄影，边界不清\nE、混合密度病变，边界不清\n63.",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学001.docx",
+      "sourceSection": "口腔颌面医学影像诊断学001",
+      "answer": "E",
+      "reason": "缺少题干",
+      "content": "A、高密度团块影，边界清楚\nB、高低混合密度，边界清楚\nC、X线透射影，边界清楚\nD、X线阻摄影，边界不清\nE、混合密度病变，边界不清\n64.",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学001.docx",
+      "sourceSection": "口腔颌面医学影像诊断学001",
+      "answer": "D",
+      "reason": "缺少题干",
+      "content": "A、高密度团块影，边界清楚\nB、高低混合密度，边界清楚\nC、X线透射影，边界清楚\nD、X线阻摄影，边界不清\nE、混合密度病变，边界不清\n65.",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学001.docx",
+      "sourceSection": "口腔颌面医学影像诊断学001",
+      "sourceNumber": 9,
+      "answer": "A",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "此图表示的疾病为",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学001.docx",
+      "sourceSection": "口腔颌面医学影像诊断学001",
+      "sourceNumber": 21,
+      "answer": "A",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "此图考虑",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学001.docx",
+      "sourceSection": "口腔颌面医学影像诊断学001",
+      "sourceNumber": 34,
+      "answer": "E",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "患者，男，35岁，摔伤4小时。行CBCT检查显示如图所示，下列说法对其表现描述正确的是",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学001.docx",
+      "sourceSection": "口腔颌面医学影像诊断学001",
+      "sourceNumber": 36,
+      "answer": "C",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "53岁，男，右颌下区肿胀半月余，行X光检查，如图示诊断为",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学001.docx",
+      "sourceSection": "口腔颌面医学影像诊断学001",
+      "sourceNumber": 46,
+      "answer": "A",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "患者，男，47岁，右腮腺肿痛3周，抗炎治疗后缓解，检查右腮腺稍大，扪压有少量浓稠液体，行CT检查，如图示，诊断为",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学001.docx",
+      "sourceSection": "口腔颌面医学影像诊断学001",
+      "sourceNumber": 57,
+      "answer": "D",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "男，35岁，右下颌无痛性膨大5年余，拍摄全景片如下图，颌骨膨胀，神经管推压移位，48阻生，有牙根吸收，最可能的诊断为：",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学002.docx",
+      "sourceSection": "口腔颌面医学影像诊断学002",
+      "sourceNumber": 29,
+      "answer": "D",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "此图在涎腺疾病的检查中检查方法是下列哪一种？",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学002.docx",
+      "sourceSection": "口腔颌面医学影像诊断学002",
+      "sourceNumber": 35,
+      "answer": "A",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "女，20岁，右面部逐渐膨隆畸形10余年，全景片如图，应诊断为：",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学002.docx",
+      "sourceSection": "口腔颌面医学影像诊断学002",
+      "sourceNumber": 38,
+      "answer": "A",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "女，25岁。左颞下颌关节弹响半年。弹响发生于开口初和闭口末期，左侧髁突后区及乙状切迹中点压痛。平片及体层摄影检查发现颞下颌关节前间隙增宽，髁突骨质未见异常，进一步行关节造影，结果如图，应诊断为",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学002.docx",
+      "sourceSection": "口腔颌面医学影像诊断学002",
+      "sourceNumber": 43,
+      "answer": "B",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "36岁，男性，左颌下腺反复肿胀、疼痛4月余，晨起和饭后明显，扪压分泌少，行造影检查，如图，诊断为",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学002.docx",
+      "sourceSection": "口腔颌面医学影像诊断学002",
+      "sourceNumber": 45,
+      "answer": "E",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "患者，男，25岁，外伤后1天。曲面体层片检查如图所示，下列描述错误的是",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学002.docx",
+      "sourceSection": "口腔颌面医学影像诊断学002",
+      "sourceNumber": 48,
+      "answer": "D",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "患者8岁，男，左面部有液体溢出，进食时为重，行造影检查，如图示，诊断为",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学002.docx",
+      "sourceSection": "口腔颌面医学影像诊断学002",
+      "sourceNumber": 57,
+      "answer": "A",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "65岁，男，右面部包块3年余，生长缓慢，无压痛，界清，行CT检查，如图，诊断为",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学003.docx",
+      "sourceSection": "口腔颌面医学影像诊断学003",
+      "answer": "C",
+      "reason": "选项缺失或为空",
+      "content": "A、\nB、\nC、\nD、\nE、\n67.B超检查图像是",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学003.docx",
+      "sourceSection": "口腔颌面医学影像诊断学003",
+      "answer": "E",
+      "reason": "选项缺失或为空",
+      "content": "A、\nB、\nC、\nD、\nE、\n68.MRI检查图像是",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学003.docx",
+      "sourceSection": "口腔颌面医学影像诊断学003",
+      "answer": "D",
+      "reason": "选项缺失或为空",
+      "content": "A、\nB、\nC、\nD、\nE、\n69.CT检查图像是",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学003.docx",
+      "sourceSection": "口腔颌面医学影像诊断学003",
+      "sourceNumber": 1,
+      "answer": "C",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "此图表示的疾病",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学003.docx",
+      "sourceSection": "口腔颌面医学影像诊断学003",
+      "sourceNumber": 4,
+      "answer": "A",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "此图表示的疾病为",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学003.docx",
+      "sourceSection": "口腔颌面医学影像诊断学003",
+      "sourceNumber": 8,
+      "answer": "B",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "此图代表的唾液腺检查方法是",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学003.docx",
+      "sourceSection": "口腔颌面医学影像诊断学003",
+      "sourceNumber": 33,
+      "answer": "A",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "患者男，10岁，右面颊部肿胀1月余。临床检查：右面颊部及下颌角区肿胀，表面皮温稍高，张口度0.5cm，右下唇无麻木。CBCT检查如图所示，最有可能的诊断是",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学003.docx",
+      "sourceSection": "口腔颌面医学影像诊断学003",
+      "sourceNumber": 35,
+      "answer": "B",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "男，20岁，左上3缺失，全景片如下图，请问该患者最有可能的诊断是：",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学003.docx",
+      "sourceSection": "口腔颌面医学影像诊断学003",
+      "sourceNumber": 41,
+      "answer": "C",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "患者，男，30岁，与人斗殴致左侧面部疼痛肿胀，CT横断面如图所示，对其的诊断是",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学003.docx",
+      "sourceSection": "口腔颌面医学影像诊断学003",
+      "sourceNumber": 42,
+      "answer": "C",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "男，54岁，右侧耳前区咀嚼时疼痛数月，专科检查发现：开口度3指，下颌骨开闭、前伸、侧方运动的任何阶段均可及多声破碎音，关节上腔造影结果如图，应诊断为",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学003.docx",
+      "sourceSection": "口腔颌面医学影像诊断学003",
+      "sourceNumber": 44,
+      "answer": "B",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "患者，女性，47岁，左面部腮腺区有一肿物5年余，缓慢增长，界清，活动，无压痛,行CT检查如图示，诊断为",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学003.docx",
+      "sourceSection": "口腔颌面医学影像诊断学003",
+      "sourceNumber": 47,
+      "answer": "A",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "女，32岁，开口受限一年。既往有关节弹响史。临床检查见开口度一指，开口型右偏。关节造影结果如图，应诊断为",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学003.docx",
+      "sourceSection": "口腔颌面医学影像诊断学003",
+      "sourceNumber": 86,
+      "answer": "C",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "此图表示的疾病共用备选答案",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学003.docx",
+      "sourceSection": "口腔颌面医学影像诊断学003",
+      "sourceNumber": 87,
+      "answer": "A",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "此图代表的疾病共用备选答案",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔颌面医学影像诊断学/口腔颌面医学影像诊断学003.docx",
+      "sourceSection": "口腔颌面医学影像诊断学003",
+      "sourceNumber": 88,
+      "answer": "B",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "此图代表的疾病共用备选答案",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔黏膜病学/口腔黏膜病学001.docx",
+      "sourceSection": "口腔黏膜病学001",
+      "sourceNumber": 17,
+      "answer": "E",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "患者，女，36岁。刷牙出血1个月。检查示全口牙龈龈缘可见界限清楚的火红色充血带，约2mm，如图。患者口腔卫生状况一般，可见少许牙结石，未探及明显牙周袋。检查HIV抗体（+）。该患者牙龈病损最可能的诊断为",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔黏膜病学/口腔黏膜病学001.docx",
+      "sourceSection": "口腔黏膜病学001",
+      "sourceNumber": 38,
+      "answer": "C",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "最可能的诊断是患者，女，49岁。2天前因牙痛服用布洛芬后，双颊及舌体突然肿胀疼痛。舌部、腭部病损如图所示。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔黏膜病学/口腔黏膜病学001.docx",
+      "sourceSection": "口腔黏膜病学001",
+      "sourceNumber": 39,
+      "answer": "D",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "以下疾病中最需要注意与之鉴别的是患者，女，49岁。2天前因牙痛服用布洛芬后，双颊及舌体突然肿胀疼痛。舌部、腭部病损如图所示。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔黏膜病学/口腔黏膜病学001.docx",
+      "sourceSection": "口腔黏膜病学001",
+      "sourceNumber": 40,
+      "answer": "A",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "适合治疗该病的药物是患者，女，49岁。2天前因牙痛服用布洛芬后，双颊及舌体突然肿胀疼痛。舌部、腭部病损如图所示。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔黏膜病学/口腔黏膜病学001.docx",
+      "sourceSection": "口腔黏膜病学001",
+      "sourceNumber": 44,
+      "answer": "D",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "该白色病损属于下列哪一种基本病损类型男，56岁，右颊黏膜病损如图所示。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔黏膜病学/口腔黏膜病学001.docx",
+      "sourceSection": "口腔黏膜病学001",
+      "sourceNumber": 45,
+      "answer": "D",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "该患者最可能的诊断是男，56岁，右颊黏膜病损如图所示。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔黏膜病学/口腔黏膜病学002.docx",
+      "sourceSection": "口腔黏膜病学002",
+      "sourceNumber": 34,
+      "answer": "C",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "患者，女，50岁，1年前牙龈反复发红溃烂。口腔病损如图，组织病理学检查示上皮下疱。直接免疫荧光检查的结果应为",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔黏膜病学/口腔黏膜病学002.docx",
+      "sourceSection": "口腔黏膜病学002",
+      "sourceNumber": 42,
+      "answer": "D",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "最可能的诊断是患者，女，50岁。广泛牙齿龋坏就诊。既往史：口干2年，夜间干醒，固体食物吞咽困难。因失眠长期服用镇静类药物。检查示：口腔湿润度差，牙齿广泛龋坏（如图所示）。血沉89mm/h，ANA1：320（+），抗SSA（+）。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔黏膜病学/口腔黏膜病学002.docx",
+      "sourceSection": "口腔黏膜病学002",
+      "sourceNumber": 43,
+      "answer": "B",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "对诊断最有价值的检查是患者，女，50岁。广泛牙齿龋坏就诊。既往史：口干2年，夜间干醒，固体食物吞咽困难。因失眠长期服用镇静类药物。检查示：口腔湿润度差，牙齿广泛龋坏（如图所示）。血沉89mm/h，ANA1：320（+），抗SSA（+）。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔黏膜病学/口腔黏膜病学002.docx",
+      "sourceSection": "口腔黏膜病学002",
+      "sourceNumber": 44,
+      "answer": "A",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "关于干燥综合征的描述，错误的是患者，女，50岁。广泛牙齿龋坏就诊。既往史：口干2年，夜间干醒，固体食物吞咽困难。因失眠长期服用镇静类药物。检查示：口腔湿润度差，牙齿广泛龋坏（如图所示）。血沉89mm/h，ANA1：320（+），抗SSA（+）。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔黏膜病学/口腔黏膜病学003.docx",
+      "sourceSection": "口腔黏膜病学003",
+      "sourceNumber": 17,
+      "answer": "C",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "患者舌背病损如图所示，属于何种基本病损类型",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔黏膜病学/口腔黏膜病学003.docx",
+      "sourceSection": "口腔黏膜病学003",
+      "sourceNumber": 19,
+      "answer": "E",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "患者，女，33岁，舌部溃疡1月余，无明显疼痛。检查示舌背前份可见一处直径约1cm溃疡，覆黄色假膜，边界清楚，周缘微隆起，质硬，如图。左侧下颌下淋巴结肿大。对诊断最有价值的检查为",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔黏膜病学/口腔黏膜病学003.docx",
+      "sourceSection": "口腔黏膜病学003",
+      "sourceNumber": 31,
+      "answer": "A",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "患者，男，48岁。3天前服用磺胺嘧啶，2天前出现上下唇内侧肿痛，逐渐出现舌腹发红起疱。左舌缘、舌腹黏膜病损如图所示。该患者的口腔黏膜疾病属于",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔黏膜病学/口腔黏膜病学003.docx",
+      "sourceSection": "口腔黏膜病学003",
+      "sourceNumber": 66,
+      "answer": "B",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "本病例最可能的诊断是患者，男性，38岁。2天前头痛服药不久后，口腔黏膜出现广泛充血发红水肿。检查发现口腔病损如图。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔黏膜病学/口腔黏膜病学003.docx",
+      "sourceSection": "口腔黏膜病学003",
+      "sourceNumber": 67,
+      "answer": "A",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "与该患者所患疾病发病机制最类似的疾病是患者，男性，38岁。2天前头痛服药不久后，口腔黏膜出现广泛充血发红水肿。检查发现口腔病损如图。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔黏膜病学/口腔黏膜病学003.docx",
+      "sourceSection": "口腔黏膜病学003",
+      "sourceNumber": 68,
+      "answer": "A",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "该病特点不包括患者，男性，38岁。2天前头痛服药不久后，口腔黏膜出现广泛充血发红水肿。检查发现口腔病损如图。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔黏膜病学/口腔黏膜病学003.docx",
+      "sourceSection": "口腔黏膜病学003",
+      "sourceNumber": 73,
+      "answer": "B",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "对该患者的进一步体格查是患者，男，33岁。上腭起疱2个月就诊。检查见病损如图所示。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔黏膜病学/口腔黏膜病学003.docx",
+      "sourceSection": "口腔黏膜病学003",
+      "sourceNumber": 74,
+      "answer": "E",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "进一步为该患者做病理检查，结果显示上皮萎缩，黏膜固有层和黏膜下层胶原纤维堆积、变性及血管闭塞、减少。该病例最可能的诊断为患者，男，33岁。上腭起疱2个月就诊。检查见病损如图所示。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/口腔黏膜病学/口腔黏膜病学003.docx",
+      "sourceSection": "口腔黏膜病学003",
+      "sourceNumber": 75,
+      "answer": "B",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "适合的药物治疗方法是患者，男，33岁。上腭起疱2个月就诊。检查见病损如图所示。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/牙合学/牙合学题库3.docx",
+      "sourceSection": "牙合学题库3",
+      "sourceNumber": 64,
+      "answer": "B",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "电化学咬合检查如图所示，咬合力度最高点位于女性，53岁，左侧关节有响声十年。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/牙周病学/牙周病学001.docx",
+      "sourceSection": "牙周病学001",
+      "sourceNumber": 19,
+      "answer": "E",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "下图为大鼠下颌磨牙颊舌向组织切片，错误标示处为",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/牙周病学/牙周病学001.docx",
+      "sourceSection": "牙周病学001",
+      "sourceNumber": 46,
+      "answer": "B",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "对于右上6牙槽骨吸收状况的描述，最准确的是患者，男，17岁，下前牙咬合不适1个月，刷牙时偶有出血，自觉牙龈肿胀。患者全身健康，父亲有重度牙周炎。检查见：全口牙龈肿胀，PD：5～10mm，BI：4，下颌中切牙松动Ⅱ度，前伸咬合时有早接触；右下第一磨牙缺失，右上第一磨牙松动Ⅰ度，全口根尖片见下图。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/牙周病学/牙周病学001.docx",
+      "sourceSection": "牙周病学001",
+      "sourceNumber": 47,
+      "answer": "E",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "对于右上6的治疗计划，最适合的是患者，男，17岁，下前牙咬合不适1个月，刷牙时偶有出血，自觉牙龈肿胀。患者全身健康，父亲有重度牙周炎。检查见：全口牙龈肿胀，PD：5～10mm，BI：4，下颌中切牙松动Ⅱ度，前伸咬合时有早接触；右下第一磨牙缺失，右上第一磨牙松动Ⅰ度，全口根尖片见下图。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/牙周病学/牙周病学001.docx",
+      "sourceSection": "牙周病学001",
+      "sourceNumber": 48,
+      "answer": "A",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "对于主诉牙下颌中切牙的治疗计划，最合理的是患者，男，17岁，下前牙咬合不适1个月，刷牙时偶有出血，自觉牙龈肿胀。患者全身健康，父亲有重度牙周炎。检查见：全口牙龈肿胀，PD：5～10mm，BI：4，下颌中切牙松动Ⅱ度，前伸咬合时有早接触；右下第一磨牙缺失，右上第一磨牙松动Ⅰ度，全口根尖片见下图。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/牙周病学/牙周病学003.docx",
+      "sourceSection": "牙周病学003",
+      "sourceNumber": 48,
+      "answer": "A",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "建议进一步检查的方法可考虑使用的是患者，男，52岁，自觉左下牙床上有包块1年余。临床表现如下图。检查见：全口牙石（+～++），牙龈轻度红肿，PD：1～2mm，全口牙动（-），叩（-），牙髓活力正常，龋（-）。在左下尖牙和第一前磨牙之间的前庭区可见约1cm境界清楚的包块，推之无移动，质地偏硬。",
+      "questionCount": 1
+    },
+    {
+      "sourceFile": "口腔二类/牙周病学/牙周病学003.docx",
+      "sourceSection": "牙周病学003",
+      "sourceNumber": 49,
+      "answer": "E",
+      "reason": "原文引用图示，但文件未包含对应图片",
+      "content": "X线根尖片显示左下第一前磨牙颈部根旁囊肿，囊壁上皮细胞来源于患者，男，52岁，自觉左下牙床上有包块1年余。临床表现如下图。检查见：全口牙石（+～++），牙龈轻度红肿，PD：1～2mm，全口牙动（-），叩（-），牙髓活力正常，龋（-）。在左下尖牙和第一前磨牙之间的前庭区可见约1cm境界清楚的包块，推之无移动，质地偏硬。",
+      "questionCount": 1
+    }
+  ],
+  "subjects": {
+    "口腔修复学": 1768,
+    "口腔内科学": 680,
+    "口腔黏膜病学": 841,
+    "牙周病学": 929,
+    "牙体牙髓病学": 1213,
+    "口腔组织病理学": 1363,
+    "口腔解剖生理学": 1129,
+    "口腔预防医学": 1299,
+    "口腔颌面外科学": 2488,
+    "儿童口腔医学": 294,
+    "口腔临床药物学": 298,
+    "口腔材料学": 297,
+    "口腔正畸学": 290,
+    "口腔生物学": 298,
+    "口腔科学综合试卷": 290,
+    "口腔颌面医学影像诊断学": 245,
+    "𬌗学": 299
+  },
+  "types": {
+    "A1": 6976,
+    "A2": 1677,
+    "A3": 1987,
+    "A4": 237,
+    "B": 2804,
+    "多选题": 340
+  },
+  "withExplanation": 2012,
+  "chapterCounts": {
+    "执医": {
+      "儿童口腔医学": 6,
+      "口腔临床药物学": 6,
+      "口腔修复学": 10,
+      "口腔内科学": 5,
+      "口腔材料学": 6,
+      "口腔正畸学": 7,
+      "口腔生物学": 6,
+      "口腔科学综合试卷": 5,
+      "口腔组织病理学": 18,
+      "口腔解剖生理学": 8,
+      "口腔预防医学": 8,
+      "口腔颌面医学影像诊断学": 7,
+      "口腔颌面外科学": 16,
+      "口腔黏膜病学": 7,
+      "牙体牙髓病学": 6,
+      "牙周病学": 7,
+      "𬌗学": 6
+    },
+    "考研": {
+      "儿童口腔医学": 6,
+      "口腔临床药物学": 6,
+      "口腔修复学": 10,
+      "口腔内科学": 5,
+      "口腔材料学": 6,
+      "口腔正畸学": 7,
+      "口腔生物学": 6,
+      "口腔科学综合试卷": 5,
+      "口腔组织病理学": 18,
+      "口腔解剖生理学": 8,
+      "口腔预防医学": 8,
+      "口腔颌面医学影像诊断学": 7,
+      "口腔颌面外科学": 16,
+      "口腔黏膜病学": 7,
+      "牙体牙髓病学": 6,
+      "牙周病学": 7,
+      "𬌗学": 6
+    }
+  }
+}

@@ -77,7 +77,7 @@ class _CustomPracticeState extends State<CustomPractice> {
                   ]),
                   SwitchListTile(
                       contentPadding: EdgeInsets.zero,
-                      title: const Text('随机抽题'),
+                      title: Text('随机抽题'),
                       value: random,
                       onChanged: (v) => setState(() => random = v)),
                   for (final entry in {
@@ -94,7 +94,7 @@ class _CustomPracticeState extends State<CustomPractice> {
                         onTap: () => setState(() => mode = entry.key)),
                   Text('本次可练 $actual 题 · 预计 ${(actual * 1.5).ceil()} 分钟',
                       style: const TextStyle(color: Colors.blueGrey)),
-                  const Text('复习与学习新题可自主安排；新题仍计入今日目标。',
+                  Text('复习与学习新题可自主安排；新题仍计入今日目标。',
                       style: TextStyle(fontSize: 12)),
                   const SizedBox(height: 12),
                   SizedBox(
@@ -140,7 +140,7 @@ class _CustomPracticeState extends State<CustomPractice> {
           decoration: InputDecoration(labelText: label),
           items: values
               .map((s) => DropdownMenuItem(
-                  value: s, child: Text(s, overflow: TextOverflow.ellipsis)))
+                  value: s, child: Text(tr(s), overflow: TextOverflow.ellipsis)))
               .toList(),
           onChanged: (v) {
             if (v != null) change(v);

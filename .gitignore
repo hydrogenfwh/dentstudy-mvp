@@ -17,3 +17,9 @@ mobile/ios/.symlinks/
 mobile/ios/Flutter/Generated.xcconfig
 mobile/ios/Flutter/flutter_export_environment.sh
 mobile/android/local.properties
+output/
+question-bank/backups/
+mobile/ios/Flutter/ephemeral/
+mobile/ios/**/xcuserdata/
+*.backup
+=

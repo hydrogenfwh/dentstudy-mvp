@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../models.dart';
 import '../../app/shared.dart';
+import '../practice/practice_widgets.dart';
 import '../practice/question_tools.dart';
 import 'reading_sequence.dart';
 
@@ -144,7 +145,7 @@ class _QuestionPreviewPageState extends State<QuestionPreviewPage> {
                               onPressed:
                                   index == 0 ? null : () => _move(index - 1),
                               icon: const Icon(Icons.chevron_left),
-                              label: const Text('上一题')),
+                              label: Text('上一题')),
                           const SizedBox(width: 16),
                           Expanded(
                               child: FilledButton.icon(
@@ -174,7 +175,8 @@ class _QuestionPreviewPageState extends State<QuestionPreviewPage> {
                             children: [
                               Text(progress,
                                   style: TextStyle(
-                                      color: teal,
+                                      color:
+                                          Theme.of(context).colorScheme.primary,
                                       fontWeight: FontWeight.bold)),
                               const SizedBox(height: 12),
                               QuestionTools(
@@ -188,7 +190,7 @@ class _QuestionPreviewPageState extends State<QuestionPreviewPage> {
                                         crossAxisAlignment:
                                             CrossAxisAlignment.start,
                                         children: [
-                                          const Text('我的笔记',
+                                          Text('我的笔记',
                                               style: TextStyle(
                                                   fontWeight: FontWeight.bold)),
                                           const SizedBox(height: 8),
@@ -196,7 +198,10 @@ class _QuestionPreviewPageState extends State<QuestionPreviewPage> {
                                               style:
                                                   const TextStyle(height: 1.65))
                                         ]),
-                                    color: teal.withAlpha(10)),
+                                    color: Theme.of(context)
+                                        .colorScheme
+                                        .primary
+                                        .withAlpha(10)),
                               ],
                               if (q.tags.isNotEmpty) ...[
                                 Wrap(
@@ -206,60 +211,17 @@ class _QuestionPreviewPageState extends State<QuestionPreviewPage> {
                                 const SizedBox(height: 14)
                               ],
                               const SizedBox(height: 8),
-                              if (q.sharedStem.isNotEmpty)
-                                Text(q.sharedStem,
-                                    style: const TextStyle(height: 1.7)),
-                              Text(q.stem,
-                                  style: TextStyle(
-                                      fontSize: 21,
-                                      height: 1.7,
-                                      fontWeight: FontWeight.w600,
-                                      color: ink)),
-                              const SizedBox(height: 22),
-                              ...q.options.entries.map((option) => Padding(
-                                  padding: const EdgeInsets.only(bottom: 10),
-                                  child: Container(
-                                      padding: const EdgeInsets.all(16),
-                                      decoration: BoxDecoration(
-                                          color: option.key == q.answer
-                                              ? teal.withAlpha(25)
-                                              : Colors.white,
-                                          borderRadius:
-                                              BorderRadius.circular(14),
-                                          border: Border.all(
-                                              color: option.key == q.answer
-                                                  ? teal
-                                                  : const Color(0xFFDDE5DF))),
-                                      child: Row(
-                                          crossAxisAlignment:
-                                              CrossAxisAlignment.start,
-                                          children: [
-                                            Text(option.key,
-                                                style: TextStyle(
-                                                    fontWeight: FontWeight.bold,
-                                                    color: teal)),
-                                            const SizedBox(width: 14),
-                                            Expanded(
-                                                child: Text(option.value,
-                                                    style: const TextStyle(
-                                                        fontSize: 16,
-                                                        height: 1.5)))
-                                          ])))),
+                              PracticeQuestionStem(question: q),
+                              const SizedBox(height: 16),
+                              for (final option in q.options.entries)
+                                PracticeOption(
+                                    question: q,
+                                    option: option,
+                                    revealed: true),
                               const SizedBox(height: 10),
-                              box(Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Text('参考答案：${q.answer ?? q.data['rubric']}',
-                                        style: TextStyle(
-                                            fontWeight: FontWeight.bold,
-                                            color: teal)),
-                                    const SizedBox(height: 12),
-                                    Text(q.explanation,
-                                        style: const TextStyle(height: 1.8)),
-                                    SourceDetails(
-                                        key: ValueKey('source:${q.id}'),
-                                        question: q),
-                                  ])),
+                              PracticeExplanation(
+                                  key: ValueKey('explanation:${q.id}'),
+                                  question: q),
                               QuestionComments(
                                   key: ValueKey('comments:${q.id}'),
                                   question: q),
@@ -278,10 +240,12 @@ class _QuestionPreviewPageState extends State<QuestionPreviewPage> {
                                             '下一章：${sequence.questions[index + 1].chapter}')
                                       ],
                                       const SizedBox(height: 8),
-                                      const Text('浏览解析不会计入作答完成数。',
+                                      Text('浏览解析不会计入作答完成数。',
                                           style: TextStyle(
                                               fontSize: 12,
-                                              color: Colors.blueGrey))
+                                              color: Theme.of(context)
+                                                  .colorScheme
+                                                  .onSurfaceVariant))
                                     ]))
                               ],
                               const SizedBox(height: 16)

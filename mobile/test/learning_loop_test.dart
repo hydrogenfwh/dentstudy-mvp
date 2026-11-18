@@ -57,12 +57,23 @@ void main() {
     await tester.pumpAndSettle();
     await tester.tap(find.text('我的'));
     await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey('profile-settings-entry')));
+    await tester.pumpAndSettle();
     await tester.ensureVisible(find.byTooltip('湖蓝'));
     await tester.tap(find.byTooltip('湖蓝'));
     await tester.pumpAndSettle();
     expect(app.store.themeColorKey, 'blue');
-    final icon = tester.widget<Icon>(find.byIcon(Icons.auto_stories_rounded));
-    expect(icon.color, app.themeColors['blue']);
+    expect(find.byType(BackButton), findsOneWidget);
+    await tester.tap(find.byType(BackButton));
+    await tester.pumpAndSettle();
+    // The app bar now uses the supplied DentStudy logo rather than a themed
+    // Material book glyph; its brand teal must not change with a color choice.
+    expect(
+        find.byWidgetPredicate((widget) =>
+            widget is Image &&
+            widget.image is AssetImage &&
+            (widget.image as AssetImage).assetName == 'assets/brand-logo.png'),
+        findsWidgets);
     final context = tester.element(find.byType(ProfilePage).first);
     expect(Theme.of(context).scaffoldBackgroundColor,
         Color.lerp(Colors.white, app.themeColors['blue'], .045));
@@ -106,7 +117,7 @@ void main() {
     expect(QuestionCatalog(qs, '执医').learnable, isEmpty);
     expect(QuestionCatalog.reviewLabel(q(0)), '待审核');
   });
-  test('withdrawn question caches are discarded before the new bundled bank',
+  test('withdrawn public caches are discarded while private imports survive',
       () async {
     SharedPreferences.setMockInitialValues({
       'bank': jsonEncode({
@@ -124,16 +135,16 @@ void main() {
             (_) async => null);
     final store = StudyStore();
     await store.init();
-    expect(store.questions, hasLength(4210));
+    expect(store.questions.map((question) => question.id), isNot(contains('q9999')));
     expect(store.prefs.getString('bank'), isNull);
     expect(store.prefs.getString('questionOverrides'), isNull);
-    expect(store.prefs.getString('importedQuestionBank:guest'), isNull);
-    expect(store.prefs.getStringList('importedQuestionIds:guest'), isNull);
-    expect(store.prefs.getString('lastImportedBankName:guest'), isNull);
+    expect(store.importedQuestions.single.id, 'q10000');
+    expect(store.prefs.getStringList('importedQuestionIds:guest'), ['q10000']);
+    expect(store.lastImportedBankName, '本地导入测试题库');
     expect(store.prefs.getString('publicBankRevision'), '20261018-omfs-v1');
     final bundled =
         jsonDecode(await rootBundle.loadString('assets/all_questions.json'));
-    expect(bundled['questions'], hasLength(4210));
+    expect(bundled['questions'], hasLength(21327));
     expect(
         (bundled['questions'] as List)
             .every((question) => question['chapter'] is String),

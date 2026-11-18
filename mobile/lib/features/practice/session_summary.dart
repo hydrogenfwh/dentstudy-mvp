@@ -1,13 +1,32 @@
 import 'package:flutter/material.dart';
-import '../../app/shared.dart' show box, heading, safely;
+import '../../app/shared.dart' show box, heading, safely, tr, usesEnglish;
 import '../statistics/learning_metrics.dart';
 import 'session_journal.dart';
 
 enum PracticeAction { mistakes, next, home }
 
-class SessionSummary extends StatelessWidget {
+class SessionSummary extends StatefulWidget {
   final SessionJournal journal;
   const SessionSummary({super.key, required this.journal});
+
+  @override
+  State<SessionSummary> createState() => _SessionSummaryState();
+}
+
+class _SessionSummaryState extends State<SessionSummary> {
+  SessionJournal get journal => widget.journal;
+
+  @override
+  void initState() {
+    super.initState();
+    if (journal.completed) return;
+    // Recovery can find every review event on disk even if the app closed
+    // before the completed history record was written.
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) safely(context, journal.finish);
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     final store = journal.store;
@@ -28,7 +47,7 @@ class SessionSummary extends StatelessWidget {
     for (final a in objective) {
       final q = byId[a['questionId']];
       if (q != null)
-        groups.putIfAbsent('${q.subject} · ${q.chapter}', () => []).add(a);
+        groups.putIfAbsent('${tr(q.subject)} · ${q.chapter}', () => []).add(a);
     }
     final dates = journal.questions
         .map((q) => store.learning.states[q.id]?.due)
@@ -38,22 +57,29 @@ class SessionSummary extends StatelessWidget {
     return Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
       heading('本次练习完成', sub: journal.data['label'] as String? ?? '练习'),
       box(Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-        Text('完成 $completed 题',
+        Text(tr('完成 $completed 题'),
             style: const TextStyle(fontSize: 28, fontWeight: FontWeight.bold)),
         const SizedBox(height: 12),
-        Text(
-            '客观题正确率 ${LearningMetrics.percent(objective.isEmpty ? null : objective.where((a) => a['correct'] == true).length / objective.length)} · 错题 ${wrongIds.length} 题'),
-        Text('学习用时 ${journal.seconds ~/ 60} 分 ${journal.seconds % 60} 秒'),
-        if (journal.data['legacy'] == true) const Text('旧版未记录的答案和用时不计入本次统计。'),
+        Text(usesEnglish
+            ? 'Objective accuracy: ${tr(LearningMetrics.percent(objective.isEmpty ? null : objective.where((a) => a['correct'] == true).length / objective.length))} · ${wrongIds.length} incorrect'
+            : '客观题正确率 ${LearningMetrics.percent(objective.isEmpty ? null : objective.where((a) => a['correct'] == true).length / objective.length)} · 错题 ${wrongIds.length} 题'),
+        Text(usesEnglish
+            ? 'Study time: ${journal.seconds ~/ 60} min ${journal.seconds % 60} sec'
+            : '学习用时 ${journal.seconds ~/ 60} 分 ${journal.seconds % 60} 秒'),
+        if (journal.data['legacy'] == true) Text(tr('旧版未记录的答案和用时不计入本次统计。')),
         const SizedBox(height: 12),
-        Text(dates.isEmpty
-            ? '当前待复习 ${store.due.length} 题'
-            : '下次复习：${dates.first} · 当前到期 ${store.due.length} 题'),
+        Text(usesEnglish
+            ? (dates.isEmpty
+                ? '${store.due.length} questions due'
+                : 'Next review: ${dates.first} · ${store.due.length} currently due')
+            : (dates.isEmpty
+                ? '当前待复习 ${store.due.length} 题'
+                : '下次复习：${dates.first} · 当前到期 ${store.due.length} 题')),
       ])),
       heading('本次薄弱章节'),
       if (!groups.values.any(
           (a) => a.where((v) => v['correct'] == true).length / a.length < .8))
-        const Text('本次暂无低于 80% 的客观题章节。')
+        Text(tr('本次暂无低于 80% 的客观题章节。'))
       else
         for (final e in groups.entries)
           if (e.value.where((a) => a['correct'] == true).length /
@@ -70,13 +96,15 @@ class SessionSummary extends StatelessWidget {
             onPressed: wrongIds.isEmpty
                 ? null
                 : () => _act(context, PracticeAction.mistakes),
-            child: Text('复习错题 ${wrongIds.length}')),
+            child: Text(usesEnglish
+                ? 'Review ${wrongIds.length} incorrect'
+                : '复习错题 ${wrongIds.length}')),
         FilledButton(
             onPressed: () => _act(context, PracticeAction.next),
-            child: const Text('继续学习')),
+            child: Text(tr('继续学习'))),
         TextButton(
             onPressed: () => _act(context, PracticeAction.home),
-            child: const Text('返回今日')),
+            child: Text(tr('返回今日'))),
       ])
     ]);
   }
@@ -84,6 +112,8 @@ class SessionSummary extends StatelessWidget {
   void _act(BuildContext context, PracticeAction action) =>
       safely(context, () async {
         await journal.finish();
-        if (context.mounted) Navigator.pop(context, action);
+        if (context.mounted && ModalRoute.of(context)?.isCurrent == true) {
+          await Navigator.maybePop(context, action);
+        }
       });
 }

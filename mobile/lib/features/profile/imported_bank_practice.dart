@@ -38,7 +38,7 @@ class ImportedBankPractice extends StatelessWidget {
           Text('${questions.length} 题', style: TextStyle(color: teal))
         ]),
         const SizedBox(height: 8),
-        const Text('选择模式后开始；深度、批量、速刷均可使用。',
+        Text('选择模式后开始；深度、批量、速刷均可使用。',
             style: TextStyle(fontSize: 13, color: Colors.blueGrey)),
         const SizedBox(height: 14),
         SizedBox(
@@ -46,7 +46,7 @@ class ImportedBankPractice extends StatelessWidget {
             child: FilledButton.icon(
                 onPressed: () => _start(context),
                 icon: const Icon(Icons.play_arrow_rounded),
-                label: const Text('练习导入题库')))
+                label: Text('练习导入题库')))
       ]))
     ]);
   }

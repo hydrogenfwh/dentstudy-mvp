@@ -1,0 +1,2 @@
+# AES-256-GCM is required to decrypt WeChat Pay APIv3 notification resources.
+cryptography==49.0.0

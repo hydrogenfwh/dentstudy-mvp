@@ -1,0 +1,17 @@
+[Unit]
+Description=Settle DentStudy monthly stone leaderboard
+After=dentstudy.service
+
+[Service]
+Type=oneshot
+User=root
+WorkingDirectory=/opt/dentstudy-current/backend
+Environment=DENTSTUDY_DB=/var/lib/dentstudy/dentstudy.sqlite3
+Environment=DENTSTUDY_BANK=/opt/dentstudy-current/mobile/assets/all_questions.json
+ExecStart=/opt/dentstudy-venv/bin/python /opt/dentstudy-current/backend/settle_stone_leaderboard.py --catch-up
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/dentstudy
+UMask=0077

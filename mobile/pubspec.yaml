@@ -1,20 +1,29 @@
 name: dentstudy
 description: 口腔医学间隔复习与题库学习应用
 publish_to: none
-version: 0.2.43+45
+version: 1.1.2+112
 environment:
   sdk: '>=3.6.0 <4.0.0'
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
   http: ^1.2.2
   shared_preferences: ^2.3.3
-  flutter_secure_storage: ^9.2.4
+  # 10.x removes legacy web-only dart:html/js imports, so the Safari web
+  # build can include the WebAssembly renderer while retaining a JavaScript
+  # fallback for browsers without WasmGC support.
+  flutter_secure_storage: ^10.3.1
   flutter_local_notifications: ^19.0.0
   file_picker: ^10.3.10
   archive: ^4.0.7
   timezone: ^0.10.0
+  web: ^1.1.1
+  share_plus: ^11.1.0
 dev_dependencies:
+  integration_test:
+    sdk: flutter
   flutter_test:
     sdk: flutter
 flutter:
@@ -34,5 +43,17 @@ flutter:
         - asset: assets/fonts/DentStudyMath-Regular.ttf
   assets:
     - assets/all_questions.json
+    - assets/question_images/renwei/
+    - assets/school_library.json
+    - assets/school_library_index.json
+    - assets/school_documents/
     - assets/contact_wechat.jpg
+    - assets/business-license.jpg
+    - assets/brand-logo.png
+    - assets/hydroxyapatite.png
     - assets/xiaochi/avatar.png
+    - assets/guga/
+    - assets/dafeiyu/
+    - assets/dafeiyu/runtime/
+    - assets/dafeiyu/voice/
+    - assets/vip-tooth-gold.png

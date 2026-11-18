@@ -68,12 +68,12 @@ class _AvatarCropPageState extends State<AvatarCropPage> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-      appBar: AppBar(title: const Text('裁剪头像')),
+      appBar: AppBar(title: Text('裁剪头像')),
       body: Center(
           child: ConstrainedBox(
               constraints: const BoxConstraints(maxWidth: 480),
               child: ListView(padding: const EdgeInsets.all(24), children: [
-                const Text('拖动照片调整位置，双指或滑块缩放。', textAlign: TextAlign.center),
+                Text('拖动照片调整位置，双指或滑块缩放。', textAlign: TextAlign.center),
                 const SizedBox(height: 20),
                 AspectRatio(
                     aspectRatio: 1,
@@ -139,11 +139,11 @@ class _AvatarCropPageState extends State<AvatarCropPage> {
                               zoom = 1;
                               position = const Offset(.5, .5);
                             }),
-                    child: const Text('重新居中')),
+                    child: Text('重新居中')),
                 if (error != null)
                   Text(error!,
                       style: const TextStyle(color: Colors.deepOrange)),
-                const Text('头像将保存为正方形，展示时使用圆形外观。',
+                Text('头像将保存为正方形，展示时使用圆形外观。',
                     textAlign: TextAlign.center,
                     style: TextStyle(fontSize: 12, color: Colors.blueGrey)),
               ]))),

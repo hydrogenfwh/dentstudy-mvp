@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../../models.dart';
 import '../../app/shared.dart' show box, message, store, teal;
 import '../profile/user_avatar.dart';
+import '../social/social_inbox_page.dart' show ChatThreadPage;
+import '../social/user_profile_sheet.dart';
 
 class QuestionComments extends StatefulWidget {
   final Question question;
@@ -141,15 +143,15 @@ class _QuestionCommentsState extends State<QuestionComments> {
     final confirmed = await showDialog<bool>(
         context: context,
         builder: (c) => AlertDialog(
-                title: const Text('删除这条评论？'),
-                content: const Text('删除后不再显示评论内容，其他同学的回复会保留。'),
+                title: Text('删除这条评论？'),
+                content: Text('删除后不再显示评论内容，其他同学的回复会保留。'),
                 actions: [
                   TextButton(
                       onPressed: () => Navigator.pop(c, false),
-                      child: const Text('取消')),
+                      child: Text('取消')),
                   FilledButton(
                       onPressed: () => Navigator.pop(c, true),
-                      child: const Text('删除'))
+                      child: Text('删除'))
                 ]));
     if (confirmed != true || !mounted) return;
     final id = comment['id'] as String;
@@ -197,6 +199,29 @@ class _QuestionCommentsState extends State<QuestionComments> {
     return '${local.year}-${two(local.month)}-${two(local.day)} ${two(local.hour)}:${two(local.minute)}';
   }
 
+  Widget _commentAvatar(Map<String, dynamic> comment) {
+    final avatar = UserAvatar(
+        value: comment['avatar'] as String? ?? '',
+        radius: 18,
+        vip: comment['vipBadge'] == true);
+    final userId = comment['userId'] as String? ?? '';
+    if (userId.isEmpty) return avatar;
+    return Semantics(
+        button: true,
+        label: '查看 ${comment['nickname'] ?? '齿间同学'} 的资料',
+        child: GestureDetector(
+            behavior: HitTestBehavior.opaque,
+            onTap: () => showUserProfileSheet(context, userId,
+                onOpenChat: _openProfileChat),
+            child: avatar));
+  }
+
+  void _openProfileChat(Map<String, dynamic> profile) {
+    if (!mounted) return;
+    Navigator.push<void>(context,
+        MaterialPageRoute(builder: (_) => ChatThreadPage(friend: profile)));
+  }
+
   @override
   Widget build(BuildContext context) => Padding(
       padding: const EdgeInsets.only(top: 16),
@@ -221,17 +246,13 @@ class _QuestionCommentsState extends State<QuestionComments> {
         else if (loadError != null)
           Text(loadError!, style: const TextStyle(color: Colors.blueGrey))
         else if (comments.isEmpty)
-          const Text('暂时还没有讨论，留下你的理解吧。',
-              style: TextStyle(color: Colors.blueGrey))
+          Text('暂时还没有讨论，留下你的理解吧。', style: TextStyle(color: Colors.blueGrey))
         else
           ...comments.map((comment) => Padding(
               padding: const EdgeInsets.only(top: 14),
               child:
                   Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                UserAvatar(
-                    value: comment['avatar'] as String? ?? '',
-                    radius: 18,
-                    vip: comment['vipBadge'] == true),
+                _commentAvatar(comment),
                 const SizedBox(width: 10),
                 Expanded(
                     child: Column(
@@ -265,7 +286,7 @@ class _QuestionCommentsState extends State<QuestionComments> {
                                 }
                                 _compose(comment);
                               },
-                              child: const Text('回复')),
+                              child: Text('回复')),
                           if (comment['canDelete'] == true)
                             TextButton(
                                 onPressed: deleting.contains(comment['id'])
@@ -284,7 +305,7 @@ class _QuestionCommentsState extends State<QuestionComments> {
               child: OutlinedButton.icon(
                   onPressed: () => _compose(),
                   icon: const Icon(Icons.edit_outlined),
-                  label: const Text('写评论')))
+                  label: Text('写评论')))
         else ...[
           if (replyingTo != null)
             ListTile(
@@ -310,7 +331,7 @@ class _QuestionCommentsState extends State<QuestionComments> {
                     onPressed: sending
                         ? null
                         : () => setState(() => composing = false),
-                    child: const Text('取消')),
+                    child: Text('取消')),
                 FilledButton.icon(
                     onPressed: sending ? null : _send,
                     icon: const Icon(Icons.send_outlined),

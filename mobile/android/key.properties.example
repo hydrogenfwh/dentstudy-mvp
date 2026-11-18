@@ -1,0 +1,7 @@
+# Copy this file to android/key.properties. Never commit the copied file or
+# the keystore it references.
+# `storeFile` may be an absolute path, or a path relative to android/.
+storePassword=REPLACE_WITH_KEYSTORE_PASSWORD
+keyPassword=REPLACE_WITH_KEY_PASSWORD
+keyAlias=dentstudy-upload
+storeFile=REPLACE_WITH_PATH_TO_YOUR_UPLOAD_KEYSTORE

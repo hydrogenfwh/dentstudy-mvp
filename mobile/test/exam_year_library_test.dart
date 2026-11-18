@@ -93,7 +93,7 @@ void main() {
     await tester.pumpAndSettle();
     expect(app.store.mode, '执医');
     expect(app.store.prefs.getString('mode'), '执医');
-    await tester.tap(find.text('历年试题'));
+    await tester.tap(find.text('真题/模拟题'));
     await tester.pumpAndSettle();
     expect(find.text('2023 年'), findsNothing);
     await tester.tap(find.text('2024 年'));

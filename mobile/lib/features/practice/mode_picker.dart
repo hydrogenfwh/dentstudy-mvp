@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../app/motion.dart';
+import '../profile/stone_reward_notice.dart';
 
 Future<String?> chooseStudyMode(BuildContext context,
     {required bool review, required int count, String? helpText}) {
@@ -50,6 +51,44 @@ Future<String?> chooseStudyMode(BuildContext context,
                                     ]),
                                     Text(
                                         '${review ? '到期复习' : '学习新题'} · $count 题 · 点击一种模式开始'),
+                                    const SizedBox(height: 10),
+                                    Semantics(
+                                        label: '每日首次学习、复习均可获得 1 颗羟基磷灰石',
+                                        child: Container(
+                                            key: const ValueKey(
+                                                'study-mode-stone-reward'),
+                                            padding: const EdgeInsets.symmetric(
+                                                horizontal: 10, vertical: 7),
+                                            decoration: BoxDecoration(
+                                                color: const Color(0xfffff6d9),
+                                                borderRadius:
+                                                    BorderRadius.circular(12),
+                                                border: Border.all(
+                                                    color:
+                                                        const Color(0xffd9a42a)
+                                                            .withAlpha(110))),
+                                            child: Wrap(
+                                                spacing: 4,
+                                                runSpacing: 2,
+                                                crossAxisAlignment:
+                                                    WrapCrossAlignment.center,
+                                                children: [
+                                                  Text('每日首次学习、复习均可获得',
+                                                      style: const TextStyle(
+                                                          color:
+                                                              Color(0xff47380e),
+                                                          fontSize: 12,
+                                                          fontWeight:
+                                                              FontWeight.w700)),
+                                                  const StoneCoinIcon(size: 19),
+                                                  Text('×1',
+                                                      style: const TextStyle(
+                                                          color:
+                                                              Color(0xff47380e),
+                                                          fontSize: 13,
+                                                          fontWeight:
+                                                              FontWeight.w800)),
+                                                ]))),
                                     const SizedBox(height: 16),
                                     for (final mode in const [
                                       (
