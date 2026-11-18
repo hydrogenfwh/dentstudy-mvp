@@ -8,9 +8,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - run: python -m pip install --upgrade pip -r requirements.txt
+        working-directory: backend
       - run: python -m unittest discover -s tests -v
         working-directory: backend
-      - run: python backend/bank.py validate mobile/assets/questions.json
+      - run: python backend/bank.py validate mobile/assets/all_questions.json
   flutter:
     runs-on: ubuntu-latest
     steps:

@@ -46,15 +46,18 @@ class RenweiImportTests(unittest.TestCase):
         bank = json.loads((ROOT / "mobile/assets/all_questions.json").read_text())
         source = json.loads((ROOT / "question-bank/人卫练习题.json").read_text())
         report = json.loads((ROOT / "question-bank/人卫练习题导入报告.json").read_text())
-        backup = json.loads((ROOT / "question-bank/backups/all_questions-before-renwei.json").read_text())
         self.assertEqual(validate(bank), [])
         self.assertEqual(len(source["questions"]), 14021)
-        # Later reviewed catalogue placement may add view-only metadata to
-        # selected legacy items; their original source/content remains exact.
-        prefix = bank["questions"][:len(backup["questions"])]
+        # The source bank is committed, whereas its local pre-import backup is
+        # intentionally not.  Verify the same invariant by matching every
+        # source item to the shipped bank by stable ID.  Reviewed catalogue
+        # placement may add view-only metadata to selected legacy items.
+        shipped_by_id = {q["id"]: q for q in bank["questions"]}
         self.assertEqual(
-            [without_placement(q) if q['id'] in ASSIGNMENTS else q for q in prefix],
-            backup["questions"],
+            [without_placement(shipped_by_id[q["id"]])
+             if q["id"] in ASSIGNMENTS else shipped_by_id[q["id"]]
+             for q in source["questions"]],
+            source["questions"],
         )
         self.assertEqual(
             report["sourceQuestions"],

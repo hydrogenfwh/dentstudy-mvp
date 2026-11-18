@@ -1,7 +1,6 @@
 import 'dart:async';
 import '../features/social/unread_dot.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
-import 'package:flutter/cupertino.dart' show CupertinoPageTransitionsBuilder;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -83,7 +82,6 @@ class DentStudy extends StatelessWidget {
           TargetPlatform.macOS: StudyPageTransitions(),
           TargetPlatform.windows: StudyPageTransitions(),
           TargetPlatform.linux: StudyPageTransitions(),
-          TargetPlatform.iOS: CupertinoPageTransitionsBuilder(),
         }),
         useMaterial3: true,
         fontFamily: 'DentStudySans',
