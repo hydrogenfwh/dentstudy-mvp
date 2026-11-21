@@ -164,3 +164,15 @@ body.character-expanded { overflow:hidden; }
 /* The native dialog element arrived in iOS 15.4. */
 dialog:not([open]) { display:none; }
 .fallback-dialog { display:block; position:fixed; z-index:10; inset:0; margin:auto; height:fit-content; max-height:90vh; overflow:auto; box-shadow:0 0 0 100vmax #1f344b80; }
+
+#author-panel { margin-top:8px; }
+#author-login { color:var(--ink); font-size:12px; }
+#author-form { display:flex; gap:6px; }
+#author-panel [hidden] { display:none; }
+#author-input { flex:1; min-width:0; padding:8px 10px; font:inherit; font-size:16px; border:1px solid var(--line); border-radius:10px; }
+#author-send, #reply-play { min-height:40px; padding:4px 12px; border:1px solid var(--line); border-radius:10px; background:var(--soft); color:var(--ink); cursor:pointer; }
+#author-send:disabled { opacity:.55; }
+.speech-tools { display:flex; align-items:center; justify-content:space-between; gap:8px; font-size:12px; color:var(--ink); }
+.sr-only { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+.fullscreen-bubble { max-height:38dvh; overflow-y:auto; }
+.fullscreen-controls:has(#author-form:not([hidden])) { background:var(--page); }

@@ -288,6 +288,7 @@ const _english = <String, String>{
   '学习设置': 'Learning preferences',
   '服务与规则': 'Services & policies',
   '搭子形象': 'Study companion appearance',
+  '在互动空间与当前角色聊天并听取回复': 'Chat with your selected character and hear their reply',
   '进入 LivLiv 互动空间': 'Open the LivLiv room',
   '在互动空间切换角色、试听问候语': 'Switch characters and play their greetings in the room',
   '搭子形象保存在这台设备上。': 'Your companion selection is saved on this device.',

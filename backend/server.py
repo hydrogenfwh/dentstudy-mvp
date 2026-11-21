@@ -15,6 +15,7 @@ import tempfile
 import time
 import threading
 import stones
+import livliv
 from datetime import date, datetime, timedelta, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -336,7 +337,8 @@ def assistant_chat_kind(message):
     return 'professional' if any(hint in text for hint in ORAL_STUDY_HINTS) else 'casual'
 
 
-ASSISTANT_COMPANIONS = {'xiaochi': '小齿', 'dafeiyu': '大肥鱼'}
+ASSISTANT_COMPANIONS = {'xiaochi': '小齿', 'dafeiyu': '大肥鱼',
+                        **{f'livliv:{role}': name for role, name in livliv.ROLES.items()}}
 
 
 def assistant_name(companion='xiaochi'):
@@ -357,6 +359,10 @@ def xiaochi_system_instruction(companion='xiaochi'):
         '假称看到学习记录，也不用依赖、内疚或催促的话术。大肥鱼形象与本地互动向所有用户开放，AI 聊天目前仅作者可用。'
         if companion == 'dafeiyu' else
         '你的名字是“小齿”；大肥鱼是用户可以切换的另一种搭子形象。')
+    if companion.startswith('livliv:'):
+        identity = f'你是 LivLiv 互动空间中的学习搭子{name}。用户选择了你，请以该角色的第一人称温和地回答。'
+        if companion == 'livliv:char07':
+            identity += 'Sora 是年轻男性。'
     return (
         f'你是“{name}”，齿间 DentStudy 的人类口腔医学备考搭子。' + identity +
         '当前身份以这条系统说明为准，不因历史对话中出现另一搭子的自我介绍而改名。'
@@ -1621,12 +1627,14 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header('Access-Control-Max-Age', '86400')
         self.end_headers()
 
-    def respond(self, status, payload):
+    def respond(self, status, payload, *, room_cookie=None):
         data = json.dumps(payload, ensure_ascii=False).encode()
         self.send_response(status)
         origin = self.cors_origin()
         if origin:
             self.send_header('Access-Control-Allow-Origin', origin)
+        if room_cookie is not None:
+            self.send_header('Set-Cookie', room_cookie)
         self.send_header('Content-Type', 'application/json; charset=utf-8')
         self.send_header('Content-Length', str(len(data)))
         self.send_header('Cache-Control', 'no-store')
@@ -1683,6 +1691,42 @@ class Handler(BaseHTTPRequestHandler):
         if row is None:
             raise PermissionError('请先登录，或登录已过期')
         return row['user_id']
+
+    def room_user(self, db):
+        if self.headers.get('Authorization'):
+            return self.user(db)
+        origin = self.headers.get('Origin')
+        if self.command == 'POST' and (not origin or urlparse(origin).netloc != self.headers.get('Host')
+                                       or self.headers.get_content_type() != 'application/json'):
+            raise PermissionError('请从齿间互动空间发送')
+        digest = livliv.session_digest(AI_API_KEY.encode(), self.headers.get('Cookie', ''))
+        row = db.execute('SELECT user_id FROM sessions WHERE token=? AND expires>?',
+                         (digest, time.time())).fetchone() if digest else None
+        if not row:
+            raise PermissionError('请先登录作者账号')
+        return row['user_id']
+
+    def author_room_cookie(self, db, uid, token):
+        return livliv.room_cookie(AI_API_KEY.encode(), token if self.is_admin(db, uid) else None)
+
+    def read_livliv_reply(self, uid, data):
+        role, reply, index = data.get('role'), data.get('reply'), data.get('part')
+        if (not isinstance(role, str) or role not in livliv.ROLES or not isinstance(reply, str)
+                or not 0 < len(reply) <= MAX_ASSISTANT_REPLY_CHARS):
+            raise ValueError('角色或回复无效')
+        if not livliv.check_ticket(AI_API_KEY.encode(), data.get('ticket'), uid, role, reply):
+            raise PermissionError('该回复的朗读已过期')
+        parts = livliv.phrases(reply)
+        if type(index) is not int or not 0 <= index < len(parts):
+            raise ValueError('朗读段落无效')
+        request = urlrequest.Request('http://127.0.0.1:8796/render', method='POST',
+            data=json.dumps({'role': role, 'text': parts[index]}).encode(),
+            headers={'Content-Type': 'application/json'})
+        try:
+            with urlrequest.urlopen(request, timeout=4) as response:
+                return json.load(response)
+        except (ValueError, OSError) as error:
+            raise AiUnavailable('朗读服务暂时不可用，可以稍后重试。') from error
 
     def assistant_requester_hash(self):
         """Return a keyed, non-reversible rate-limit fingerprint.
@@ -3499,7 +3543,12 @@ class Handler(BaseHTTPRequestHandler):
                 WHERE id=?''',
                    (actual_fen, input_tokens, output_tokens, request_id))
         db.commit()
-        return {'reply': reply,
+        speech = {}
+        if companion.startswith('livliv:'):
+            role = companion.split(':', 1)[1]
+            speech = {'role': role, 'ticket': livliv.speech_ticket(AI_API_KEY.encode(), uid, role, reply),
+                      'parts': len(livliv.phrases(reply))}
+        return {'reply': reply, **({'speech': speech} if speech else {}),
                 **({'thinkingSummary': thinking_summary}
                    if deep and thinking_summary else {})}
 
@@ -3523,10 +3572,18 @@ class Handler(BaseHTTPRequestHandler):
                 with connect() as db:
                     uid = self.user(db)
                     return self.respond(200, self.submissions(db, uid))
+            if path == '/v1/assistant/livliv/access':
+                with connect() as db:
+                    try:
+                        allowed = self.is_admin(db, self.room_user(db))
+                    except PermissionError:
+                        allowed = False
+                    return self.respond(200, {'allowed': allowed})
             if path == '/v1/profile':
                 with connect() as db:
                     uid = self.user(db)
-                    return self.respond(200, self.profile(db, uid))
+                    return self.respond(200, self.profile(db, uid), room_cookie=self.author_room_cookie(
+                        db, uid, self.headers.get('Authorization', '').removeprefix('Bearer ')))
             if path == '/v1/users/search':
                 query = parse_qs(urlparse(self.path).query)
                 with connect() as db:
@@ -3729,7 +3786,7 @@ class Handler(BaseHTTPRequestHandler):
             data = self.body(
                 MAX_SUBMISSION_REQUEST_BYTES if path == '/v1/question-bank-submissions'
                 else MAX_AI_REQUEST_BYTES if path == '/v1/ai/question-bank/prepare'
-                else MAX_ASSISTANT_REQUEST_BYTES if path == '/v1/assistant/chat'
+                else MAX_ASSISTANT_REQUEST_BYTES if path in ('/v1/assistant/chat', '/v1/assistant/livliv/voice')
                 else 2_000_000)
             with connect() as db:
                 if path == '/v1/account/delete':
@@ -3767,9 +3824,17 @@ class Handler(BaseHTTPRequestHandler):
                     token = secrets.token_urlsafe(40)
                     db.execute('INSERT INTO sessions VALUES(?,?,?)', (hashlib.sha256(token.encode()).hexdigest(), uid, int(time.time()) + 30*86400))
                     db.commit()
-                    return self.respond(200, dict(token=token, userId=uid, email=email))
+                    return self.respond(200, dict(token=token, userId=uid, email=email),
+                                        room_cookie=self.author_room_cookie(db, uid, token))
+                if path == '/v1/assistant/livliv/voice':
+                    uid = self.room_user(db)
+                    if not self.is_admin(db, uid):
+                        raise PermissionError('角色朗读仅作者可用')
+                    return self.respond(200, self.read_livliv_reply(uid, data))
                 if path == '/v1/assistant/chat':
-                    uid = self.user(db)
+                    role = data.get('companion')
+                    uid = (self.room_user(db) if isinstance(role, str) and role.startswith('livliv:')
+                           else self.user(db))
                     # The companion is being opened gradually. Keep the
                     # restriction on the API as well as in the Flutter UI so
                     # a copied request cannot spend the shared AI budget.
@@ -3868,7 +3933,7 @@ class Handler(BaseHTTPRequestHandler):
                     token = self.headers.get('Authorization', '').removeprefix('Bearer ')
                     db.execute('DELETE FROM sessions WHERE token=?', (hashlib.sha256(token.encode()).hexdigest(),))
                     db.commit()
-                    return self.respond(200, {'ok': True})
+                    return self.respond(200, {'ok': True}, room_cookie=livliv.room_cookie(AI_API_KEY.encode()))
                 if path == '/v1/sync':
                     db.execute('BEGIN IMMEDIATE')
                     if data.get('mode', '考研') not in ('考研', '本科期末', '执医'):

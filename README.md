@@ -72,7 +72,7 @@
 
 ### LivLiv 学习搭子预览
 
-网页版可从「我的 → 设置 → 搭子形象」进入 [LivLiv 互动空间](https://dentstudy.uno/livliv/conversation.html)。点「切换人物」可选择 19 位角色，点「试听问候」可听到为当前角色在本机合成的普通话问候语。
+网页版可从「我的 → 设置 → 搭子形象」进入 [LivLiv 互动空间](https://dentstudy.uno/livliv/conversation.html)。19 位角色各有一段用本地 Qwen3-TTS 设计的普通话问候。作者登录后可在房间内发消息，Qwen 3.7 Flash 生成文字回复，朗读沿用当前角色的参考音色。
 
 ![学习搭子选择界面](docs/images/study-companions.png)
 
@@ -202,7 +202,7 @@
 
 ### LivLiv 学习搭子预览
 
-网页版可从「我的 → 设置 → 搭子形象」进入 [LivLiv 互动空间](https://dentstudy.uno/livliv/conversation.html)。点「切换人物」可选择 19 位角色，点「试听问候」可听到为当前角色在本机合成的普通话问候语。
+网页版可从「我的 → 设置 → 搭子形象」进入 [LivLiv 互动空间](https://dentstudy.uno/livliv/conversation.html)。19 位角色各有一段用本地 Qwen3-TTS 设计的普通话问候。作者登录后可在房间内发消息，Qwen 3.7 Flash 生成文字回复，朗读沿用当前角色的参考音色。
 
 ![学习搭子选择界面](docs/images/study-companions.png)
 

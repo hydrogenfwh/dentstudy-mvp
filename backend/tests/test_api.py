@@ -582,6 +582,52 @@ class ApiTests(unittest.TestCase):
             provider.assert_not_called()
         self.assertEqual(counters(), before)
 
+    def test_livliv_room_uses_author_session_role_and_exact_reply(self):
+        email = 'livliv-author@test.local'
+        author = self.register('livliv-author')
+        learner = self.register('livliv-learner')
+        payload = {'message': '你叫什么？', 'companion': 'livliv:char07'}
+        with mock.patch.object(server, 'ADMIN_EMAIL', email), \
+                mock.patch.object(server, 'AI_API_KEY', 'test-key'), \
+                mock.patch.object(server, 'call_xiaochi_assistant',
+                                  return_value=('我叫 Sora。', 13, 5)) as provider:
+            profile = urllib.request.Request(self.url + '/v1/profile',
+                                             headers={'Authorization': 'Bearer ' + author})
+            with urllib.request.urlopen(profile) as response:
+                cookie = response.headers['Set-Cookie']
+            self.assertIn('HttpOnly', cookie)
+            self.assertNotIn(author, cookie)
+            headers = {'Cookie': cookie.split(';')[0], 'Origin': self.url,
+                       'Content-Type': 'application/json'}
+
+            def room(path, body=None):
+                req = urllib.request.Request(self.url + '/v1/assistant/' + path, headers=headers,
+                    data=None if body is None else json.dumps(body).encode())
+                try:
+                    with urllib.request.urlopen(req) as response:
+                        return response.status, json.load(response)
+                except urllib.error.HTTPError as error:
+                    return error.code, json.load(error)
+
+            self.assertEqual(self.request('/v1/assistant/livliv/access', token=learner)[1], {'allowed': False})
+            self.assertEqual(self.request('/v1/assistant/chat', payload, learner)[0], 401)
+            self.assertEqual(room('livliv/access'), (200, {'allowed': True}))
+            headers['Origin'] = 'https://unrelated.example'
+            self.assertEqual(room('chat', payload)[0], 401)
+            headers['Origin'] = self.url
+            status, result = room('chat', payload)
+            self.assertEqual(status, 200)
+            provider.assert_called_once_with('你叫什么？', [], False, companion='livliv:char07')
+            self.assertEqual(result['speech']['role'], 'char07')
+            self.assertEqual(result['speech']['parts'], 1)
+            speech = {**result['speech'], 'part': 0, 'reply': result['reply']}
+            self.assertEqual(room('livliv/voice', {**speech, 'role': 'p01'})[0], 401)
+            self.assertEqual(room('livliv/voice', {**speech, 'reply': '另一条回复'})[0], 401)
+            self.assertEqual(room('livliv/voice', {**speech, 'part': 1})[0], 400)
+            self.request('/v1/auth/logout', {}, author)
+            self.assertEqual(room('livliv/access'), (200, {'allowed': False}))
+            self.assertEqual(room('livliv/voice', speech)[0], 401)
+
     def test_assistant_rejects_invalid_persona_before_quota_or_provider(self):
         token = self.author()
         with server.connect() as db:

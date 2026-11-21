@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta http-equiv="Content-Security-Policy" content="connect-src 'self' https://www.gstatic.com">
   <title>LivLiv 互动空间 · Kujira</title>
-  <link rel="stylesheet" href="./conversation.css?characters=9">
+  <link rel="stylesheet" href="./conversation.css?author=2">
 </head>
 <body>
   <main class="conversation">
@@ -29,6 +29,7 @@
         <button type="button" data-action="normal">正常</button>
         <button type="button" id="fullscreen-choose">切换人物</button>
       </div>
+      <div id="fullscreen-author-slot"></div>
 
     </section>
     <section class="chat" aria-label="Kujira 互动聊天">
@@ -56,6 +57,20 @@
           <button type="button" data-action="normal">正常</button>
         </div>
 
+        <div id="author-slot">
+          <div id="author-panel">
+            <a id="author-login" href="/" target="_blank" rel="noopener">作者聊天 · 在主站登录</a>
+            <form id="author-form" hidden>
+              <label class="sr-only" for="author-input">发给当前角色的消息</label>
+              <input id="author-input" maxlength="1000" placeholder="问问当前角色…" autocomplete="off" required>
+              <button id="author-send" type="submit">发送</button>
+            </form>
+            <div class="speech-tools"><span id="author-status" role="status"></span>
+              <button type="button" id="reply-play" hidden>朗读回复</button>
+            </div>
+            <audio id="reply-audio" preload="none" hidden></audio>
+          </div>
+        </div>
       </div>
     </section>
   <dialog id="character-dialog" aria-labelledby="character-dialog-title">
@@ -65,6 +80,7 @@
   </dialog>
   </main>
   <script src="./pointer-bridge.js" defer></script>
-  <script src="./conversation.js?voices=1" defer></script>
+  <script src="./author-chat.js?v=1" defer></script>
+  <script src="./conversation.js?author=2" defer></script>
 </body>
 </html>

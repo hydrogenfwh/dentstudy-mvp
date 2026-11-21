@@ -719,7 +719,7 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
                 isThinking: _localThinking,
                 isAi: _speechIsAi,
                 sleeping: _dafeiyuPose == DafeiyuPose.sleep,
-                canChat: _isAuthor,
+                canChat: store.usesLivlivPreview ? store.canChatWithCompanion : _isAuthor,
                 onPlayVoice: _voice.available &&
                         _voiceAsset != null &&
                         store.dafeiyuVoiceMode != 'off'

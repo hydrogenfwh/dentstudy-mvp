@@ -95,10 +95,11 @@
   }
   voice.addEventListener('ended', () => setVoiceButtons(false));
   async function playGreeting() {
+    authorChat.stopReading();
     if (!voice.paused) { stopVoice(); return; }
     const attempt = ++playback;
     const id = current.id;
-    voice.src = new URL('./voices/' + id + '.wav', location.href).href;
+    voice.src = new URL('./voices/' + id + '.wav?v=qwen2', location.href).href;
     try {
       // Start from the tap, before awaiting anything, including the transcript.
       const started = voice.play();
@@ -121,6 +122,10 @@
   window.addEventListener('pagehide', stopVoice);
   document.addEventListener('visibilitychange', () => { if (document.hidden) stopVoice(); });
 
+  const authorChat = window.createLivLivChat({
+    role: () => current.id, addMessage, stopGreeting: stopVoice,
+    presentReply: text => { fullscreenBubble.textContent = text; },
+  });
   function act(key) {
     if (timer) clearTimeout(timer);
     dots?.remove();
@@ -148,6 +153,7 @@
     if (button) act(button.dataset.action);
   });
   function selectCharacter(character) {
+    authorChat.reset();
     stopVoice();
     if (timer) clearTimeout(timer);
     timer = null;
@@ -234,6 +240,9 @@
   let fullscreenAttempt = 0;
   function updateFullscreenButton() {
     const expanded = document.fullscreenElement === fullscreenArea || fullscreenArea.classList.contains('is-expanded');
+    const slot = document.querySelector(expanded ? '#fullscreen-author-slot' : '#author-slot');
+    const panel = document.querySelector('#author-panel');
+    if (panel.parentElement !== slot) slot.append(panel);
     fullscreenButton.setAttribute('aria-label', expanded ? '退出人物全屏' : '全屏放大人物');
     fullscreenButton.setAttribute('title', expanded ? '退出全屏' : '全屏放大人物');
     fullscreenButton.setAttribute('aria-pressed', String(expanded));

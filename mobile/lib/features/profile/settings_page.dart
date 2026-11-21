@@ -92,7 +92,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   secondary: Icon(Icons.smart_toy_outlined, color: teal),
                   title: Text(tr('${store.companionName} · 备考搭子')),
                   subtitle: Text(tr(store.usesLivlivPreview
-                      ? '在互动空间切换角色、试听问候语'
+                      ? (store.canChatWithCompanion ? '在互动空间与当前角色聊天并听取回复' : '在互动空间切换角色、试听问候语')
                       : store.usesGuga
                       ? '本地互动免费；咕嘎暂不支持 AI 聊天和语音'
                       : '本地互动免费；AI 聊天仅作者可用，聊天不保存记录')),

@@ -1,0 +1,38 @@
+diff --git a/src/pipeline-tts.cpp b/src/pipeline-tts.cpp
+index f711e6a..318bc75 100644
+--- a/src/pipeline-tts.cpp
++++ b/src/pipeline-tts.cpp
+@@ -256,7 +256,7 @@ bool pipeline_tts_load(PipelineTTS * pt,
+     // max_new_tokens ~ 1500, so 4096 has 60% headroom). Predictor holds
+     // one frame of 16 sub-steps per slot.
+     if (!kv_cache_init(&pt->talker_kv, pt->talker.num_hidden_layers, pt->talker.num_key_value_heads,
+-                       pt->talker.head_dim, 4096, pt->max_batch, kv_type, pt->backend)) {
++                       pt->talker.head_dim, 512, pt->max_batch, kv_type, pt->backend)) {
+         ggml_backend_sched_free(pt->sched);
+         pt->sched = NULL;
+         pipeline_codec_free(&pt->codec);
+@@ -1010,7 +1010,8 @@ static void tts_slot_complete(TtsEngine * e, TtsSlot & s) {
+             // derived left context, so a reference longer than that window
+             // contributes only its tail.
+             const int chunk_frames    = pt->codec_chunk_frames;
+-            const int left_ctx_frames = pt->codec_left_ctx_frames;
++            const bool oneshot = pt->max_batch == 1 && std::getenv("DENTSTUDY_TTS_ONESHOT");
++            const int left_ctx_frames = oneshot ? std::min(8, pt->codec_left_ctx_frames) : pt->codec_left_ctx_frames;
+
+             const int T_frames = (int) s.all_codes.size();
+             int       seed     = 0;
+@@ -1030,6 +1031,14 @@ static void tts_slot_complete(TtsEngine * e, TtsSlot & s) {
+                     row[(size_t) (seed + t)] = s.all_codes[(size_t) t][(size_t) k];
+                 }
+             }
++            // DentStudy starts one CLI process per phrase. Once all codes are
++            // materialized, only the codec needs weights for the final decode.
++            if (oneshot) {
++                ggml_backend_buffer_free(pt->talker.weight_buf);
++                pt->talker.weight_buf = nullptr;
++                ggml_backend_buffer_free(pt->code_predictor.weight_buf);
++                pt->code_predictor.weight_buf = nullptr;
++            }
+             Timer              t_codec;
+             std::vector<float> audio =
+                 codec_chunked_decode(&pt->codec, codes_kt.data(), num_codebooks, T_dec, chunk_frames, left_ctx_frames);

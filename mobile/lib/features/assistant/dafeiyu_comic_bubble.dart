@@ -71,6 +71,8 @@ class DafeiyuComicPanels extends StatelessWidget {
                   _action('不开心', () => onEmotion!('sad')),
                   _action('害羞', () => onEmotion!('shy')),
                 ],
+                if (isLivliv && canChat && onExpand != null)
+                  _action('作者聊天', onExpand),
                 if (!isLivliv && onExpand != null) _action('LivLiv 角色', onExpand),
                 if (showChat) _action(canChat ? 'AI 聊天' : '聊天升级中', canChat ? onChat : null),
               ]),

@@ -28,3 +28,15 @@
 当前模考按客户端时钟限时，客观题自动计分；未答题计零分但不伪造答题事件；主观题显示参考要点并手动评价。模考答对默认记为“蒙对/不稳”安排复习。尚未提交的模考答案保存在页面内存，关闭进程后不会恢复。用于正式考核需添加服务端计时、持久化考试会话和人工阅卷。
 
 配置依据：[Flutter 创建工程](https://docs.flutter.dev/reference/create-new-app)、[通知插件 19.x 原生配置](https://pub.dev/packages/flutter_local_notifications/versions/19.0.0)。
+
+## LivLiv 作者聊天和本地朗读
+
+互动空间和主站须同源。Nginx 将 `/api/` 转发给现有后端并保留 Host。作者登录或恢复个人资料时，后端发放仅限助手路径的 HttpOnly Cookie。切换形象沿用作者聊天额度。语音服务只监听 127.0.0.1:8796，每个音频请求要携带后端为该账号、角色和原回复签发的短期凭据。
+
+服务器上的 Qwen3-TTS Base 0.6B 使用与该角色问候对应的说话人向量、参考音频编码和台词。19 段问候可用 `scripts/design_livliv_voices.py` 和本地 Qwen3-TTS VoiceDesign 重新生成。更换声音时也要重新生成同名的 `.spk` 和 `.rvq`。
+
+1. 在 `/opt/dentstudy-livliv-tts/2edb35f/src` 检出 [qwentts.cpp](https://github.com/ServeurpersoCom/qwentts.cpp) 的 `2edb35f87b709a070b2d5379f77e5c52a1daa585` 和对应的 ggml 子模块。在推理引擎源码根目录应用本仓库的 `deploy/livliv-qwen-short-context.patch`。它限制短句上下文并在单次推理结束后释放生成模型权重，给音频解码留出内存。
+2. 运行 `cmake -S . -B ../build -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=OFF -DGGML_BLAS=OFF -DGGML_OPENMP=ON` 和 `cmake --build ../build --target qwen-tts qwen-codec -j2`。
+3. 将 [量化模型文件](https://huggingface.co/Serveurperso/Qwen3-TTS-GGUF) 放入 `/opt/dentstudy-livliv-tts/models/`。核对 `qwen-talker-0.6b-base-Q4_K_M.gguf` 的 SHA-256 为 `4b468ec7b1f62b90ef4ca316c0aa57deadfd54b2cf9651703ea753cedaf04226`，`qwen-tokenizer-12hz-Q4_K_M.gguf` 为 `cf3788b4d50aaa665fb6e57c170396aae03a3555fea52d2b5d0cda902d658039`。
+4. 随后端一起部署 `backend/livliv_refs/` 和 `mobile/web/livliv/voices/lines.json`。更新某个角色时，用 `qwen-codec --model <codec.gguf> --talker <talker.gguf> -i <角色.wav>` 生成配套的两个参考文件。
+5. 安装 `deploy/dentstudy-livliv-tts.service` 到 systemd，运行 `systemctl daemon-reload` 和 `systemctl enable --now dentstudy-livliv-tts`。重启该服务可清除短期音频缓存。部署后分别用访客和作者身份打开互动空间，验证访客问候、作者对话、切换音色和停止朗读。

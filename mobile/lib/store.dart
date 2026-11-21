@@ -1361,7 +1361,8 @@ class StudyStore extends ChangeNotifier {
     required List<Map<String, String>> history,
     bool deep = false,
   }) async {
-    if (usesGuga || usesLivlivPreview) throw Exception('$companionName暂不支持 AI 聊天');
+    if (usesLivlivPreview) throw Exception('请从 LivLiv 互动空间与当前角色聊天');
+    if (usesGuga) throw Exception('咕嘎暂不支持 AI 聊天');
     if (token.isEmpty) throw Exception('请先登录后再和$companionName聊天');
     if (!canChatWithCompanion) throw Exception('AI 聊天目前仅作者可用');
     final text = message.trim();

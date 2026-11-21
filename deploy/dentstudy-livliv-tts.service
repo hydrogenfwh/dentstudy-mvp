@@ -1,0 +1,21 @@
+[Unit]
+Description=DentStudy local Qwen3-TTS for LivLiv author replies
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/opt/dentstudy-venv/bin/python /opt/dentstudy-current/backend/livliv_tts.py
+DynamicUser=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
+NoNewPrivileges=yes
+Nice=10
+CPUQuota=150%
+MemoryMax=1050M
+OOMScoreAdjust=700
+Environment=OMP_NUM_THREADS=1
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

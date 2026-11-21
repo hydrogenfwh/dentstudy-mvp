@@ -23,6 +23,12 @@ class LivLivReleaseTest(unittest.TestCase):
         self.assertEqual(len(choices), 19)
         self.assertEqual(set(choices), catalog)
         self.assertEqual(catalog, set(lines))
+        self.assertIn('author-chat.js', (root / 'conversation.html').read_text())
+        self.assertTrue((root / 'author-chat.js').is_file())
+        refs = Path(__file__).resolve().parents[2] / 'backend/livliv_refs'
+        self.assertEqual({p.stem for p in refs.glob('*.spk')}, catalog)
+        self.assertEqual({p.stem for p in refs.glob('*.rvq')}, catalog)
+        self.assertEqual(len({(refs / (role + '.spk')).read_bytes() for role in choices}), 19)
         recordings = set()
         for role in choices:
             with self.subTest(role=role):
