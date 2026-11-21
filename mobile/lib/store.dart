@@ -141,8 +141,10 @@ class StudyStore extends ChangeNotifier {
   // Appearance and local actions are public; only AI chat needs author access.
   bool get usesDafeiyu => companionAppearance == 'dafeiyu';
   bool get usesGuga => companionAppearance == 'guga';
-  bool get usesInteractiveCompanion => usesDafeiyu || usesGuga;
-  String get companionName => usesGuga ? '咕嘎' : (usesDafeiyu ? '大肥鱼' : '小齿');
+  bool get usesLivlivPreview => companionAppearance == 'livliv-preview';
+  bool get usesInteractiveCompanion => usesDafeiyu || usesGuga || usesLivlivPreview;
+  static const _companionAppearances = {'xiaochi', 'dafeiyu', 'guga', 'livliv-preview'};
+  String get companionName => usesLivlivPreview ? 'LivLiv' : usesGuga ? '咕嘎' : (usesDafeiyu ? '大肥鱼' : '小齿');
   double? xiaochiPositionX, xiaochiPositionY;
   int dailyNewLimit = 20;
   int? dailyReviewTarget;
@@ -508,7 +510,7 @@ class StudyStore extends ChangeNotifier {
     xiaochiEnabled = prefs.getBool(_xiaochiEnabledKey) ?? true;
     final savedCompanion = prefs.getString(_companionAppearanceKey);
     companionAppearance =
-        const {'xiaochi', 'dafeiyu', 'guga'}.contains(savedCompanion)
+        _companionAppearances.contains(savedCompanion) && (kIsWeb || savedCompanion != 'livliv-preview')
             ? savedCompanion!
             : 'dafeiyu';
     final voiceMode = prefs.getString(_dafeiyuVoiceModeKey);
@@ -756,7 +758,7 @@ class StudyStore extends ChangeNotifier {
 
   /// Cosmetic, local-only preference. Never switches AI provider or permissions.
   Future<void> setCompanionAppearance(String value) async {
-    if (!const {'xiaochi', 'dafeiyu', 'guga'}.contains(value)) {
+    if (!_companionAppearances.contains(value)) {
       throw ArgumentError.value(value, 'value', '不支持的搭子形象');
     }
     if (companionAppearance == value) return;
@@ -1359,7 +1361,7 @@ class StudyStore extends ChangeNotifier {
     required List<Map<String, String>> history,
     bool deep = false,
   }) async {
-    if (usesGuga) throw Exception('咕嘎暂不支持 AI 聊天');
+    if (usesGuga || usesLivlivPreview) throw Exception('$companionName暂不支持 AI 聊天');
     if (token.isEmpty) throw Exception('请先登录后再和$companionName聊天');
     if (!canChatWithCompanion) throw Exception('AI 聊天目前仅作者可用');
     final text = message.trim();

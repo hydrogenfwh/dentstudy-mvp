@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:math' as math;
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import '../../app/shared.dart';
 import 'dafeiyu_avatar.dart';
@@ -8,6 +9,10 @@ import 'dafeiyu_comic_bubble.dart';
 import 'dafeiyu_voice.dart';
 import 'guga_avatar.dart';
 import 'guga_dialogue.dart';
+import 'livliv_avatar_stub.dart'
+    if (dart.library.js_interop) 'livliv_avatar.dart';
+import 'livliv_window_stub.dart'
+    if (dart.library.js_interop) 'livliv_window_web.dart';
 
 /// A request-only chat companion. The conversation exists in this widget for
 /// the current visit and is intentionally never written to StudyStore.
@@ -61,6 +66,8 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
   String _dafeiyuMessage = '大肥鱼来啦～今天也陪你一起学！';
   DafeiyuPose _dafeiyuPose = DafeiyuPose.wave;
   DafeiyuPose? _readyPose;
+  int _livlivInteractionSerial = 0;
+  String? _livlivExpression;
   Offset? _position;
   bool _open = false;
   bool _holding = false;
@@ -69,7 +76,7 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
   bool _deepThinking = false;
   _AvatarMood _mood = _AvatarMood.idle;
 
-  bool get _isAuthor => !store.usesGuga && store.canChatWithCompanion;
+  bool get _isAuthor => !store.usesGuga && !store.usesLivlivPreview && store.canChatWithCompanion;
   String get _name => store.companionName;
   String get _preferenceKey =>
       '${store.userId}:${store.token}:${store.canChatWithCompanion}:${store.companionAppearance}:${store.xiaochiEnabled}';
@@ -99,8 +106,17 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
       _ => GugaPose.idle,
     };
   }
-  String _nextDialogue(DafeiyuInteraction action) =>
-      store.usesGuga ? _gugaDialogue.next(action) : _dialogue.next(action);
+  String _nextDialogue(DafeiyuInteraction action) {
+    if (store.usesLivlivPreview) {
+      return switch (action) {
+        DafeiyuInteraction.pet => '摸摸头～今天也一起加油！ (｡•ᴗ•｡)',
+        DafeiyuInteraction.praise => '你已经很努力啦，给自己一个赞！✨',
+        DafeiyuInteraction.sleep => '休息一下，慢慢呼吸～🌙',
+        _ => '醒啦，继续陪你一起学习～',
+      };
+    }
+    return store.usesGuga ? _gugaDialogue.next(action) : _dialogue.next(action);
+  }
 
   bool get _isWidgetTest => WidgetsBinding.instance.runtimeType
       .toString()
@@ -149,9 +165,10 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
       _speechIsAi = false;
       _showCare = false;
       _dafeiyuPose = DafeiyuPose.wave;
+      _livlivExpression = null;
       _readyPose = null;
       _mood = _AvatarMood.idle;
-      if (_observedAccount != store.userId || !store.canChatWithCompanion || store.usesGuga) {
+      if (_observedAccount != store.userId || !store.canChatWithCompanion || store.usesGuga || store.usesLivlivPreview) {
         _observedAccount = store.userId;
         _open = false;
         _lines.removeRange(1, _lines.length);
@@ -187,15 +204,17 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
   }
 
   void _interact(DafeiyuPose pose, String text,
-      {DafeiyuInteraction? interaction}) {
+      {DafeiyuInteraction? interaction, String? livlivExpression}) {
     _thinkingTimer?.cancel();
     _idleTimer?.cancel();
     _moodTimer?.cancel();
     _interactionTimer?.cancel();
     _voice.stop();
     _voiceAsset =
-        interaction == null || store.usesGuga ? null : dafeiyuVoiceAsset(interaction, text);
+        interaction == null || store.usesGuga || store.usesLivlivPreview ? null : dafeiyuVoiceAsset(interaction, text);
     setState(() {
+      if (store.usesLivlivPreview) _livlivInteractionSerial++;
+      _livlivExpression = livlivExpression;
       _localThinking = false;
       _mood = _AvatarMood.idle;
       _dafeiyuPose = pose;
@@ -236,9 +255,25 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
       if (!mounted) return;
       setState(() {
         _showDafeiyuSpeech = false;
-        if (_dafeiyuPose != DafeiyuPose.sleep) _dafeiyuPose = DafeiyuPose.wave;
+        if (_dafeiyuPose != DafeiyuPose.sleep) {
+          _dafeiyuPose = DafeiyuPose.wave;
+          _livlivExpression = null;
+        }
       });
     });
+  }
+
+  void _expressLivliv(String expression) {
+    if (!store.usesLivlivPreview) return;
+    final text = switch (expression) {
+      'angry' => '我有点生闷气啦，需要你陪我 (^_^)',
+      'sad' => '今天有一点不开心，可以陪陪我吗？ (T_T)',
+      'shy' => '这样夸我，我会害羞的啦！ (*^_^*)',
+      _ => null,
+    };
+    if (text == null) return;
+    _thinkThen(() => _interact(DafeiyuPose.wave, text,
+        livlivExpression: expression));
   }
 
   void _thinkThen(VoidCallback response) {
@@ -288,7 +323,9 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
       _interact(DafeiyuPose.wave, _nextDialogue(DafeiyuInteraction.wake),
           interaction: DafeiyuInteraction.wake);
     } else {
-      _interact(DafeiyuPose.wave, store.usesGuga
+      _interact(DafeiyuPose.wave, store.usesLivlivPreview
+          ? '来互动空间换个搭子，听听今天的问候吧。'
+          : store.usesGuga
           ? '咕嘎来啦～摸摸头，或者让我夸夸你？(｡•ᴗ•｡) 🐧'
           : '大肥鱼来啦～摸摸头，或者让我夸夸你？(｡•ᴗ•｡)');
     }
@@ -632,7 +669,14 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
                             bottom: 103,
                             child: _CareBubble(onTap: _openChat)),
                       Positioned.fill(
-                          child: store.usesGuga
+                          child: store.usesLivlivPreview
+                              ? LivLivAvatar(
+                                  key: const ValueKey('livliv-preview-avatar'),
+                                  pose: _holding ? DafeiyuPose.pout : _dafeiyuPose,
+                                  expression: _holding ? null : _livlivExpression,
+                                  interactionSerial: _livlivInteractionSerial,
+                                  onPoseReady: _poseReady)
+                              : store.usesGuga
                               ? GugaAvatar(
                                   key: const ValueKey('guga-avatar'),
                                   pose: _gugaPose,
@@ -669,8 +713,9 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
                 text: _dafeiyuMessage,
                 companionName: store.companionName,
                 isGuga: store.usesGuga,
-                portraitAsset: store.usesGuga ? 'assets/guga/guga-idle-body.png' : DafeiyuPose.wave.asset,
-                showChat: !store.usesGuga,
+                portraitAsset: store.usesLivlivPreview ? 'assets/livliv/kujira.webp' : (store.usesGuga ? 'assets/guga/guga-idle-body.png' : DafeiyuPose.wave.asset),
+                isLivliv: store.usesLivlivPreview,
+                showChat: !store.usesGuga && !store.usesLivlivPreview,
                 isThinking: _localThinking,
                 isAi: _speechIsAi,
                 sleeping: _dafeiyuPose == DafeiyuPose.sleep,
@@ -681,6 +726,8 @@ class _XiaochiAssistantState extends State<XiaochiAssistant>
                     ? () => unawaited(_playVoice(manual: true))
                     : null,
                 onClose: _closeDafeiyuBubble,
+                onExpand: kIsWeb || store.usesLivlivPreview ? openLivLivConversation : null,
+                onEmotion: store.usesLivlivPreview ? _expressLivliv : null,
                 onPet: () => _thinkThen(() => _interact(
                     DafeiyuPose.happy, _nextDialogue(DafeiyuInteraction.pet),
                     interaction: DafeiyuInteraction.pet)),

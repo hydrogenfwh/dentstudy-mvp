@@ -44,6 +44,7 @@ flutter:
   assets:
     - assets/all_questions.json
     - assets/question_images/renwei/
+    - assets/livliv/kujira.webp
     - assets/school_library.json
     - assets/school_library_index.json
     - assets/school_documents/

@@ -15,9 +15,11 @@ class DafeiyuComicPanels extends StatelessWidget {
   final String text;
   final bool sleeping, canChat, isAi, isThinking;
   final String companionName, portraitAsset;
-  final bool showChat, isGuga;
+  final bool showChat, isGuga, isLivliv;
   final VoidCallback onClose, onPet, onPraise, onSleep, onChat;
+  final ValueChanged<String>? onEmotion;
   final VoidCallback? onPlayVoice;
+  final VoidCallback? onExpand;
   const DafeiyuComicPanels(
       {super.key,
       required this.anchor,
@@ -31,10 +33,13 @@ class DafeiyuComicPanels extends StatelessWidget {
       required this.onSleep,
       required this.onChat,
       this.onPlayVoice,
+      this.onExpand,
+      this.onEmotion,
       this.companionName = '大肥鱼',
       this.portraitAsset = 'assets/dafeiyu/runtime/03-wave.png',
       this.showChat = true,
       this.isGuga = false,
+      this.isLivliv = false,
       this.isAi = false,
       this.isThinking = false});
 
@@ -48,7 +53,9 @@ class DafeiyuComicPanels extends StatelessWidget {
           companionName: companionName,
           portraitAsset: portraitAsset,
           isGuga: isGuga,
+          isLivliv: isLivliv,
           onClose: onClose,
+          onExpand: onExpand,
           onPlayVoice: isThinking || isAi ? null : onPlayVoice,
           tailAbove: anchor.center.dy < MediaQuery.sizeOf(context).height * .43,
           footer: Wrap(
@@ -59,6 +66,12 @@ class DafeiyuComicPanels extends StatelessWidget {
                 _action('摸摸头', onPet),
                 _action('夸夸我', onPraise),
                 _action(sleeping ? '醒醒啦' : '睡一会', onSleep),
+                if (isLivliv && onEmotion != null) ...[
+                  _action('生闷气', () => onEmotion!('angry')),
+                  _action('不开心', () => onEmotion!('sad')),
+                  _action('害羞', () => onEmotion!('shy')),
+                ],
+                if (!isLivliv && onExpand != null) _action('LivLiv 角色', onExpand),
                 if (showChat) _action(canChat ? 'AI 聊天' : '聊天升级中', canChat ? onChat : null),
               ]),
         ),
@@ -84,8 +97,8 @@ class DafeiyuComicPanels extends StatelessWidget {
 /// UI-only head crop of approved artwork, attached to the frame corner.
 class _DafeiyuPortrait extends StatelessWidget {
   final String companionName, portraitAsset;
-  final bool isGuga;
-  const _DafeiyuPortrait({required this.companionName, required this.portraitAsset, required this.isGuga});
+  final bool isGuga, isLivliv;
+  const _DafeiyuPortrait({required this.companionName, required this.portraitAsset, required this.isGuga, required this.isLivliv});
   @override
   Widget build(BuildContext context) => Semantics(
       image: true,
@@ -100,7 +113,14 @@ class _DafeiyuPortrait extends StatelessWidget {
               shape: BoxShape.circle,
               border: Border.all(color: isGuga ? _gugaBorder : _comicInk, width: 1.5)),
           child: ClipOval(
-              child: isGuga
+              child: isLivliv
+                  ? Image.asset(portraitAsset,
+                      fit: BoxFit.cover,
+                      cacheWidth: 128,
+                      excludeFromSemantics: true,
+                      errorBuilder: (_, error, stackTrace) =>
+                          const Icon(Icons.face_rounded, color: _comicInk))
+                  : isGuga
                   ? OverflowBox(
                       alignment: Alignment.topCenter,
                       minWidth: 56,
@@ -134,7 +154,8 @@ class DafeiyuComicBubble extends StatelessWidget {
   final Widget footer;
   final VoidCallback onClose;
   final VoidCallback? onPlayVoice;
-  final bool tailAbove, isAi, isThinking, isGuga;
+  final VoidCallback? onExpand;
+  final bool tailAbove, isAi, isThinking, isGuga, isLivliv;
   final String companionName, portraitAsset;
   const DafeiyuComicBubble(
       {super.key,
@@ -142,11 +163,13 @@ class DafeiyuComicBubble extends StatelessWidget {
       required this.footer,
       required this.onClose,
       this.onPlayVoice,
+      this.onExpand,
       this.companionName = '大肥鱼',
       this.portraitAsset = 'assets/dafeiyu/runtime/03-wave.png',
       this.tailAbove = false,
       this.isAi = false,
       this.isGuga = false,
+      this.isLivliv = false,
       this.isThinking = false});
 
   @override
@@ -185,6 +208,17 @@ class DafeiyuComicBubble extends StatelessWidget {
                                 padding: EdgeInsets.zero,
                                 icon: Icon(Icons.volume_up_outlined,
                                     size: 19, color: isGuga ? _gugaInk : _comicInk)),
+                          if (isLivliv && onExpand != null)
+                            IconButton(
+                              key: const ValueKey('livliv-expand-chat'),
+                              tooltip: '进入 LivLiv 互动空间',
+                              onPressed: onExpand,
+                              constraints: const BoxConstraints.tightFor(
+                                  width: 36, height: 36),
+                              padding: EdgeInsets.zero,
+                              icon: const Icon(Icons.open_in_new_rounded,
+                                  size: 18, color: _comicInk),
+                            ),
                           IconButton(
                               tooltip: '收起$companionName气泡',
                               onPressed: onClose,
@@ -231,7 +265,7 @@ class DafeiyuComicBubble extends StatelessWidget {
             Positioned(
                 right: -4,
                 bottom: tailAbove ? -12 : 0,
-                child: IgnorePointer(child: _DafeiyuPortrait(companionName: companionName, portraitAsset: portraitAsset, isGuga: isGuga))),
+                child: IgnorePointer(child: _DafeiyuPortrait(companionName: companionName, portraitAsset: portraitAsset, isGuga: isGuga, isLivliv: isLivliv))),
           ]);
 }
 

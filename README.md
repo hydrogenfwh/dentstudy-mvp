@@ -72,7 +72,7 @@
 
 ### LivLiv 学习搭子预览
 
-下图展示学习搭子选择界面；角色和功能以产品实际开放情况为准。
+网页版可从「我的 → 设置 → 搭子形象」进入 [LivLiv 互动空间](https://dentstudy.uno/livliv/conversation.html)。点「切换人物」可选择 19 位角色，点「试听问候」可听到为当前角色在本机合成的普通话问候语。
 
 ![学习搭子选择界面](docs/images/study-companions.png)
 
@@ -202,7 +202,7 @@
 
 ### LivLiv 学习搭子预览
 
-下图展示学习搭子选择界面；角色和功能以产品实际开放情况为准。
+网页版可从「我的 → 设置 → 搭子形象」进入 [LivLiv 互动空间](https://dentstudy.uno/livliv/conversation.html)。点「切换人物」可选择 19 位角色，点「试听问候」可听到为当前角色在本机合成的普通话问候语。
 
 ![学习搭子选择界面](docs/images/study-companions.png)
 

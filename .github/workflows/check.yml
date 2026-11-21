@@ -32,6 +32,9 @@ jobs:
         working-directory: mobile
       - run: flutter test
         working-directory: mobile
+      - run: flutter build web --release
+        working-directory: mobile
+      - run: DENTSTUDY_WEB_ROOT=mobile/build/web python3 scripts/tests/test_livliv_web_release.py
       - run: flutter build apk --debug
         working-directory: mobile
       - uses: actions/upload-artifact@v4

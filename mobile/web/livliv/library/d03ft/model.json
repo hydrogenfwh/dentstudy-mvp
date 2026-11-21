@@ -1,0 +1,1680 @@
+{
+ "format": "livliv-model",
+ "version": 4,
+ "name": "Nana",
+ "meta": {
+  "generator": {
+   "name": "livliv.ai"
+  },
+  "created": "2026-11-05T06:04:59Z",
+  "license": {
+   "id": "LicenseRef-LivLiv-Samples",
+   "url": "https://livliv.ai/licenses/samples",
+   "text": "LivLiv Featured Characters License 1.0: free for non-commercial use with credit (\"Characters: LivLiv (livliv.ai)\"); no selling or separate distribution, no commercial use without permission, no AI training. The full text is LICENSE.md beside the characters."
+  },
+  "watermark": {
+   "kind": "none", "center": false
+  }
+ },
+ "requires": [],
+ "files": {
+  "keyforms": "keyforms.json",
+  "avatar": "avatar.webp"
+ },
+ "canvas": [
+  1024,
+  1536
+ ],
+ "profile": {
+  "id": "anime_half",
+  "facing": "front"
+ },
+ "rig": {
+  "yaw": 0.348,
+  "pitch": 0.231,
+  "roll": 0.55,
+  "bulge": 1.4,
+  "hair": {
+   "front": [
+    140,
+    11,
+    0.022,
+    70,
+    7
+   ],
+   "back": [
+    48,
+    5.5,
+    0.06,
+    24,
+    3.5
+   ]
+  },
+  "hair_limit": 0.25,
+  "wind": 1.0,
+  "breath": 1.0,
+  "sway": 1.0,
+  "brow": 0.06,
+  "body": {
+   "yaw": 0.35,
+   "roll": 0.3,
+   "breath": 1.0,
+   "bust": 0.7
+  },
+  "chains": [
+   {
+    "id": "ahoge",
+    "attach": "head",
+    "depth": 0.0,
+    "points": [
+     [
+      462.0,
+      52.0
+     ],
+     [
+      466.0,
+      30.0
+     ],
+     [
+      470.0,
+      8.0
+     ]
+    ],
+    "k": [
+     260,
+     120
+    ],
+    "damp": 5,
+    "drive": 0.9,
+    "hang": 0.15,
+    "wind": 1.5,
+    "freq": 0.6,
+    "sigma": 60,
+    "limit": 30,
+    "bias": {
+     "sad": -40,
+     "shy": -15,
+     "angry": 12,
+     "smile": 5
+    }
+   },
+   {
+    "id": "bang_sL",
+    "attach": "head",
+    "depth": 0.233,
+    "points": [
+     [
+      340.0,
+      200.0
+     ],
+     [
+      338.0,
+      330.0
+     ],
+     [
+      360.0,
+      430.0
+     ],
+     [
+      395.0,
+      490.0
+     ]
+    ],
+    "k": [
+     220,
+     90
+    ],
+    "damp": 6,
+    "drive": 0.6,
+    "hang": 0.25,
+    "wind": 0.8,
+    "freq": 0.55,
+    "sigma": 22,
+    "limit": 14
+   },
+   {
+    "id": "bang_1",
+    "attach": "head",
+    "depth": 0.233,
+    "points": [
+     [
+      420.0,
+      140.0
+     ],
+     [
+      410.0,
+      250.0
+     ],
+     [
+      398.0,
+      352.0
+     ]
+    ],
+    "k": [
+     220,
+     90
+    ],
+    "damp": 6,
+    "drive": 0.6,
+    "hang": 0.25,
+    "wind": 0.8,
+    "freq": 0.55,
+    "sigma": 22,
+    "limit": 14
+   },
+   {
+    "id": "bang_2",
+    "attach": "head",
+    "depth": 0.233,
+    "points": [
+     [
+      455.0,
+      130.0
+     ],
+     [
+      455.0,
+      250.0
+     ],
+     [
+      466.0,
+      366.0
+     ]
+    ],
+    "k": [
+     220,
+     90
+    ],
+    "damp": 6,
+    "drive": 0.6,
+    "hang": 0.25,
+    "wind": 0.8,
+    "freq": 0.55,
+    "sigma": 22,
+    "limit": 14
+   },
+   {
+    "id": "bang_3",
+    "attach": "head",
+    "depth": 0.233,
+    "points": [
+     [
+      495.0,
+      120.0
+     ],
+     [
+      500.0,
+      250.0
+     ],
+     [
+      490.0,
+      378.0
+     ]
+    ],
+    "k": [
+     220,
+     90
+    ],
+    "damp": 6,
+    "drive": 0.6,
+    "hang": 0.25,
+    "wind": 0.8,
+    "freq": 0.55,
+    "sigma": 22,
+    "limit": 14
+   },
+   {
+    "id": "bang_4",
+    "attach": "head",
+    "depth": 0.233,
+    "points": [
+     [
+      530.0,
+      130.0
+     ],
+     [
+      530.0,
+      250.0
+     ],
+     [
+      532.0,
+      377.0
+     ]
+    ],
+    "k": [
+     220,
+     90
+    ],
+    "damp": 6,
+    "drive": 0.6,
+    "hang": 0.25,
+    "wind": 0.8,
+    "freq": 0.55,
+    "sigma": 22,
+    "limit": 14
+   },
+   {
+    "id": "bang_5",
+    "attach": "head",
+    "depth": 0.233,
+    "points": [
+     [
+      590.0,
+      150.0
+     ],
+     [
+      600.0,
+      240.0
+     ],
+     [
+      592.0,
+      330.0
+     ]
+    ],
+    "k": [
+     220,
+     90
+    ],
+    "damp": 6,
+    "drive": 0.6,
+    "hang": 0.25,
+    "wind": 0.8,
+    "freq": 0.55,
+    "sigma": 22,
+    "limit": 14
+   },
+   {
+    "id": "bang_sR",
+    "attach": "head",
+    "depth": 0.233,
+    "points": [
+     [
+      665.0,
+      200.0
+     ],
+     [
+      672.0,
+      330.0
+     ],
+     [
+      650.0,
+      420.0
+     ],
+     [
+      630.0,
+      478.0
+     ]
+    ],
+    "k": [
+     220,
+     90
+    ],
+    "damp": 6,
+    "drive": 0.6,
+    "hang": 0.25,
+    "wind": 0.8,
+    "freq": 0.55,
+    "sigma": 22,
+    "limit": 14
+   },
+   {
+    "id": "side_L",
+    "attach": "head",
+    "depth": 0.0,
+    "points": [
+     [
+      318.0,
+      150.0
+     ],
+     [
+      255.0,
+      230.0
+     ],
+     [
+      205.0,
+      330.0
+     ]
+    ],
+    "k": [
+     150,
+     60
+    ],
+    "damp": 4.5,
+    "drive": 0.9,
+    "hang": 0.2,
+    "wind": 1.0,
+    "freq": 0.5,
+    "sigma": 45,
+    "limit": 12,
+    "reach": 70
+   },
+   {
+    "id": "side_R",
+    "attach": "head",
+    "depth": 0.0,
+    "points": [
+     [
+      690.0,
+      150.0
+     ],
+     [
+      742.0,
+      230.0
+     ],
+     [
+      775.0,
+      330.0
+     ]
+    ],
+    "k": [
+     150,
+     60
+    ],
+    "damp": 4.5,
+    "drive": 0.9,
+    "hang": 0.2,
+    "wind": 1.0,
+    "freq": 0.5,
+    "sigma": 45,
+    "limit": 12,
+    "reach": 70
+   },
+   {
+    "id": "tail_L_out",
+    "attach": "head",
+    "depth": 0.0,
+    "points": [
+     [
+      250.0,
+      425.0
+     ],
+     [
+      190.0,
+      450.0
+     ],
+     [
+      120.0,
+      500.0
+     ],
+     [
+      85.0,
+      580.0
+     ],
+     [
+      95.0,
+      665.0
+     ]
+    ],
+    "k": [
+     70,
+     30
+    ],
+    "damp": 3.5,
+    "drive": 1.0,
+    "hang": 0.75,
+    "wind": 2.5,
+    "freq": 0.45,
+    "sigma": 45,
+    "limit": 60
+   },
+   {
+    "id": "tail_L_mid",
+    "attach": "head",
+    "depth": 0.0,
+    "points": [
+     [
+      255.0,
+      430.0
+     ],
+     [
+      220.0,
+      500.0
+     ],
+     [
+      185.0,
+      580.0
+     ],
+     [
+      160.0,
+      650.0
+     ],
+     [
+      150.0,
+      700.0
+     ]
+    ],
+    "k": [
+     70,
+     30
+    ],
+    "damp": 3.5,
+    "drive": 1.0,
+    "hang": 0.75,
+    "wind": 2.5,
+    "freq": 0.45,
+    "sigma": 45,
+    "limit": 60
+   },
+   {
+    "id": "tail_L_in",
+    "attach": "head",
+    "depth": 0.0,
+    "points": [
+     [
+      262.0,
+      440.0
+     ],
+     [
+      270.0,
+      520.0
+     ],
+     [
+      285.0,
+      600.0
+     ],
+     [
+      290.0,
+      680.0
+     ]
+    ],
+    "k": [
+     70,
+     30
+    ],
+    "damp": 3.5,
+    "drive": 1.0,
+    "hang": 0.75,
+    "wind": 2.5,
+    "freq": 0.45,
+    "sigma": 45,
+    "limit": 60
+   },
+   {
+    "id": "tail_R_out",
+    "attach": "head",
+    "depth": 0.0,
+    "points": [
+     [
+      752.0,
+      390.0
+     ],
+     [
+      810.0,
+      420.0
+     ],
+     [
+      880.0,
+      480.0
+     ],
+     [
+      915.0,
+      570.0
+     ],
+     [
+      905.0,
+      650.0
+     ]
+    ],
+    "k": [
+     70,
+     30
+    ],
+    "damp": 3.5,
+    "drive": 1.0,
+    "hang": 0.75,
+    "wind": 2.5,
+    "freq": 0.45,
+    "sigma": 45,
+    "limit": 60
+   },
+   {
+    "id": "tail_R_mid",
+    "attach": "head",
+    "depth": 0.0,
+    "points": [
+     [
+      748.0,
+      395.0
+     ],
+     [
+      785.0,
+      470.0
+     ],
+     [
+      820.0,
+      550.0
+     ],
+     [
+      845.0,
+      630.0
+     ],
+     [
+      850.0,
+      690.0
+     ]
+    ],
+    "k": [
+     70,
+     30
+    ],
+    "damp": 3.5,
+    "drive": 1.0,
+    "hang": 0.75,
+    "wind": 2.5,
+    "freq": 0.45,
+    "sigma": 45,
+    "limit": 60
+   },
+   {
+    "id": "tail_R_in",
+    "attach": "head",
+    "depth": 0.0,
+    "points": [
+     [
+      742.0,
+      405.0
+     ],
+     [
+      735.0,
+      490.0
+     ],
+     [
+      725.0,
+      580.0
+     ],
+     [
+      715.0,
+      660.0
+     ]
+    ],
+    "k": [
+     70,
+     30
+    ],
+    "damp": 3.5,
+    "drive": 1.0,
+    "hang": 0.75,
+    "wind": 2.5,
+    "freq": 0.45,
+    "sigma": 45,
+    "limit": 60
+   },
+   {
+    "id": "lock_L",
+    "attach": "head",
+    "depth": 0.0,
+    "points": [
+     [
+      352.0,
+      505.0
+     ],
+     [
+      380.0,
+      555.0
+     ],
+     [
+      405.0,
+      610.0
+     ],
+     [
+      412.0,
+      680.0
+     ]
+    ],
+    "k": [
+     90,
+     40
+    ],
+    "damp": 4,
+    "drive": 1.0,
+    "hang": 0.6,
+    "wind": 1.2,
+    "freq": 0.5,
+    "sigma": 40,
+    "limit": 30
+   },
+   {
+    "id": "lock_R",
+    "attach": "head",
+    "depth": 0.0,
+    "points": [
+     [
+      655.0,
+      505.0
+     ],
+     [
+      640.0,
+      560.0
+     ],
+     [
+      628.0,
+      610.0
+     ],
+     [
+      640.0,
+      650.0
+     ],
+     [
+      650.0,
+      690.0
+     ]
+    ],
+    "k": [
+     90,
+     40
+    ],
+    "damp": 4,
+    "drive": 1.0,
+    "hang": 0.6,
+    "wind": 1.2,
+    "freq": 0.5,
+    "sigma": 40,
+    "limit": 30
+   },
+   {
+    "id": "charm",
+    "attach": "body",
+    "depth": 0.0,
+    "points": [
+     [
+      527.0,
+      594.0
+     ],
+     [
+      527.0,
+      612.0
+     ],
+     [
+      527.0,
+      640.0
+     ]
+    ],
+    "k": [
+     60,
+     40
+    ],
+    "damp": 2.5,
+    "drive": 1.6,
+    "hang": 0.9,
+    "wind": 0.3,
+    "freq": 0.7,
+    "sigma": 30,
+    "limit": 10
+   },
+   {
+    "id": "string_L",
+    "attach": "body",
+    "depth": 0.0,
+    "points": [
+     [
+      345.0,
+      752.0
+     ],
+     [
+      345.0,
+      860.0
+     ],
+     [
+      346.0,
+      960.0
+     ],
+     [
+      350.0,
+      1040.0
+     ]
+    ],
+    "k": [
+     28,
+     16
+    ],
+    "damp": 1.6,
+    "drive": 2.4,
+    "hang": 0.9,
+    "wind": 0.8,
+    "freq": 0.4,
+    "sigma": 30,
+    "limit": 30
+   },
+   {
+    "id": "string_R",
+    "attach": "body",
+    "depth": 0.0,
+    "points": [
+     [
+      715.0,
+      775.0
+     ],
+     [
+      715.0,
+      880.0
+     ],
+     [
+      714.0,
+      980.0
+     ],
+     [
+      713.0,
+      1050.0
+     ]
+    ],
+    "k": [
+     28,
+     16
+    ],
+    "damp": 1.6,
+    "drive": 2.4,
+    "hang": 0.9,
+    "wind": 0.8,
+    "freq": 0.4,
+    "sigma": 30,
+    "limit": 30
+   },
+   {
+    "id": "zipper",
+    "attach": "body",
+    "depth": 0.0,
+    "points": [
+     [
+      529.0,
+      1045.0
+     ],
+     [
+      529.0,
+      1080.0
+     ],
+     [
+      529.0,
+      1125.0
+     ]
+    ],
+    "k": [
+     45,
+     28
+    ],
+    "damp": 2.2,
+    "drive": 2.0,
+    "hang": 0.9,
+    "wind": 0.2,
+    "freq": 0.5,
+    "sigma": 30,
+    "limit": 14
+   }
+  ]
+ },
+ "tuning": {
+  "turn": 0.64,
+  "nod": 1,
+  "hair": 0.9,
+  "blink": 1,
+  "expr": 1,
+  "mouth": 1,
+  "breath": 1
+ },
+ "anchors": {
+  "head": {
+   "cx": 506.5,
+   "cy": 333.0,
+   "rx": 175.5,
+   "ry": 218.0
+  },
+  "face": [
+   325.0,
+   242.0,
+   683.0,
+   574.0
+  ],
+  "neck_y": 551.0,
+  "top_y": 9.0,
+  "bottom_y": 1535.0,
+  "hair_root_y": 115.0,
+  "eyes": [
+   [
+    371.0,
+    372.0,
+    452.0,
+    434.0
+   ],
+   [
+    559.0,
+    349.0,
+    635.0,
+    411.0
+   ]
+  ],
+  "brows": [
+   [
+    377.0,
+    300.0,
+    437.0,
+    317.0
+   ],
+   [
+    538.0,
+    278.0,
+    628.0,
+    295.0
+   ]
+  ],
+  "brow_lines": [
+   {
+    "x": [
+     350.0,
+     360.4,
+     370.7,
+     381.1,
+     391.5,
+     401.8,
+     412.2,
+     422.5,
+     432.9,
+     443.3,
+     453.6,
+     464.0
+    ],
+    "bottom": [
+     317.0,
+     317.0,
+     317.0,
+     315.0,
+     311.0,
+     307.0,
+     305.0,
+     303.0,
+     303.0,
+     303.0,
+     303.0,
+     303.0
+    ],
+    "lid": [
+     350.2,
+     366.0,
+     374.0,
+     360.0,
+     360.0,
+     357.0,
+     356.0,
+     358.0,
+     361.0,
+     365.0,
+     336.2,
+     336.2
+    ]
+   },
+   {
+    "x": [
+     497.5,
+     513.0,
+     528.6,
+     544.1,
+     559.7,
+     575.2,
+     590.8,
+     606.3,
+     621.9,
+     637.4,
+     653.0,
+     668.5
+    ],
+    "bottom": [
+     290.0,
+     290.0,
+     290.0,
+     288.0,
+     285.0,
+     284.0,
+     286.0,
+     290.0,
+     292.0,
+     295.0,
+     295.0,
+     295.0
+    ],
+    "lid": [
+     323.2,
+     323.2,
+     323.2,
+     321.2,
+     346.0,
+     337.0,
+     332.0,
+     332.0,
+     327.0,
+     342.0,
+     361.0,
+     328.2
+    ]
+   }
+  ],
+  "jaw": {
+   "top": 457.0,
+   "chin": 551.0,
+   "half": 0.0,
+   "open": 0.0,
+   "round": 0.0,
+   "wide": 0.0
+  },
+  "chest": {
+   "cx": 504.0,
+   "cy": 949.0,
+   "rx": 299.288,
+   "ry": 119.52
+  },
+  "collar_y": 580.0
+ },
+ "expressions": [
+  {
+   "id": "smile",
+   "label": {
+    "zh": "笑",
+    "zh-Hant": "笑",
+    "en": "Smile",
+    "ja": "笑顔"
+   },
+   "hotkey": "1"
+  },
+  {
+   "id": "shy",
+   "label": {
+    "zh": "害羞",
+    "zh-Hant": "害羞",
+    "en": "Shy",
+    "ja": "照れ"
+   },
+   "hotkey": "2"
+  },
+  {
+   "id": "angry",
+   "label": {
+    "zh": "生气",
+    "zh-Hant": "生氣",
+    "en": "Angry",
+    "ja": "怒り"
+   },
+   "hotkey": "3"
+  },
+  {
+   "id": "sad",
+   "label": {
+    "zh": "难过",
+    "zh-Hant": "難過",
+    "en": "Sad",
+    "ja": "悲しい"
+   },
+   "hotkey": "4"
+  }
+ ],
+ "layers": [
+  {
+   "id": "back_hair",
+   "texture": "textures/back_hair.webp",
+   "x": 103,
+   "y": 39,
+   "w": 770,
+   "h": 779,
+   "group": "hair_back",
+   "depth": -0.35,
+   "bones": [
+    "side_L",
+    "side_R"
+   ]
+  },
+  {
+   "id": "hole",
+   "texture": "textures/hole.webp",
+   "x": 103,
+   "y": 39,
+   "w": 770,
+   "h": 779,
+   "group": "hair_back",
+   "depth": -0.35,
+   "role": "hole"
+  },
+  {
+   "id": "ear_R",
+   "texture": "textures/ear_R.webp",
+   "x": 678,
+   "y": 347,
+   "w": 34,
+   "h": 85,
+   "group": "hair_back",
+   "depth": -0.35
+  },
+  {
+   "id": "ahoge",
+   "texture": "textures/ahoge.webp",
+   "x": 394,
+   "y": 6,
+   "w": 122,
+   "h": 71,
+   "group": "hair_back",
+   "depth": 0.0,
+   "bones": [
+    "ahoge"
+   ],
+   "hide": {
+    "sad": 1.0
+   }
+  },
+  {
+   "id": "hood_back",
+   "texture": "textures/hood_back.webp",
+   "x": 244,
+   "y": 589,
+   "w": 30,
+   "h": 10,
+   "group": "body",
+   "depth": 0.0
+  },
+  {
+   "id": "tail_L",
+   "texture": "textures/tail_L.webp",
+   "x": 72,
+   "y": 351,
+   "w": 269,
+   "h": 347,
+   "group": "hair_back",
+   "depth": 0.0,
+   "rigid": [
+    257,
+    417
+   ],
+   "bones": [
+    "tail_L_out",
+    "tail_L_mid",
+    "tail_L_in"
+   ]
+  },
+  {
+   "id": "bow_L",
+   "texture": "textures/bow_L.webp",
+   "x": 187,
+   "y": 363,
+   "w": 116,
+   "h": 136,
+   "group": "hair_back",
+   "depth": 0.0,
+   "rigid": [
+    257,
+    417
+   ],
+   "bones": [
+    "tail_L_out",
+    "tail_L_mid",
+    "tail_L_in"
+   ]
+  },
+  {
+   "id": "head_over_L",
+   "texture": "textures/head_over_L.webp",
+   "x": 240,
+   "y": 363,
+   "w": 121,
+   "h": 138,
+   "group": "hair_back",
+   "depth": -0.35,
+   "bones": [
+    "side_L",
+    "side_R"
+   ]
+  },
+  {
+   "id": "tail_R",
+   "texture": "textures/tail_R.webp",
+   "x": 671,
+   "y": 349,
+   "w": 276,
+   "h": 347,
+   "group": "hair_back",
+   "depth": 0.0,
+   "rigid": [
+    746,
+    381
+   ],
+   "bones": [
+    "tail_R_out",
+    "tail_R_mid",
+    "tail_R_in"
+   ]
+  },
+  {
+   "id": "bow_R",
+   "texture": "textures/bow_R.webp",
+   "x": 707,
+   "y": 326,
+   "w": 107,
+   "h": 145,
+   "group": "hair_back",
+   "depth": 0.0,
+   "rigid": [
+    746,
+    381
+   ],
+   "bones": [
+    "tail_R_out",
+    "tail_R_mid",
+    "tail_R_in"
+   ]
+  },
+  {
+   "id": "head_over_R",
+   "texture": "textures/head_over_R.webp",
+   "x": 642,
+   "y": 349,
+   "w": 103,
+   "h": 154,
+   "group": "hair_back",
+   "depth": -0.35,
+   "bones": [
+    "side_L",
+    "side_R"
+   ]
+  },
+  {
+   "id": "body",
+   "texture": "textures/body.webp",
+   "x": 0,
+   "y": 332,
+   "w": 1024,
+   "h": 1204,
+   "group": "body",
+   "depth": 0.0
+  },
+  {
+   "id": "charm",
+   "texture": "textures/charm.webp",
+   "x": 502,
+   "y": 592,
+   "w": 51,
+   "h": 54,
+   "group": "body",
+   "depth": 0.0,
+   "bones": [
+    "charm"
+   ]
+  },
+  {
+   "id": "string_L",
+   "texture": "textures/string_L.webp",
+   "x": 319,
+   "y": 733,
+   "w": 62,
+   "h": 335,
+   "group": "body",
+   "depth": 0.0,
+   "bones": [
+    "string_L"
+   ]
+  },
+  {
+   "id": "string_R",
+   "texture": "textures/string_R.webp",
+   "x": 681,
+   "y": 766,
+   "w": 64,
+   "h": 318,
+   "group": "body",
+   "depth": 0.0,
+   "bones": [
+    "string_R"
+   ]
+  },
+  {
+   "id": "zipper",
+   "texture": "textures/zipper.webp",
+   "x": 485,
+   "y": 1035,
+   "w": 85,
+   "h": 138,
+   "group": "body",
+   "depth": 0.0,
+   "bones": [
+    "zipper"
+   ]
+  },
+  {
+   "id": "inner_hair",
+   "texture": "textures/inner_hair.webp",
+   "x": 366,
+   "y": 467,
+   "w": 290,
+   "h": 214,
+   "group": "hair_inner",
+   "depth": 0.0
+  },
+  {
+   "id": "jaw_under",
+   "texture": "textures/jaw_under.webp",
+   "x": 473,
+   "y": 475,
+   "w": 106,
+   "h": 75,
+   "group": "body",
+   "depth": 0.0
+  },
+  {
+   "id": "neck_shadow",
+   "texture": "textures/neck_shadow.webp",
+   "x": 433,
+   "y": 465,
+   "w": 168,
+   "h": 121,
+   "group": "body",
+   "depth": 0.0
+  },
+  {
+   "id": "neck_line",
+   "texture": "textures/neck_line.webp",
+   "x": 433,
+   "y": 467,
+   "w": 168,
+   "h": 119,
+   "group": "head",
+   "depth": 0.0
+  },
+  {
+   "id": "face",
+   "texture": "textures/face.webp",
+   "x": 341,
+   "y": 111,
+   "w": 339,
+   "h": 445,
+   "group": "head",
+   "depth": 0.0
+  },
+  {
+   "id": "eye_L_skin",
+   "texture": "textures/eye_L_skin.webp",
+   "x": 359,
+   "y": 337,
+   "w": 117,
+   "h": 111,
+   "group": "head",
+   "depth": 0.0
+  },
+  {
+   "id": "eye_L_closed",
+   "texture": "textures/eye_L_closed.webp",
+   "x": 341,
+   "y": 324,
+   "w": 148,
+   "h": 144,
+   "group": "head",
+   "depth": 0.0,
+   "role": "lid_L"
+  },
+  {
+   "id": "eye_L",
+   "texture": "textures/eye_L.webp",
+   "mask": "textures/eye_L_mask.webp",
+   "x": 341,
+   "y": 348,
+   "w": 148,
+   "h": 120,
+   "group": "head",
+   "depth": 0.0,
+   "role": "eye_L",
+   "pivot": [
+    411.5,
+    410.44
+   ]
+  },
+  {
+   "id": "iris_L",
+   "texture": "textures/iris_L.webp",
+   "x": 388,
+   "y": 358,
+   "w": 69,
+   "h": 78,
+   "group": "head",
+   "depth": 0.0,
+   "role": "iris_L",
+   "pivot": [
+    411.5,
+    410.44
+   ],
+   "clip": "eye_L",
+   "range": [
+    15.39,
+    10.540000000000001
+   ]
+  },
+  {
+   "id": "shine_L",
+   "texture": "textures/shine_L.webp",
+   "x": 403,
+   "y": 372,
+   "w": 50,
+   "h": 59,
+   "group": "head",
+   "depth": 0.0,
+   "role": "shine_L",
+   "pivot": [
+    411.5,
+    410.44
+   ],
+   "clip": "eye_L",
+   "range": [
+    12.312000000000001,
+    8.432
+   ]
+  },
+  {
+   "id": "eye_R_skin",
+   "texture": "textures/eye_R_skin.webp",
+   "x": 534,
+   "y": 317,
+   "w": 113,
+   "h": 107,
+   "group": "head",
+   "depth": 0.0
+  },
+  {
+   "id": "eye_R_closed",
+   "texture": "textures/eye_R_closed.webp",
+   "x": 511,
+   "y": 302,
+   "w": 162,
+   "h": 135,
+   "group": "head",
+   "depth": 0.0,
+   "role": "lid_R"
+  },
+  {
+   "id": "eye_R",
+   "texture": "textures/eye_R.webp",
+   "mask": "textures/eye_R_mask.webp",
+   "x": 517,
+   "y": 322,
+   "w": 150,
+   "h": 115,
+   "group": "head",
+   "depth": 0.0,
+   "role": "eye_R",
+   "pivot": [
+    597.0,
+    387.44
+   ]
+  },
+  {
+   "id": "iris_R",
+   "texture": "textures/iris_R.webp",
+   "x": 555,
+   "y": 334,
+   "w": 68,
+   "h": 81,
+   "group": "head",
+   "depth": 0.0,
+   "role": "iris_R",
+   "pivot": [
+    597.0,
+    387.44
+   ],
+   "clip": "eye_R",
+   "range": [
+    14.44,
+    10.540000000000001
+   ]
+  },
+  {
+   "id": "shine_R",
+   "texture": "textures/shine_R.webp",
+   "x": 565,
+   "y": 350,
+   "w": 51,
+   "h": 61,
+   "group": "head",
+   "depth": 0.0,
+   "role": "shine_R",
+   "pivot": [
+    597.0,
+    387.44
+   ],
+   "clip": "eye_R",
+   "range": [
+    11.552,
+    8.432
+   ]
+  },
+  {
+   "id": "mouth",
+   "texture": "textures/mouth.webp",
+   "frames": [
+    "textures/mouth_f0.webp",
+    "textures/mouth_f1.webp",
+    "textures/mouth_f2.webp",
+    "textures/mouth_f3.webp",
+    "textures/mouth_f4.webp"
+   ],
+   "visemes": [
+    "closed",
+    "half",
+    "open",
+    "round",
+    "wide"
+   ],
+   "x": 461,
+   "y": 445,
+   "w": 113,
+   "h": 89,
+   "group": "head",
+   "depth": 0.0,
+   "role": "mouth",
+   "pivot": [
+    504.0,
+    457.0
+   ]
+  },
+  {
+   "id": "expr_smile",
+   "texture": "textures/expr_smile.webp",
+   "talk": "textures/expr_smile_talk.webp",
+   "brow_tex": "textures/expr_smile_newbrows.webp",
+   "x": 341,
+   "y": 247,
+   "w": 333,
+   "h": 299,
+   "group": "head",
+   "depth": 0.0,
+   "role": "expr",
+   "expression": "smile",
+   "brows": "redrawn"
+  },
+  {
+   "id": "expr_shy",
+   "texture": "textures/expr_shy.webp",
+   "talk": "textures/expr_shy_talk.webp",
+   "brow_tex": "textures/expr_shy_newbrows.webp",
+   "x": 339,
+   "y": 247,
+   "w": 335,
+   "h": 300,
+   "group": "head",
+   "depth": 0.0,
+   "role": "expr",
+   "expression": "shy",
+   "brows": "redrawn"
+  },
+  {
+   "id": "expr_angry",
+   "texture": "textures/expr_angry.webp",
+   "talk": "textures/expr_angry_talk.webp",
+   "x": 339,
+   "y": 254,
+   "w": 335,
+   "h": 293,
+   "group": "head",
+   "depth": 0.0,
+   "role": "expr",
+   "expression": "angry"
+  },
+  {
+   "id": "expr_sad",
+   "texture": "textures/expr_sad.webp",
+   "talk": "textures/expr_sad_talk.webp",
+   "brow_tex": "textures/expr_sad_newbrows.webp",
+   "x": 345,
+   "y": 247,
+   "w": 312,
+   "h": 300,
+   "group": "head",
+   "depth": 0.0,
+   "role": "expr",
+   "expression": "sad",
+   "brows": "redrawn"
+  },
+  {
+   "id": "blush",
+   "texture": "textures/blush.webp",
+   "x": 380,
+   "y": 395,
+   "w": 260,
+   "h": 107,
+   "group": "head",
+   "depth": 0.0,
+   "role": "blush",
+   "blush": {
+    "shy": 1.0,
+    "smile": 0.55
+   }
+  },
+  {
+   "id": "side_hair",
+   "texture": "textures/side_hair.webp",
+   "x": 358,
+   "y": 463,
+   "w": 587,
+   "h": 232,
+   "group": "hair_side",
+   "depth": 0.1
+  },
+  {
+   "id": "sideburn_L",
+   "texture": "textures/sideburn_L.webp",
+   "x": 319,
+   "y": 401,
+   "w": 119,
+   "h": 310,
+   "group": "hair_front",
+   "depth": 0.233,
+   "fall": 0.35,
+   "bones": [
+    "bang_sL",
+    "lock_L"
+   ]
+  },
+  {
+   "id": "sideburn_R",
+   "texture": "textures/sideburn_R.webp",
+   "x": 594,
+   "y": 426,
+   "w": 90,
+   "h": 277,
+   "group": "hair_front",
+   "depth": 0.233,
+   "fall": 0.35,
+   "bones": [
+    "bang_sR",
+    "lock_R"
+   ]
+  },
+  {
+   "id": "front_hair",
+   "texture": "textures/front_hair.webp",
+   "x": 323,
+   "y": 107,
+   "w": 368,
+   "h": 407,
+   "group": "hair_front",
+   "depth": 0.233,
+   "fall": 0.35,
+   "bones": [
+    "bang_sL",
+    "bang_1",
+    "bang_2",
+    "bang_3",
+    "bang_4",
+    "bang_5",
+    "bang_sR"
+   ]
+  },
+  {
+   "id": "clips",
+   "texture": "textures/clips.webp",
+   "x": 279,
+   "y": 169,
+   "w": 423,
+   "h": 154,
+   "group": "hair_front",
+   "depth": 0.233,
+   "fall": 0.35,
+   "bones": [
+    "bang_sL",
+    "bang_1",
+    "bang_2",
+    "bang_3",
+    "bang_4",
+    "bang_5",
+    "bang_sR"
+   ]
+  },
+  {
+   "id": "ahoge_droop",
+   "texture": "textures/ahoge_droop.webp",
+   "x": 357,
+   "y": 102,
+   "w": 75,
+   "h": 132,
+   "group": "hair_front",
+   "depth": 0.233,
+   "fall": 0.35,
+   "show": {
+    "sad": 1.0
+   }
+  },
+  {
+   "id": "brows",
+   "texture": "textures/brows.webp",
+   "x": 368,
+   "y": 269,
+   "w": 267,
+   "h": 57,
+   "group": "head",
+   "depth": 0.0
+  },
+  {
+   "id": "expr_sad_brows",
+   "texture": "textures/expr_sad_brows.webp",
+   "x": 368,
+   "y": 269,
+   "w": 267,
+   "h": 57,
+   "group": "head",
+   "depth": 0.0,
+   "role": "expr_brows",
+   "expression": "sad"
+  },
+  {
+   "id": "expr_shy_brows",
+   "texture": "textures/expr_shy_brows.webp",
+   "x": 368,
+   "y": 269,
+   "w": 267,
+   "h": 57,
+   "group": "head",
+   "depth": 0.0,
+   "role": "expr_brows",
+   "expression": "shy"
+  },
+  {
+   "id": "expr_smile_brows",
+   "texture": "textures/expr_smile_brows.webp",
+   "x": 368,
+   "y": 269,
+   "w": 267,
+   "h": 57,
+   "group": "head",
+   "depth": 0.0,
+   "role": "expr_brows",
+   "expression": "smile"
+  }
+ ]
+}

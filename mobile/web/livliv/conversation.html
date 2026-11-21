@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="connect-src 'self' https://www.gstatic.com">
+  <title>LivLiv 互动空间 · Kujira</title>
+  <link rel="stylesheet" href="./conversation.css?characters=9">
+</head>
+<body>
+  <main class="conversation">
+    <section class="character" aria-label="Kujira 角色预览">
+      <div class="brand"><span class="brand-dot"></span> 齿间 · LivLiv 互动空间</div>
+      <div class="character-heading"><span>学习搭子</span><h1 id="character-name">Kujira</h1><p id="character-tagline">今天也在这里陪着你</p></div>
+      <iframe id="kujira" src="./frame.html?characters=4" title="LivLiv 测试角色" tabindex="-1"></iframe>
+      <p class="credit" id="credit">角色：上善无形、ZipZipPipe · CC BY-NC-SA 4.0<br>模型：LivLiv，AI 辅助制作</p>
+      <button type="button" id="fullscreen-character" class="fullscreen-character" aria-label="全屏放大人物" aria-pressed="false" title="全屏放大人物"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="expand-icon" d="M8 4H4v4M16 4h4v4M4 16v4h4m12-4v4h-4"/><path class="collapse-icon" d="M4 8h4V4m12 4h-4V4M4 16h4v4m12-4h-4v4"/></svg></button>
+    </section>
+    <div class="fullscreen-ui fullscreen-bubble" id="fullscreen-bubble" role="status" aria-live="polite">你好，我是 Kujira。今天也一起加油吧！ (｡•ᴗ•｡)</div>
+    <section class="fullscreen-ui fullscreen-controls" aria-label="全屏互动">
+      <div class="fullscreen-actions" role="group" aria-label="全屏互动选项">
+        <button type="button" data-voice aria-pressed="false">试听问候</button>
+          <button type="button" data-action="pet">摸摸头</button>
+        <button type="button" data-action="praise">夸夸我</button>
+        <button type="button" data-action="sleep">睡一会</button>
+        <button type="button" data-action="angry">生闷气</button>
+        <button type="button" data-action="sad">不开心</button>
+        <button type="button" data-action="shy">害羞</button>
+        <button type="button" data-action="normal">正常</button>
+        <button type="button" id="fullscreen-choose">切换人物</button>
+      </div>
+
+    </section>
+    <section class="chat" aria-label="Kujira 互动聊天">
+      <header class="chat-header">
+        <div class="portrait"><img id="portrait" src="./p01/avatar.webp" alt=""></div>
+        <div class="chat-identity"><strong id="chat-name">Kujira</strong><small><i></i> 正在陪伴你</small></div>
+        <button class="choose-character" id="choose-character" type="button" aria-haspopup="dialog">切换人物</button>
+        <button class="close" id="close" type="button" aria-label="关闭窗口" title="关闭窗口">×</button>
+      </header>
+      <audio id="role-voice" preload="none" hidden></audio>
+      <div class="chat-scroll" id="messages" role="log" aria-label="互动消息" aria-live="polite" aria-relevant="additions">
+        <div class="intro">选择下面的互动，和 Kujira 打个招呼吧</div>
+        <div class="message incoming"><img src="./p01/avatar.webp" alt=""><div class="bubble">你好，我是 Kujira。今天也一起加油吧！ (｡•ᴗ•｡)</div></div>
+      </div>
+      <div class="controls">
+        <div class="controls-title">想做点什么？</div>
+        <div class="actions" role="group" aria-label="互动选项">
+          <button type="button" data-voice aria-pressed="false">试听问候</button>
+          <button type="button" data-action="pet">摸摸头</button>
+          <button type="button" data-action="praise">夸夸我</button>
+          <button type="button" data-action="sleep">睡一会</button>
+          <button type="button" data-action="angry">生闷气</button>
+          <button type="button" data-action="sad">不开心</button>
+          <button type="button" data-action="shy">害羞</button>
+          <button type="button" data-action="normal">正常</button>
+        </div>
+
+      </div>
+    </section>
+  <dialog id="character-dialog" aria-labelledby="character-dialog-title">
+    <div class="dialog-heading"><div><h2 id="character-dialog-title">选择学习搭子</h2><p>选一个喜欢的人物，随时可以切换</p></div><button type="button" id="close-dialog" aria-label="关闭人物选择">×</button></div>
+    <div class="character-grid" id="character-grid"></div>
+    <p class="dialog-note">角色由 LivLiv 借助 AI 制作；<a href="./library/LICENSE.md" target="_blank" rel="noopener noreferrer">精选角色许可</a> · <a href="./library/CREDITS.md" target="_blank" rel="noopener noreferrer">其他角色来源</a></p>
+  </dialog>
+  </main>
+  <script src="./pointer-bridge.js" defer></script>
+  <script src="./conversation.js?voices=1" defer></script>
+</body>
+</html>

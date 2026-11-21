@@ -1,7 +1,10 @@
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 
 import '../../app/shared.dart';
 import '../../app/language_selector.dart';
+import '../assistant/livliv_window_stub.dart'
+    if (dart.library.js_interop) '../assistant/livliv_window_web.dart';
 import 'appearance_settings.dart';
 import 'policy_page.dart';
 import 'account_deletion_page.dart';
@@ -88,7 +91,9 @@ class _SettingsPageState extends State<SettingsPage> {
                   contentPadding: EdgeInsets.zero,
                   secondary: Icon(Icons.smart_toy_outlined, color: teal),
                   title: Text(tr('${store.companionName} · 备考搭子')),
-                  subtitle: Text(tr(store.usesGuga
+                  subtitle: Text(tr(store.usesLivlivPreview
+                      ? '在互动空间切换角色、试听问候语'
+                      : store.usesGuga
                       ? '本地互动免费；咕嘎暂不支持 AI 聊天和语音'
                       : '本地互动免费；AI 聊天仅作者可用，聊天不保存记录')),
                   value: store.xiaochiEnabled,
@@ -106,7 +111,8 @@ class _SettingsPageState extends State<SettingsPage> {
                           for (final option in const {
                             'dafeiyu': '大肥鱼',
                             'xiaochi': '小齿',
-                            'guga': '咕嘎'
+                            'guga': '咕嘎',
+                            if (kIsWeb) 'livliv-preview': 'LivLiv',
                           }.entries)
                             ChoiceChip(
                                 key: ValueKey('companion-${option.key}'),
@@ -118,8 +124,13 @@ class _SettingsPageState extends State<SettingsPage> {
                                     () => store
                                         .setCompanionAppearance(option.key)))
                         ]),
+                        if (kIsWeb)
+                          TextButton.icon(
+                              icon: const Icon(Icons.record_voice_over_outlined),
+                              label: Text(tr('进入 LivLiv 互动空间')),
+                              onPressed: openLivLivConversation),
                         const SizedBox(height: 6),
-                        Text(tr('默认大肥鱼，可切换小齿或咕嘎；本地互动不调用 AI、不扣费，形象仅保存在本机。咕嘎暂不支持聊天和语音。'),
+                        Text(tr('搭子形象保存在这台设备上。'),
                             style:
                                 TextStyle(color: Colors.blueGrey, fontSize: 12))
                       ])),
