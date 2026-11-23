@@ -14,6 +14,9 @@ class QuestionComments extends StatefulWidget {
 }
 
 class _QuestionCommentsState extends State<QuestionComments> {
+  static const _avatarRadius = 18.0;
+  static const _avatarGap = 10.0;
+
   final field = TextEditingController();
   List<Map<String, dynamic>> comments = [];
   bool loading = true, sending = false, composing = false;
@@ -202,7 +205,7 @@ class _QuestionCommentsState extends State<QuestionComments> {
   Widget _commentAvatar(Map<String, dynamic> comment) {
     final avatar = UserAvatar(
         value: comment['avatar'] as String? ?? '',
-        radius: 18,
+        radius: _avatarRadius,
         vip: comment['vipBadge'] == true);
     final userId = comment['userId'] as String? ?? '';
     if (userId.isEmpty) return avatar;
@@ -249,11 +252,15 @@ class _QuestionCommentsState extends State<QuestionComments> {
           Text('暂时还没有讨论，留下你的理解吧。', style: TextStyle(color: Colors.blueGrey))
         else
           ...comments.map((comment) => Padding(
-              padding: const EdgeInsets.only(top: 14),
+              padding: EdgeInsetsDirectional.only(
+                  start: comment['parentId'] == null
+                      ? 0
+                      : 2 * _avatarRadius + _avatarGap,
+                  top: 14),
               child:
                   Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
                 _commentAvatar(comment),
-                const SizedBox(width: 10),
+                const SizedBox(width: _avatarGap),
                 Expanded(
                     child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -268,7 +275,9 @@ class _QuestionCommentsState extends State<QuestionComments> {
                       const SizedBox(height: 5),
                       if (comment['parentId'] != null)
                         Text('回复 ${comment['replyTo'] ?? '齿间同学'}',
-                            style: TextStyle(fontSize: 12, color: teal)),
+                            style: TextStyle(
+                                fontSize: 12,
+                                color: Theme.of(context).colorScheme.primary)),
                       Text(
                           comment['deletedAt'] != null
                               ? '此评论已由发布者删除'
