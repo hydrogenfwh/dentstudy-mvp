@@ -21,6 +21,14 @@
   <meta name="description" content="齿间 DentStudy：每天学一点，记牢一点。">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <script>
+    // Set the loading screen's appearance before its first paint.
+    try {
+      const mode = JSON.parse(localStorage.getItem('flutter.themeMode'));
+      if (mode === 'light' || mode === 'dark') document.documentElement.dataset.appearance = mode;
+    } catch (_) { /* Use the system appearance when storage is unavailable. */ }
+  </script>
+
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -40,6 +48,10 @@
     #arrival { position: fixed; inset: 0; display: grid; place-content: center;
       text-align: center; background: var(--paper); color: var(--brand);
       font-family: "PingFang SC", sans-serif; pointer-events: none; }
+    :root[data-appearance="dark"] #arrival { --paper: #101b1e; --brand: #80d5cf; }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-appearance]) #arrival { --paper: #101b1e; --brand: #80d5cf; }
+    }
     .arrival-mark { font-size: 30px; font-weight: 700; letter-spacing: 5px; }
     .arrival-name { margin-top: 8px; font-size: 10px; letter-spacing: 4px; }
     .arrival-caption { margin-top: 22px; font-size: 12px; opacity: .65; }

@@ -216,6 +216,21 @@ class _AppearanceSettingsState extends State<AppearanceSettings> {
       listenable: store,
       builder: (context, _) =>
           Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            Text(tr('显示模式'), style: Theme.of(context).textTheme.titleMedium),
+            const SizedBox(height: 4),
+            Wrap(spacing: 8, children: [
+              for (final mode in const {
+                ThemeMode.system: '跟随系统',
+                ThemeMode.light: '浅色',
+                ThemeMode.dark: '深色',
+              }.entries)
+                ChoiceChip(
+                    label: Text(tr(mode.value)),
+                    selected: store.themeMode == mode.key,
+                    onSelected: (_) =>
+                        safely(context, () => store.setThemeMode(mode.key))),
+            ]),
+            const SizedBox(height: 16),
             Text(tr('选择主题，或自由搭配主色与淡背景。')),
             const SizedBox(height: 16),
             Wrap(

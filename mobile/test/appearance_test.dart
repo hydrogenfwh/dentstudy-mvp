@@ -62,12 +62,16 @@ void main() {
 
   test('custom appearance survives a restart without changing learning events',
       () async {
+    SharedPreferences.setMockInitialValues({'themeMode': 'obsolete'});
     final store = StudyStore();
     await store.init();
+    expect(store.themeMode, ThemeMode.system);
+    await store.setThemeMode(ThemeMode.dark);
     await store.setCustomTheme(primary: 'forest', background: 'rose');
     await store.setGlassEnabled(true);
     final restored = StudyStore();
     await restored.init();
+    expect(restored.themeMode, ThemeMode.dark);
     expect(restored.themeColorKey, 'custom');
     expect(restored.customPrimaryKey, 'forest');
     expect(restored.customBackgroundKey, 'rose');

@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:math';
 import 'package:crypto/crypto.dart';
 import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart' show ThemeMode;
 import 'package:flutter/services.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:http/http.dart' as http;
@@ -131,6 +132,7 @@ class StudyStore extends ChangeNotifier {
     });
   }
 
+  ThemeMode themeMode = ThemeMode.system;
   String themeColorKey = 'teal';
   String languageCode = 'zh';
   String customPrimaryKey = 'teal', customBackgroundKey = 'teal';
@@ -298,6 +300,11 @@ class StudyStore extends ChangeNotifier {
     // Membership state is server-authoritative.  Do not infer VIP from a
     // browser flag or a past purchase ID: the profile endpoint reflects only
     // verified server-side membership records.
+    themeMode = switch (prefs.get('themeMode')) {
+      'light' => ThemeMode.light,
+      'dark' => ThemeMode.dark,
+      _ => ThemeMode.system,
+    };
     themeColorKey = prefs.getString('themeColorKey') ?? 'teal';
     if (themeColorKey != 'custom' && !themeColors.containsKey(themeColorKey))
       themeColorKey = 'teal';
@@ -727,6 +734,13 @@ class StudyStore extends ChangeNotifier {
     setAppLanguage(next);
     notifyListeners();
     await prefs.setString('appLanguage', next);
+  }
+
+  Future<void> setThemeMode(ThemeMode mode) async {
+    if (themeMode == mode) return;
+    themeMode = mode;
+    notifyListeners();
+    await prefs.setString('themeMode', mode.name);
   }
 
   Future<void> setThemeColor(String value) async {

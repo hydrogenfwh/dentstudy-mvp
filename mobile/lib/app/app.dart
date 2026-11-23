@@ -58,6 +58,7 @@ class DentStudy extends StatelessWidget {
                   imageOpacity: store.customBackgroundOpacity,
                   child: child ?? const SizedBox.shrink());
             },
+            themeMode: store.themeMode,
             theme: _theme(Brightness.light),
             darkTheme: _theme(Brightness.dark),
             home: const Entrance(child: Home()));

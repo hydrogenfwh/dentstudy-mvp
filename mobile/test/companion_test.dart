@@ -286,9 +286,10 @@ void main() {
       await tester.pumpWidget(const SizedBox.shrink());
     });
     await tester.pumpWidget(const MaterialApp(home: SettingsPage()));
-    await tester.scrollUntilVisible(
-        find.byKey(const ValueKey('companion-dafeiyu')), 250);
-    await tester.tap(find.byKey(const ValueKey('companion-dafeiyu')));
+    final dafeiyu = find.byKey(const ValueKey('companion-dafeiyu')).hitTestable();
+    await tester.scrollUntilVisible(dafeiyu, 250);
+    await tester.pumpAndSettle();
+    await tester.tap(dafeiyu);
     await tester.pumpAndSettle();
     expect(app.store.companionName, '大肥鱼');
     expect(app.store.prefs.getString('companionAppearance:author'), 'dafeiyu');
@@ -345,9 +346,10 @@ void main() {
   testWidgets('everyone can switch both appearances in settings',
       (tester) async {
     await tester.pumpWidget(const MaterialApp(home: SettingsPage()));
-    await tester.scrollUntilVisible(
-        find.byKey(const ValueKey('companion-dafeiyu')), 250);
-    await tester.tap(find.byKey(const ValueKey('companion-dafeiyu')));
+    final dafeiyu = find.byKey(const ValueKey('companion-dafeiyu')).hitTestable();
+    await tester.scrollUntilVisible(dafeiyu, 250);
+    await tester.pumpAndSettle();
+    await tester.tap(dafeiyu);
     await tester.pumpAndSettle();
     expect(app.store.usesDafeiyu, isTrue);
     expect(app.store.canChatWithCompanion, isFalse);

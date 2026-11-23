@@ -101,8 +101,10 @@ void main() {
       (tester) async {
     app.store.token = 'test-only-token';
     await tester.pumpWidget(const MaterialApp(home: SettingsPage()));
-    await tester.scrollUntilVisible(find.text('删除账号'), 300);
-    await tester.tap(find.text('删除账号'));
+    final deleteAccount = find.text('删除账号').hitTestable();
+    await tester.scrollUntilVisible(deleteAccount, 300);
+    await tester.pumpAndSettle();
+    await tester.tap(deleteAccount);
     await tester.pumpAndSettle();
     expect(find.byType(AccountDeletionPage), findsOneWidget);
     expect(tester.takeException(), isNull);
@@ -164,6 +166,62 @@ void main() {
     await tester.scrollUntilVisible(find.text('已作答客观题正确率低于 80%'), 300);
     expect(find.textContaining('小样本仅供参考'), findsNothing);
     expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('settings can override and resume the system appearance',
+      (tester) async {
+    tester.view.devicePixelRatio = 1;
+    tester.view.physicalSize = const Size(320, 700);
+    final platform = tester.platformDispatcher;
+    platform.platformBrightnessTestValue = Brightness.light;
+    addTearDown(tester.view.resetDevicePixelRatio);
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(platform.clearPlatformBrightnessTestValue);
+    SharedPreferences.setMockInitialValues({'webWelcomeCompleted': true});
+    app.store
+      ..prefs = await SharedPreferences.getInstance()
+      ..themeMode = ThemeMode.system
+      ..xiaochiEnabled = false;
+    await tester.pumpWidget(const DentStudy());
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('我的'));
+    await tester.pumpAndSettle();
+    final settings = find.byKey(const ValueKey('profile-settings-entry'));
+    await tester.ensureVisible(settings);
+    await tester.tap(settings);
+    await tester.pumpAndSettle();
+
+    void check(String label, Brightness brightness) {
+      final chip = find.widgetWithText(ChoiceChip, label);
+      expect(tester.widget<ChoiceChip>(chip).selected, isTrue);
+      expect(Theme.of(tester.element(chip)).brightness, brightness);
+    }
+
+    Future<void> choose(String label) async {
+      await tester.tap(find.widgetWithText(ChoiceChip, label));
+      await tester.pumpAndSettle();
+    }
+
+    check('跟随系统', Brightness.light);
+    await choose('深色');
+    check('深色', Brightness.dark);
+    platform.platformBrightnessTestValue = Brightness.dark;
+    await tester.pumpAndSettle();
+    await choose('浅色');
+    check('浅色', Brightness.light);
+    expect(app.store.prefs.getString('themeMode'), 'light');
+    platform.platformBrightnessTestValue = Brightness.light;
+    await tester.pumpAndSettle();
+    platform.platformBrightnessTestValue = Brightness.dark;
+    await tester.pumpAndSettle();
+    check('浅色', Brightness.light);
+    await choose('跟随系统');
+    check('跟随系统', Brightness.dark);
+    platform.platformBrightnessTestValue = Brightness.light;
+    await tester.pumpAndSettle();
+    check('跟随系统', Brightness.light);
+    expect(tester.takeException(), isNull);
+    await tester.pumpWidget(const SizedBox.shrink());
   });
 
   if (const bool.fromEnvironment('SETTINGS_PREVIEW')) {
