@@ -9,6 +9,7 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
+  crypto: ^3.0.7
   http: ^1.2.2
   shared_preferences: ^2.3.3
   # 10.x removes legacy web-only dart:html/js imports, so the Safari web

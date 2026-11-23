@@ -282,6 +282,11 @@ const _english = <String, String>{
 
   // Account and settings.
   '退出登录': 'Sign out',
+  '登录已过期': 'Session expired',
+  '登录已过期，请重新登录。': 'Your session expired. Please sign in again.',
+  '学习记录保存在本机，重新登录后继续同步。': 'Your progress is saved on this device. Sign in again to resume syncing.',
+  '重新登录': 'Sign in again',
+  '切换到访客': 'Switch to guest',
   '设置': 'Settings',
   '主题与外观、学习设置、服务与规则': 'Theme, learning preferences, services and policies',
   '主题与外观': 'Theme & appearance',

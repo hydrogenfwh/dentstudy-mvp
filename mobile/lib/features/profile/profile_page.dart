@@ -30,7 +30,8 @@ class ProfilePage extends StatefulWidget {
 }
 
 class _ProfilePageState extends State<ProfilePage> {
-  late String observedAccountId;
+  String get _session => '${store.userId}:${store.token}';
+  late String observedSession;
   bool importingBank = false;
   QuestionBankImportStage importStage = QuestionBankImportStage.idle;
   String importProgressDetail = '';
@@ -54,7 +55,7 @@ class _ProfilePageState extends State<ProfilePage> {
   @override
   void initState() {
     super.initState();
-    observedAccountId = store.userId;
+    observedSession = _session;
     store.addListener(accountChanged);
     WidgetsBinding.instance.addPostFrameCallback((_) => refreshAccountData());
   }
@@ -67,8 +68,8 @@ class _ProfilePageState extends State<ProfilePage> {
   }
 
   void accountChanged() {
-    if (!mounted || observedAccountId == store.userId) return;
-    observedAccountId = store.userId;
+    if (!mounted || observedSession == _session) return;
+    observedSession = _session;
     setState(() {
       accountProfile = {};
       paymentOffer = {};
@@ -534,6 +535,9 @@ class _ProfilePageState extends State<ProfilePage> {
         const SizedBox(height: 24),
         box(Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
           LayoutBuilder(builder: (context, constraints) {
+            final colors = Theme.of(context).colorScheme;
+            final nickname = accountProfile['nickname'] as String? ?? '齿间同学';
+            final university = accountProfile['university'] as String? ?? '';
             final identity = Row(children: [
               UserAvatar(
                   value: accountProfile['avatar'] as String? ?? 'book',
@@ -545,22 +549,21 @@ class _ProfilePageState extends State<ProfilePage> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                     Text(
-                        store.token.isEmpty
-                            ? '访客同学'
-                            : accountProfile['nickname'] as String? ?? '齿间同学',
+                        store.needsSignIn
+                            ? tr('登录已过期')
+                            : (store.token.isEmpty ? '访客同学' : nickname),
                         style: TextStyle(
                             fontSize: 23,
                             fontWeight: FontWeight.w700,
-                            color: ink)),
+                            color: colors.onSurface)),
                     const SizedBox(height: 5),
                     Text(
-                        store.token.isEmpty
-                            ? '把进步留在每一天'
-                            : ((accountProfile['university'] as String? ?? '')
-                                    .isEmpty
-                                ? '填写你的就读院校'
-                                : accountProfile['university'] as String),
-                        style: const TextStyle(color: Colors.blueGrey)),
+                        store.needsSignIn
+                            ? tr('学习记录保存在本机，重新登录后继续同步。')
+                            : store.token.isEmpty
+                                ? '把进步留在每一天'
+                                : (university.isEmpty ? '填写你的就读院校' : university),
+                        style: TextStyle(color: colors.onSurfaceVariant)),
                   ])),
             ]);
             final actions = Row(mainAxisSize: MainAxisSize.min, children: [
@@ -598,8 +601,8 @@ class _ProfilePageState extends State<ProfilePage> {
             Row(children: [
               Expanded(
                   child: Text(store.email,
-                      style: const TextStyle(
-                          fontSize: 12, color: Colors.blueGrey))),
+                      style: TextStyle(
+                          fontSize: 12, color: Theme.of(context).colorScheme.onSurfaceVariant))),
               TextButton(
                   onPressed: store.syncing
                       ? null
@@ -607,7 +610,7 @@ class _ProfilePageState extends State<ProfilePage> {
                           await safely(context, store.logout);
                           await refreshAccountData();
                         },
-                  child: Text(tr('退出登录')))
+                  child: Text(tr(store.needsSignIn ? '切换到访客' : '退出登录')))
             ])
           ],
           if (store.token.isEmpty) ...[
@@ -616,7 +619,7 @@ class _ProfilePageState extends State<ProfilePage> {
                 onPressed: () =>
                     showAccountDialog(context, onSuccess: refreshAccountData),
                 icon: const Icon(Icons.person_outline),
-                label: Text(tr('登录 / 注册')))
+                label: Text(tr(store.needsSignIn ? '重新登录' : '登录 / 注册')))
           ]
         ])),
         if (store.token.isNotEmpty) ...[
@@ -871,7 +874,7 @@ class _StoneWalletEntry extends StatelessWidget {
                           const SizedBox(width: 5),
                           Text(balance?.toString() ?? '…',
                               style: TextStyle(
-                                  color: ink,
+                                  color: Theme.of(context).colorScheme.onSurface,
                                   fontSize: 16,
                                   fontWeight: FontWeight.w800)),
                         ]))))));
@@ -882,7 +885,9 @@ Future<void> showAccountDialog(BuildContext context,
     {Future<void> Function()? onSuccess}) async {
   bool remember = store.prefs.getBool('rememberPassword') ?? true;
   final email = TextEditingController(
-          text: remember ? store.prefs.getString('rememberedEmail') ?? '' : ''),
+          text: store.needsSignIn
+              ? store.email
+              : (remember ? store.prefs.getString('rememberedEmail') ?? '' : '')),
       password = TextEditingController(),
       confirmPassword = TextEditingController();
   bool register = false,

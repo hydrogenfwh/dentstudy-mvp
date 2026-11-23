@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'dart:math';
+import 'package:crypto/crypto.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
@@ -29,6 +30,13 @@ class XiaochiReply {
   final String text;
   final String thinkingSummary;
   const XiaochiReply({required this.text, this.thinkingSummary = ''});
+}
+
+class SessionExpired implements Exception {
+  const SessionExpired();
+
+  @override
+  String toString() => '登录已过期，请重新登录。';
 }
 
 class StudyStore extends ChangeNotifier {
@@ -65,6 +73,12 @@ class StudyStore extends ChangeNotifier {
       _catalogs.putIfAbsent(track, () => QuestionCatalog(questions, track));
   QuestionCatalog get catalog => catalogFor(mode);
   String mode = '考研', email = '', userId = 'guest', baseUrl = '', token = '';
+  bool get needsSignIn => token.isEmpty && userId != 'guest';
+  static const _expiredSessionKey = 'expiredStudySession';
+  static String _sessionFingerprint(String credential) =>
+      sha256.convert(utf8.encode('dentstudy-expired-session:$credential'))
+          .toString();
+
   String _socialUnreadAccount = '';
   int _notificationUnread = 0, _notificationRevision = 0, _chatRevision = 0;
   bool _legacyNotificationCount = false;
@@ -276,6 +290,10 @@ class StudyStore extends ChangeNotifier {
       token = '';
       userId = 'guest';
       email = '';
+    } else if (prefs.getString(_expiredSessionKey) ==
+        _sessionFingerprint(token)) {
+      token = '';
+      syncMessage = '登录已过期，学习记录保存在本机。';
     }
     // Membership state is server-authoritative.  Do not infer VIP from a
     // browser flag or a past purchase ID: the profile endpoint reflects only
@@ -953,7 +971,26 @@ class StudyStore extends ChangeNotifier {
         (deletingAccount && path != '/v1/account/delete')) {
       throw Exception('账号状态已变更，请重试');
     }
-    final body = Map<String, dynamic>.from(jsonDecode(response.body));
+    final body = Map<String, dynamic>.from(jsonDecode(utf8.decode(response.bodyBytes)));
+    // Other routes also use 401 for wrong passwords and restricted features.
+    // Only a rejected bearer may suspend this account's network session.
+    if (response.statusCode == 401 &&
+        requestToken.isNotEmpty &&
+        ((path == '/v1/profile' && data == null) ||
+            body['error'] == '请先登录，或登录已过期')) {
+      final fingerprint = _sessionFingerprint(requestToken);
+      token = '';
+      syncMessage = '登录已过期，学习记录保存在本机。';
+      notifyListeners();
+      // Keep drafts and pending writes in their owner's scope. An older tab
+      // may only mark its own credential, never erase a fresh browser login.
+      try {
+        await prefs.setString(_expiredSessionKey, fingerprint);
+      } catch (_) {
+        // Storage can be unavailable. This tab still stops using the bearer.
+      }
+      throw const SessionExpired();
+    }
     if (response.statusCode >= 400) throw Exception(body['error'] ?? '服务暂不可用');
     var addedStoneNotice = false;
     if (queueStoneNotices) {
@@ -1090,7 +1127,13 @@ class StudyStore extends ChangeNotifier {
     if (deletingAccount) throw Exception('正在删除账号，请稍候');
     if (syncing) throw Exception('请等待当前同步完成');
     // Revoke remotely first; on failure retain the session so the user can retry.
-    await request('/v1/auth/logout', {});
+    if (token.isNotEmpty) {
+      try {
+        await request('/v1/auth/logout', {});
+      } on SessionExpired {
+        // A rejected bearer is already unusable. Finish the requested logout.
+      }
+    }
     try {
       await secure.delete(key: 'token');
     } catch (_) {
@@ -1224,7 +1267,7 @@ class StudyStore extends ChangeNotifier {
       syncMessage = '已同步 · ${dayOf(DateTime.now())}'
           '${pending.isEmpty ? '' : ' · ${pending.length} 条记录暂留本机'}';
     } catch (e) {
-      syncMessage = '同步未完成，记录已保留：$e';
+      if (!needsSignIn) syncMessage = '同步未完成，记录已保留：$e';
       rethrow;
     } finally {
       syncing = false;
